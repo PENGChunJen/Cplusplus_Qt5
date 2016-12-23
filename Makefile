@@ -21,18 +21,22 @@ CXXFLAGS = $(INCLUDE) $(OPT)
 
 SRC = $(SRC1) $(SRC2)
 SRC1 = testCSVReader.cpp
+SRC2 = map.cpp testMap.cpp
 
 OBJ = $(addsuffix .o, $(basename $(SRC)))
 OBJ1 = $(addsuffix .o, $(basename $(SRC1)))
+OBJ2 = $(addsuffix .o, $(basename $(SRC2)))
 
 
-all: testCSVReader
+all: testCSVReader testMap
 
 debug: CXXFLAGS += -DDEBUG -g
-debug: testCSVReader 
+debug: testCSVReader  testMap
 
 testCSVReader: $(OBJ1)
 	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o $@ $(OBJ1)
+testMap: $(OBJ2)
+	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o $@ $(OBJ2)
 
 #-----Other stuff----------------------------
 depend:
@@ -42,4 +46,5 @@ clean:
 	rm -f $(OBJ)
 
 # DO NOT DELETE
-
+csvReader.o: csvReader.h
+map.o: map.h
