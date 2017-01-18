@@ -2,3 +2,5 @@
 *.o
 testCSVReader
 testMap
+testJSON/bin/*
+testJSON/obj/*
