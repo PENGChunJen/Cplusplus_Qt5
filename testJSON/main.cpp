@@ -1,4 +1,4 @@
-#include "json.hpp"
+#include "../lib/json.hpp"
 #include <iostream>
 #include <fstream>
 #include <cassert>
@@ -48,7 +48,7 @@ public:
         *out << "--- Capacity: " << _capacity[0] << ", " << _capacity[1] << endl;
         *out << "--- Available: " << _available[0] << ", " << _available[1] << endl;
         *out << "--- TW97: " << _tw97x << ", " << _tw97y << endl;
-        *out << "MRT: " << (_isMRT ? "Yes" : "No") << endl;
+        *out << "--- MRT: " << (_isMRT ? "Yes" : "No") << endl;
     }
 private:
     string _id;
@@ -62,7 +62,7 @@ private:
 
 int main(){
     json j;
-    ifstream desc_file("../Data/TCMSV_alldesc");
+    ifstream desc_file("../data/TCMSV_alldesc");
     map<string,park*> id2parkptr;
 
     if(desc_file.is_open()){
@@ -83,7 +83,7 @@ int main(){
     }
 
     json j2;
-    ifstream avai_file("../Data/TCMSV_allavailable");
+    ifstream avai_file("../data/TCMSV_allavailable");
 
     if(avai_file.is_open()){
         avai_file >> j2;
@@ -98,7 +98,7 @@ int main(){
         }
     }
 
-    ifstream mrt_park("../Data/臺北捷運轉乘停車場座標.csv");
+    ifstream mrt_park("../data/臺北捷運轉乘停車場座標.csv");
 
     if (mrt_park.is_open()){
         string line;

@@ -6,20 +6,20 @@
 
 using namespace std;
 
-struct Position {
-    Position( const double& _x, const double& _y ) 
+struct TWD97 {
+    TWD97( const double& _x, const double& _y ) 
         :x(_x), y(_y){}
-
     double x;
     double y;
 };
 
 struct Park {
-    int id;
-    wchar_t *name;
-    Position pos;
+    string id;
+    string name;
+    TWD97 pos;
     int capacity;
     int free;
+    bool isMrt; 
 };
 
 class Map {

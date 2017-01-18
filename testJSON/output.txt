@@ -2,7330 +2,7330 @@ ID: 001, Name: 府前廣場地下停車場
 --- Capacity: 2019, 1162
 --- Available: 905, 977
 --- TW97: 306812.928, 2769892.95
-MRT: No
+--- MRT: No
 ID: 002, Name: 松壽廣場地下停車場
 --- Capacity: 437, 0
 --- Available: 56, -9
 --- TW97: 307143.74, 2770011.52
-MRT: Yes
+--- MRT: No
 ID: 003, Name: 臺北市災害應變中心地下停車場
 --- Capacity: 169, 208
 --- Available: 24, 0
 --- TW97: 307142.121, 2769087.67
-MRT: No
+--- MRT: No
 ID: 004, Name: 雅祥公園地下停車場
 --- Capacity: 204, 0
 --- Available: -9, -9
 --- TW97: 307703.059, 2771154.51
-MRT: No
+--- MRT: No
 ID: 005, Name: 立農公園地下停車場
 --- Capacity: 204, 95
 --- Available: 26, 52
 --- TW97: 300781.892, 2778989.94
-MRT: No
+--- MRT: No
 ID: 006, Name: 台北世界貿易中心展覽三館停車場
 --- Capacity: 665, 527
 --- Available: 260, -9
 --- TW97: 306965.169, 2769809.21
-MRT: No
+--- MRT: No
 ID: 007, Name: 萬華國中地下停車場
 --- Capacity: 508, 213
 --- Available: 75, 138
 --- TW97: 300378.533, 2769081.71
-MRT: No
+--- MRT: No
 ID: 008, Name: 台北君悅大飯店停車場
 --- Capacity: 377, 0
 --- Available: -9, -9
 --- TW97: 306774.374, 2769850.09
-MRT: No
+--- MRT: No
 ID: 009, Name: 臺北世界貿易中心展覽大樓停車場
 --- Capacity: 336, 0
 --- Available: -9, -9
 --- TW97: 306746.646, 2769587.69
-MRT: No
+--- MRT: No
 ID: 010, Name: 台北世界貿易中心國際貿易大樓地下停車場
 --- Capacity: 410, 0
 --- Available: -9, -9
 --- TW97: 306625.311, 2769695.71
-MRT: No
+--- MRT: No
 ID: 011, Name: 台北國際會議中心停車場
 --- Capacity: 483, 0
 --- Available: 114, -9
 --- TW97: 306599.107, 2769585.13
-MRT: No
+--- MRT: No
 ID: 012, Name: 威秀A17停車場
 --- Capacity: 105, 157
 --- Available: -9, -9
 --- TW97: 307239.452, 2769815.49
-MRT: No
+--- MRT: No
 ID: 013, Name: 威秀A16停車場
 --- Capacity: 75, 73
 --- Available: -9, -9
 --- TW97: 307180.811, 2769814.17
-MRT: No
+--- MRT: No
 ID: 014, Name: 興雅國中地下停車場
 --- Capacity: 438, 0
 --- Available: 152, -9
 --- TW97: 307803.715, 2769766.09
-MRT: No
+--- MRT: No
 ID: 015, Name: 峨眉立體停車場
 --- Capacity: 528, 1674
 --- Available: 108, 512
 --- TW97: 300995.827, 2770750.36
-MRT: No
+--- MRT: No
 ID: 016, Name: 中山堂地下停車場
 --- Capacity: 431, 0
 --- Available: -9, -9
 --- TW97: 301507.707, 2770749.58
-MRT: No
+--- MRT: No
 ID: 018, Name: 洛陽綜合立體停車場
 --- Capacity: 1676, 277
 --- Available: 449, -9
 --- TW97: 301043.408, 2771216.58
-MRT: No
+--- MRT: No
 ID: 019, Name: 塔城公園地下停車場
 --- Capacity: 147, 0
 --- Available: 64, 0
 --- TW97: 301557.525, 2771503.76
-MRT: No
+--- MRT: No
 ID: 020, Name: 百齡高中地下停車場
 --- Capacity: 227, 0
 --- Available: 71, -9
 --- TW97: 302855.945, 2775422.3
-MRT: No
+--- MRT: No
 ID: 021, Name: 前港公園地下停車場
 --- Capacity: 520, 0
 --- Available: 102, -9
 --- TW97: 302482.057, 2775334.64
-MRT: No
+--- MRT: No
 ID: 022, Name: 五分埔公園地下停車場
 --- Capacity: 206, 0
 --- Available: 131, -9
 --- TW97: 308568.31, 2771067.69
-MRT: No
+--- MRT: No
 ID: 023, Name: 民權公園地下停車場
 --- Capacity: 699, 0
 --- Available: 143, 0
 --- TW97: 306294.385, 2772717.98
-MRT: No
+--- MRT: No
 ID: 024, Name: 金華公園地下停車場
 --- Capacity: 189, 0
 --- Available: 24, -9
 --- TW97: 303652.309, 2769153.2
-MRT: No
+--- MRT: No
 ID: 025, Name: 古亭國中地下停車場
 --- Capacity: 255, 0
 --- Available: 25, 0
 --- TW97: 301525.761, 2768579.65
-MRT: No
+--- MRT: No
 ID: 027, Name: 景華公園地下停車場
 --- Capacity: 731, 0
 --- Available: 95, -9
 --- TW97: 304892.459, 2765362.8
-MRT: No
+--- MRT: No
 ID: 028, Name: 松山高中地下停車場
 --- Capacity: 223, 0
 --- Available: 67, -9
 --- TW97: 306917.974, 2770778.19
-MRT: No
+--- MRT: No
 ID: 029, Name: 東湖國小地下停車場
 --- Capacity: 358, 109
 --- Available: 41, -9
 --- TW97: 312114.874, 2773511.32
-MRT: No
+--- MRT: No
 ID: 030, Name: 大稻埕公園地下停車場
 --- Capacity: 200, 0
 --- Available: 39, -9
 --- TW97: 301502.719, 2772342.45
-MRT: No
+--- MRT: No
 ID: 031, Name: 附中公園地下停車場
 --- Capacity: 114, 0
 --- Available: 26, 0
 --- TW97: 304723.351, 2769906.87
-MRT: No
+--- MRT: No
 ID: 032, Name: 西松高中地下停車場
 --- Capacity: 334, 0
 --- Available: 42, 0
 --- TW97: 307094.919, 2772078.85
-MRT: No
+--- MRT: No
 ID: 033, Name: 進安公園地下停車場
 --- Capacity: 147, 0
 --- Available: 55, -9
 --- TW97: 304256.222, 2770992.88
-MRT: No
+--- MRT: No
 ID: 034, Name: 辛亥國小地下停車場
 --- Capacity: 126, 0
 --- Available: -9, -9
 --- TW97: 306385.24, 2766588.77
-MRT: No
+--- MRT: No
 ID: 035, Name: 成淵高中地下停車場
 --- Capacity: 267, 0
 --- Available: 97, 0
 --- TW97: 302443.992, 2772624.48
-MRT: No
+--- MRT: No
 ID: 036, Name: 大豐公園地下停車場
 --- Capacity: 230, 0
 --- Available: 58, 0
 --- TW97: 300813.615, 2780396.61
-MRT: No
+--- MRT: No
 ID: 037, Name: 大安高工地下停車場
 --- Capacity: 515, 0
 --- Available: 168, -9
 --- TW97: 304680.898, 2769501.7
-MRT: No
+--- MRT: No
 ID: 038, Name: 成德立體停車場
 --- Capacity: 180, 0
 --- Available: -9, -9
 --- TW97: 309134.553, 2770988.07
-MRT: No
+--- MRT: No
 ID: 039, Name: 社園立體停車場
 --- Capacity: 280, 0
 --- Available: 110, -9
 --- TW97: 301034.258, 2775795.37
-MRT: No
+--- MRT: No
 ID: 040, Name: 健康國小地下停車場
 --- Capacity: 190, 0
 --- Available: 37, -9
 --- TW97: 306738.661, 2772157.76
-MRT: No
+--- MRT: No
 ID: 041, Name: 忠信地下停車場
 --- Capacity: 314, 255
 --- Available: 29, 84
 --- TW97: 307293.875, 2770374.65
-MRT: No
+--- MRT: No
 ID: 042, Name: 建成國中地下停車場
 --- Capacity: 330, 160
 --- Available: -9, 16
 --- TW97: 302454.824, 2771581.35
-MRT: No
+--- MRT: No
 ID: 043, Name: 興中立體停車場
 --- Capacity: 639, 152
 --- Available: 94, -9
 --- TW97: 311193.24, 2772128.99
-MRT: No
+--- MRT: No
 ID: 044, Name: 青年公園高爾夫球場地下停車場
 --- Capacity: 321, 157
 --- Available: 60, 33
 --- TW97: 301246.148, 2768507.43
-MRT: No
+--- MRT: No
 ID: 045, Name: 台北101停車場
 --- Capacity: 1263, 2990
 --- Available: 568, -9
 --- TW97: 306888.017, 2769632.52
-MRT: No
+--- MRT: No
 ID: 047, Name: 遠企中心地下停車場
 --- Capacity: 425, 0
 --- Available: -9, -9
 --- TW97: 305430.735, 2768770.51
-MRT: No
+--- MRT: No
 ID: 048, Name: 信義廣場地下停車場
 --- Capacity: 372, 233
 --- Available: 161, -9
 --- TW97: 307098.292, 2769568.19
-MRT: No
+--- MRT: No
 ID: 049, Name: 大業立體停車場
 --- Capacity: 122, 0
 --- Available: -9, -9
 --- TW97: 300705.484, 2781121.68
-MRT: No
+--- MRT: No
 ID: 050, Name: 北投運動中心停車場
 --- Capacity: 93, 0
 --- Available: -9, -9
 --- TW97: 301407.925, 2778803.93
-MRT: No
+--- MRT: No
 ID: 051, Name: 大湖公園地下停車場
 --- Capacity: 221, 66
 --- Available: -9, -9
 --- TW97: 310699.031, 2775146.05
-MRT: No
+--- MRT: No
 ID: 052, Name: 民生社區活動中心地下停車場
 --- Capacity: 147, 0
 --- Available: -9, -9
 --- TW97: 306771.829, 2772514.97
-MRT: No
+--- MRT: No
 ID: 053, Name: 民生立體停車場
 --- Capacity: 447, 0
 --- Available: 128, 0
 --- TW97: 306446.194, 2772356.55
-MRT: No
+--- MRT: No
 ID: 054, Name: 北寧路地下停車場
 --- Capacity: 76, 0
 --- Available: -9, 0
 --- TW97: 305739.506, 2771287.79
-MRT: No
+--- MRT: No
 ID: 055, Name: 市民大道(塔城段)
 --- Capacity: 241, 0
 --- Available: 138, 0
 --- TW97: 301372.085, 2771452.87
-MRT: No
+--- MRT: No
 ID: 056, Name: 大安森林公園地下停車場
 --- Capacity: 1360, 344
 --- Available: 375, -9
 --- TW97: 304225.666, 2769534.8
-MRT: No
+--- MRT: No
 ID: 057, Name: 市民大道(公中段) 
 --- Capacity: 180, 0
 --- Available: -9, -9
 --- TW97: 302388.459, 2771232.09
-MRT: No
+--- MRT: No
 ID: 058, Name: 市民大道(中林段)
 --- Capacity: 486, 0
 --- Available: -9, -9
 --- TW97: 302745.088, 2771185.18
-MRT: No
+--- MRT: No
 ID: 059, Name: 市民大道(林金段)
 --- Capacity: 950, 0
 --- Available: -9, -9
 --- TW97: 303200.818, 2771094.24
-MRT: No
+--- MRT: No
 ID: 060, Name: 市民大道(建復段)
 --- Capacity: 178, 0
 --- Available: 27, 0
 --- TW97: 304577.728, 2770821.76
-MRT: No
+--- MRT: No
 ID: 061, Name: 陽明山立體停車場
 --- Capacity: 209, 246
 --- Available: -9, -9
 --- TW97: 304333.626, 2783074.63
-MRT: No
+--- MRT: No
 ID: 062, Name: 市民大道(復敦段)
 --- Capacity: 209, 0
 --- Available: 49, 0
 --- TW97: 305171.593, 2770881.94
-MRT: No
+--- MRT: No
 ID: 064, Name: 市民大道(敦延段)
 --- Capacity: 212, 0
 --- Available: 49, -9
 --- TW97: 305558.94, 2770837.9
-MRT: No
+--- MRT: No
 ID: 065, Name: 市民大道(延吉段)
 --- Capacity: 77, 0
 --- Available: 10, -9
 --- TW97: 305858.412, 2770805.97
-MRT: No
+--- MRT: No
 ID: 066, Name: 揚雅立體停車場
 --- Capacity: 204, 0
 --- Available: -9, 0
 --- TW97: 302039.435, 2773349.3
-MRT: No
+--- MRT: No
 ID: 067, Name: 雙園國中地下停車場
 --- Capacity: 314, 0
 --- Available: -9, -9
 --- TW97: 299616.907, 2768938.87
-MRT: No
+--- MRT: No
 ID: 068, Name: 文昌國小地下停車場
 --- Capacity: 222, 293
 --- Available: -9, -9
 --- TW97: 302530.863, 2776916.9
-MRT: No
+--- MRT: No
 ID: 069, Name: 青年公園棒球場地下停車場
 --- Capacity: 276, 118
 --- Available: 50, 35
 --- TW97: 300790.825, 2768479.84
-MRT: No
+--- MRT: No
 ID: 070, Name: 榮星花園地下停車場
 --- Capacity: 242, 67
 --- Available: 35, -9
 --- TW97: 304440.292, 2772962.63
-MRT: No
+--- MRT: No
 ID: 071, Name: 朝陽公園地下停車場
 --- Capacity: 237, 0
 --- Available: 49, -9
 --- TW97: 301776.365, 2772073.08
-MRT: No
+--- MRT: No
 ID: 072, Name: 福林公園地下停車場
 --- Capacity: 242, 62
 --- Available: 60, 51
 --- TW97: 303483.373, 2776495.18
-MRT: No
+--- MRT: No
 ID: 073, Name: 林森公園地下停車場
 --- Capacity: 833, 0
 --- Available: -9, 0
 --- TW97: 303069.664, 2771690.08
-MRT: No
+--- MRT: No
 ID: 074, Name: 偶戲博物館地下停車場
 --- Capacity: 69, 45
 --- Available: -9, 0
 --- TW97: 306713.377, 2771132.55
-MRT: No
+--- MRT: No
 ID: 075, Name: 中崙高中地下停車場
 --- Capacity: 340, 0
 --- Available: -9, -9
 --- TW97: 306621.407, 2771434.5
-MRT: No
+--- MRT: No
 ID: 076, Name: 陽明山第二停車場
 --- Capacity: 127, 149
 --- Available: -3, -9
 --- TW97: 305001.162, 2783043.08
-MRT: No
+--- MRT: No
 ID: 077, Name: 陽明山花鐘停車場
 --- Capacity: 31, 0
 --- Available: -9, -9
 --- TW97: 304364.838, 2783442.61
-MRT: No
+--- MRT: No
 ID: 078, Name: 洲子立體停車場
 --- Capacity: 384, 0
 --- Available: 332, -9
 --- TW97: 307430.978, 2774691.16
-MRT: No
+--- MRT: No
 ID: 079, Name: 僑安地下停車場
 --- Capacity: 412, 0
 --- Available: 205, -9
 --- TW97: 306171.601, 2770434.18
-MRT: No
+--- MRT: No
 ID: 080, Name: 龍門國中地下停車場
 --- Capacity: 730, 370
 --- Available: -9, 151
 --- TW97: 304359.014, 2768488.38
-MRT: No
+--- MRT: No
 ID: 081, Name: 康樂立體停車場
 --- Capacity: 153, 0
 --- Available: 28, -9
 --- TW97: 312458.018, 2773908.46
-MRT: No
+--- MRT: No
 ID: 082, Name: 永盛公園地下停車場
 --- Capacity: 224, 62
 --- Available: 59, -9
 --- TW97: 302937.43, 2772433.27
-MRT: No
+--- MRT: No
 ID: 084, Name: 麗湖國小地下停車場
 --- Capacity: 223, 0
 --- Available: 103, -9
 --- TW97: 310688.046, 2774009.32
-MRT: No
+--- MRT: No
 ID: 085, Name: 臺北花木批發市場地下停車場
 --- Capacity: 409, 0
 --- Available: -9, -9
 --- TW97: 304569.681, 2766376.7
-MRT: No
+--- MRT: No
 ID: 086, Name: 振興公園地下停車場
 --- Capacity: 213, 102
 --- Available: -9, -9
 --- TW97: 302794.057, 2779015.61
-MRT: No
+--- MRT: No
 ID: 087, Name: 民有市場地下停車場
 --- Capacity: 334, 421
 --- Available: -9, -9
 --- TW97: 305193.531, 2772610.51
-MRT: No
+--- MRT: No
 ID: 088, Name: 三張里地下停車場
 --- Capacity: 356, 220
 --- Available: 56, 167
 --- TW97: 307193.908, 2769321.51
-MRT: No
+--- MRT: No
 ID: 089, Name: 春光公園地下停車場
 --- Capacity: 213, 68
 --- Available: -9, 11
 --- TW97: 308596.437, 2770582.13
-MRT: No
+--- MRT: No
 ID: 090, Name: 萬板地下停車場
 --- Capacity: 180, 0
 --- Available: -9, -9
 --- TW97: 299577.554, 2769038.6
-MRT: No
+--- MRT: No
 ID: 091, Name: 艋舺公園地下停車場
 --- Capacity: 474, 274
 --- Available: -9, -9
 --- TW97: 300460.842, 2769887.43
-MRT: No
+--- MRT: No
 ID: 092, Name: 濱江國中地下停車場
 --- Capacity: 203, 132
 --- Available: -9, -9
 --- TW97: 306655.049, 2774700.81
-MRT: No
+--- MRT: No
 ID: 093, Name: 建成公園地下停車場
 --- Capacity: 232, 168
 --- Available: 66, 67
 --- TW97: 302303.448, 2771857.37
-MRT: No
+--- MRT: No
 ID: 094, Name: 捷運劍潭站轉乘停車場
 --- Capacity: 139, 152
 --- Available: -9, 62
 --- TW97: 302915.025, 2774994.63
-MRT: No
+--- MRT: No
 ID: 095, Name: 捷運北投站轉乘停車場
 --- Capacity: 85, 0
 --- Available: -9, -9
 --- TW97: 300229.187, 2780583.47
-MRT: No
+--- MRT: No
 ID: 096, Name: 石牌國小地下停車場
 --- Capacity: 460, 176
 --- Available: -9, -9
 --- TW97: 301712.467, 2778547.18
-MRT: No
+--- MRT: No
 ID: 097, Name: 海光公園地下停車場
 --- Capacity: 103, 0
 --- Available: -9, -9
 --- TW97: 301273.029, 2774808.42
-MRT: No
+--- MRT: No
 ID: 098, Name: 港富立體停車場
 --- Capacity: 239, 0
 --- Available: -9, -9
 --- TW97: 308300.524, 2774821.44
-MRT: No
+--- MRT: No
 ID: 099, Name: 長安國小地下停車場
 --- Capacity: 284, 119
 --- Available: -9, 54
 --- TW97: 303502.998, 2771373.15
-MRT: No
+--- MRT: No
 ID: 100, Name: 七星公園地下停車場
 --- Capacity: 328, 52
 --- Available: -9, 23
 --- TW97: 300610.394, 2780995.73
-MRT: No
+--- MRT: No
 ID: 101, Name: 捷運木柵機廠停車場
 --- Capacity: 678, 0
 --- Available: -9, -9
 --- TW97: 308942.267, 2765981.74
-MRT: No
+--- MRT: No
 ID: 102, Name: 承德公園地下停車場
 --- Capacity: 176, 62
 --- Available: 1, 13
 --- TW97: 302652.233, 2775824.04
-MRT: No
+--- MRT: No
 ID: 103, Name: 南港國小地下停車場
 --- Capacity: 311, 71
 --- Available: 280, 62
 --- TW97: 311656.336, 2772244.5
-MRT: No
+--- MRT: No
 ID: 105, Name: 玉成國小地下停車場
 --- Capacity: 289, 25
 --- Available: -9, 6
 --- TW97: 309814.138, 2771840.88
-MRT: No
+--- MRT: No
 ID: 106, Name: 蓬萊國小地下停車場
 --- Capacity: 280, 141
 --- Available: -9, 91
 --- TW97: 302088.855, 2772141.55
-MRT: No
+--- MRT: No
 ID: 107, Name: 信義國小地下停車場
 --- Capacity: 226, 49
 --- Available: 75, 30
 --- TW97: 306838.322, 2769370.4
-MRT: No
+--- MRT: No
 ID: 109, Name: 湖興立體停車場
 --- Capacity: 257, 0
 --- Available: -9, -9
 --- TW97: 309564.783, 2773407.44
-MRT: No
+--- MRT: No
 ID: 110, Name: 西湖公園地下停車場
 --- Capacity: 171, 0
 --- Available: 24, -9
 --- TW97: 307516.293, 2775029.19
-MRT: No
+--- MRT: No
 ID: 111, Name: 蘭雅公園地下停車場
 --- Capacity: 151, 0
 --- Available: -9, 0
 --- TW97: 303345.837, 2778040.33
-MRT: No
+--- MRT: No
 ID: 112, Name: 臺北市中山運動中心停車場
 --- Capacity: 57, 81
 --- Available: -9, -9
 --- TW97: 302614.533, 2771955.22
-MRT: No
+--- MRT: No
 ID: 113, Name: 興隆公園地下停車場
 --- Capacity: 259, 58
 --- Available: -9, 0
 --- TW97: 305649.457, 2765912.01
-MRT: No
+--- MRT: No
 ID: 114, Name: 景美國小地下停車場
 --- Capacity: 253, 92
 --- Available: -9, -9
 --- TW97: 304540.653, 2764633.54
-MRT: No
+--- MRT: No
 ID: 115, Name: 木柵動物園停車場
 --- Capacity: 943, 0
 --- Available: -9, -9
 --- TW97: 308397.796, 2765648.87
-MRT: No
+--- MRT: No
 ID: 116, Name: 台灣大學新生南路地下停車場
 --- Capacity: 353, 0
 --- Available: -9, -9
 --- TW97: 303897.54, 2768004.55
-MRT: No
+--- MRT: No
 ID: 117, Name: 台灣大學公館停車場
 --- Capacity: 460, 0
 --- Available: -9, -9
 --- TW97: 304185.37, 2767245.72
-MRT: No
+--- MRT: No
 ID: 118, Name: 台灣大學綜合體育館地下停車場
 --- Capacity: 208, 0
 --- Available: -3, -9
 --- TW97: 304109.39, 2768336.36
-MRT: No
+--- MRT: No
 ID: 119, Name: 大龍國小地下停車場
 --- Capacity: 265, 106
 --- Available: 61, 29
 --- TW97: 302119.147, 2774087.77
-MRT: No
+--- MRT: No
 ID: 120, Name: 世貿公園地下停車場
 --- Capacity: 400, 194
 --- Available: -9, 179
 --- TW97: 312091.582, 2772333.69
-MRT: No
+--- MRT: No
 ID: 121, Name: 南港運動中心停車場
 --- Capacity: 94, 0
 --- Available: -9, -9
 --- TW97: 308693.34, 2771296.14
-MRT: No
+--- MRT: No
 ID: 123, Name: 台灣聯通臺大長興停車場
 --- Capacity: 113, 1032
 --- Available: -9, -9
 --- TW97: 305006.911, 2767810.8
-MRT: No
+--- MRT: No
 ID: 124, Name: 社子國小地下停車場
 --- Capacity: 464, 213
 --- Available: -9, 168
 --- TW97: 300692.385, 2775948.87
-MRT: No
+--- MRT: No
 ID: 126, Name: 臺北田徑場站停車場
 --- Capacity: 290, 637
 --- Available: -9, -9
 --- TW97: 305610.702, 2771331.98
-MRT: No
+--- MRT: No
 ID: 127, Name: 臺北市中正運動中心停車場
 --- Capacity: 100, 0
 --- Available: -9, -9
 --- TW97: 302409.388, 2770126.83
-MRT: No
+--- MRT: No
 ID: 128, Name: 萬興國小地下停車場
 --- Capacity: 229, 184
 --- Available: -9, 129
 --- TW97: 308206.151, 2764729.86
-MRT: No
+--- MRT: No
 ID: 129, Name: 西康地下停車場
 --- Capacity: 86, 0
 --- Available: -9, -9
 --- TW97: 306867.318, 2775280.41
-MRT: No
+--- MRT: No
 ID: 131, Name: 捷運忠義站轉乘停車場
 --- Capacity: 44, 0
 --- Available: -9, -9
 --- TW97: 297731.911, 2780382.57
-MRT: No
+--- MRT: No
 ID: 132, Name: 捷運新北投站轉乘停車場
 --- Capacity: 27, 0
 --- Available: -9, -9
 --- TW97: 300560.471, 2781032.18
-MRT: No
+--- MRT: No
 ID: 133, Name: 捷運唭哩岸站轉乘停車場
 --- Capacity: 37, 0
 --- Available: -9, -9
 --- TW97: 301070.42, 2779256.76
-MRT: No
+--- MRT: No
 ID: 134, Name: 捷運石牌站轉乘停車場
 --- Capacity: 64, 0
 --- Available: -9, -9
 --- TW97: 301888.572, 2778725.82
-MRT: No
+--- MRT: No
 ID: 138, Name: 捷運士林站南
 --- Capacity: 72, 0
 --- Available: -9, -9
 --- TW97: 303121.11, 2776141.7
-MRT: No
+--- MRT: No
 ID: 139, Name: 捷運士林站西
 --- Capacity: 58, 0
 --- Available: -9, -9
 --- TW97: 303039.84, 2776238.3
-MRT: No
+--- MRT: No
 ID: 140, Name: 捷運芝山站南
 --- Capacity: 134, 0
 --- Available: -9, -9
 --- TW97: 302747.05, 2777088.08
-MRT: No
+--- MRT: No
 ID: 141, Name: 捷運芝山站北
 --- Capacity: 28, 0
 --- Available: -9, -9
 --- TW97: 302677.81, 2777467.75
-MRT: No
+--- MRT: No
 ID: 149, Name: 捷運劍南路站轉乘停車場
 --- Capacity: 282, 52
 --- Available: -9, 27
 --- TW97: 305942.302, 2775250.75
-MRT: No
+--- MRT: No
 ID: 150, Name: 臺北體育館地下停車場
 --- Capacity: 153, 0
 --- Available: -3, -9
 --- TW97: 305690.773, 2771575.07
-MRT: No
+--- MRT: No
 ID: 153, Name: 仁愛地下停車場
 --- Capacity: 635, 0
 --- Available: -9, -9
 --- TW97: 304216.956, 2770229.04
-MRT: No
+--- MRT: No
 ID: 156, Name: 關渡水岸自然公園平面停車場
 --- Capacity: 305, 172
 --- Available: -9, 0
 --- TW97: 296700.087, 2778868.85
-MRT: No
+--- MRT: No
 ID: 158, Name: 花園停車場
 --- Capacity: 216, 0
 --- Available: -9, -9
 --- TW97: 303680.278, 2767417.88
-MRT: No
+--- MRT: No
 ID: 159, Name: 公館停車場
 --- Capacity: 106, 0
 --- Available: -9, -9
 --- TW97: 304011.064, 2767093.85
-MRT: No
+--- MRT: No
 ID: 160, Name: 水岸停車場
 --- Capacity: 62, 0
 --- Available: -9, -9
 --- TW97: 303407.738, 2767228.33
-MRT: No
+--- MRT: No
 ID: 161, Name: 臺北市青少年發展處停車場
 --- Capacity: 277, 0
 --- Available: -9, 0
 --- TW97: 302700.865, 2770203.11
-MRT: No
+--- MRT: No
 ID: 162, Name: 中華民國農民團體幹部聯合訓練協會停車場
 --- Capacity: 48, 0
 --- Available: -9, -9
 --- TW97: 303593.325, 2779445.88
-MRT: No
+--- MRT: No
 ID: 164, Name: 市府轉運站停車場
 --- Capacity: 481, 595
 --- Available: -9, -9
 --- TW97: 307029.419, 2770401.08
-MRT: No
+--- MRT: No
 ID: 165, Name: 玉成公園地下停車場
 --- Capacity: 403, 81
 --- Available: -9, 22
 --- TW97: 309233.358, 2770571.83
-MRT: No
+--- MRT: No
 ID: 173, Name: 文德站轉乘停車場
 --- Capacity: 306, 0
 --- Available: -9, -9
 --- TW97: 308957.817, 2774578.38
-MRT: No
+--- MRT: No
 ID: 174, Name: 內湖機廠轉乘停車場
 --- Capacity: 302, 160
 --- Available: -9, 156
 --- TW97: 312402.927, 2772678.03
-MRT: No
+--- MRT: No
 ID: 176, Name: 天母西側停車場
 --- Capacity: 222, 67
 --- Available: -9, -9
 --- TW97: 303401.064, 2779016.55
-MRT: No
+--- MRT: No
 ID: 177, Name: BELLAVITA寶麗廣場停車場
 --- Capacity: 164, 239
 --- Available: -9, -9
 --- TW97: 307307.711, 2770298.38
-MRT: No
+--- MRT: No
 ID: 181, Name: 臺北國際航空站第1號計時收費停車場
 --- Capacity: 116, 0
 --- Available: -9, -9
 --- TW97: 305616.099, 2772853.48
-MRT: No
+--- MRT: No
 ID: 182, Name: 臺北國際航空站第2號計時收費停車場
 --- Capacity: 212, 0
 --- Available: -9, -9
 --- TW97: 305732.967, 2772872.07
-MRT: No
+--- MRT: No
 ID: 183, Name: 臺北國際航空站第3號計時收費停車場
 --- Capacity: 494, 0
 --- Available: -9, -9
 --- TW97: 305837.086, 2772876.32
-MRT: No
+--- MRT: No
 ID: 184, Name: 國立台灣科學教育館地下停車場
 --- Capacity: 461, 196
 --- Available: -3, -9
 --- TW97: 302060.286, 2776513.18
-MRT: No
+--- MRT: No
 ID: 186, Name: 京華城停車場
 --- Capacity: 1427, 0
 --- Available: -9, -9
 --- TW97: 306756.384, 2771272.56
-MRT: No
+--- MRT: No
 ID: 187, Name: 松山工農地下停車場
 --- Capacity: 234, 185
 --- Available: -9, 0
 --- TW97: 307749.503, 2770283.78
-MRT: No
+--- MRT: No
 ID: 188, Name: 松山車站地下停車場
 --- Capacity: 415, 0
 --- Available: -9, -9
 --- TW97: 308353.119, 2771273.92
-MRT: No
+--- MRT: No
 ID: 189, Name: 台北馬偕醫院地下停車場
 --- Capacity: 342, 0
 --- Available: -9, -9
 --- TW97: 302648.076, 2772341.94
-MRT: No
+--- MRT: No
 ID: 190, Name: 故宮廣場停車場
 --- Capacity: 85, 178
 --- Available: -9, 0
 --- TW97: 305312.072, 2776806.86
-MRT: No
+--- MRT: No
 ID: 191, Name: ATT 4 FUN停車場
 --- Capacity: 40, 162
 --- Available: -9, -9
 --- TW97: 307121.548, 2769847.94
-MRT: No
+--- MRT: No
 ID: 192, Name: 第二殯儀館停車場
 --- Capacity: 226, 0
 --- Available: -9, -9
 --- TW97: 305807.48, 2767416.67
-MRT: No
+--- MRT: No
 ID: 193, Name: 松山國小地下停車場
 --- Capacity: 280, 131
 --- Available: -9, -9
 --- TW97: 308340.173, 2771497.53
-MRT: No
+--- MRT: No
 ID: 194, Name: 臺北文創停車場
 --- Capacity: 560, 1234
 --- Available: -9, -9
 --- TW97: 306701.169, 2770841.79
-MRT: No
+--- MRT: No
 ID: 195, Name: 新糖&#24269;公園地下停車場
 --- Capacity: 70, 0
 --- Available: -9, -9
 --- TW97: 299906.178, 2769594.7
-MRT: No
+--- MRT: No
 ID: 196, Name: 石潭平面停車場
 --- Capacity: 70, 0
 --- Available: -9, -9
 --- TW97: 309759.661, 2773471.27
-MRT: No
+--- MRT: No
 ID: 197, Name: 康東平面停車場
 --- Capacity: 39, 0
 --- Available: -9, -9
 --- TW97: 311757.59, 2773647.61
-MRT: No
+--- MRT: No
 ID: 198, Name: 康寧平面停車場
 --- Capacity: 21, 0
 --- Available: -9, -9
 --- TW97: 311091.934, 2773945.84
-MRT: No
+--- MRT: No
 ID: 199, Name: 歐特儀股份有限公司台北車站西區地下停車場
 --- Capacity: 185, 0
 --- Available: -9, -9
 --- TW97: 302128.103, 2771177.47
-MRT: No
+--- MRT: No
 ID: 200, Name: 台北車站東區地下停車場
 --- Capacity: 264, 172
 --- Available: -9, -9
 --- TW97: 302235.632, 2771159.41
-MRT: No
+--- MRT: No
 ID: 201, Name: 花博公園圓山停車場
 --- Capacity: 102, 0
 --- Available: -9, -9
 --- TW97: 302707.049, 2773520.32
-MRT: No
+--- MRT: No
 ID: 202, Name: 捷運木柵站轉乘停車場
 --- Capacity: 25, 0
 --- Available: -9, -9
 --- TW97: 307866.761, 2765744.61
-MRT: No
+--- MRT: No
 ID: 203, Name: 臺灣大學辛亥臨時停車場
 --- Capacity: 415, 1455
 --- Available: -9, -9
 --- TW97: 304769.938, 2768191.13
-MRT: No
+--- MRT: No
 ID: 204, Name: 台北花卉產銷股份有限公司A館
 --- Capacity: 461, 0
 --- Available: -9, -9
 --- TW97: 307927.54, 2772878.29
-MRT: No
+--- MRT: No
 ID: 205, Name: 台北花卉產銷股份有限公司B館
 --- Capacity: 73, 0
 --- Available: -3, 0
 --- TW97: 308021.624, 2772883.17
-MRT: No
+--- MRT: No
 ID: 206, Name: 第一殯儀館停車場
 --- Capacity: 130, 0
 --- Available: -9, -9
 --- TW97: 304115.717, 2772843.64
-MRT: No
+--- MRT: No
 ID: 207, Name: 台北市立天文科學教育館地下及戶外平面停車場
 --- Capacity: 294, 399
 --- Available: -3, 0
 --- TW97: 302283.568, 2776492.1
-MRT: No
+--- MRT: No
 ID: 208, Name: 博嘉運動公園停車場
 --- Capacity: 35, 0
 --- Available: -3, -9
 --- TW97: 308098.673, 2766013.13
-MRT: No
+--- MRT: No
 ID: 209, Name: 應安168復興SOGO停車場
 --- Capacity: 48, 0
 --- Available: -9, -9
 --- TW97: 304827.734, 2770363.35
-MRT: No
+--- MRT: No
 ID: 210, Name: K區地下街停車場
 --- Capacity: 188, 0
 --- Available: -9, -9
 --- TW97: 302213.374, 2771072.55
-MRT: No
+--- MRT: No
 ID: 211, Name: 中山北路2段42巷臨時平面停車場
 --- Capacity: 21, 0
 --- Available: 15, -9
 --- TW97: 302590.923, 2771921.36
-MRT: No
+--- MRT: No
 ID: 212, Name: 辛亥路高架橋下平面停車場
 --- Capacity: 160, 0
 --- Available: -9, -9
 --- TW97: 305824.073, 2767453.87
-MRT: No
+--- MRT: No
 ID: 214, Name: 應安168台北資訊園區停車場
 --- Capacity: 444, 1127
 --- Available: 339, 790
 --- TW97: 303560.88, 2770899.32
-MRT: No
+--- MRT: No
 ID: 215, Name: 莒光立體停車場
 --- Capacity: 123, 0
 --- Available: -9, -9
 --- TW97: 300803.109, 2769313.81
-MRT: No
+--- MRT: No
 ID: 216, Name: 中山運動中心旁平面停車場
 --- Capacity: 52, 0
 --- Available: 34, -9
 --- TW97: 302619.152, 2772000.69
-MRT: No
+--- MRT: No
 ID: 217, Name: 兩廳院地下停車場
 --- Capacity: 681, 0
 --- Available: -9, -9
 --- TW97: 302313.694, 2769911.28
-MRT: No
+--- MRT: No
 ID: 218, Name: 內湖垃圾焚化廠停車場
 --- Capacity: 87, 0
 --- Available: -9, 0
 --- TW97: 310989.044, 2772865.89
-MRT: No
+--- MRT: No
 ID: 219, Name: 台壽金融總部大樓停車場
 --- Capacity: 147, 0
 --- Available: -9, -9
 --- TW97: 302695.758, 2771950.81
-MRT: No
+--- MRT: No
 ID: 220, Name: 南港公園平面停車場
 --- Capacity: 82, 0
 --- Available: -9, -9
 --- TW97: 309672.172, 2771003.47
-MRT: No
+--- MRT: No
 ID: 221, Name: 南港經貿園區R16平面停車場
 --- Capacity: 89, 112
 --- Available: -9, -9
 --- TW97: 311595.975, 2772144.27
-MRT: No
+--- MRT: No
 ID: 222, Name: 南港59號公園臨時平面停車場
 --- Capacity: 21, 0
 --- Available: -9, -9
 --- TW97: 311913.035, 2771191.06
-MRT: No
+--- MRT: No
 ID: 223, Name: 東和平面停車場
 --- Capacity: 39, 0
 --- Available: -9, -9
 --- TW97: 303777.91, 2779207.82
-MRT: No
+--- MRT: No
 ID: 224, Name: 復興平面停車場
 --- Capacity: 67, 0
 --- Available: -9, -9
 --- TW97: 300880.05, 2781463.25
-MRT: No
+--- MRT: No
 ID: 225, Name: 開勝平面停車場
 --- Capacity: 34, 0
 --- Available: -9, -9
 --- TW97: 300924.503, 2781465.48
-MRT: No
+--- MRT: No
 ID: 226, Name: 樟新平面停車場
 --- Capacity: 45, 0
 --- Available: 14, -9
 --- TW97: 306213.5, 2763636.18
-MRT: No
+--- MRT: No
 ID: 227, Name: 政大三街臨時平面停車場
 --- Capacity: 49, 0
 --- Available: 16, -9
 --- TW97: 308798.633, 2764367.61
-MRT: No
+--- MRT: No
 ID: 228, Name: 木柵路三段平面停車場
 --- Capacity: 47, 0
 --- Available: 19, -9
 --- TW97: 307167.607, 2764612.6
-MRT: No
+--- MRT: No
 ID: 229, Name: 嘉興公園地下停車場
 --- Capacity: 195, 64
 --- Available: 30, 20
 --- TW97: 305714.216, 2768268.46
-MRT: No
+--- MRT: No
 ID: 230, Name: 應安168延吉停車場
 --- Capacity: 29, 92
 --- Available: -9, -9
 --- TW97: 306038.219, 2769795.95
-MRT: No
+--- MRT: No
 ID: 231, Name: 應安168士林一停車場
 --- Capacity: 67, 0
 --- Available: -9, -9
 --- TW97: 303689.718, 2778231.3
-MRT: No
+--- MRT: No
 ID: 232, Name: 建國北路高架橋下O區
 --- Capacity: 143, 0
 --- Available: 98, -9
 --- TW97: 304154.573, 2771078.93
-MRT: No
+--- MRT: No
 ID: 233, Name: 建國北路高架橋下A區
 --- Capacity: 171, 0
 --- Available: 136, -9
 --- TW97: 304158.883, 2771337.24
-MRT: No
+--- MRT: No
 ID: 234, Name: 建國北路高架橋下B區
 --- Capacity: 377, 0
 --- Available: 331, -9
 --- TW97: 304159.694, 2771411.35
-MRT: No
+--- MRT: No
 ID: 235, Name: 建國北路高架橋下C區
 --- Capacity: 133, 0
 --- Available: 96, -9
 --- TW97: 304166.624, 2771799.73
-MRT: No
+--- MRT: No
 ID: 236, Name: 建國北路高架橋下D區
 --- Capacity: 120, 0
 --- Available: 52, -9
 --- TW97: 304167.605, 2771888.33
-MRT: No
+--- MRT: No
 ID: 237, Name: 建國北路高架橋下E區
 --- Capacity: 70, 0
 --- Available: 38, -9
 --- TW97: 304177.331, 2772150.78
-MRT: No
+--- MRT: No
 ID: 238, Name: 建國北路高架橋下F區
 --- Capacity: 105, 0
 --- Available: 85, -9
 --- TW97: 304173.184, 2772219.47
-MRT: No
+--- MRT: No
 ID: 239, Name: 建國北路高架橋下G區
 --- Capacity: 255, 0
 --- Available: 54, -9
 --- TW97: 304176.79, 2772453.49
-MRT: No
+--- MRT: No
 ID: 240, Name: 建國北路高架橋下H區
 --- Capacity: 246, 0
 --- Available: 78, -9
 --- TW97: 304173.905, 2772614.68
-MRT: No
+--- MRT: No
 ID: 241, Name: 建國北路高架橋下IA區
 --- Capacity: 57, 0
 --- Available: 18, -9
 --- TW97: 304181.909, 2772904.23
-MRT: No
+--- MRT: No
 ID: 242, Name: 建國北路高架橋下IB區
 --- Capacity: 142, 0
 --- Available: 23, -9
 --- TW97: 304178.304, 2773022.86
-MRT: No
+--- MRT: No
 ID: 243, Name: 建國北路高架橋下J區
 --- Capacity: 113, 0
 --- Available: 19, -9
 --- TW97: 304083.288, 2773177.55
-MRT: No
+--- MRT: No
 ID: 244, Name: 建國南路高架橋下A區
 --- Capacity: 281, 0
 --- Available: -9, -9
 --- TW97: 304273.042, 2768975.16
-MRT: No
+--- MRT: No
 ID: 245, Name: 建國南路高架橋下D區
 --- Capacity: 64, 0
 --- Available: -9, -9
 --- TW97: 304274.454, 2769519.53
-MRT: No
+--- MRT: No
 ID: 246, Name: 建國南路高架橋下C區
 --- Capacity: 106, 0
 --- Available: -9, -9
 --- TW97: 304278.422, 2769390.15
-MRT: No
+--- MRT: No
 ID: 247, Name: 建國南路高架橋下B區
 --- Capacity: 236, 0
 --- Available: -9, -9
 --- TW97: 304273.921, 2769114.69
-MRT: No
+--- MRT: No
 ID: 248, Name: 建國南路高架橋下F區
 --- Capacity: 88, 0
 --- Available: -9, -9
 --- TW97: 304219.903, 2770441.88
-MRT: No
+--- MRT: No
 ID: 249, Name: 啟聰學校地下停車場
 --- Capacity: 175, 94
 --- Available: 23, 72
 --- TW97: 301653.652, 2774142.89
-MRT: No
+--- MRT: No
 ID: 250, Name: 忠誠路(一)平面停車場
 --- Capacity: 23, 0
 --- Available: 9, -9
 --- TW97: 303424.066, 2777773.09
-MRT: No
+--- MRT: No
 ID: 251, Name: 忠誠路(二)平面停車場
 --- Capacity: 34, 0
 --- Available: 6, -9
 --- TW97: 303390.274, 2777695.93
-MRT: No
+--- MRT: No
 ID: 252, Name: 吳興街220巷平面停車場
 --- Capacity: 94, 0
 --- Available: -9, -9
 --- TW97: 306556.768, 2768735.63
-MRT: No
+--- MRT: No
 ID: 253, Name: 吳興街220巷(一)平面停車場
 --- Capacity: 135, 0
 --- Available: 30, -9
 --- TW97: 306684.63, 2768926.54
-MRT: No
+--- MRT: No
 ID: 254, Name: 吳興街220巷(二)平面停車場
 --- Capacity: 163, 0
 --- Available: -9, -9
 --- TW97: 306365.557, 2768791.05
-MRT: No
+--- MRT: No
 ID: 255, Name: 兒童新樂園附設停車場
 --- Capacity: 442, 393
 --- Available: -9, 378
 --- TW97: 301926.989, 2776680.26
-MRT: No
+--- MRT: No
 ID: 256, Name: 振華公園旁平面停車場
 --- Capacity: 235, 8
 --- Available: -9, -9
 --- TW97: 302262.088, 2778648.06
-MRT: No
+--- MRT: No
 ID: 257, Name: 福港街平面停車場
 --- Capacity: 65, 0
 --- Available: 1, -9
 --- TW97: 302313.65, 2775535.15
-MRT: No
+--- MRT: No
 ID: 258, Name: 兒童育樂中心平面停車場
 --- Capacity: 88, 0
 --- Available: 63, -9
 --- TW97: 302662.306, 2774205.18
-MRT: No
+--- MRT: No
 ID: 259, Name: 中山北路三段55巷平面停車場
 --- Capacity: 58, 0
 --- Available: 25, -9
 --- TW97: 302828.372, 2773413.49
-MRT: No
+--- MRT: No
 ID: 260, Name: 臺北小巨蛋地下停車場
 --- Capacity: 460, 0
 --- Available: -9, -9
 --- TW97: 305588.447, 2771566.62
-MRT: No
+--- MRT: No
 ID: 261, Name: 百齡橋旁平面停車場
 --- Capacity: 142, 0
 --- Available: -9, -9
 --- TW97: 301540.337, 2775610.63
-MRT: No
+--- MRT: No
 ID: 262, Name: 林森北路399巷臨時平面停車場
 --- Capacity: 93, 0
 --- Available: -9, -9
 --- TW97: 303166.684, 2772511
-MRT: No
+--- MRT: No
 ID: 263, Name: 億光大樓停車場
 --- Capacity: 122, 0
 --- Available: 10, -9
 --- TW97: 304290.695, 2770567.09
-MRT: No
+--- MRT: No
 ID: 264, Name: 便利停車場大安地政事務所站
 --- Capacity: 70, 157
 --- Available: 0, -9
 --- TW97: 306159.102, 2769630.27
-MRT: No
+--- MRT: No
 ID: 265, Name: 台灣聯通光華商場停車場
 --- Capacity: 83, 155
 --- Available: -9, 19
 --- TW97: 303682.353, 2770903.55
-MRT: No
+--- MRT: No
 ID: 266, Name: 至誠平面停車場
 --- Capacity: 81, 0
 --- Available: 19, -9
 --- TW97: 303590.684, 2777178.09
-MRT: No
+--- MRT: No
 ID: 267, Name: 關渡醫院旁平面停車場
 --- Capacity: 33, 0
 --- Available: -9, 0
 --- TW97: 296963.872, 2779186.91
-MRT: No
+--- MRT: No
 ID: 268, Name: 公館路平面停車場
 --- Capacity: 129, 0
 --- Available: -9, -9
 --- TW97: 300712.858, 2779298.8
-MRT: No
+--- MRT: No
 ID: 269, Name: 明德臨時平面停車場
 --- Capacity: 29, 0
 --- Available: -9, 0
 --- TW97: 302517.948, 2778676.97
-MRT: No
+--- MRT: No
 ID: 270, Name: 環山平面停車場
 --- Capacity: 30, 0
 --- Available: -9, 0
 --- TW97: 307705.154, 2775394.9
-MRT: No
+--- MRT: No
 ID: 271, Name: 文湖平面停車場
 --- Capacity: 33, 0
 --- Available: -9, 0
 --- TW97: 306576.505, 2775473.22
-MRT: No
+--- MRT: No
 ID: 272, Name: 龍江平面停車場
 --- Capacity: 27, 0
 --- Available: -9, 0
 --- TW97: 304674.689, 2771876.14
-MRT: No
+--- MRT: No
 ID: 273, Name: 台灣聯通仁愛停車場
 --- Capacity: 30, 0
 --- Available: 20, -9
 --- TW97: 303145.607, 2770148.58
-MRT: No
+--- MRT: No
 ID: 274, Name: 台灣聯通新生停車場
 --- Capacity: 55, 0
 --- Available: 7, -9
 --- TW97: 303100.707, 2772143.35
-MRT: No
+--- MRT: No
 ID: 275, Name: 台灣聯通華泰王子停車場
 --- Capacity: 56, 0
 --- Available: 17, -9
 --- TW97: 303036.688, 2772233.95
-MRT: No
+--- MRT: No
 ID: 276, Name: 台灣聯通復興北停車場
 --- Capacity: 28, 0
 --- Available: 4, -9
 --- TW97: 304954.536, 2771551.68
-MRT: No
+--- MRT: No
 ID: 277, Name: 台灣聯通杭州停車場
 --- Capacity: 53, 0
 --- Available: 16, -9
 --- TW97: 303139.595, 2770597.79
-MRT: No
+--- MRT: No
 ID: 278, Name: 台灣聯通天津停車場
 --- Capacity: 50, 0
 --- Available: 29, -9
 --- TW97: 302754.904, 2771518.38
-MRT: No
+--- MRT: No
 ID: 279, Name: 台灣聯通新興停車場
 --- Capacity: 39, 0
 --- Available: 29, -9
 --- TW97: 303010.091, 2772791.22
-MRT: No
+--- MRT: No
 ID: 280, Name: 台灣聯通福安停車場
 --- Capacity: 56, 0
 --- Available: 21, -9
 --- TW97: 305815.976, 2770026.94
-MRT: No
+--- MRT: No
 ID: 281, Name: 台灣聯通南三停車場
 --- Capacity: 39, 0
 --- Available: 7, -9
 --- TW97: 305221.281, 2771651.54
-MRT: No
+--- MRT: No
 ID: 282, Name: 良友八德停車場
 --- Capacity: 52, 0
 --- Available: 30, -9
 --- TW97: 303584.639, 2770659.84
-MRT: No
+--- MRT: No
 ID: 283, Name: 臺北大橋橋下停車場
 --- Capacity: 89, 222
 --- Available: -9, -9
 --- TW97: 301468.543, 2772862.15
-MRT: No
+--- MRT: No
 ID: 284, Name: 台灣聯通長榮停車場
 --- Capacity: 78, 0
 --- Available: 42, -9
 --- TW97: 303807.473, 2771293.52
-MRT: No
+--- MRT: No
 ID: 285, Name: 臺灣聯通敦南停車場
 --- Capacity: 60, 0
 --- Available: 39, -9
 --- TW97: 305340.651, 2768392.58
-MRT: No
+--- MRT: No
 ID: 286, Name: 台灣聯通科技停車場
 --- Capacity: 29, 0
 --- Available: 29, -9
 --- TW97: 304916.4, 2768754.48
-MRT: No
+--- MRT: No
 ID: 287, Name: 台灣聯通敦化場停車場
 --- Capacity: 48, 0
 --- Available: 4, -9
 --- TW97: 305653.162, 2770794.4
-MRT: No
+--- MRT: No
 ID: 288, Name: 台灣捷通古亭停車場
 --- Capacity: 63, 0
 --- Available: 17, -9
 --- TW97: 303026.308, 2768487.64
-MRT: No
+--- MRT: No
 ID: 289, Name: 四維路成功市場臨時攤棚
 --- Capacity: 55, 0
 --- Available: 32, -9
 --- TW97: 305342.017, 2768860.56
-MRT: No
+--- MRT: No
 ID: 290, Name: 台灣聯通國賓停車場
 --- Capacity: 77, 0
 --- Available: 23, -9
 --- TW97: 302722.598, 2772179.8
-MRT: No
+--- MRT: No
 ID: 292, Name: 台灣聯通北科大停車場
 --- Capacity: 112, 0
 --- Available: 80, -9
 --- TW97: 304034.096, 2770883.17
-MRT: No
+--- MRT: No
 ID: 293, Name: 台灣聯通重慶停車場
 --- Capacity: 111, 0
 --- Available: 31, -9
 --- TW97: 301824.476, 2770822.45
-MRT: No
+--- MRT: No
 ID: 294, Name: 台灣聯通監理站停車場
 --- Capacity: 64, 0
 --- Available: 39, -9
 --- TW97: 306402.026, 2771229.8
-MRT: No
+--- MRT: No
 ID: 295, Name: 台灣聯通基隆路停車場
 --- Capacity: 57, 0
 --- Available: 45, -9
 --- TW97: 306425.068, 2769524.89
-MRT: No
+--- MRT: No
 ID: 296, Name: 台灣聯通長春停車場
 --- Capacity: 17, 0
 --- Available: 4, -9
 --- TW97: 302864.781, 2771988.95
-MRT: No
+--- MRT: No
 ID: 297, Name: 和平東路四段３８１巷平面停車場
 --- Capacity: 24, 0
 --- Available: 12, -9
 --- TW97: 308021.595, 2765845.91
-MRT: No
+--- MRT: No
 ID: 298, Name: 三福街平面停車場
 --- Capacity: 38, 0
 --- Available: -9, -9
 --- TW97: 304800.299, 2765709.35
-MRT: No
+--- MRT: No
 ID: 299, Name: 台北市立大學天母校區地下停車場
 --- Capacity: 462, 0
 --- Available: -9, -9
 --- TW97: 304098.215, 2778743.13
-MRT: No
+--- MRT: No
 ID: 300, Name: 吉祥平面停車場
 --- Capacity: 30, 0
 --- Available: -9, 0
 --- TW97: 306627.385, 2771470.14
-MRT: No
+--- MRT: No
 ID: 301, Name: 南港車站地下停車場
 --- Capacity: 1103, 1052
 --- Available: -9, -9
 --- TW97: 310916.83, 2771684.95
-MRT: No
+--- MRT: No
 ID: 302, Name: 正義國小地下停車場
 --- Capacity: 10, 0
 --- Available: 0, -9
 --- TW97: 300052, 2773073
-MRT: No
+--- MRT: No
 ID: 303, Name: 正義公園地下停車場
 --- Capacity: 196, 0
 --- Available: 9, -9
 --- TW97: 300183.5, 2773459.5
-MRT: No
+--- MRT: No
 ID: 304, Name: 華翠橋下A、B、G區停車場
 --- Capacity: 149, 0
 --- Available: 0, -9
 --- TW97: 298768.5, 2768816
-MRT: No
+--- MRT: No
 ID: 305, Name: 新北市萬板大橋停車場
 --- Capacity: 389, 0
 --- Available: 0, -9
 --- TW97: 298807, 2768946.5
-MRT: No
+--- MRT: No
 ID: 306, Name: 永和仁愛公園地下停車場
 --- Capacity: 645, 0
 --- Available: 0, -9
 --- TW97: 301125.5, 2767094.5
-MRT: No
+--- MRT: No
 ID: 307, Name: 洲美運動公園地下停車場
 --- Capacity: 85, 0
 --- Available: -9, 0
 --- TW97: 300364.054, 2778024.71
-MRT: No
+--- MRT: No
 ID: 308, Name: 延平北路5段1巷平面停車場
 --- Capacity: 154, 16
 --- Available: -9, -9
 --- TW97: 301448.781, 2774590.27
-MRT: No
+--- MRT: No
 ID: 309, Name: 景豐臨時平面停車場
 --- Capacity: 43, 0
 --- Available: -9, -9
 --- TW97: 304985.047, 2766176.03
-MRT: No
+--- MRT: No
 ID: 310, Name: 中央北路四段平面停車場
 --- Capacity: 25, 0
 --- Available: -9, 0
 --- TW97: 297159.295, 2780049.99
-MRT: No
+--- MRT: No
 ID: 311, Name: 天母公園平面停車場
 --- Capacity: 13, 0
 --- Available: -9, 0
 --- TW97: 303571.557, 2779773.27
-MRT: No
+--- MRT: No
 ID: 312, Name: 行義路平面停車場
 --- Capacity: 21, 0
 --- Available: -9, 0
 --- TW97: 303060.394, 2779595.39
-MRT: No
+--- MRT: No
 ID: 313, Name: 社中街平面停車場
 --- Capacity: 30, 0
 --- Available: -9, -9
 --- TW97: 301496.803, 2775809.81
-MRT: No
+--- MRT: No
 ID: 314, Name: 社正路平面停車場
 --- Capacity: 31, 0
 --- Available: -9, -9
 --- TW97: 301349.788, 2775629.03
-MRT: No
+--- MRT: No
 ID: 315, Name: 京站停車場
 --- Capacity: 556, 1032
 --- Available: -9, 0
 --- TW97: 302260.618, 2771324.58
-MRT: No
+--- MRT: No
 ID: 316, Name: 台北市南湖高級中學地下停車場
 --- Capacity: 162, 0
 --- Available: -9, -9
 --- TW97: 311605.539, 2773282.28
-MRT: No
+--- MRT: No
 ID: 317, Name: 臺北市萬華區行政中心地下停車場
 --- Capacity: 215, 66
 --- Available: -9, -9
 --- TW97: 300440.688, 2769721.18
-MRT: No
+--- MRT: No
 ID: 318, Name: 華江橋下雙層停車場
 --- Capacity: 153, 228
 --- Available: -9, 0
 --- TW97: 299582.988, 2769792.23
-MRT: No
+--- MRT: No
 ID: 319, Name: 東園平面停車場
 --- Capacity: 75, 0
 --- Available: -9, 0
 --- TW97: 299957.291, 2767726.44
-MRT: No
+--- MRT: No
 ID: 320, Name: 昆陽捷運站旁平面停車場
 --- Capacity: 47, 0
 --- Available: -9, 0
 --- TW97: 309430.967, 2771384.01
-MRT: No
+--- MRT: No
 ID: 321, Name: 昆陽捷運站旁平面停車場(二)
 --- Capacity: 41, 0
 --- Available: -9, 0
 --- TW97: 309430.967, 2771384.01
-MRT: No
+--- MRT: No
 ID: 322, Name: 昆陽捷運站旁平面停車場(三)
 --- Capacity: 36, 0
 --- Available: -9, 0
 --- TW97: 309430.967, 2771384.01
-MRT: No
+--- MRT: No
 ID: 323, Name: 松德臨時平面停車場
 --- Capacity: 101, 19
 --- Available: 19, -9
 --- TW97: 307875.958, 2769386.84
-MRT: No
+--- MRT: No
 ID: 324, Name: 松德停車場
 --- Capacity: 52, 0
 --- Available: -9, -9
 --- TW97: 307844.98, 2769708
-MRT: No
+--- MRT: No
 ID: 325, Name: 建國停車場
 --- Capacity: 40, 0
 --- Available: -9, -9
 --- TW97: 304432.27, 2771150.18
-MRT: No
+--- MRT: No
 ID: 326, Name: 興隆市場旁停車場
 --- Capacity: 35, 0
 --- Available: -9, -9
 --- TW97: 305227.933, 2765851.91
-MRT: No
+--- MRT: No
 ID: 327, Name: 溪洲街平面停車場
 --- Capacity: 17, 0
 --- Available: -9, -9
 --- TW97: 304043.854, 2766348.57
-MRT: No
+--- MRT: No
 ID: 328, Name: 吳興街284巷臨時平面停車場
 --- Capacity: 50, 39
 --- Available: -9, -9
 --- TW97: 306886.206, 2768679
-MRT: No
+--- MRT: No
 ID: 329, Name: 應安168大龍停車場
 --- Capacity: 41, 175
 --- Available: -9, -9
 --- TW97: 302185.85, 2773505.69
-MRT: No
+--- MRT: No
 ID: 330, Name: 臺北市文山區文山行政中心地面停車場
 --- Capacity: 55, 0
 --- Available: -9, 0
 --- TW97: 307550.591, 2764742.73
-MRT: No
+--- MRT: No
 ID: 331, Name: 耕莘文教院前平面停車場
 --- Capacity: 57, 0
 --- Available: -9, -9
 --- TW97: 303381.171, 2768033.37
-MRT: No
+--- MRT: No
 ID: 332, Name: 廣慈臨時平面停車場
 --- Capacity: 109, 0
 --- Available: -9, 0
 --- TW97: 308798.164, 2770295.91
-MRT: No
+--- MRT: No
 ID: 333, Name: 同安街平面停車場
 --- Capacity: 21, 0
 --- Available: -9, -9
 --- TW97: 302565.956, 2768203.59
-MRT: No
+--- MRT: No
 ID: 334, Name: 台北市文山運動中心停車場
 --- Capacity: 79, 0
 --- Available: -9, -9
 --- TW97: 306476.528, 2765550.6
-MRT: No
+--- MRT: No
 ID: 335, Name: 大理地下停車場
 --- Capacity: 49, 0
 --- Available: -9, -9
 --- TW97: 299804.944, 2769652.08
-MRT: No
+--- MRT: No
 ID: 336, Name: 松山火車站東側機車停車場
 --- Capacity: 0, 537
 --- Available: -9, 500
 --- TW97: 308335.832, 2771349.94
-MRT: No
+--- MRT: No
 ID: 337, Name: 松山火車站西側機車停車場
 --- Capacity: 0, 0
 --- Available: -9, 87
 --- TW97: 308332.832, 2771349.94
-MRT: No
+--- MRT: No
 ID: 338, Name: 好市多北投分公司
 --- Capacity: 690, 235
 --- Available: -9, -9
 --- TW97: 297534.647, 2779908.02
-MRT: No
+--- MRT: No
 ID: 339, Name: 濱江市場地下停車場
 --- Capacity: 349, 0
 --- Available: -9, -9
 --- TW97: 304211.006, 2773378.46
-MRT: No
+--- MRT: No
 ID: 340, Name: 南港立體停車場
 --- Capacity: 406, 0
 --- Available: -9, -9
 --- TW97: 311197.025, 2771721.46
-MRT: No
+--- MRT: No
 ID: 341, Name: 台北企業總部湖區地下停車場
 --- Capacity: 348, 0
 --- Available: -9, -9
 --- TW97: 309208.065, 2772468.99
-MRT: No
+--- MRT: No
 ID: 342, Name: 國立臺灣大學水源停車場
 --- Capacity: 143, 0
 --- Available: -9, -9
 --- TW97: 303484.319, 2767407.48
-MRT: No
+--- MRT: No
 ID: 343, Name: 好市多內湖分公司
 --- Capacity: 690, 0
 --- Available: -9, -9
 --- TW97: 308126.36, 2772986.09
-MRT: No
+--- MRT: No
 ID: 344, Name: 日月亭松山車站停車場
 --- Capacity: 320, 0
 --- Available: -9, -9
 --- TW97: 308637.005, 2771363.93
-MRT: No
+--- MRT: No
 ID: A101, Name: 三腳渡平面停車場
 --- Capacity: 124, 21
 --- Available: 0, 0
 --- TW97: 302109.123, 2774982.35
-MRT: No
+--- MRT: No
 ID: A114, Name: 台灣聯通新光停車場
 --- Capacity: 31, 0
 --- Available: 0, 0
 --- TW97: 302533.229, 2775967.9
-MRT: No
+--- MRT: No
 ID: A124, Name: 義信區民活動中心基河10號國宅地下停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 302709.631, 2775738.66
-MRT: No
+--- MRT: No
 ID: A126, Name: Times基河劍潭
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 302871.87, 2775058.28
-MRT: No
+--- MRT: No
 ID: A127, Name: 新光三越百貨天母分公司二館停車場
 --- Capacity: 131, 0
 --- Available: 0, 0
 --- TW97: 303882.207, 2778921.98
-MRT: No
+--- MRT: No
 ID: A133, Name: 捷運士林站橋下空間機車停車場
 --- Capacity: 0, 138
 --- Available: 0, 0
 --- TW97: 303182.324, 2775848.97
-MRT: No
+--- MRT: No
 ID: A134, Name: 捷運淡水線高架橋下之捷運劍潭站橋下空間機車停車場
 --- Capacity: 0, 155
 --- Available: 0, 0
 --- TW97: 303068.563, 2775510.86
-MRT: No
+--- MRT: No
 ID: A137, Name: 福林加油站第二停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 303210.747, 2776204.99
-MRT: No
+--- MRT: No
 ID: A138, Name: 士林市場地下停車場
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 302899.138, 2775557.99
-MRT: No
+--- MRT: No
 ID: A140, Name: 百齡橋堤外(一)平面停車場(2-1)
 --- Capacity: 118, 0
 --- Available: 0, 0
 --- TW97: 301491.274, 2776100.96
-MRT: No
+--- MRT: No
 ID: A142, Name: 文林路加油站停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 303079.056, 2775576.9
-MRT: No
+--- MRT: No
 ID: A143, Name: 台北市立圖書館葫蘆堵分館大樓地下停車場
 --- Capacity: 54, 198
 --- Available: 0, 0
 --- TW97: 301521.163, 2774992.87
-MRT: No
+--- MRT: No
 ID: A144, Name: 好庭車停車場(福國路站)
 --- Capacity: 45, 0
 --- Available: 0, 0
 --- TW97: 302830.414, 2777282.31
-MRT: No
+--- MRT: No
 ID: A145, Name: 臺北市士林區士林國民小學停車場
 --- Capacity: 41, 0
 --- Available: 0, 0
 --- TW97: 302944.778, 2776099.05
-MRT: No
+--- MRT: No
 ID: A147, Name: 臺北市士林運動中心停車場
 --- Capacity: 62, 0
 --- Available: 0, 0
 --- TW97: 302584.994, 2775802.92
-MRT: No
+--- MRT: No
 ID: A148, Name: 百齡橋堤外足球場停車場
 --- Capacity: 43, 0
 --- Available: 0, 0
 --- TW97: 301910.015, 2775876.02
-MRT: No
+--- MRT: No
 ID: A15, Name: 百齡橋堤外平面停車場
 --- Capacity: 311, 72
 --- Available: 0, 0
 --- TW97: 301633.378, 2775907.02
-MRT: No
+--- MRT: No
 ID: A16, Name: 劍潭抽水站堤外平面停車場
 --- Capacity: 224, 79
 --- Available: 0, 0
 --- TW97: 302260.837, 2774805.01
-MRT: No
+--- MRT: No
 ID: A173, Name: 臺北市政府勞工局職業訓練中心停車場
 --- Capacity: 78, 0
 --- Available: 0, 0
 --- TW97: 304258.07, 2778595.35
-MRT: No
+--- MRT: No
 ID: A18, Name: 長揚停車場福國站
 --- Capacity: 25, 0
 --- Available: 0, 0
 --- TW97: 302684.77, 2777126.99
-MRT: No
+--- MRT: No
 ID: A19, Name: 台北市立大學天母校區體育館戶外平面停車場
 --- Capacity: 80, 0
 --- Available: 0, 0
 --- TW97: 303962.07, 2778740.34
-MRT: No
+--- MRT: No
 ID: A21, Name: 百齡橋堤外槌球場南側臨時平面停車場
 --- Capacity: 238, 54
 --- Available: 0, 0
 --- TW97: 301675.719, 2775524.3
-MRT: No
+--- MRT: No
 ID: A30, Name: 大葉天母停車場
 --- Capacity: 1668, 1024
 --- Available: 0, 0
 --- TW97: 303596.518, 2778270.21
-MRT: No
+--- MRT: No
 ID: A31, Name: 捷運士林站轉乘停車場
 --- Capacity: 136, 0
 --- Available: 0, 0
 --- TW97: 303108.048, 2776107.26
-MRT: No
+--- MRT: No
 ID: A32, Name: 捷運芝山站轉乘停車場
 --- Capacity: 164, 0
 --- Available: 0, 0
 --- TW97: 302730.752, 2777139.54
-MRT: No
+--- MRT: No
 ID: A36, Name: 新光天母傑仕堡停車場
 --- Capacity: 187, 0
 --- Available: 0, 0
 --- TW97: 303803.396, 2778764.92
-MRT: No
+--- MRT: No
 ID: A38, Name: 臺北市士林區行政中心地下停車場
 --- Capacity: 21, 0
 --- Available: 0, 0
 --- TW97: 302426.207, 2776161.34
-MRT: No
+--- MRT: No
 ID: A40, Name: 新光醫院地下停車場
 --- Capacity: 88, 0
 --- Available: 0, 0
 --- TW97: 302484.302, 2776555.28
-MRT: No
+--- MRT: No
 ID: A41, Name: 福林第一停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 303207.955, 2776110.77
-MRT: No
+--- MRT: No
 ID: A46, Name: 龍昌大樓機電管理顧問股份有限公司陽明營業處
 --- Capacity: 39, 0
 --- Available: 0, 0
 --- TW97: 303619.153, 2777586.24
-MRT: No
+--- MRT: No
 ID: A51, Name: 蘭雅停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 303106.565, 2777723.72
-MRT: No
+--- MRT: No
 ID: A54, Name: 峰群停車場
 --- Capacity: 84, 0
 --- Available: 0, 0
 --- TW97: 302758.291, 2775309.07
-MRT: No
+--- MRT: No
 ID: A56, Name: 劍潭海外青年活動中心停車場
 --- Capacity: 46, 0
 --- Available: 0, 0
 --- TW97: 302839.011, 2774464.98
-MRT: No
+--- MRT: No
 ID: A58, Name: 士林電機仰德大樓停車場
 --- Capacity: 233, 0
 --- Available: 0, 0
 --- TW97: 302958.188, 2777514.2
-MRT: No
+--- MRT: No
 ID: A6, Name: 美德街平面停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 302958.037, 2776524.6
-MRT: No
+--- MRT: No
 ID: A60, Name: 愛馬屋社子場停車場
 --- Capacity: 61, 0
 --- Available: 0, 0
 --- TW97: 301143.507, 2775453.81
-MRT: No
+--- MRT: No
 ID: A88, Name: 雙溪公園平面停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 304182.151, 2776742.68
-MRT: No
+--- MRT: No
 ID: A92, Name: 天母東側停車場
 --- Capacity: 95, 0
 --- Available: 0, 0
 --- TW97: 303511.019, 2779009.55
-MRT: No
+--- MRT: No
 ID: A96, Name: 新光三越百貨公司天母分公司
 --- Capacity: 143, 0
 --- Available: 0, 0
 --- TW97: 303867.852, 2778944.17
-MRT: No
+--- MRT: No
 ID: A98, Name: 新光人壽教育會館停車場
 --- Capacity: 107, 0
 --- Available: 0, 0
 --- TW97: 302545.599, 2776018.57
-MRT: No
+--- MRT: No
 ID: AA1, Name: 博客停車場士林中正站
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 303197.727, 2776452.11
-MRT: No
+--- MRT: No
 ID: AA11, Name: TIMES天玉街
 --- Capacity: 45, 0
 --- Available: 0, 0
 --- TW97: 303543.309, 2779538.26
-MRT: No
+--- MRT: No
 ID: AA12, Name: 宏達經營管理顧問有限公司延平北停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 301563.176, 2774759.47
-MRT: No
+--- MRT: No
 ID: AA16, Name: 基河停車場
 --- Capacity: 37, 0
 --- Available: 0, 0
 --- TW97: 302289.648, 2776248.16
-MRT: No
+--- MRT: No
 ID: AA19, Name: 台北新天地停車場
 --- Capacity: 146, 0
 --- Available: 0, 0
 --- TW97: 302732.379, 2775921.91
-MRT: No
+--- MRT: No
 ID: AA2, Name: 福安停車場
 --- Capacity: 0, 6
 --- Available: 0, 0
 --- TW97: 303179.323, 2776452.32
-MRT: No
+--- MRT: No
 ID: AA20, Name: 愛馬屋天母場
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 304187.308, 2778235.9
-MRT: No
+--- MRT: No
 ID: AA21, Name: 嘟嘟房士林國小站
 --- Capacity: 36, 0
 --- Available: 0, 0
 --- TW97: 302909.906, 2776345.98
-MRT: No
+--- MRT: No
 ID: AA22, Name: 士林華榮停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 302706.846, 2776556.09
-MRT: No
+--- MRT: No
 ID: AA23, Name: 文化大學大恩館停車塔
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 304317.12, 2781023.57
-MRT: No
+--- MRT: No
 ID: AA24, Name: 博客停車場天母站
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 303373.64, 2779067.73
-MRT: No
+--- MRT: No
 ID: AA25, Name: 士林一品停車場
 --- Capacity: 52, 0
 --- Available: 0, 0
 --- TW97: 302785.55, 2775617.91
-MRT: No
+--- MRT: No
 ID: AA26, Name: 嘟嘟房士林大南站停車場
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 302213.637, 2775711.9
-MRT: No
+--- MRT: No
 ID: AA3, Name: 巧愛公寓地下室停車場
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 302397.079, 2777676.72
-MRT: No
+--- MRT: No
 ID: AA30, Name: 天母停車場
 --- Capacity: 37, 0
 --- Available: 0, 0
 --- TW97: 303071.808, 2778934.91
-MRT: No
+--- MRT: No
 ID: AA31, Name: 陽光667停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 302634.536, 2776040.48
-MRT: No
+--- MRT: No
 ID: AA33, Name: 嘟嘟房士林基河站停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 302501.655, 2775959.44
-MRT: No
+--- MRT: No
 ID: AA34, Name: 基河(二)停車場(北投士林保管場)
 --- Capacity: 43, 10
 --- Available: 0, 0
 --- TW97: 302342.99, 2776297.63
-MRT: No
+--- MRT: No
 ID: AA35, Name: 聖賢大樓停車場
 --- Capacity: 57, 66
 --- Available: 0, 0
 --- TW97: 302460.343, 2775955.8
-MRT: No
+--- MRT: No
 ID: AA37, Name: 中山北路六段776巷民營停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 303340.227, 2778683.68
-MRT: No
+--- MRT: No
 ID: AA38, Name: 328停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 302312.623, 2776331.81
-MRT: No
+--- MRT: No
 ID: AA39, Name: TIMES頂好天母北店
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 303746.456, 2779563.05
-MRT: No
+--- MRT: No
 ID: AA40, Name: 至善公園平面停車場
 --- Capacity: 32, 0
 --- Available: 0, 0
 --- TW97: 304305.687, 2776750.42
-MRT: No
+--- MRT: No
 ID: AA41, Name: 葫蘆國小夜間停車場
 --- Capacity: 25, 0
 --- Available: 0, 0
 --- TW97: 301200.841, 2775164.5
-MRT: No
+--- MRT: No
 ID: AA43, Name: TIMES基河路2
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 302236.762, 2776401.93
-MRT: No
+--- MRT: No
 ID: AA44, Name: 芝玉停車場
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 303842.434, 2777788.75
-MRT: No
+--- MRT: No
 ID: AA46, Name: 福林公園大客車平面停車場
 --- Capacity: 0, 0
 --- Available: 0, 0
 --- TW97: 303408.759, 2776479.51
-MRT: No
+--- MRT: No
 ID: AA48, Name: 通河西街一段堤外平面停車場
 --- Capacity: 47, 8
 --- Available: 0, 0
 --- TW97: 301814.59, 2775028.74
-MRT: No
+--- MRT: No
 ID: AA49, Name: 新長越天玉街停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 303445.347, 2779093.64
-MRT: No
+--- MRT: No
 ID: AA5, Name: Times 天母 SOGO
 --- Capacity: 368, 1150
 --- Available: 0, 0
 --- TW97: 302868.896, 2777563.26
-MRT: No
+--- MRT: No
 ID: AA50, Name: 嘟嘟房士林德行站
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 303156.944, 2777738.56
-MRT: No
+--- MRT: No
 ID: AA51, Name: TIMES基河路第3停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 302307.685, 2776265.64
-MRT: No
+--- MRT: No
 ID: AA52, Name: 福志停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 302320.39, 2776276.53
-MRT: No
+--- MRT: No
 ID: AA53, Name: 台灣聯通士林官邸停車場
 --- Capacity: 65, 0
 --- Available: 0, 0
 --- TW97: 303620.475, 2776484.64
-MRT: No
+--- MRT: No
 ID: AA54, Name: 德行停車場
 --- Capacity: 64, 0
 --- Available: 0, 0
 --- TW97: 302752.89, 2777543.52
-MRT: No
+--- MRT: No
 ID: AA56, Name: 臺北市立陽明高級中學活動中心地下停車場
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 302159.87, 2776082.66
-MRT: No
+--- MRT: No
 ID: AA58, Name: 福林路大客車平面停車場
 --- Capacity: 0, 0
 --- Available: 0, 0
 --- TW97: 303731.204, 2776560.45
-MRT: No
+--- MRT: No
 ID: AA59, Name: 助安168福港停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 302203.901, 2775376.51
-MRT: No
+--- MRT: No
 ID: AA7, Name: 琦機天母停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 303171.725, 2778468.77
-MRT: No
+--- MRT: No
 ID: AA8, Name: 誼光747停車場
 --- Capacity: 43, 0
 --- Available: 0, 0
 --- TW97: 302306.036, 2776345.4
-MRT: No
+--- MRT: No
 ID: AB10, Name: 冷水坑停車場
 --- Capacity: 69, 50
 --- Available: 0, 0
 --- TW97: 306828.364, 2784282.81
-MRT: No
+--- MRT: No
 ID: AB11, Name: 福安國中平面停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 299162.754, 2777317.43
-MRT: No
+--- MRT: No
 ID: AB12, Name: 鴻藶有限公司天母停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 0, 0
-MRT: No
+--- MRT: No
 ID: AB13, Name: 欣翰士林官邸大廈收費停車場
 --- Capacity: 89, 122
 --- Available: 0, 0
 --- TW97: 303299.349, 2776259.27
-MRT: No
+--- MRT: No
 ID: B2, Name: 磺港溪廣場停車場
 --- Capacity: 40, 68
 --- Available: 0, 0
 --- TW97: 300625.598, 2780652.66
-MRT: No
+--- MRT: No
 ID: B30, Name: 振興醫療財團法人振興醫院附設停車場
 --- Capacity: 125, 0
 --- Available: 0, 0
 --- TW97: 302666.03, 2778887.91
-MRT: No
+--- MRT: No
 ID: B31, Name: 台北榮民總醫院地面停車場
 --- Capacity: 312, 0
 --- Available: 0, 0
 --- TW97: 302570.837, 2779139.43
-MRT: No
+--- MRT: No
 ID: B36, Name: 小油坑停車場
 --- Capacity: 45, 27
 --- Available: 0, 0
 --- TW97: 305158.573, 2785483.97
-MRT: No
+--- MRT: No
 ID: B37, Name: 愛馬屋石牌停車場
 --- Capacity: 32, 0
 --- Available: 0, 0
 --- TW97: 301507.927, 2778332.47
-MRT: No
+--- MRT: No
 ID: B39, Name: 國立陽明大學校園場地管理中心停車場
 --- Capacity: 15, 30
 --- Available: 0, 0
 --- TW97: 301773.449, 2779130.28
-MRT: No
+--- MRT: No
 ID: B53, Name: 嘟嘟房北投榮華站停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 302576.444, 2778518.86
-MRT: No
+--- MRT: No
 ID: B54, Name: 東華停車場
 --- Capacity: 83, 0
 --- Available: 0, 0
 --- TW97: 302116.033, 2778443.75
-MRT: No
+--- MRT: No
 ID: B55, Name: 仲信商務中心停車場
 --- Capacity: 338, 0
 --- Available: 0, 0
 --- TW97: 300295.074, 2780325.12
-MRT: No
+--- MRT: No
 ID: B57, Name: 豪庭電機股份有限公司裕民停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 302074.916, 2778623.77
-MRT: No
+--- MRT: No
 ID: B61, Name: 陽信總行大樓停車場
 --- Capacity: 68, 0
 --- Available: 0, 0
 --- TW97: 301643.285, 2778484.98
-MRT: No
+--- MRT: No
 ID: B62, Name: 臺北榮民總醫院2號門地下室停車場
 --- Capacity: 358, 0
 --- Available: 0, 0
 --- TW97: 302491.325, 2779074.29
-MRT: No
+--- MRT: No
 ID: B66, Name: 國立臺北藝術大學停車場
 --- Capacity: 34, 0
 --- Available: 0, 0
 --- TW97: 297012.108, 2780340.18
-MRT: No
+--- MRT: No
 ID: B76, Name: 臺北市立關渡醫院停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 297033.156, 2779170.2
-MRT: No
+--- MRT: No
 ID: B79, Name: 台北市北投區行政中心地下室停車
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 300695.776, 2780549.51
-MRT: No
+--- MRT: No
 ID: B8, Name: 知行路平面停車場
 --- Capacity: 52, 0
 --- Available: 0, 0
 --- TW97: 297189.35, 2779268.04
-MRT: No
+--- MRT: No
 ID: B81, Name: 嘟嘟房和信站停車場
 --- Capacity: 86, 0
 --- Available: 0, 0
 --- TW97: 297595.411, 2780076.16
-MRT: No
+--- MRT: No
 ID: B82, Name: 嘟嘟房關渡站平面停車場
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 297588.532, 2780184.38
-MRT: No
+--- MRT: No
 ID: B86, Name: 驛站東華停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 302063.823, 2778519.67
-MRT: No
+--- MRT: No
 ID: B87, Name: 弘盛開發股份有限公司停車場
 --- Capacity: 43, 0
 --- Available: 0, 0
 --- TW97: 297194.702, 2780062.38
-MRT: No
+--- MRT: No
 ID: B90, Name: 中正高中停車場
 --- Capacity: 64, 0
 --- Available: 0, 0
 --- TW97: 302083.52, 2777227.71
-MRT: No
+--- MRT: No
 ID: B91, Name: 北投國中教職員工停車場
 --- Capacity: 36, 0
 --- Available: 0, 0
 --- TW97: 300779.428, 2780818.71
-MRT: No
+--- MRT: No
 ID: B92, Name: 台北榮民總醫院立體停車場
 --- Capacity: 859, 0
 --- Available: 0, 0
 --- TW97: 302378.327, 2779077.49
-MRT: No
+--- MRT: No
 ID: B93, Name: 臺北市立明德國民中學附設停車場
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 302276.558, 2777799.3
-MRT: No
+--- MRT: No
 ID: BA01, Name: 洲美快速道路高架橋下平面停車場
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 300314.072, 2777461.85
-MRT: No
+--- MRT: No
 ID: BA05, Name: 石牌圖書館停車場
 --- Capacity: 28, 93
 --- Available: 0, 0
 --- TW97: 302702.11, 2778401.84
-MRT: No
+--- MRT: No
 ID: BA06, Name: 悅園停車場
 --- Capacity: 72, 0
 --- Available: 0, 0
 --- TW97: 300970.155, 2781246.56
-MRT: No
+--- MRT: No
 ID: BA07, Name: 社團法人臺北市野鳥學會停車場
 --- Capacity: 18, 73
 --- Available: 0, 0
 --- TW97: 297358.306, 2779090.73
-MRT: No
+--- MRT: No
 ID: BA08, Name: 應安168石牌停車場
 --- Capacity: 58, 0
 --- Available: 0, 0
 --- TW97: 302192.005, 2778773
-MRT: No
+--- MRT: No
 ID: BA09, Name: 關渡自然公園停車場
 --- Capacity: 24, 74
 --- Available: 0, 0
 --- TW97: 297337.821, 2779062.94
-MRT: No
+--- MRT: No
 ID: BA11, Name: 立功停車場
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 297473.425, 2779810.98
-MRT: No
+--- MRT: No
 ID: BA12, Name: 嘟嘟房北投榮華站停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 302813.137, 2778457.89
-MRT: No
+--- MRT: No
 ID: BA13, Name: 沃瑪停車場北投站
 --- Capacity: 32, 0
 --- Available: 0, 0
 --- TW97: 300654.402, 2779314.05
-MRT: No
+--- MRT: No
 ID: BA14, Name: 金龍行停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 301238.698, 2778773.24
-MRT: No
+--- MRT: No
 ID: BA15, Name: Times北投西安街
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 301505.753, 2779128.27
-MRT: No
+--- MRT: No
 ID: BA18, Name: 中央南路停車場
 --- Capacity: 63, 0
 --- Available: 0, 0
 --- TW97: 300593.271, 2780564.79
-MRT: No
+--- MRT: No
 ID: BA19, Name: 洲美快速道路高架橋下大客車停車場
 --- Capacity: 0, 0
 --- Available: 0, 0
 --- TW97: 300403.974, 2779213.02
-MRT: No
+--- MRT: No
 ID: BA20, Name: 昶泰行
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 307389.377, 2769600.03
-MRT: No
+--- MRT: No
 ID: BA21, Name: 三合街平面停車場
 --- Capacity: 82, 0
 --- Available: 0, 0
 --- TW97: 300827.084, 2779894.78
-MRT: No
+--- MRT: No
 ID: BA22, Name: 泉源站停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 300909.546, 2781071.02
-MRT: No
+--- MRT: No
 ID: BA23, Name: 關渡國小運動中心停車場
 --- Capacity: 16, 24
 --- Available: 0, 0
 --- TW97: 297064.651, 2779821
-MRT: No
+--- MRT: No
 ID: BA24, Name: 晟晁大業停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 300234.413, 2781050.61
-MRT: No
+--- MRT: No
 ID: BA25, Name: 捷運北投旅客服務中心附屬停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 298551.237, 2780983.93
-MRT: No
+--- MRT: No
 ID: BA26, Name: 北台國際開發有限公司大業停車場
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 300305.408, 2781068.67
-MRT: No
+--- MRT: No
 ID: BA31, Name: 沃瑪停車場三合站
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 300853.907, 2779892.36
-MRT: No
+--- MRT: No
 ID: BB01, Name: Times中山北路七段1
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 303794.036, 2779760.82
-MRT: No
+--- MRT: No
 ID: BB02, Name: 臺北國際醫旅停車場
 --- Capacity: 74, 0
 --- Available: 0, 0
 --- TW97: 300789.442, 2781092.79
-MRT: No
+--- MRT: No
 ID: BB03, Name: 博客停車場北投新興場
 --- Capacity: 35, 0
 --- Available: 0, 0
 --- TW97: 299145.462, 2781438.75
-MRT: No
+--- MRT: No
 ID: BB04, Name: 應安168東華停車場
 --- Capacity: 31, 0
 --- Available: 0, 0
 --- TW97: 302172.654, 2778372.05
-MRT: No
+--- MRT: No
 ID: BB05, Name: Naviparkg石牌場
 --- Capacity: 70, 0
 --- Available: 0, 0
 --- TW97: 301915.108, 2778598.9
-MRT: No
+--- MRT: No
 ID: BB06, Name: 明明德停車場
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 302279.339, 2777735.72
-MRT: No
+--- MRT: No
 ID: BB07, Name: 驛馬站收費停車場(北投場)
 --- Capacity: 19, 24
 --- Available: 0, 0
 --- TW97: 300988.105, 2780860.92
-MRT: No
+--- MRT: No
 ID: BB08, Name: 明德站停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 302405.23, 2777638.51
-MRT: No
+--- MRT: No
 ID: BB09, Name: 三軍總醫院北投區
 --- Capacity: 99, 0
 --- Available: 0, 0
 --- TW97: 301384.417, 2781398.33
-MRT: No
+--- MRT: No
 ID: BB11, Name: 三軍總醫院北投院區機車停車場
 --- Capacity: 0, 50
 --- Available: 0, 0
 --- TW97: 301432.166, 2781395.67
-MRT: No
+--- MRT: No
 ID: C1, Name: 慶昌橋下停車場
 --- Capacity: 83, 42
 --- Available: 0, 0
 --- TW97: 302007.808, 2774321.3
-MRT: No
+--- MRT: No
 ID: C100, Name: 臺北市大同區太平國民小學
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 301609.242, 2772735
-MRT: No
+--- MRT: No
 ID: C101, Name: 臺北市立重慶國民中學停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 302225.289, 2774315.6
-MRT: No
+--- MRT: No
 ID: C102, Name: 臺北市大同區延平國民小學溫水游泳館附設地下停車場
 --- Capacity: 21, 0
 --- Available: 0, 0
 --- TW97: 301681.413, 2773249.21
-MRT: No
+--- MRT: No
 ID: C103, Name: 保安停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 302215.083, 2774058.16
-MRT: No
+--- MRT: No
 ID: C104, Name: 台北市永樂市場地下1樓停車場
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 301495.243, 2771951.44
-MRT: No
+--- MRT: No
 ID: C106, Name: TIMES承德路2
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 302249.216, 2772687.95
-MRT: No
+--- MRT: No
 ID: C107, Name: 臺北市大同運動中心停車場
 --- Capacity: 46, 0
 --- Available: 0, 0
 --- TW97: 302079.474, 2773052.66
-MRT: No
+--- MRT: No
 ID: C108, Name: TIMES承德路3
 --- Capacity: 125, 0
 --- Available: 0, 0
 --- TW97: 302168.838, 2772722.8
-MRT: No
+--- MRT: No
 ID: C109, Name: 文化京都大樓管理委員會附設停車場
 --- Capacity: 50, 0
 --- Available: 0, 0
 --- TW97: 302142.439, 2772004.86
-MRT: No
+--- MRT: No
 ID: C11, Name: 迪化污水處理場平面停車場
 --- Capacity: 88, 0
 --- Available: 0, 0
 --- TW97: 301480.017, 2773887.96
-MRT: No
+--- MRT: No
 ID: C110, Name: 助安168承德停車場
 --- Capacity: 93, 0
 --- Available: 0, 0
 --- TW97: 302158.837, 2772715.73
-MRT: No
+--- MRT: No
 ID: C1108, Name: 達客瑪停車場
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 302343.895, 2774005.99
-MRT: No
+--- MRT: No
 ID: C112, Name: 敦煌路大型客車臨時平面停車場
 --- Capacity: 0, 0
 --- Available: 0, 0
 --- TW97: 302173.539, 2774389.97
-MRT: No
+--- MRT: No
 ID: C116, Name: 銘益國際企業有限公司漢廷長安停車場
 --- Capacity: 62, 0
 --- Available: 0, 0
 --- TW97: 302123.989, 2771505.87
-MRT: No
+--- MRT: No
 ID: C117, Name: 承德橋下停車場
 --- Capacity: 178, 60
 --- Available: 0, 0
 --- TW97: 302384.089, 2774469.77
-MRT: No
+--- MRT: No
 ID: C12, Name: 保安第二停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 302225.978, 2774032.65
-MRT: No
+--- MRT: No
 ID: C121, Name: TIMES承德酒泉停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 302408.494, 2773769.97
-MRT: No
+--- MRT: No
 ID: C123, Name: 嘟嘟房台北車站後站停車場
 --- Capacity: 55, 0
 --- Available: 0, 0
 --- TW97: 302232.165, 2771395.55
-MRT: No
+--- MRT: No
 ID: C46, Name: 廣德利停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 302018.987, 2771399.21
-MRT: No
+--- MRT: No
 ID: C48, Name: 三號水門堤外停車場
 --- Capacity: 123, 0
 --- Available: 0, 0
 --- TW97: 301087.026, 2771633.55
-MRT: No
+--- MRT: No
 ID: C50, Name: 玉泉公園停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 301145.068, 2771438.7
-MRT: No
+--- MRT: No
 ID: C52, Name: 三德觀光大飯店停車場
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 302320.831, 2773062.92
-MRT: No
+--- MRT: No
 ID: C66, Name: 龍昌大樓機電管理顧問股份有限公司中興營業處
 --- Capacity: 80, 0
 --- Available: 0, 0
 --- TW97: 301315.176, 2771530.12
-MRT: No
+--- MRT: No
 ID: C68, Name: 承德路停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 302258.541, 2773567.5
-MRT: No
+--- MRT: No
 ID: C69, Name: 全國停車場重慶站
 --- Capacity: 481, 564
 --- Available: 0, 0
 --- TW97: 301841.611, 2772424.84
-MRT: No
+--- MRT: No
 ID: C70, Name: 理想停車場
 --- Capacity: 21, 0
 --- Available: 0, 0
 --- TW97: 301577.294, 2771819.56
-MRT: No
+--- MRT: No
 ID: C72, Name: 五號水門堤外停車場
 --- Capacity: 67, 0
 --- Available: 0, 0
 --- TW97: 301236.193, 2772130.23
-MRT: No
+--- MRT: No
 ID: C73, Name: 臺北市大同區行政中心地下停車場
 --- Capacity: 77, 0
 --- Available: 0, 0
 --- TW97: 302035.119, 2773222.27
-MRT: No
+--- MRT: No
 ID: C74, Name: 民生停車場
 --- Capacity: 38, 0
 --- Available: 0, 0
 --- TW97: 301719.194, 2772158.39
-MRT: No
+--- MRT: No
 ID: C77, Name: 應安168夏合延平北停車場
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 301524.139, 2773461.54
-MRT: No
+--- MRT: No
 ID: C80, Name: 鄭州路機車停車場
 --- Capacity: 0, 136
 --- Available: 0, 0
 --- TW97: 302044.994, 2771322.45
-MRT: No
+--- MRT: No
 ID: C81, Name: 禾典太源站停車場
 --- Capacity: 102, 172
 --- Available: 0, 0
 --- TW97: 302100.029, 2771396.11
-MRT: Yes
+--- MRT: No
 ID: C83, Name: 歸綏停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 301315.372, 2772316.16
-MRT: No
+--- MRT: No
 ID: C92, Name: 鴻吉有限公司重慶營業所
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 301785.282, 2772587.43
-MRT: No
+--- MRT: No
 ID: C95, Name: 明倫高中停車場
 --- Capacity: 25, 0
 --- Available: 0, 0
 --- TW97: 302420.644, 2774289.53
-MRT: No
+--- MRT: No
 ID: C96, Name: 嘟嘟房太原站停車場
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 301990.503, 2771659.11
-MRT: No
+--- MRT: No
 ID: C98, Name: 愛馬屋大同場
 --- Capacity: 46, 0
 --- Available: 0, 0
 --- TW97: 301855.219, 2773423.62
-MRT: No
+--- MRT: No
 ID: C99, Name: 雙蓮國小停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 302108.021, 2772608.22
-MRT: No
+--- MRT: No
 ID: CC01, Name: 臺北市大同區大同國民小學民眾夜間月租停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 302090.373, 2773042.49
-MRT: No
+--- MRT: No
 ID: CC02, Name: TIMES承德酒泉第2
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 302306.037, 2772478.44
-MRT: No
+--- MRT: No
 ID: CC03, Name: 嘟嘟房寧夏站停車場
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 301885.765, 2772698.06
-MRT: No
+--- MRT: No
 ID: CC04, Name: 助安168承德二停車場
 --- Capacity: 21, 0
 --- Available: 0, 0
 --- TW97: 302256.334, 2772784.04
-MRT: No
+--- MRT: No
 ID: CC05, Name: 星聚點壹號文創延平站
 --- Capacity: 153, 0
 --- Available: 0, 0
 --- TW97: 301637.164, 2772108.85
-MRT: No
+--- MRT: No
 ID: CC06, Name: Times迪化街
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 301513.677, 2771744.09
-MRT: No
+--- MRT: No
 ID: D10, Name: 華中橋堤外停車場
 --- Capacity: 548, 168
 --- Available: 0, 0
 --- TW97: 300086.141, 2767615.88
-MRT: No
+--- MRT: No
 ID: D100, Name: 臺北市萬華區老松國民小學附設停車場
 --- Capacity: 33, 0
 --- Available: 0, 0
 --- TW97: 300815.969, 2770018.07
-MRT: No
+--- MRT: No
 ID: D101, Name: 新和國小停車場
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 300719.776, 2768935.68
-MRT: No
+--- MRT: No
 ID: D102, Name: 民和停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 300195.102, 2768707.94
-MRT: No
+--- MRT: No
 ID: D104, Name: 嘟嘟房西門中華站停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 301193.89, 2770406.61
-MRT: No
+--- MRT: No
 ID: D105, Name: 華江橋下停車場
 --- Capacity: 37, 0
 --- Available: 0, 0
 --- TW97: 299675.342, 2769796.64
-MRT: No
+--- MRT: No
 ID: D106, Name: 華中橋堤外(一)平面停車場
 --- Capacity: 65, 18
 --- Available: 0, 0
 --- TW97: 299698.709, 2767756.28
-MRT: No
+--- MRT: No
 ID: D108, Name: 環河快速道路停車場
 --- Capacity: 34, 0
 --- Available: 0, 0
 --- TW97: 299305.354, 2769401.93
-MRT: No
+--- MRT: No
 ID: D113, Name: 嘟嘟房環南市場站停車場
 --- Capacity: 155, 0
 --- Available: 0, 0
 --- TW97: 299375.789, 2769221.93
-MRT: No
+--- MRT: No
 ID: D116, Name: 台北市第一果菜批發市場堤外專屬停車場
 --- Capacity: 1609, 119
 --- Available: 0, 0
 --- TW97: 300314.843, 2767623.02
-MRT: No
+--- MRT: No
 ID: D12, Name: 馬場町紀念公園平面停車場
 --- Capacity: 65, 0
 --- Available: 0, 0
 --- TW97: 301071.75, 2768152.84
-MRT: No
+--- MRT: No
 ID: D120, Name: TIMES昆明街
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 300908.025, 2770233.27
-MRT: No
+--- MRT: No
 ID: D31, Name: 便利停車場昆明站
 --- Capacity: 117, 0
 --- Available: 0, 0
 --- TW97: 300975.782, 2771024.14
-MRT: No
+--- MRT: No
 ID: D32, Name: 新光育樂股份有限公司獅子林停車場
 --- Capacity: 85, 0
 --- Available: 0, 0
 --- TW97: 301100.048, 2770929.89
-MRT: No
+--- MRT: No
 ID: D35, Name: 今日育樂大樓停車場
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 300996.776, 2770720.11
-MRT: No
+--- MRT: No
 ID: D37, Name: 台灣聯通誠品停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 301030.887, 2770872.92
-MRT: No
+--- MRT: No
 ID: D4, Name: 桂林路底堤外停車場
 --- Capacity: 73, 0
 --- Available: 0, 0
 --- TW97: 300006.747, 2770195.7
-MRT: No
+--- MRT: No
 ID: D42, Name: 新長越內江壹站停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 300784.109, 2770424.2
-MRT: No
+--- MRT: No
 ID: D46, Name: 冠華停車場
 --- Capacity: 41, 0
 --- Available: 0, 0
 --- TW97: 300459.56, 2768019.43
-MRT: No
+--- MRT: No
 ID: D49, Name: 康成停車場
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 300686.006, 2770637.06
-MRT: No
+--- MRT: No
 ID: D54, Name: 叭叭房水源停車場
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 300590.58, 2768012.37
-MRT: No
+--- MRT: No
 ID: D6, Name: 雙園平面停車場
 --- Capacity: 147, 0
 --- Available: 0, 0
 --- TW97: 299282.058, 2769469.27
-MRT: No
+--- MRT: No
 ID: D61, Name: 新長越內江站停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 300753.744, 2770439.52
-MRT: No
+--- MRT: No
 ID: D62, Name: 根基西園停車場
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 300350.126, 2770235.67
-MRT: No
+--- MRT: No
 ID: D63, Name: 台灣聯通大世界停車場
 --- Capacity: 89, 0
 --- Available: 0, 0
 --- TW97: 300972.113, 2770647.1
-MRT: No
+--- MRT: No
 ID: D64, Name: 便利停車場長沙二站
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 301019.447, 2770389.56
-MRT: No
+--- MRT: No
 ID: D66, Name: 華江停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 299516.527, 2769577.36
-MRT: No
+--- MRT: No
 ID: D67, Name: 環河停車場
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 299460.167, 2769552.21
-MRT: No
+--- MRT: No
 ID: D71, Name: 萬華停車場
 --- Capacity: 27, 0
 --- Available: 0, 0
 --- TW97: 299508.692, 2769515.1
-MRT: No
+--- MRT: No
 ID: D72, Name: 大理停車場
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 300025.123, 2769618.72
-MRT: No
+--- MRT: No
 ID: D76, Name: 綠堤停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 299689.962, 2769419.47
-MRT: No
+--- MRT: No
 ID: D8, Name: 環南市場地下停車場
 --- Capacity: 76, 0
 --- Available: 0, 0
 --- TW97: 299408.935, 2769166.23
-MRT: No
+--- MRT: No
 ID: D83, Name: _亭萬華停車場
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 300485.06, 2769713.53
-MRT: No
+--- MRT: No
 ID: D85, Name: 便利停車場東園站
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 300220.043, 2768507.25
-MRT: No
+--- MRT: No
 ID: D88, Name: 萬大平面停車場
 --- Capacity: 109, 0
 --- Available: 0, 0
 --- TW97: 300493.718, 2769419.59
-MRT: No
+--- MRT: No
 ID: D89, Name: 長揚停車場康定站
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 300493.718, 2769419.59
-MRT: No
+--- MRT: No
 ID: D91, Name: Times萬華運動中心停車場
 --- Capacity: 47, 162
 --- Available: 0, 0
 --- TW97: 301162.126, 2771116.24
-MRT: No
+--- MRT: No
 ID: D92, Name: Times萬華夜市
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 300196.933, 2769842.38
-MRT: No
+--- MRT: No
 ID: D94, Name: 華江高中活動中心地下停車場
 --- Capacity: 35, 0
 --- Available: 0, 0
 --- TW97: 300097.711, 2769027.18
-MRT: No
+--- MRT: No
 ID: D95, Name: 環南堤外停車場
 --- Capacity: 445, 0
 --- Available: 0, 0
 --- TW97: 299232.93, 2769166.36
-MRT: No
+--- MRT: No
 ID: D96, Name: 臺北市立龍山國民中學停車場
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 301064.461, 2769854.76
-MRT: No
+--- MRT: No
 ID: D97, Name: 西門國小停車場
 --- Capacity: 31, 16
 --- Available: 0, 0
 --- TW97: 300841.128, 2770637.88
-MRT: No
+--- MRT: No
 ID: DA01, Name: 台灣聯通阿曼TIT停車場
 --- Capacity: 20, 257
 --- Available: 0, 0
 --- TW97: 301131.898, 2770800.93
-MRT: No
+--- MRT: No
 ID: DA02, Name: 台大醫院北護分院地下停車場
 --- Capacity: 31, 0
 --- Available: 0, 0
 --- TW97: 300811.713, 2770506.12
-MRT: No
+--- MRT: No
 ID: DD01, Name: 驛馬站收費停車場(中華場)
 --- Capacity: 27, 0
 --- Available: 0, 0
 --- TW97: 301147.91, 2768841.56
-MRT: No
+--- MRT: No
 ID: E16, Name: 中山收費停車場
 --- Capacity: 46, 0
 --- Available: 0, 0
 --- TW97: 302559.735, 2771599.12
-MRT: No
+--- MRT: No
 ID: E17, Name: Times基湖路2
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 306933.307, 2774514.15
-MRT: No
+--- MRT: No
 ID: E21, Name: 華陰街臨時平面停車場
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 302504.816, 2771331.51
-MRT: No
+--- MRT: No
 ID: E22, Name: 新生公園平面停車場
 --- Capacity: 28, 74
 --- Available: 0, 0
 --- TW97: 303559.033, 2773477.06
-MRT: No
+--- MRT: No
 ID: E23, Name: Times明水路
 --- Capacity: 48, 10
 --- Available: 0, 0
 --- TW97: 305707.959, 2774987.89
-MRT: No
+--- MRT: No
 ID: E24, Name: Times 北安路4
 --- Capacity: 102, 0
 --- Available: 0, 0
 --- TW97: 304585.135, 2774672.4
-MRT: No
+--- MRT: No
 ID: E25, Name: 遠百企業(股)公司大直分公司停車場
 --- Capacity: 190, 0
 --- Available: 0, 0
 --- TW97: 306096.138, 2774905.77
-MRT: No
+--- MRT: No
 ID: E26, Name: TIMES民生合江
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 304410.252, 2772264.59
-MRT: No
+--- MRT: No
 ID: E27, Name: 南京復興停車場
 --- Capacity: 77, 0
 --- Available: 0, 0
 --- TW97: 304733.995, 2771780.81
-MRT: No
+--- MRT: No
 ID: E28, Name: 大發停車場
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 302981.517, 2772881.64
-MRT: No
+--- MRT: No
 ID: E30, Name: 亞都麗緻大飯店停車場
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 303471.283, 2772839.17
-MRT: No
+--- MRT: No
 ID: E33, Name: 國賓大飯店停車場
 --- Capacity: 27, 0
 --- Available: 0, 0
 --- TW97: 302770.98, 2772174.16
-MRT: No
+--- MRT: No
 ID: E37, Name: 民族魚市場停車場
 --- Capacity: 117, 0
 --- Available: 0, 0
 --- TW97: 304187.412, 2773229.28
-MRT: No
+--- MRT: No
 ID: E39, Name: 欣欣停車場
 --- Capacity: 101, 0
 --- Available: 0, 0
 --- TW97: 303175.293, 2771850.66
-MRT: No
+--- MRT: No
 ID: E5, Name: 新生北路高架橋下停車場
 --- Capacity: 708, 418
 --- Available: 0, 0
 --- TW97: 303244.342, 2772886.62
-MRT: No
+--- MRT: No
 ID: E55, Name: 嘟嘟房天祥站停車場
 --- Capacity: 101, 0
 --- Available: 0, 0
 --- TW97: 302510.476, 2772861.23
-MRT: No
+--- MRT: No
 ID: E56, Name: 中山區行政中心停車場
 --- Capacity: 63, 58
 --- Available: 0, 0
 --- TW97: 303824.408, 2773016.74
-MRT: No
+--- MRT: No
 ID: E65, Name: 歐華酒店附設停車場
 --- Capacity: 31, 0
 --- Available: 0, 0
 --- TW97: 303022.014, 2773424.23
-MRT: No
+--- MRT: No
 ID: E77, Name: 台灣聯通安東停車場
 --- Capacity: 38, 0
 --- Available: 0, 0
 --- TW97: 304669.624, 2770990.73
-MRT: No
+--- MRT: No
 ID: E82, Name: 萬萬電腦收費停車場
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 302717.007, 2773095.14
-MRT: No
+--- MRT: No
 ID: E85, Name: TIMES長安東路4
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 303150.836, 2771295.42
-MRT: No
+--- MRT: No
 ID: E86, Name: 嘟嘟房長安1站停車場
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 303150.836, 2771295.42
-MRT: No
+--- MRT: No
 ID: E87, Name: 長安東一站停車場
 --- Capacity: 1, 0
 --- Available: 0, 0
 --- TW97: 303259.597, 2771260.25
-MRT: No
+--- MRT: No
 ID: E88, Name: 德惠停車場
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 302794.298, 2773287.15
-MRT: No
+--- MRT: No
 ID: E93, Name: 薇閣停車場
 薇閣停車
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 303125.039, 2772589.14
-MRT: No
+--- MRT: No
 ID: EA0, Name: 中山碩尚停車場
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 302870.666, 2772997.06
-MRT: No
+--- MRT: No
 ID: EA6, Name: 皇廷停車場中山一站
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 302630.055, 2771316.38
-MRT: No
+--- MRT: No
 ID: EA8, Name: 新長越中山北路停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 302704.259, 2771437.58
-MRT: No
+--- MRT: No
 ID: EB3, Name: 科技島管理顧問股份有限公司安婷停車場
 --- Capacity: 76, 0
 --- Available: 0, 0
 --- TW97: 303513.303, 2772080.84
-MRT: No
+--- MRT: No
 ID: EB4, Name: 新長越五常街停車場
 --- Capacity: 34, 0
 --- Available: 0, 0
 --- TW97: 304701.628, 2773028.16
-MRT: No
+--- MRT: No
 ID: EB7, Name: 金富康新北停車場
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 303266.219, 2772259.48
-MRT: No
+--- MRT: No
 ID: EB9, Name: 叭叭房長安站停車場
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 303060.132, 2771274.83
-MRT: No
+--- MRT: No
 ID: EC0, Name: 叭叭房八德二停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 304357.919, 2770926.62
-MRT: No
+--- MRT: No
 ID: EC6, Name: 長寧大廈地下B1停車場
 --- Capacity: 36, 0
 --- Available: 0, 0
 --- TW97: 304734.288, 2771915.14
-MRT: No
+--- MRT: No
 ID: ED0, Name: 長春金融大樓停車場
 --- Capacity: 181, 0
 --- Available: 0, 0
 --- TW97: 303687.614, 2771975.48
-MRT: No
+--- MRT: No
 ID: ED1, Name: 晟晁新安停車場
 --- Capacity: 87, 0
 --- Available: 0, 0
 --- TW97: 304569.385, 2771608.38
-MRT: No
+--- MRT: No
 ID: ED9, Name: 台灣聯通將捷二場停車場
 --- Capacity: 58, 0
 --- Available: 0, 0
 --- TW97: 303765.88, 2772672.44
-MRT: No
+--- MRT: No
 ID: EE07, Name: 長安東路停車場
 --- Capacity: 60, 0
 --- Available: 0, 0
 --- TW97: 302963.371, 2771287.37
-MRT: No
+--- MRT: No
 ID: EE10, Name: 禾典長春站
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 304317.797, 2771909.84
-MRT: No
+--- MRT: No
 ID: EE11, Name: 民生站
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 302831.5, 2772426.02
-MRT: No
+--- MRT: No
 ID: EE12, Name: 佳佳廣場計時收費停車場
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 303846.619, 2772372.05
-MRT: No
+--- MRT: No
 ID: EE13, Name: TIMES四平街
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 303671.13, 2771839.93
-MRT: No
+--- MRT: No
 ID: EE14, Name: Times林森五?通
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 303034.324, 2771368.11
-MRT: No
+--- MRT: No
 ID: EE15, Name: 南京復興(二)停車場
 --- Capacity: 138, 0
 --- Available: 0, 0
 --- TW97: 304733.043, 2771748.27
-MRT: No
+--- MRT: No
 ID: EE16, Name: 新長越中山大樓停車場
 --- Capacity: 79, 0
 --- Available: 0, 0
 --- TW97: 302813.737, 2772110.23
-MRT: No
+--- MRT: No
 ID: EE17, Name: 萬豪酒店客用停車場
 --- Capacity: 287, 0
 --- Available: 0, 0
 --- TW97: 306375.896, 2774801.8
-MRT: No
+--- MRT: No
 ID: EE18, Name: 詮營敬業停車場
 --- Capacity: 37, 0
 --- Available: 0, 0
 --- TW97: 305904.511, 2775226.65
-MRT: No
+--- MRT: No
 ID: EE19, Name: 明水一平面停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 305772.604, 2774717.01
-MRT: No
+--- MRT: No
 ID: EE20, Name: 台北美福大飯店地下停車場
 --- Capacity: 320, 0
 --- Available: 0, 0
 --- TW97: 305854.839, 2774787.81
-MRT: No
+--- MRT: No
 ID: EE21, Name: TIMES長安新生
 --- Capacity: 68, 32
 --- Available: 0, 0
 --- TW97: 303603.628, 2771138.45
-MRT: No
+--- MRT: No
 ID: EE22, Name: 便利停車場天祥站
 --- Capacity: 58, 0
 --- Available: 0, 0
 --- TW97: 302669.89, 2772996.83
-MRT: No
+--- MRT: No
 ID: EE23, Name: 禾典長春站
 --- Capacity: 38, 0
 --- Available: 0, 0
 --- TW97: 303030.908, 2772139.87
-MRT: No
+--- MRT: No
 ID: EE24, Name: 台灣聯通天祥停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 302514.146, 2772952.48
-MRT: No
+--- MRT: No
 ID: EE25, Name: 長春立體停車場
 --- Capacity: 96, 0
 --- Available: 0, 0
 --- TW97: 303695.355, 2772016
-MRT: No
+--- MRT: No
 ID: EE26, Name: 鴻棋有限公司興安營業所
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 304806.211, 2772258.91
-MRT: No
+--- MRT: No
 ID: EE27, Name: Times南京一江街
 --- Capacity: 36, 0
 --- Available: 0, 0
 --- TW97: 303603.976, 2771679.9
-MRT: No
+--- MRT: No
 ID: EE28, Name: 嘟嘟房四平站停車場
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 304059.809, 2771756.09
-MRT: No
+--- MRT: No
 ID: EE29, Name: 長春路平面停車場
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 303695.355, 2772016
-MRT: No
+--- MRT: No
 ID: EE3, Name: 喜華士停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 303289.235, 2772849.49
-MRT: No
+--- MRT: No
 ID: EE4, Name: 國賓大飯店行政大樓停車場
 --- Capacity: 107, 0
 --- Available: 0, 0
 --- TW97: 302831.582, 2772220.7
-MRT: No
+--- MRT: No
 ID: EE5, Name: 嘟嘟房晴光站停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 302863.378, 2773092.41
-MRT: No
+--- MRT: No
 ID: EE6, Name: 喜華士停車場新生站
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 303285.848, 2772900.5
-MRT: No
+--- MRT: No
 ID: EE8, Name: 建國北路高架橋下
 --- Capacity: 1901, 40
 --- Available: 0, 0
 --- TW97: 304174.203, 2772189.51
-MRT: No
+--- MRT: No
 ID: EF0, Name: 實踐大學停車場
 --- Capacity: 191, 0
 --- Available: 0, 0
 --- TW97: 305089.275, 2775146.76
-MRT: No
+--- MRT: No
 ID: EF3, Name: 助安168長春停車場
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 304675.771, 2771919.65
-MRT: No
+--- MRT: No
 ID: EH4, Name: 合發大樓停車場
 --- Capacity: 25, 0
 --- Available: 0, 0
 --- TW97: 303130.744, 2773028.33
-MRT: No
+--- MRT: No
 ID: EH7, Name: 冠偵有限公司
 --- Capacity: 1, 0
 --- Available: 0, 0
 --- TW97: 302686.562, 2772689.21
-MRT: No
+--- MRT: No
 ID: EH9, Name: 台灣聯通建國停車場
 --- Capacity: 66, 0
 --- Available: 0, 0
 --- TW97: 304191.826, 2771082.1
-MRT: No
+--- MRT: No
 ID: EI1, Name: 台灣聯通南京停車場
 --- Capacity: 241, 0
 --- Available: 0, 0
 --- TW97: 303999.796, 2771673.84
-MRT: No
+--- MRT: No
 ID: EI2, Name: 六福皇宮停車場
 --- Capacity: 173, 0
 --- Available: 0, 0
 --- TW97: 304584.105, 2771669.16
-MRT: No
+--- MRT: No
 ID: EI6, Name: 嘟嘟房民權二站停車場
 --- Capacity: 368, 366
 --- Available: 0, 0
 --- TW97: 304254.318, 2772768.36
-MRT: No
+--- MRT: No
 ID: EJ11, Name: 助安民生停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 304836.585, 2772445.72
-MRT: No
+--- MRT: No
 ID: EJ64, Name: TIMES復興南路
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 304857.611, 2771070.31
-MRT: No
+--- MRT: No
 ID: EJ66, Name: 佛原德惠停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 302771.496, 2773365.17
-MRT: No
+--- MRT: No
 ID: EJ67, Name: 潤泰創新國際股份有限公司中崙分公司地下收費停車場
 --- Capacity: 383, 0
 --- Available: 0, 0
 --- TW97: 304725.599, 2771098.59
-MRT: No
+--- MRT: No
 ID: EJ69, Name: 嘟嘟房林森站停車場
 --- Capacity: 50, 0
 --- Available: 0, 0
 --- TW97: 302990.599, 2772073.48
-MRT: No
+--- MRT: No
 ID: EJ70, Name: 日鑫鎮金殿停車場
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 302510.47, 2772962.42
-MRT: No
+--- MRT: No
 ID: EK10, Name: 鴻瑞停車場
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 302831.633, 2772444.62
-MRT: No
+--- MRT: No
 ID: EK11, Name: 中山停車場
 --- Capacity: 56, 0
 --- Available: 0, 0
 --- TW97: 302898.526, 2772546.77
-MRT: No
+--- MRT: No
 ID: EK12, Name: 基隆河美堤段河濱公園平面停車場
 --- Capacity: 463, 455
 --- Available: 0, 0
 --- TW97: 305971.235, 2774403.83
-MRT: No
+--- MRT: No
 ID: EK14, Name: 中崙第二停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 304505.045, 2770922.48
-MRT: No
+--- MRT: No
 ID: EK15, Name: 中崙第一停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 304435.68, 2770943.69
-MRT: No
+--- MRT: No
 ID: EK18, Name: 柏盛股份有限公司停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 303008.711, 2772475.9
-MRT: No
+--- MRT: No
 ID: EK19, Name: 便利停車場長春二站
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 304108.878, 2771933.17
-MRT: No
+--- MRT: No
 ID: EK20, Name: 全方位開發股份有限公司停車場
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 302690.564, 2771694.06
-MRT: No
+--- MRT: No
 ID: EK21, Name: 圓山大飯店停車場
 --- Capacity: 357, 0
 --- Available: 0, 0
 --- TW97: 303051.841, 2774494.58
-MRT: No
+--- MRT: No
 ID: EK22, Name: 長揚停車場松江二站
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 303829.015, 2771502.62
-MRT: No
+--- MRT: No
 ID: EK23, Name: 富偉松江場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 303757.742, 2772227.5
-MRT: No
+--- MRT: No
 ID: EK24, Name: 中東停車場
 --- Capacity: 1, 0
 --- Available: 0, 0
 --- TW97: 303250.363, 2771267.92
-MRT: No
+--- MRT: No
 ID: EK25, Name: 維多利亞酒店附設停車場
 --- Capacity: 99, 0
 --- Available: 0, 0
 --- TW97: 306375.777, 2775228.84
-MRT: No
+--- MRT: No
 ID: EK28, Name: 便利停車場建國三站
 --- Capacity: 93, 0
 --- Available: 0, 0
 --- TW97: 304112.085, 2771408.94
-MRT: No
+--- MRT: No
 ID: EK33, Name: 樂群臨時平面停車場
 --- Capacity: 157, 0
 --- Available: 0, 0
 --- TW97: 306370.015, 2775020.47
-MRT: No
+--- MRT: No
 ID: EK39, Name: 長揚停車場北安站
 --- Capacity: 37, 0
 --- Available: 0, 0
 --- TW97: 305455.092, 2775092.3
-MRT: No
+--- MRT: No
 ID: EK40, Name: 台北北安停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 305342.711, 2774737.14
-MRT: No
+--- MRT: No
 ID: EK43, Name: 合江停車場
 --- Capacity: 45, 12
 --- Available: 0, 0
 --- TW97: 304415.988, 2771839.59
-MRT: No
+--- MRT: No
 ID: EK48, Name: 金利達樂群停車場
 --- Capacity: 247, 0
 --- Available: 0, 0
 --- TW97: 306175.411, 2775023.38
-MRT: No
+--- MRT: No
 ID: EK49, Name: 民生東路停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 302837.425, 2772331.15
-MRT: No
+--- MRT: No
 ID: EK5, Name: 美麗信酒店停車場
 --- Capacity: 119, 56
 --- Available: 0, 0
 --- TW97: 304226.502, 2770889.99
-MRT: No
+--- MRT: No
 ID: EK55, Name: 松清國際企業社松清停車場
 --- Capacity: 27, 0
 --- Available: 0, 0
 --- TW97: 303469.058, 2772586.88
-MRT: No
+--- MRT: No
 ID: EK57, Name: 神旺商務酒店停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 303152.238, 2771610.01
-MRT: No
+--- MRT: No
 ID: EK64, Name: 志亨停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 303992.593, 2772910
-MRT: No
+--- MRT: No
 ID: EK65, Name: 南山民生停車場
 --- Capacity: 354, 0
 --- Available: 0, 0
 --- TW97: 304313.41, 2772266.59
-MRT: No
+--- MRT: No
 ID: EK67, Name: 台灣聯通中山北停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 302780.7, 2772399.56
-MRT: No
+--- MRT: No
 ID: EK69, Name: 民生停車場
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 302682.748, 2772255.22
-MRT: No
+--- MRT: No
 ID: EK7, Name: 興林開發有限公司林森站
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 303038.057, 2772037.87
-MRT: No
+--- MRT: No
 ID: EK70, Name: TIMES行天宮
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 303989.418, 2772942.15
-MRT: No
+--- MRT: No
 ID: EK8, Name: 嘟嘟房復興北站停車場
 --- Capacity: 52, 0
 --- Available: 0, 0
 --- TW97: 304869.657, 2773024.45
-MRT: No
+--- MRT: No
 ID: EK93, Name: 安婷停車場俠隱場
 --- Capacity: 51, 0
 --- Available: 0, 0
 --- TW97: 304707.062, 2771675.24
-MRT: No
+--- MRT: No
 ID: EK94, Name: 禾典南京站
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 304762.182, 2771567.31
-MRT: No
+--- MRT: No
 ID: EK97, Name: 吉林停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 303359.228, 2771398.78
-MRT: No
+--- MRT: No
 ID: EL10, Name: 台灣聯通德惠場停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 302751.328, 2773203.97
-MRT: No
+--- MRT: No
 ID: EL100, Name: 長揚停車場松江站
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 303942.292, 2772419.46
-MRT: No
+--- MRT: No
 ID: EL101, Name: 宏達經營管理顧問有限公司龍江停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 304286.032, 2771586.52
-MRT: No
+--- MRT: No
 ID: EL103, Name: 應安168僑信停車場
 --- Capacity: 87, 0
 --- Available: 0, 0
 --- TW97: 303150.551, 2772134.85
-MRT: No
+--- MRT: No
 ID: EL104, Name: 台灣捷通林森停車場
 --- Capacity: 90, 0
 --- Available: 0, 0
 --- TW97: 303046.454, 2772539.33
-MRT: No
+--- MRT: No
 ID: EL106, Name: 雙城停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 302844.016, 2773142.72
-MRT: No
+--- MRT: No
 ID: EL107, Name: 尚志農安停車場
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 303182.987, 2773086.06
-MRT: No
+--- MRT: No
 ID: EL109, Name: 台灣聯通晴光商圈停車場
 --- Capacity: 55, 0
 --- Available: 0, 0
 --- TW97: 303001.465, 2772949.19
-MRT: No
+--- MRT: No
 ID: EL110, Name: 洛?南京停車場
 --- Capacity: 55, 0
 --- Available: 0, 0
 --- TW97: 304201.498, 2771604.61
-MRT: No
+--- MRT: No
 ID: EL111, Name: 基隆河大佳段河濱公園停車場
 --- Capacity: 281, 58
 --- Available: 0, 0
 --- TW97: 304637.584, 2774058.2
-MRT: No
+--- MRT: No
 ID: EL112, Name: 長安東一停車場
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 303412.037, 2771091.81
-MRT: No
+--- MRT: No
 ID: EL113, Name: 長安東二站
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 303399.126, 2771109.4
-MRT: No
+--- MRT: No
 ID: EL114, Name: 嘟嘟房新生北站停車場
 --- Capacity: 39, 0
 --- Available: 0, 0
 --- TW97: 303050.205, 2771915.12
-MRT: No
+--- MRT: No
 ID: EL115, Name: 長春一停車場
 --- Capacity: 66, 0
 --- Available: 0, 0
 --- TW97: 303186.826, 2771943.62
-MRT: No
+--- MRT: No
 ID: EL116, Name: 新光三越百貨股份有限公司台北南西分公司三館停車場
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 302547.72, 2771737.15
-MRT: No
+--- MRT: No
 ID: EL117, Name: 安原停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 303339.552, 2771622.4
-MRT: No
+--- MRT: No
 ID: EL118, Name: TIMES林森八條通
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 303192.561, 2771476.76
-MRT: No
+--- MRT: No
 ID: EL119, Name: 中山美學停車場
 --- Capacity: 50, 0
 --- Available: 0, 0
 --- TW97: 302478.359, 2771620.08
-MRT: Yes
+--- MRT: No
 ID: EL120, Name: 嘟嘟房林森2站停車場
 --- Capacity: 120, 0
 --- Available: 0, 0
 --- TW97: 302992.71, 2771521.66
-MRT: No
+--- MRT: No
 ID: EL121, Name: 應安168國賓停車場
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 302868.509, 2772193.62
-MRT: No
+--- MRT: No
 ID: EL122, Name: 宏達經營管理顧問有限公司林森停車場
 --- Capacity: 60, 0
 --- Available: 0, 0
 --- TW97: 303009.824, 2772618.93
-MRT: No
+--- MRT: No
 ID: EL123, Name: TIMES市民大道
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 303350.675, 2771124.72
-MRT: No
+--- MRT: No
 ID: EL124, Name: 便利停車場建國站（中山大同保管場）
 --- Capacity: 42, 10
 --- Available: 0, 0
 --- TW97: 304252.896, 2771807.57
-MRT: No
+--- MRT: No
 ID: EL126, Name: 嘟嘟房新興國中站停車場
 --- Capacity: 82, 0
 --- Available: 0, 0
 --- TW97: 303055.632, 2772627.05
-MRT: No
+--- MRT: No
 ID: EL127, Name: 大倉久和大飯店地下停車場
 --- Capacity: 136, 0
 --- Available: 0, 0
 --- TW97: 302825.111, 2771688.58
-MRT: No
+--- MRT: No
 ID: EL128, Name: 長揚停車場八德站
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 304195.262, 2771037.35
-MRT: No
+--- MRT: No
 ID: EL130, Name: TIMES松江路停車場
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 303570.053, 2772167.1
-MRT: No
+--- MRT: No
 ID: EL131, Name: TIMES松江路2停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 303566.072, 2772139.73
-MRT: No
+--- MRT: No
 ID: EL132, Name: 新興國中站營業所
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 303045.657, 2772627.6
-MRT: No
+--- MRT: No
 ID: EL22, Name: 中山大樓停車場
 --- Capacity: 135, 0
 --- Available: 0, 0
 --- TW97: 302667.271, 2771996.2
-MRT: No
+--- MRT: No
 ID: EL23, Name: 新長越長安成停車場
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 303288.694, 2771276.33
-MRT: No
+--- MRT: No
 ID: EL24, Name: 禾典中山站
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 302876.22, 2773285.66
-MRT: No
+--- MRT: No
 ID: EL25, Name: TIMES林森北路停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 303142.146, 2772169.06
-MRT: No
+--- MRT: No
 ID: EL26, Name: 濱江橋下平面停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 304583.483, 2773910.44
-MRT: No
+--- MRT: No
 ID: EL27, Name: 大直停車場
 --- Capacity: 42, 0
 --- Available: 0, 0
 --- TW97: 306361.971, 2775070.84
-MRT: No
+--- MRT: No
 ID: EL28, Name: 禾典長春站
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 304317.233, 2771926.19
-MRT: No
+--- MRT: No
 ID: EL30, Name: 安婷停車場京王站
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 303728.344, 2771936.83
-MRT: No
+--- MRT: No
 ID: EL31, Name: 禾典民權站
 --- Capacity: 58, 0
 --- Available: 0, 0
 --- TW97: 302920.494, 2772861.78
-MRT: No
+--- MRT: No
 ID: EL33, Name: 榮星新城停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 304458.115, 2772759.4
-MRT: No
+--- MRT: No
 ID: EL36, Name: 應安龍江停車場(中山大同保管場)
 --- Capacity: 88, 11
 --- Available: 0, 0
 --- TW97: 304488.506, 2771870.18
-MRT: No
+--- MRT: No
 ID: EL37, Name: 格子房-行天宮站停車場
 --- Capacity: 42, 0
 --- Available: 0, 0
 --- TW97: 303837.256, 2773084.54
-MRT: No
+--- MRT: No
 ID: EL42, Name: 七條通機車停車場
 --- Capacity: 0, 63
 --- Available: 0, 0
 --- TW97: 303089.255, 2771487.24
-MRT: No
+--- MRT: No
 ID: EL43, Name: TIMES國泰南京
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 304599.95, 2771584.84
-MRT: No
+--- MRT: No
 ID: EL47, Name: TIMES中山北路
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 302749.716, 2771437.42
-MRT: No
+--- MRT: No
 ID: EL50, Name: 遼寧街185巷7弄機車平面停車場
 --- Capacity: 0, 60
 --- Available: 0, 0
 --- TW97: 304759.597, 2771818.13
-MRT: No
+--- MRT: No
 ID: EL51, Name: 遼寧街199巷15號機車平面停車場
 --- Capacity: 0, 48
 --- Available: 0, 0
 --- TW97: 304767.292, 2771872.39
-MRT: No
+--- MRT: No
 ID: EL52, Name: 新長越長安大樓停車場
 --- Capacity: 143, 0
 --- Available: 0, 0
 --- TW97: 302826.361, 2771330.28
-MRT: No
+--- MRT: No
 ID: EL56, Name: 新光三越百貨(股)公司台北南西分公司停車場
 --- Capacity: 161, 0
 --- Available: 0, 0
 --- TW97: 302565.318, 2771656.14
-MRT: No
+--- MRT: No
 ID: EL57, Name: 新光三越百貨(股)公司台北南西分公司二館停車場
 --- Capacity: 63, 0
 --- Available: 0, 0
 --- TW97: 302527.328, 2771647.06
-MRT: No
+--- MRT: No
 ID: EL58, Name: 晶華酒店附設停車場
 --- Capacity: 136, 0
 --- Available: 0, 0
 --- TW97: 302894.438, 2771878.7
-MRT: No
+--- MRT: No
 ID: EL60, Name: 便利停車場林森站
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 302995.635, 2772092.24
-MRT: No
+--- MRT: No
 ID: EL61, Name: 明水(二)停車場
 --- Capacity: 78, 0
 --- Available: 0, 0
 --- TW97: 305769.764, 2775337.65
-MRT: No
+--- MRT: No
 ID: EL63, Name: 金利達樂群二場停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 306431.778, 2775023
-MRT: No
+--- MRT: No
 ID: EL68, Name: 康華停車場
 --- Capacity: 99, 0
 --- Available: 0, 0
 --- TW97: 303754.268, 2772531.26
-MRT: No
+--- MRT: No
 ID: EL7, Name: 應安168長安東停車場
 --- Capacity: 21, 0
 --- Available: 0, 0
 --- TW97: 303100.871, 2771194.86
-MRT: No
+--- MRT: No
 ID: EL73, Name: TIMES農安街
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 303604.369, 2773086.54
-MRT: No
+--- MRT: No
 ID: EL75, Name: 嘟嘟房首都飯店站停車場
 --- Capacity: 97, 0
 --- Available: 0, 0
 --- TW97: 304216.618, 2771725.3
-MRT: No
+--- MRT: No
 ID: EL76, Name: 華泰大飯店停車場
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 303043.452, 2772276.95
-MRT: No
+--- MRT: No
 ID: EL79, Name: 新長越林森北停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 303129.388, 2771204.57
-MRT: No
+--- MRT: No
 ID: EL80, Name: 嘟嘟房松江2站停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 303695.687, 2772071.14
-MRT: No
+--- MRT: No
 ID: EL81, Name: 綺麗館停車場
 --- Capacity: 50, 0
 --- Available: 0, 0
 --- TW97: 305673.72, 2774731.02
-MRT: No
+--- MRT: No
 ID: EL83, Name: 龍江八德站停車場
 --- Capacity: 72, 183
 --- Available: 0, 0
 --- TW97: 304543.39, 2771150.71
-MRT: No
+--- MRT: No
 ID: EL84, Name: 益彩國際股份有限公司-長春停車場
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 304367.601, 2771810.34
-MRT: No
+--- MRT: No
 ID: EL85, Name: TIMES長安東路2
 --- Capacity: 32, 0
 --- Available: 0, 0
 --- TW97: 303580.768, 2771175.91
-MRT: No
+--- MRT: No
 ID: EL86, Name: 埃莫停車場
 --- Capacity: 62, 0
 --- Available: 0, 0
 --- TW97: 303045.801, 2772646.02
-MRT: No
+--- MRT: No
 ID: EL87, Name: 宏達經營管理顧問有限公司農安停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 302786.594, 2773056.86
-MRT: No
+--- MRT: No
 ID: EL88, Name: 晉星金泰停車場
 --- Capacity: 35, 0
 --- Available: 0, 0
 --- TW97: 305711.882, 2774803.53
-MRT: No
+--- MRT: No
 ID: EL89, Name: 麒園停車場
 --- Capacity: 41, 0
 --- Available: 0, 0
 --- TW97: 302841.818, 2772862.91
-MRT: No
+--- MRT: No
 ID: EL90, Name: 蕭邦停車場
 --- Capacity: 70, 0
 --- Available: 0, 0
 --- TW97: 303453.214, 2771272.64
-MRT: No
+--- MRT: No
 ID: EL92, Name: TIMES中山市場停車場
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 302570.83, 2771500.31
-MRT: No
+--- MRT: No
 ID: EL94, Name: 台灣聯通美麗華停車場
 --- Capacity: 184, 0
 --- Available: 0, 0
 --- TW97: 305993.033, 2775026.11
-MRT: No
+--- MRT: No
 ID: EL95, Name: 教育大學停車場
 --- Capacity: 53, 0
 --- Available: 0, 0
 --- TW97: 304473.249, 2774666.11
-MRT: No
+--- MRT: No
 ID: EL96, Name: 便利停車場民生站
 --- Capacity: 190, 0
 --- Available: 0, 0
 --- TW97: 304353.902, 2772264.04
-MRT: No
+--- MRT: No
 ID: EL98, Name: 台灣聯通松江停車場
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 303817.459, 2771590
-MRT: No
+--- MRT: No
 ID: EM01, Name: 禾典林森站停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 302829.341, 2772951.84
-MRT: No
+--- MRT: No
 ID: EM02, Name: TIMES敬業一路停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 305774.597, 2775235.74
-MRT: No
+--- MRT: No
 ID: EM03, Name: 應安農安停車場
 --- Capacity: 27, 0
 --- Available: 0, 0
 --- TW97: 303054.53, 2773043.42
-MRT: No
+--- MRT: No
 ID: EM04, Name: TIMES伊通街停車場
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 304089.398, 2771731.73
-MRT: No
+--- MRT: No
 ID: EM05, Name: 六福居停車場
 --- Capacity: 54, 0
 --- Available: 0, 0
 --- TW97: 302884.958, 2771625.62
-MRT: No
+--- MRT: No
 ID: EM06, Name: 台灣聯通將捷一停車場
 --- Capacity: 37, 0
 --- Available: 0, 0
 --- TW97: 303732.083, 2771731.05
-MRT: No
+--- MRT: No
 ID: EM07, Name: 永峰典華停車場
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 305876.571, 2775172.89
-MRT: No
+--- MRT: No
 ID: EM08, Name: TIMES民生東路
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 303301.731, 2772284.95
-MRT: No
+--- MRT: No
 ID: EM09, Name: 嘟嘟房大直站停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 305744.091, 2775233.34
-MRT: No
+--- MRT: No
 ID: EM10, Name: 台灣聯通行天宮停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 303987.175, 2772849.53
-MRT: No
+--- MRT: No
 ID: EM11, Name: 美麗華百樂園地下停車場
 --- Capacity: 681, 0
 --- Available: 0, 0
 --- TW97: 306165.208, 2775077.48
-MRT: No
+--- MRT: No
 ID: EM12, Name: 台灣聯通大松江場停車場
 --- Capacity: 112, 0
 --- Available: 0, 0
 --- TW97: 303818.454, 2772471.53
-MRT: No
+--- MRT: No
 ID: EM13, Name: 和逸民生停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 304107.924, 2772257.43
-MRT: No
+--- MRT: No
 ID: EM14, Name: 嘟嘟房家樂福大直站停車場
 --- Capacity: 268, 0
 --- Available: 0, 0
 --- TW97: 306266.374, 2775020.29
-MRT: No
+--- MRT: No
 ID: EM15, Name: 禾典中南站
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 302732.61, 2771574.92
-MRT: No
+--- MRT: No
 ID: EM16, Name: 八德路停車場
 --- Capacity: 69, 0
 --- Available: 0, 0
 --- TW97: 304464.499, 2771078.4
-MRT: No
+--- MRT: No
 ID: EM17, Name: 博客停車場美麗華場
 --- Capacity: 71, 0
 --- Available: 0, 0
 --- TW97: 305860.952, 2775307.03
-MRT: No
+--- MRT: No
 ID: EM18, Name: 達人停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 305639.74, 2774990.95
-MRT: No
+--- MRT: No
 ID: EM19, Name: 禾典吉林站停車場
 --- Capacity: 27, 0
 --- Available: 0, 0
 --- TW97: 303506.732, 2771894.4
-MRT: No
+--- MRT: No
 ID: EM20, Name: 廣朋建設中崙一站停車場
 --- Capacity: 45, 0
 --- Available: 0, 0
 --- TW97: 304435.68, 2770943.69
-MRT: No
+--- MRT: No
 ID: EM21, Name: 廣朋建設中崙二站停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 304435.68, 2770943.69
-MRT: No
+--- MRT: No
 ID: EZ66, Name: Times站前華陰
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 302538.773, 2771297.49
-MRT: No
+--- MRT: No
 ID: F11, Name: 便利停車場臨沂五站
 --- Capacity: 15, 28
 --- Available: 0, 0
 --- TW97: 303361.192, 2769916.15
-MRT: No
+--- MRT: No
 ID: F2, Name: 永昌停車場
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 301476.533, 2768945.96
-MRT: No
+--- MRT: No
 ID: F3, Name: Four Seasons台大停車場
 --- Capacity: 21, 0
 --- Available: 0, 0
 --- TW97: 303552.337, 2767769.84
-MRT: No
+--- MRT: No
 ID: F30, Name: 喜來登站
 --- Capacity: 214, 0
 --- Available: 0, 0
 --- TW97: 302676.986, 2770846.64
-MRT: No
+--- MRT: No
 ID: F31, Name: 仰德大樓停車場
 --- Capacity: 113, 19
 --- Available: 0, 0
 --- TW97: 302109.125, 2769537.22
-MRT: No
+--- MRT: No
 ID: F32, Name: 便利停車場重慶二站
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 302127.217, 2768502.81
-MRT: No
+--- MRT: No
 ID: F34, Name: 金融中心停車場
 --- Capacity: 203, 0
 --- Available: 0, 0
 --- TW97: 303418.374, 2770648.44
-MRT: No
+--- MRT: No
 ID: F37, Name: 台大醫院停車場
 --- Capacity: 207, 0
 --- Available: 0, 0
 --- TW97: 302331.238, 2770343.77
-MRT: No
+--- MRT: No
 ID: F38, Name: 新光人壽摩天大樓停車場
 --- Capacity: 470, 0
 --- Available: 0, 0
 --- TW97: 301994.834, 2770935.24
-MRT: No
+--- MRT: No
 ID: F48, Name: 台北凱撒大飯店停車場
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 302106.046, 2770991.56
-MRT: No
+--- MRT: No
 ID: F49, Name: 一銀大樓地面停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 301766.49, 2770924.87
-MRT: No
+--- MRT: No
 ID: F55, Name: 便利停車場濟南站
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 303678.452, 2770280.02
-MRT: No
+--- MRT: No
 ID: F57, Name: 遠東百貨台北分公司
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 301372.869, 2770454.84
-MRT: No
+--- MRT: No
 ID: F60, Name: 貴陽街機械式立體停車場
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 301030.386, 2770227.86
-MRT: No
+--- MRT: No
 ID: F61, Name: 嘟嘟房貴陽站停車場
 --- Capacity: 31, 0
 --- Available: 0, 0
 --- TW97: 301030.386, 2770227.86
-MRT: No
+--- MRT: No
 ID: F63, Name: 臺北市中正區行政中心停車場
 --- Capacity: 97, 0
 --- Available: 0, 0
 --- TW97: 302286.963, 2769472.95
-MRT: No
+--- MRT: No
 ID: F64, Name: TIMES杭州南路2停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 303140.704, 2770242.04
-MRT: No
+--- MRT: No
 ID: F65, Name: 助安企業有限公司臨沂二停車場
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 303449.448, 2769742.13
-MRT: No
+--- MRT: No
 ID: F67, Name: 台北市公有南門市場停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 302291.286, 2769464.92
-MRT: No
+--- MRT: No
 ID: F70, Name: 灃興停車場
 --- Capacity: 1, 0
 --- Available: 0, 0
 --- TW97: 302017.02, 2768941.37
-MRT: No
+--- MRT: No
 ID: F72, Name: 館前停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 301940.815, 2771017.88
-MRT: No
+--- MRT: No
 ID: F76, Name: 便利停車場華山二站
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 303075.552, 2770936.01
-MRT: No
+--- MRT: No
 ID: F77, Name: 希望廣場停車場
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 303701.813, 2770801.49
-MRT: No
+--- MRT: No
 ID: F78, Name: 長揚停車場館前站
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 301943.386, 2770930.71
-MRT: No
+--- MRT: No
 ID: F82, Name: 臨沂停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 303328.406, 2769826.81
-MRT: No
+--- MRT: No
 ID: F83, Name: 錢櫃新聲停車場
 --- Capacity: 34, 0
 --- Available: 0, 0
 --- TW97: 301354.2, 2770613.75
-MRT: No
+--- MRT: No
 ID: F87, Name: 嘟嘟房南昌站停車場
 --- Capacity: 0, 0
 --- Available: 0, 0
 --- TW97: 302169.387, 2769344.52
-MRT: No
+--- MRT: No
 ID: F89, Name: 德璞悅松園停車場
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 303470.285, 2769733.94
-MRT: No
+--- MRT: No
 ID: F91, Name: TIMES濟南路二段
 --- Capacity: 38, 0
 --- Available: 0, 0
 --- TW97: 303197.824, 2770437.24
-MRT: No
+--- MRT: No
 ID: F92, Name: 應安168博愛停車場
 --- Capacity: 36, 0
 --- Available: 0, 0
 --- TW97: 301568.655, 2770982.67
-MRT: No
+--- MRT: No
 ID: F98, Name: 新長越金山南路停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 303428.335, 2770601.86
-MRT: No
+--- MRT: No
 ID: FA01, Name: 汀州路停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 303626.906, 2767609.23
-MRT: No
+--- MRT: No
 ID: FA02, Name: 台企大樓地下停車場
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 301770.308, 2771036.29
-MRT: No
+--- MRT: No
 ID: FA03, Name: 臨沂街臨時平面停車場
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 303598.496, 2770508.69
-MRT: No
+--- MRT: No
 ID: FA04, Name: 臨沂街臨時平面停車場(一)
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 303576.932, 2770515.02
-MRT: No
+--- MRT: No
 ID: FA05, Name: 驛馬站收費停車場(汀州場)
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 303793.457, 2767474.01
-MRT: No
+--- MRT: No
 ID: FA06, Name: 資訊廣場停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 303745.876, 2770835.04
-MRT: No
+--- MRT: No
 ID: FA07, Name: 資訊廣場二停車場
 --- Capacity: 115, 66
 --- Available: 0, 0
 --- TW97: 303745.876, 2770835.04
-MRT: No
+--- MRT: No
 ID: FA7, Name: 台北地下街停車場
 --- Capacity: 392, 0
 --- Available: 0, 0
 --- TW97: 302267.904, 2771250.96
-MRT: No
+--- MRT: No
 ID: FB6, Name: 台大校友聯誼社停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 302433.687, 2770624.28
-MRT: No
+--- MRT: No
 ID: FC3, Name: 嘟嘟房北門站停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 301481.879, 2771045.22
-MRT: No
+--- MRT: No
 ID: FD1, Name: 忠孝機車平面停車場
 --- Capacity: 0, 68
 --- Available: 0, 0
 --- TW97: 301600.823, 2771201.06
-MRT: No
+--- MRT: No
 ID: FD16, Name: 宏達經營管理顧問有限公司延平停車場
 --- Capacity: 55, 0
 --- Available: 0, 0
 --- TW97: 301220.603, 2769611.05
-MRT: No
+--- MRT: No
 ID: FD18, Name: 叭叭房牯嶺站停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 302337.365, 2768852.53
-MRT: No
+--- MRT: No
 ID: FD32, Name: 根基詔安停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 301354.155, 2768891.66
-MRT: No
+--- MRT: No
 ID: FD44, Name: 應安168金山停車場
 --- Capacity: 55, 0
 --- Available: 0, 0
 --- TW97: 303402.549, 2770580.7
-MRT: No
+--- MRT: No
 ID: FD46, Name: 便利停車場臨沂三站
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 303380.674, 2769944.63
-MRT: No
+--- MRT: No
 ID: FD48, Name: 恆泰停車場
 --- Capacity: 65, 0
 --- Available: 0, 0
 --- TW97: 302956.31, 2770850.64
-MRT: No
+--- MRT: No
 ID: FD49, Name: 好庭車停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 302631.082, 2768644.36
-MRT: No
+--- MRT: No
 ID: FD50, Name: 應安168黎明停車場
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 303538.412, 2769643.68
-MRT: No
+--- MRT: No
 ID: FD51, Name: 嘟嘟房仁愛新生2站停車場
 --- Capacity: 21, 0
 --- Available: 0, 0
 --- TW97: 303683.384, 2770076.31
-MRT: No
+--- MRT: No
 ID: FD52, Name: 琦機仁愛停車場
 --- Capacity: 42, 0
 --- Available: 0, 0
 --- TW97: 303643.266, 2770073.46
-MRT: No
+--- MRT: No
 ID: FD55, Name: 應安168北平東停車場
 --- Capacity: 57, 0
 --- Available: 0, 0
 --- TW97: 303056.819, 2770939.1
-MRT: No
+--- MRT: No
 ID: FD57, Name: 臺北市螢橋國小停車場
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 301856.569, 2768707.87
-MRT: No
+--- MRT: No
 ID: FD59, Name: 禾典忠孝前站
 --- Capacity: 37, 60
 --- Available: 0, 0
 --- TW97: 301842.22, 2771035.65
-MRT: No
+--- MRT: No
 ID: FD60, Name: 嘟嘟房牯嶺2站停車場
 --- Capacity: 63, 0
 --- Available: 0, 0
 --- TW97: 302395.27, 2768728.14
-MRT: No
+--- MRT: No
 ID: FD61, Name: 台灣聯通衡陽停車場
 --- Capacity: 150, 0
 --- Available: 0, 0
 --- TW97: 301680.816, 2770570.82
-MRT: No
+--- MRT: No
 ID: FD62, Name: 禾典光華站
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 303534.519, 2770683.12
-MRT: No
+--- MRT: No
 ID: FD63, Name: 嘟嘟房台北車站停車場
 --- Capacity: 75, 0
 --- Available: 0, 0
 --- TW97: 302035.816, 2771197.51
-MRT: No
+--- MRT: No
 ID: FD64, Name: 財團法人張榮發基金會地下停車場
 --- Capacity: 94, 0
 --- Available: 0, 0
 --- TW97: 302387.41, 2770154.06
-MRT: No
+--- MRT: No
 ID: FD66, Name: 新長越杭州南路站停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 303259.454, 2770214.18
-MRT: No
+--- MRT: No
 ID: FD67, Name: 中華電信仁愛停車場
 --- Capacity: 133, 598
 --- Available: 0, 0
 --- TW97: 302912.622, 2769950.57
-MRT: No
+--- MRT: No
 ID: FD68, Name: 台大醫院兒童醫療大樓停車場
 --- Capacity: 126, 298
 --- Available: 0, 0
 --- TW97: 302354.746, 2770792.47
-MRT: No
+--- MRT: No
 ID: FD71, Name: 螢橋國中停車場
 --- Capacity: 39, 0
 --- Available: 0, 0
 --- TW97: 303148.14, 2767965.73
-MRT: No
+--- MRT: No
 ID: FD72, Name: 廣州街停車場
 --- Capacity: 146, 0
 --- Available: 0, 0
 --- TW97: 301378.419, 2769854.03
-MRT: No
+--- MRT: No
 ID: FD74, Name: TIMES和平西路停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 302594.245, 2768873.03
-MRT: No
+--- MRT: No
 ID: FD75, Name: 廈門停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 302236.303, 2768627.59
-MRT: No
+--- MRT: No
 ID: FD78, Name: 公館水岸新世界機車臨時停車場
 --- Capacity: 0, 256
 --- Available: 0, 0
 --- TW97: 303920.549, 2767325.3
-MRT: No
+--- MRT: No
 ID: FD80, Name: 台北花園大酒店機械停車場
 --- Capacity: 105, 0
 --- Available: 0, 0
 --- TW97: 301188.305, 2769890.68
-MRT: No
+--- MRT: No
 ID: FD81, Name: 台灣聯通臺大水源停車場
 --- Capacity: 343, 3134
 --- Available: 0, 0
 --- TW97: 303504.721, 2767501.7
-MRT: No
+--- MRT: No
 ID: FD82, Name: 龍昌大樓機電管理顧問股份有限公司和平營業處
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 301197.481, 2769817.14
-MRT: No
+--- MRT: No
 ID: FD83, Name: 龍昌大樓機電管理顧問股份有限公司婦幼營業處
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 302414.704, 2769089.06
-MRT: No
+--- MRT: No
 ID: FD84, Name: 台北花園大酒店平面停車場
 --- Capacity: 98, 0
 --- Available: 0, 0
 --- TW97: 301157.428, 2769939.19
-MRT: No
+--- MRT: No
 ID: FD85, Name: 四方開發重慶站
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 301954.81, 2769243.3
-MRT: No
+--- MRT: No
 ID: FD88, Name: TIMES廣州街停車場
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 301307.206, 2769826.6
-MRT: No
+--- MRT: No
 ID: FD89, Name: 同安停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 302581.833, 2768621.69
-MRT: No
+--- MRT: No
 ID: FD90, Name: Times延平南路2停車場
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 301514.004, 2770800.22
-MRT: No
+--- MRT: No
 ID: FD91, Name: TIMES杭州南路
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 303046.65, 2770070.89
-MRT: No
+--- MRT: No
 ID: FD92, Name: 行一大客車平面停車場
 --- Capacity: 0, 0
 --- Available: 0, 0
 --- TW97: 302635.225, 2771108.31
-MRT: No
+--- MRT: No
 ID: FD93, Name: 三軍總醫院汀州院區停車場
 --- Capacity: 74, 0
 --- Available: 0, 0
 --- TW97: 303468.994, 2767691.62
-MRT: No
+--- MRT: No
 ID: FD94, Name: 華倫汽車有限公司停車場
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 302388.787, 2769483.68
-MRT: No
+--- MRT: No
 ID: FD97, Name: 巧巧生活事業有限公司
 --- Capacity: 65, 0
 --- Available: 0, 0
 --- TW97: 302719.036, 2768825.71
-MRT: No
+--- MRT: No
 ID: FD99, Name: 台大會議中心停車場
 --- Capacity: 83, 380
 --- Available: 0, 0
 --- TW97: 302581.174, 2770239.97
-MRT: No
+--- MRT: No
 ID: FE01, Name: 行一機車平面停車場
 --- Capacity: 0, 237
 --- Available: 0, 0
 --- TW97: 302575.746, 2771160.57
-MRT: No
+--- MRT: No
 ID: FE03, Name: 廣州街(二)停車場
 --- Capacity: 92, 0
 --- Available: 0, 0
 --- TW97: 301432.455, 2769804.48
-MRT: No
+--- MRT: No
 ID: FE04, Name: 南華高中收費停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 303636.351, 2767597.5
-MRT: No
+--- MRT: No
 ID: FE05, Name: 安婷停車場中正場
 --- Capacity: 63, 0
 --- Available: 0, 0
 --- TW97: 302559.046, 2768803.56
-MRT: No
+--- MRT: No
 ID: FE06, Name: 鼎晟停車場
 --- Capacity: 94, 0
 --- Available: 0, 0
 --- TW97: 302039.264, 2770941.13
-MRT: No
+--- MRT: No
 ID: FE07, Name: 便利停車場林森三站
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 302764.343, 2770768.44
-MRT: No
+--- MRT: No
 ID: FE08, Name: 杭州停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 303122.945, 2769912.48
-MRT: No
+--- MRT: No
 ID: FE09, Name: 助安牯嶺停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 302325.831, 2768868.69
-MRT: No
+--- MRT: No
 ID: FE11, Name: TIMES信義永康停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 303583.613, 2769644.27
-MRT: No
+--- MRT: No
 ID: FE12, Name: 應安168仁愛二停車場
 --- Capacity: 73, 0
 --- Available: 0, 0
 --- TW97: 303025.836, 2770078.51
-MRT: No
+--- MRT: No
 ID: FE13, Name: 中山南路2巷臨時平面停車場
 --- Capacity: 25, 197
 --- Available: 0, 0
 --- TW97: 302265.889, 2770877.65
-MRT: No
+--- MRT: No
 ID: FE14, Name: TIMES和平西路2停車場
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 301712.908, 2769044.75
-MRT: No
+--- MRT: No
 ID: FE15, Name: 中山南路2巷(一)臨時平面停車場
 --- Capacity: 0, 80
 --- Available: 0, 0
 --- TW97: 302239.204, 2770915.72
-MRT: No
+--- MRT: No
 ID: FE16, Name: 博客停車場牯嶺站
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 302171.659, 2769093.89
-MRT: No
+--- MRT: No
 ID: FE18, Name: 臺北市客家文化中心附設地下停車場
 --- Capacity: 64, 44
 --- Available: 0, 0
 --- TW97: 302987.975, 2768140.17
-MRT: No
+--- MRT: No
 ID: FE19, Name: 華山國際動漫城停車場
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 303529.42, 2770788.32
-MRT: No
+--- MRT: No
 ID: FE20, Name: 河堤停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 302661.833, 2768481.17
-MRT: No
+--- MRT: No
 ID: FE22, Name: 青田停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 303672.505, 2769006.15
-MRT: No
+--- MRT: No
 ID: FE23, Name: 中正牯嶺街一停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 302200.324, 2769107.04
-MRT: No
+--- MRT: No
 ID: FE26, Name: TIMES潮州街停車場
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 302564.13, 2769195.68
-MRT: No
+--- MRT: No
 ID: FE27, Name: 嘟嘟房信義3站停車場
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 303588.867, 2769643.38
-MRT: No
+--- MRT: No
 ID: FE32, Name: 華山停車場
 --- Capacity: 68, 97
 --- Available: 0, 0
 --- TW97: 303329.346, 2770822.3
-MRT: No
+--- MRT: No
 ID: FE33, Name: 台北市青島社區管理委員會停車場
 --- Capacity: 79, 0
 --- Available: 0, 0
 --- TW97: 302883.897, 2770704.3
-MRT: No
+--- MRT: No
 ID: FE34, Name: 應安168中華停車場
 --- Capacity: 41, 0
 --- Available: 0, 0
 --- TW97: 301050.202, 2769651.62
-MRT: No
+--- MRT: No
 ID: FE35, Name: TIMES 仁愛路二段
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 303155.096, 2770092.82
-MRT: No
+--- MRT: No
 ID: FE36, Name: 華山停車場
 --- Capacity: 50, 0
 --- Available: 0, 0
 --- TW97: 303092.481, 2770972.54
-MRT: No
+--- MRT: No
 ID: FF01, Name: 誌誠停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 300939.684, 2769440.66
-MRT: No
+--- MRT: No
 ID: FF02, Name: 重慶南路停車場
 --- Capacity: 74, 0
 --- Available: 0, 0
 --- TW97: 301769.186, 2770843.47
-MRT: No
+--- MRT: No
 ID: FF03, Name: 開封街停車場
 --- Capacity: 1, 13
 --- Available: 0, 0
 --- TW97: 301754.134, 2770980.59
-MRT: No
+--- MRT: No
 ID: FF04, Name: 助安168杭南二停車場
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 302970.118, 2769866.65
-MRT: No
+--- MRT: No
 ID: FF05, Name: 希望廣場
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 302906.214, 2771024.4
-MRT: No
+--- MRT: No
 ID: FF06, Name: 中山堂地下停車場
 --- Capacity: 440, 0
 --- Available: 0, 0
 --- TW97: 301507.707, 2770749.59
-MRT: No
+--- MRT: No
 ID: FF08, Name: TIMES齊東街2
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 303263.511, 2770552.73
-MRT: No
+--- MRT: No
 ID: FF09, Name: 便利停車場中華站
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 301390.792, 2770607.9
-MRT: No
+--- MRT: No
 ID: FF10, Name: 牯嶺停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 302169.119, 2769104.76
-MRT: No
+--- MRT: No
 ID: FF11, Name: 榮帝科技喜來登平面停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 302861.995, 2770788.53
-MRT: No
+--- MRT: No
 ID: FF67, Name: 聯永物業股份有限公司臨沂站
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 303328.406, 2769826.81
-MRT: No
+--- MRT: No
 ID: FF68, Name: 臺北市立聯合醫院婦幼院區停車場
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 302405.295, 2769099.3
-MRT: No
+--- MRT: No
 ID: FF69, Name: 嘟嘟房臺北車站西站停車場
 --- Capacity: 97, 83
 --- Available: 0, 0
 --- TW97: 302129.927, 2771134.61
-MRT: No
+--- MRT: No
 ID: FF70, Name: 驛東交停企業有限公司古亭站
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 302620.011, 2768946.36
-MRT: No
+--- MRT: No
 ID: G1, Name: 永康街停車場
 --- Capacity: 2, 0
 --- Available: 0, 0
 --- TW97: 303423.391, 2769161.14
-MRT: No
+--- MRT: No
 ID: G11, Name: 辛亥路高架橋下停車場
 --- Capacity: 88, 0
 --- Available: 0, 0
 --- TW97: 303859.789, 2768365.94
-MRT: No
+--- MRT: No
 ID: G13, Name: 大安教會停車場
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 305198.895, 2768921.31
-MRT: No
+--- MRT: No
 ID: G17, Name: 義光站
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 303997.14, 2769808.42
-MRT: No
+--- MRT: No
 ID: G18, Name: 巔峰機械塔停車場
 --- Capacity: 56, 0
 --- Available: 0, 0
 --- TW97: 304825.787, 2769707.57
-MRT: No
+--- MRT: No
 ID: G2, Name: 新長越臥龍街停車場
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 305229.061, 2768520.15
-MRT: No
+--- MRT: No
 ID: G28, Name: TIMES浦城街停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 303281.308, 2768612.39
-MRT: No
+--- MRT: No
 ID: G29, Name: TIMES忠孝東路停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 305624.698, 2770645.53
-MRT: No
+--- MRT: No
 ID: G3, Name: 延吉廢鐵道停車場
 --- Capacity: 225, 0
 --- Available: 0, 0
 --- TW97: 305960.854, 2770731.13
-MRT: No
+--- MRT: No
 ID: G31, Name: 明曜百貨停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 305707.413, 2770457.69
-MRT: No
+--- MRT: No
 ID: G32, Name: TIMES泰順街2
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 303615.727, 2768657.89
-MRT: No
+--- MRT: No
 ID: G33, Name: 福華大飯店附設停車場
 --- Capacity: 79, 0
 --- Available: 0, 0
 --- TW97: 304800.683, 2770056.3
-MRT: No
+--- MRT: No
 ID: G34, Name: 羅馬洗車場
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 305561.302, 2770545.07
-MRT: No
+--- MRT: No
 ID: G36, Name: 國立台灣師範大學圖書館校區地下停車場
 --- Capacity: 250, 0
 --- Available: 0, 0
 --- TW97: 303367.298, 2768906.06
-MRT: No
+--- MRT: No
 ID: G40, Name: 敦化大樓停車場
 --- Capacity: 62, 0
 --- Available: 0, 0
 --- TW97: 305425.236, 2770214.13
-MRT: No
+--- MRT: No
 ID: G43, Name: 金山停車場
 --- Capacity: 136, 0
 --- Available: 0, 0
 --- TW97: 303203.333, 2769517.93
-MRT: No
+--- MRT: No
 ID: G46, Name: 龍昌大樓機電管理顧問股份有限公司仁愛營業處
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 305049.182, 2770043.61
-MRT: No
+--- MRT: No
 ID: G47, Name: 祥龍驛瑞安站停車場
 --- Capacity: 96, 0
 --- Available: 0, 0
 --- TW97: 304542.265, 2768758.93
-MRT: No
+--- MRT: No
 ID: G48, Name: 公務人力發展中心福華國際文教會館停車場
 --- Capacity: 111, 0
 --- Available: 0, 0
 --- TW97: 303911.262, 2768503.96
-MRT: No
+--- MRT: No
 ID: G58, Name: 建成大廈停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 305529.465, 2770460.02
-MRT: No
+--- MRT: No
 ID: G69, Name: 瑞安停車場
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 304373.841, 2768738.98
-MRT: No
+--- MRT: No
 ID: G72, Name: 崇光百貨停車場
 --- Capacity: 102, 0
 --- Available: 0, 0
 --- TW97: 304975.351, 2770530.2
-MRT: No
+--- MRT: No
 ID: G76, Name: 錢櫃忠孝停車場
 --- Capacity: 97, 0
 --- Available: 0, 0
 --- TW97: 304925.803, 2770467.19
-MRT: No
+--- MRT: No
 ID: G78, Name: 東豐街停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 304944.646, 2769863
-MRT: No
+--- MRT: No
 ID: G82, Name: 太平洋崇光百貨(股)公司敦化分公司停車場
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 305333.965, 2770337.4
-MRT: No
+--- MRT: No
 ID: G83, Name: 大安區行政中心停車場
 --- Capacity: 115, 0
 --- Available: 0, 0
 --- TW97: 303939.087, 2768837.33
-MRT: No
+--- MRT: No
 ID: G85, Name: 台灣捷通安和場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 305548.522, 2769143.69
-MRT: No
+--- MRT: No
 ID: G86, Name: 國立臺灣大學臨時停車場
 --- Capacity: 1061, 1303
 --- Available: 0, 0
 --- TW97: 303874.301, 2767776.59
-MRT: No
+--- MRT: No
 ID: G89, Name: 應安168華視停車場
 --- Capacity: 120, 0
 --- Available: 0, 0
 --- TW97: 306254.363, 2770710.2
-MRT: No
+--- MRT: No
 ID: G95, Name: 應安168敦南停車場
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 305327.741, 2769351.31
-MRT: No
+--- MRT: No
 ID: G97, Name: 月娥停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 305429.893, 2769800.65
-MRT: No
+--- MRT: No
 ID: G98, Name: 九如大樓停車場
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 305497.681, 2770547
-MRT: No
+--- MRT: No
 ID: GA0, Name: 敦安停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 305454.309, 2769808.62
-MRT: No
+--- MRT: No
 ID: GA05, Name: 普驛科技站
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 304083.467, 2770434.57
-MRT: No
+--- MRT: No
 ID: GA06, Name: 台北安和2停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 305527.255, 2769332.48
-MRT: No
+--- MRT: No
 ID: GA07, Name: Times信義復興2
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 304811.309, 2769812.15
-MRT: No
+--- MRT: No
 ID: GA08, Name: 千里亭有限公司復興南路停車場
 --- Capacity: 39, 0
 --- Available: 0, 0
 --- TW97: 304881.196, 2769155.75
-MRT: No
+--- MRT: No
 ID: GA1, Name: 叭叭房信義站停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 303589.559, 2769580.12
-MRT: No
+--- MRT: No
 ID: GA2, Name: 嘟嘟房建南站停車場
 --- Capacity: 12, 74
 --- Available: 0, 0
 --- TW97: 304116.864, 2769778.95
-MRT: No
+--- MRT: No
 ID: GA3, Name: 多多站收費停車場(建國南場)
 --- Capacity: 33, 0
 --- Available: 0, 0
 --- TW97: 304116.864, 2769778.95
-MRT: No
+--- MRT: No
 ID: GA4, Name: 臺北市立聯合醫院仁愛院區停車場
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 304996.635, 2770040
-MRT: No
+--- MRT: No
 ID: GA5, Name: 嘟嘟房師大站停車場
 --- Capacity: 2, 0
 --- Available: 0, 0
 --- TW97: 302841.716, 2768844.22
-MRT: No
+--- MRT: No
 ID: GB1, Name: 大統領停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 305616.213, 2770517.94
-MRT: No
+--- MRT: No
 ID: GB2, Name: 岳洋敦南停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 305434.966, 2768839.04
-MRT: No
+--- MRT: No
 ID: GB3, Name: 金山南路停車場
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 303082.448, 2769015.09
-MRT: No
+--- MRT: No
 ID: GB4, Name: 文化大學大夏館停車塔
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 304308.89, 2768766.34
-MRT: No
+--- MRT: No
 ID: GB6, Name: 榕樹下停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 305427.531, 2769780.51
-MRT: No
+--- MRT: No
 ID: GB7, Name: 光復平面停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 306242.363, 2770184.73
-MRT: No
+--- MRT: No
 ID: GC2, Name: 中順停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 303662.119, 2768387.27
-MRT: No
+--- MRT: No
 ID: GC4, Name: 金門停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 302959.223, 2768580.09
-MRT: No
+--- MRT: No
 ID: GC5, Name: 長伸停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 306101.685, 2769497.57
-MRT: No
+--- MRT: No
 ID: GC7, Name: 慕求花園停車場
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 305237.268, 2769610.04
-MRT: No
+--- MRT: No
 ID: GC8, Name: 永康站停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 303507.723, 2769488.66
-MRT: No
+--- MRT: No
 ID: GD8, Name: 福華大飯店平面停車場
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 304821.985, 2769955.82
-MRT: No
+--- MRT: No
 ID: GE0, Name: 忠興停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 304929.926, 2770529.88
-MRT: No
+--- MRT: No
 ID: GE7, Name: 市農會B區收費停車場
 --- Capacity: 83, 0
 --- Available: 0, 0
 --- TW97: 304741.533, 2770037.88
-MRT: No
+--- MRT: No
 ID: GF4, Name: 嘟嘟房復興三站停車場
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 304766.143, 2770314.15
-MRT: No
+--- MRT: No
 ID: GF5, Name: 嘟嘟房復興二站停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 304785.426, 2770280.62
-MRT: No
+--- MRT: No
 ID: GF6, Name: 嘟嘟房復興一站停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 304812.851, 2770286.57
-MRT: No
+--- MRT: No
 ID: GF8, Name: 喬合停車場
 --- Capacity: 35, 0
 --- Available: 0, 0
 --- TW97: 304812.662, 2770597.86
-MRT: No
+--- MRT: No
 ID: GF9, Name: 大安文山保管場
 --- Capacity: 43, 12
 --- Available: 0, 0
 --- TW97: 304675.077, 2769950.36
-MRT: No
+--- MRT: No
 ID: GG0, Name: 市農會A區收費停車場
 --- Capacity: 46, 0
 --- Available: 0, 0
 --- TW97: 304825.6, 2769904.26
-MRT: No
+--- MRT: No
 ID: GG1, Name: 市農會C區收費停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 304770.094, 2769910.77
-MRT: No
+--- MRT: No
 ID: GG10, Name: 新生南路停車場
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 304051.718, 2770376.45
-MRT: No
+--- MRT: No
 ID: GG11, Name: 長誼停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 305900.258, 2770230.58
-MRT: No
+--- MRT: No
 ID: GG12, Name: 青田街停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 303807.443, 2769012.9
-MRT: No
+--- MRT: No
 ID: GG13, Name: 逸寬文旅大安館附設收費停車場
 --- Capacity: 56, 0
 --- Available: 0, 0
 --- TW97: 304921.83, 2770200.21
-MRT: No
+--- MRT: No
 ID: GG14, Name: 嘟嘟房師大2站
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 303062.472, 2768934.52
-MRT: No
+--- MRT: No
 ID: GG15, Name: 新長越安東街停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 304722.527, 2770806.64
-MRT: No
+--- MRT: No
 ID: GG16, Name: Times敦南信義
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 305438.407, 2769474.84
-MRT: No
+--- MRT: No
 ID: GG17, Name: 仁愛本真停車場
 --- Capacity: 140, 0
 --- Available: 0, 0
 --- TW97: 305028.792, 2770369.31
-MRT: No
+--- MRT: No
 ID: GG18, Name: 驛馬站收費停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 304095.741, 2768673.78
-MRT: No
+--- MRT: No
 ID: GG19, Name: 驛馬站收費停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 305514.416, 2768498.28
-MRT: No
+--- MRT: No
 ID: GG2, Name: 台灣聯通中興停車場
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 304912.986, 2771132.75
-MRT: No
+--- MRT: No
 ID: GG20, Name: 敦和停車場
 --- Capacity: 37, 0
 --- Available: 0, 0
 --- TW97: 305471.11, 2769427.69
-MRT: No
+--- MRT: No
 ID: GG21, Name: 助安168杭南三停車場
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 302915.08, 2769188.05
-MRT: No
+--- MRT: No
 ID: GG22, Name: 禾典溫州站
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 303792.929, 2768412.71
-MRT: No
+--- MRT: No
 ID: GG6, Name: 成功站停車場
 --- Capacity: 21, 0
 --- Available: 0, 0
 --- TW97: 304933.184, 2768810.3
-MRT: No
+--- MRT: No
 ID: GG7, Name: 成功國宅第10棟停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 305015.611, 2768966.34
-MRT: No
+--- MRT: No
 ID: GG8, Name: 便利停車場敦南站
 --- Capacity: 81, 194
 --- Available: 0, 0
 --- TW97: 305444.595, 2770808.82
-MRT: No
+--- MRT: No
 ID: GG9, Name: 復興站停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 304942.783, 2770218.65
-MRT: No
+--- MRT: No
 ID: GH2, Name: 便利停車場大安地政事務所二站
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 306168.643, 2769593.18
-MRT: No
+--- MRT: No
 ID: GH3, Name: 便利停車場大安地政事務所一站
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 306171.598, 2769657.61
-MRT: No
+--- MRT: No
 ID: GH4, Name: 連昇台大停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 303757.991, 2767768.78
-MRT: No
+--- MRT: No
 ID: GH5, Name: 道慈大樓停車場
 --- Capacity: 133, 0
 --- Available: 0, 0
 --- TW97: 304888.642, 2769758.51
-MRT: No
+--- MRT: No
 ID: GH6, Name: 應安168四維停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 305288.169, 2769334.97
-MRT: No
+--- MRT: No
 ID: GH7, Name: 莎軒停車場
 --- Capacity: 33, 0
 --- Available: 0, 0
 --- TW97: 306145.099, 2769296.93
-MRT: No
+--- MRT: No
 ID: GH9, Name: 美格停車場通化站
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 305893.94, 2769011.28
-MRT: No
+--- MRT: No
 ID: GI4, Name: 助安忠孝停車場
 --- Capacity: 2, 0
 --- Available: 0, 0
 --- TW97: 305787.177, 2770697.99
-MRT: No
+--- MRT: No
 ID: GJ3, Name: 復旦停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 305446.251, 2770778.27
-MRT: No
+--- MRT: No
 ID: GK37, Name: 敦南大樓停車場
 --- Capacity: 120, 0
 --- Available: 0, 0
 --- TW97: 305426.493, 2769134.26
-MRT: No
+--- MRT: No
 ID: GK4, Name: 敦南停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 305415.868, 2768884.2
-MRT: No
+--- MRT: No
 ID: GK43, Name: 叭叭房潮洲站停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 302991.609, 2769020.2
-MRT: No
+--- MRT: No
 ID: GK44, Name: 嘟嘟房和平東站停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 302902.853, 2768892.46
-MRT: No
+--- MRT: No
 ID: GK46, Name: 富邦金融大樓停車場
 --- Capacity: 379, 0
 --- Available: 0, 0
 --- TW97: 305723.097, 2770132.61
-MRT: No
+--- MRT: No
 ID: GK47, Name: 宏都金殿停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 305481.913, 2769035.62
-MRT: No
+--- MRT: No
 ID: GK7, Name: 海泉停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 304784.997, 2769610.69
-MRT: No
+--- MRT: No
 ID: GK81, Name: 農會停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 304457.774, 2770804.75
-MRT: No
+--- MRT: No
 ID: GK90, Name: 太平洋崇光百貨股份有限公司復興店停車場
 --- Capacity: 602, 0
 --- Available: 0, 0
 --- TW97: 304792.896, 2770426.44
-MRT: No
+--- MRT: No
 ID: GK94, Name: 宏遠大樓停車場
 --- Capacity: 147, 0
 --- Available: 0, 0
 --- TW97: 305801.238, 2769513.53
-MRT: No
+--- MRT: No
 ID: GK95, Name: 多多站收費停車場(文昌場)
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 305801.238, 2769513.53
-MRT: No
+--- MRT: No
 ID: GK99, Name: 國立台灣師範大學運動場地下停車場
 --- Capacity: 426, 0
 --- Available: 0, 0
 --- TW97: 303260.475, 2768794.49
-MRT: No
+--- MRT: No
 ID: GL01, Name: 上通停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 305481.416, 2770436.08
-MRT: No
+--- MRT: No
 ID: GL02, Name: 日發師大路停車場
 --- Capacity: 25, 0
 --- Available: 0, 0
 --- TW97: 303213.698, 2768407.31
-MRT: No
+--- MRT: No
 ID: GL04, Name: 忠孝新生站停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 303964.99, 2770508.69
-MRT: No
+--- MRT: No
 ID: GL05, Name: 臨江停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 305814.736, 2769286.99
-MRT: No
+--- MRT: No
 ID: GL06, Name: 禾典大安站
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 305202.684, 2768971.68
-MRT: No
+--- MRT: No
 ID: GL07, Name: 通安停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 305814.736, 2769286.99
-MRT: No
+--- MRT: No
 ID: GL08, Name: 鼎晟停車場
 --- Capacity: 46, 0
 --- Available: 0, 0
 --- TW97: 305514.868, 2770787.01
-MRT: No
+--- MRT: No
 ID: GL13, Name: 臺北市立芳和國民中學停車場
 --- Capacity: 37, 0
 --- Available: 0, 0
 --- TW97: 305516.535, 2767969.05
-MRT: No
+--- MRT: No
 ID: GL17, Name: 銀座停車場
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 305638.545, 2770624.38
-MRT: No
+--- MRT: No
 ID: GL18, Name: 財團法人臺北市私立復興實驗高級中學附設地下停車場
 --- Capacity: 76, 0
 --- Available: 0, 0
 --- TW97: 305335.59, 2770253.42
-MRT: No
+--- MRT: No
 ID: GL21, Name: 羅斯福路停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 302871.529, 2768704.34
-MRT: No
+--- MRT: No
 ID: GL22, Name: 嘟嘟房四維站停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 305192.514, 2768779.71
-MRT: No
+--- MRT: No
 ID: GL24, Name: 永康停車場
 --- Capacity: 77, 0
 --- Available: 0, 0
 --- TW97: 303616.517, 2769561.99
-MRT: No
+--- MRT: No
 ID: GL25, Name: TIMES金華街
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 303529.079, 2769070.19
-MRT: No
+--- MRT: No
 ID: GL26, Name: 鈞曜大安場
 --- Capacity: 196, 0
 --- Available: 0, 0
 --- TW97: 304353.565, 2769270.26
-MRT: No
+--- MRT: No
 ID: GL29, Name: 國立臺灣師範大學臥龍街停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 305209.984, 2768439.8
-MRT: No
+--- MRT: No
 ID: GL30, Name: 帝國延吉停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 305927.711, 2770785.76
-MRT: No
+--- MRT: No
 ID: GL31, Name: 泰順街停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 303444.134, 2768357.15
-MRT: No
+--- MRT: No
 ID: GL32, Name: 華視大樓地下停車場
 --- Capacity: 97, 0
 --- Available: 0, 0
 --- TW97: 306185.554, 2770693.76
-MRT: No
+--- MRT: No
 ID: GL38, Name: 助安杭州南停車場(1)
 --- Capacity: 2, 0
 --- Available: 0, 0
 --- TW97: 302941.205, 2769604.24
-MRT: No
+--- MRT: No
 ID: GL39, Name: 停車棧忠孝復興站
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 304836.234, 2770530.04
-MRT: No
+--- MRT: No
 ID: GL40, Name: 助安杭州南停車場
 --- Capacity: 1, 0
 --- Available: 0, 0
 --- TW97: 302952.727, 2769596.41
-MRT: No
+--- MRT: No
 ID: GL42, Name: 應安168華視二停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 306203.595, 2770741.24
-MRT: No
+--- MRT: No
 ID: GL43, Name: 師大路停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 303377.612, 2768397.15
-MRT: No
+--- MRT: No
 ID: GL44, Name: 大崴物業管理股份有限公司
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 306077.52, 2770745.43
-MRT: No
+--- MRT: No
 ID: GL45, Name: 鴻霖停車場
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 304986.124, 2770147.82
-MRT: No
+--- MRT: No
 ID: GL47, Name: 嘟嘟房永康2站停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 303563.123, 2769397.36
-MRT: No
+--- MRT: No
 ID: GL48, Name: 北歐停車場
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 305721.694, 2770039.54
-MRT: No
+--- MRT: No
 ID: GL49, Name: 臺北市大安區仁愛國民小學停車場
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 305730.115, 2769847.25
-MRT: No
+--- MRT: No
 ID: GL50, Name: 臺北市立大安國中（停車場）
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 305258.277, 2769306.44
-MRT: No
+--- MRT: No
 ID: GL51, Name: 臺北市立金華國民中學
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 303795.945, 2769362.23
-MRT: No
+--- MRT: No
 ID: GL52, Name: 臺北市立仁愛國民中學停車場
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 305656.031, 2769964.2
-MRT: No
+--- MRT: No
 ID: GL53, Name: 楊停車場
 --- Capacity: 2, 0
 --- Available: 0, 0
 --- TW97: 306053.686, 2768969.95
-MRT: No
+--- MRT: No
 ID: GL54, Name: 捷運科技大樓站機車停車場
 --- Capacity: 0, 61
 --- Available: 0, 0
 --- TW97: 304811.143, 2768758.19
-MRT: No
+--- MRT: No
 ID: GL55, Name: 國泰綜合醫院分館停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 305974.227, 2769926.96
-MRT: No
+--- MRT: No
 ID: GL56, Name: 國泰綜合醫院本館停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 305826.245, 2769966.29
-MRT: No
+--- MRT: No
 ID: GL57, Name: 椰林停車場
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 305078.522, 2769795.16
-MRT: No
+--- MRT: No
 ID: GL60, Name: 樂業停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 305516.941, 2768525.07
-MRT: No
+--- MRT: No
 ID: GL61, Name: 順康尊賢停車場
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 304151.642, 2767344.54
-MRT: No
+--- MRT: No
 ID: GL62, Name: TIMES新生南路停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 304174.282, 2769768.27
-MRT: No
+--- MRT: No
 ID: GL63, Name: TIMES羅斯福路停車場
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 303027.074, 2768549
-MRT: No
+--- MRT: No
 ID: GL64, Name: 長揚停車場敦南站
 --- Capacity: 2, 0
 --- Available: 0, 0
 --- TW97: 305507.86, 2769349.18
-MRT: No
+--- MRT: No
 ID: GL67, Name: 禾典信義站停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 305113.207, 2769485
-MRT: No
+--- MRT: No
 ID: GL68, Name: 科技站停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 304773.667, 2768579.84
-MRT: No
+--- MRT: No
 ID: GL69, Name: TIMES臥龍街
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 305302.396, 2768223.08
-MRT: No
+--- MRT: No
 ID: GL71, Name: 日發浦城街停車場
 --- Capacity: 11, 17
 --- Available: 0, 0
 --- TW97: 303172.01, 2768416.33
-MRT: No
+--- MRT: No
 ID: GL72, Name: 臺北市大安運動中心停車場
 --- Capacity: 52, 0
 --- Available: 0, 0
 --- TW97: 305125.106, 2768161.1
-MRT: No
+--- MRT: No
 ID: GL75, Name: 禾典市民站
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 304791.848, 2770783.62
-MRT: No
+--- MRT: No
 ID: GL77, Name: 好庭車停車場
 --- Capacity: 67, 4
 --- Available: 0, 0
 --- TW97: 302742.232, 2769273.51
-MRT: No
+--- MRT: No
 ID: GL78, Name: 順福停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 304945.835, 2770309.56
-MRT: No
+--- MRT: No
 ID: GL79, Name: 嘟嘟房敦化站停車場
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 305685.329, 2770786.95
-MRT: No
+--- MRT: No
 ID: GL81, Name: 好停停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 305114.516, 2769607.23
-MRT: No
+--- MRT: No
 ID: GL82, Name: 台新停車場
 --- Capacity: 170, 0
 --- Available: 0, 0
 --- TW97: 305495.697, 2770032.45
-MRT: No
+--- MRT: No
 ID: GL88, Name: 中信停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 305206.734, 2769639.65
-MRT: No
+--- MRT: No
 ID: GL89, Name: 帝國綠舞停車場
 --- Capacity: 41, 0
 --- Available: 0, 0
 --- TW97: 305210.568, 2768418.85
-MRT: No
+--- MRT: No
 ID: GL92, Name: 夏合樂業停車場
 --- Capacity: 1, 0
 --- Available: 0, 0
 --- TW97: 305483.936, 2768474.47
-MRT: No
+--- MRT: No
 ID: GL95, Name: 台灣聯通統領停車場
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 305548.97, 2770543.59
-MRT: No
+--- MRT: No
 ID: GL97, Name: 仁光瑞安站停車場
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 304501.893, 2768797.11
-MRT: No
+--- MRT: No
 ID: GL98, Name: TIMES金山南路
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 303325.354, 2769528.91
-MRT: No
+--- MRT: No
 ID: GM01, Name: 好庭車大安停車場
 --- Capacity: 120, 0
 --- Available: 0, 0
 --- TW97: 305248.543, 2769541.06
-MRT: No
+--- MRT: No
 ID: GM02, Name: TIMES基隆路
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 305583.448, 2768455.88
-MRT: No
+--- MRT: No
 ID: GM03, Name: TIMES和平東路
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 303783.872, 2768758.17
-MRT: No
+--- MRT: No
 ID: GM04, Name: 四維廣場停車場
 --- Capacity: 37, 0
 --- Available: 0, 0
 --- TW97: 305320.48, 2769714.56
-MRT: No
+--- MRT: No
 ID: GM05, Name: 安祥公園旁平面停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 304779.83, 2769677.6
-MRT: No
+--- MRT: No
 ID: GM06, Name: 溫州停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 303812.296, 2768215.94
-MRT: No
+--- MRT: No
 ID: GM07, Name: 大崴停車場(B棟)
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 306036.846, 2770727.98
-MRT: No
+--- MRT: No
 ID: GM08, Name: 大崴停車場
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 306031.895, 2770751.35
-MRT: No
+--- MRT: No
 ID: GM09, Name: TIMES敦化南路
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 305329.604, 2769503.02
-MRT: No
+--- MRT: No
 ID: GM10, Name: TIMES永康街
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 303460.414, 2769211.2
-MRT: No
+--- MRT: No
 ID: GM11, Name: 嘟嘟房瑞安站停車場
 --- Capacity: 46, 0
 --- Available: 0, 0
 --- TW97: 304430.965, 2768731.12
-MRT: No
+--- MRT: No
 ID: GM13, Name: 七鼎信義停車場
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 306154.311, 2769592.27
-MRT: No
+--- MRT: No
 ID: GM14, Name: 南華停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 304791.231, 2770684.99
-MRT: No
+--- MRT: No
 ID: GM15, Name: 信義路停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 304431.308, 2769456.41
-MRT: No
+--- MRT: No
 ID: GM16, Name: 禾典羅斯福站
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 302854.847, 2768834.79
-MRT: No
+--- MRT: No
 ID: GM18, Name: 大崴停車場(地下室)
 --- Capacity: 1, 0
 --- Available: 0, 0
 --- TW97: 306037.676, 2770778.83
-MRT: No
+--- MRT: No
 ID: GM19, Name: 黎元大樓地下停車場
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 305596.597, 2767675.6
-MRT: No
+--- MRT: No
 ID: GM20, Name: 八德路二段臨時平面停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 303868.515, 2770855.86
-MRT: No
+--- MRT: No
 ID: GM21, Name: TIMES樂業街停車場
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 305596.257, 2768493.91
-MRT: No
+--- MRT: No
 ID: GM22, Name: TIMES泰順街
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 303556.263, 2768323.93
-MRT: No
+--- MRT: No
 ID: GM23, Name: 博客停車場文昌站
 --- Capacity: 2, 0
 --- Available: 0, 0
 --- TW97: 305525.383, 2769510.55
-MRT: No
+--- MRT: No
 ID: GM24, Name: 長揚停車場仁愛站
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 304967.285, 2769954.45
-MRT: No
+--- MRT: No
 ID: GM25, Name: 嘟嘟房敦南2站停車場
 --- Capacity: 55, 0
 --- Available: 0, 0
 --- TW97: 305425.046, 2769436.87
-MRT: No
+--- MRT: No
 ID: GM26, Name: 驛林交通股份有限公司基泰台大站
 --- Capacity: 135, 0
 --- Available: 0, 0
 --- TW97: 303704.522, 2767798.63
-MRT: No
+--- MRT: No
 ID: GM27, Name: 嘟嘟房敦南誠品站停車場
 --- Capacity: 73, 0
 --- Available: 0, 0
 --- TW97: 305468.938, 2770226.02
-MRT: No
+--- MRT: No
 ID: GM29, Name: 長揚停車場信義站
 --- Capacity: 32, 0
 --- Available: 0, 0
 --- TW97: 303676.039, 2769584.97
-MRT: No
+--- MRT: No
 ID: GM31, Name: 禾典師大站
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 303493.718, 2768496.4
-MRT: No
+--- MRT: No
 ID: GM32, Name: 安敦停車場
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 305141.107, 2769672
-MRT: No
+--- MRT: No
 ID: GM33, Name: 201停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 305599.279, 2770540.13
-MRT: No
+--- MRT: No
 ID: GM34, Name: 台北慕軒停車場
 --- Capacity: 39, 0
 --- Available: 0, 0
 --- TW97: 305434.088, 2769657.76
-MRT: No
+--- MRT: No
 ID: GM36, Name: 國立台灣大學生醫工程館地下停車場
 --- Capacity: 117, 495
 --- Available: 0, 0
 --- TW97: 0, 0
-MRT: No
+--- MRT: No
 ID: GM37, Name: 國立台灣大學芳蘭第一平面停車場
 --- Capacity: 36, 0
 --- Available: 0, 0
 --- TW97: 305001.804, 2767239.72
-MRT: No
+--- MRT: No
 ID: GM38, Name: Times 基隆路2
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 305464.669, 2768262.97
-MRT: No
+--- MRT: No
 ID: GM39, Name: 台北安和1停車場
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 305593.319, 2769399.4
-MRT: No
+--- MRT: No
 ID: GM40, Name: 國立臺北教育大學附屬停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 304532.168, 2768809.54
-MRT: No
+--- MRT: No
 ID: GM41, Name: 師大夜市站停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 303172.01, 2768416.33
-MRT: No
+--- MRT: No
 ID: H12, Name: 文華停車場
 --- Capacity: 466, 0
 --- Available: 0, 0
 --- TW97: 305336.195, 2772025.17
-MRT: No
+--- MRT: No
 ID: H17, Name: NaviPark小巨蛋場
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 305525.663, 2771677.91
-MRT: No
+--- MRT: No
 ID: H31, Name: 宏泰世界大樓計時停車場
 --- Capacity: 298, 0
 --- Available: 0, 0
 --- TW97: 305322.456, 2772132.57
-MRT: No
+--- MRT: No
 ID: H32, Name: 西華大飯店客用停車場
 --- Capacity: 123, 0
 --- Available: 0, 0
 --- TW97: 305069.393, 2772318.04
-MRT: No
+--- MRT: No
 ID: H33, Name: 兄弟飯店停車場
 --- Capacity: 61, 0
 --- Available: 0, 0
 --- TW97: 304950.295, 2771684.49
-MRT: No
+--- MRT: No
 ID: H35, Name: 王朝大酒店停車場
 --- Capacity: 239, 0
 --- Available: 0, 0
 --- TW97: 305350.255, 2771736.59
-MRT: No
+--- MRT: No
 ID: H36, Name: 三軍總醫院松山分院附設民眾停車場
 --- Capacity: 108, 0
 --- Available: 0, 0
 --- TW97: 306270.253, 2771874.15
-MRT: No
+--- MRT: No
 ID: H46, Name: 台塑大樓停車場
 --- Capacity: 304, 0
 --- Available: 0, 0
 --- TW97: 305542.013, 2772228.24
-MRT: No
+--- MRT: No
 ID: H48, Name: 揚昇收費停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 304915.766, 2771479.79
-MRT: No
+--- MRT: No
 ID: H50, Name: 復源新城甲基地停車場
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 306112.858, 2771120.19
-MRT: No
+--- MRT: No
 ID: H56, Name: 聯合安豐長春站
 --- Capacity: 124, 0
 --- Available: 0, 0
 --- TW97: 305036.971, 2771875.9
-MRT: No
+--- MRT: No
 ID: H60, Name: 大台北瓦斯大樓地下停車場
 --- Capacity: 102, 0
 --- Available: 0, 0
 --- TW97: 306490.372, 2771456.54
-MRT: No
+--- MRT: No
 ID: H68, Name: 鴻構大樓計時收費停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 305006.358, 2772326.18
-MRT: No
+--- MRT: No
 ID: H69, Name: 松山區行政中心地下停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 308238.111, 2771420.28
-MRT: No
+--- MRT: No
 ID: H7, Name: 應安168松信停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 307780.159, 2771331.97
-MRT: No
+--- MRT: No
 ID: H71, Name: 元順停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 304928.717, 2772456.64
-MRT: No
+--- MRT: No
 ID: H75, Name: 新長越市民大道站停車場
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 305970.267, 2770852.41
-MRT: No
+--- MRT: No
 ID: H76, Name: 中國人壽敦北大樓停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 305308.823, 2771873.87
-MRT: No
+--- MRT: No
 ID: H77, Name: 新長越八德站停車場
 --- Capacity: 2, 0
 --- Available: 0, 0
 --- TW97: 306869.647, 2771313.18
-MRT: No
+--- MRT: No
 ID: H78, Name: 日日停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 306192.092, 2771546.93
-MRT: No
+--- MRT: No
 ID: H80, Name: 微風廣場地下停車場
 --- Capacity: 331, 179
 --- Available: 0, 0
 --- TW97: 304909.445, 2770998.56
-MRT: No
+--- MRT: No
 ID: H81, Name: 叭叭房八德一停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 305883.816, 2771164.53
-MRT: No
+--- MRT: No
 ID: H82, Name: 敦北停車場
 --- Capacity: 27, 0
 --- Available: 0, 0
 --- TW97: 305549.228, 2771708.7
-MRT: No
+--- MRT: No
 ID: H85, Name: 通泰商業大樓收費停車場
 --- Capacity: 122, 0
 --- Available: 0, 0
 --- TW97: 305095.28, 2771862.01
-MRT: No
+--- MRT: No
 ID: H86, Name: 福里停車場
 --- Capacity: 37, 0
 --- Available: 0, 0
 --- TW97: 305001.131, 2771950.16
-MRT: No
+--- MRT: No
 ID: H87, Name: 芝?停車場
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 304931.508, 2771305.51
-MRT: No
+--- MRT: No
 ID: H91, Name: 宏泰金融大樓計時停車場
 --- Capacity: 293, 0
 --- Available: 0, 0
 --- TW97: 305260.142, 2772245.39
-MRT: No
+--- MRT: No
 ID: H92, Name: 家樂福三民停車場
 --- Capacity: 76, 0
 --- Available: 0, 0
 --- TW97: 306838.478, 2772728.6
-MRT: No
+--- MRT: No
 ID: H93, Name: 便利停車場八德站
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 306626.481, 2771227.9
-MRT: No
+--- MRT: No
 ID: H94, Name: 新長越民權東路停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 305434.342, 2772706.98
-MRT: No
+--- MRT: No
 ID: H96, Name: 震旦21世紀大樓停車場
 --- Capacity: 212, 0
 --- Available: 0, 0
 --- TW97: 306236.387, 2771826.58
-MRT: No
+--- MRT: No
 ID: HA7, Name: 台灣聯通前瞻停車場
 --- Capacity: 53, 0
 --- Available: 0, 0
 --- TW97: 306244.811, 2771633.3
-MRT: No
+--- MRT: No
 ID: HA83, Name: 新長越光復南路停車場
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 306008.371, 2770983.63
-MRT: No
+--- MRT: No
 ID: HA88, Name: 基隆河5、6號水門堤外觀山段河濱公園附設平面停車場
 --- Capacity: 400, 189
 --- Available: 0, 0
 --- TW97: 307459.49, 2772553.74
-MRT: No
+--- MRT: No
 ID: HA89, Name: 金和興復旦站停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 305228.007, 2770923.45
-MRT: No
+--- MRT: No
 ID: HA94, Name: 威京大樓停車場
 --- Capacity: 90, 0
 --- Available: 0, 0
 --- TW97: 306999.426, 2771396.33
-MRT: No
+--- MRT: No
 ID: HA97, Name: TIMES慶城街停車場
 --- Capacity: 27, 0
 --- Available: 0, 0
 --- TW97: 305092.938, 2771950.38
-MRT: No
+--- MRT: No
 ID: HA98, Name: 科技服務大樓附屬停車樓汽車停車場
 --- Capacity: 146, 0
 --- Available: 0, 0
 --- TW97: 305942.909, 2772403.81
-MRT: No
+--- MRT: No
 ID: HA99, Name: 便利停車場八德二站
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 305118.367, 2771276.85
-MRT: No
+--- MRT: No
 ID: HB01, Name: 台灣聯通東興停車場
 --- Capacity: 34, 0
 --- Available: 0, 0
 --- TW97: 307271.007, 2771330.79
-MRT: No
+--- MRT: No
 ID: HB02, Name: 建築賞停車場
 --- Capacity: 51, 0
 --- Available: 0, 0
 --- TW97: 307579.603, 2771452.75
-MRT: No
+--- MRT: No
 ID: HB03, Name: 台灣聯通饒河停車場
 --- Capacity: 35, 0
 --- Available: 0, 0
 --- TW97: 307579.603, 2771452.75
-MRT: No
+--- MRT: No
 ID: HB07, Name: 嘟嘟房長春站停車場
 --- Capacity: 104, 0
 --- Available: 0, 0
 --- TW97: 305250.777, 2771940.53
-MRT: No
+--- MRT: No
 ID: HB09, Name: 應安168德璞十九章停車場
 --- Capacity: 37, 0
 --- Available: 0, 0
 --- TW97: 305200.618, 2772399.16
-MRT: No
+--- MRT: No
 ID: HB10, Name: 嘟嘟房南京東2站停車場
 --- Capacity: 82, 0
 --- Available: 0, 0
 --- TW97: 306861.758, 2771558.82
-MRT: No
+--- MRT: No
 ID: HB11, Name: 8號停車場
 --- Capacity: 1, 0
 --- Available: 0, 0
 --- TW97: 305386.221, 2772604.79
-MRT: No
+--- MRT: No
 ID: HB12, Name: TIMES民權敦化3
 --- Capacity: 34, 0
 --- Available: 0, 0
 --- TW97: 305451.01, 2772587.42
-MRT: No
+--- MRT: No
 ID: HB13, Name: 宏國大樓停車場
 --- Capacity: 287, 0
 --- Available: 0, 0
 --- TW97: 305451.208, 2771942.32
-MRT: No
+--- MRT: No
 ID: HB15, Name: 臺安停車場
 --- Capacity: 203, 0
 --- Available: 0, 0
 --- TW97: 305272.438, 2771142.79
-MRT: No
+--- MRT: No
 ID: HB18, Name: 應安松山機場停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 305293.837, 2772819.63
-MRT: No
+--- MRT: No
 ID: HB19, Name: 嘟嘟房京華城站停車場
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 306816.744, 2771193.37
-MRT: No
+--- MRT: No
 ID: HB20, Name: 保德信停車場
 --- Capacity: 131, 0
 --- Available: 0, 0
 --- TW97: 306721.336, 2771628.32
-MRT: No
+--- MRT: No
 ID: HB21, Name: 台灣聯通長慶停車場
 --- Capacity: 76, 0
 --- Available: 0, 0
 --- TW97: 305130.837, 2772009.3
-MRT: No
+--- MRT: No
 ID: HB22, Name: TIMES長春路
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 305337.424, 2771947.76
-MRT: No
+--- MRT: No
 ID: HB23, Name: TIMES松山車站前
 --- Capacity: 65, 0
 --- Available: 0, 0
 --- TW97: 308398.043, 2771440.46
-MRT: No
+--- MRT: No
 ID: HB24, Name: Times松山運動中心
 --- Capacity: 55, 0
 --- Available: 0, 0
 --- TW97: 305520.386, 2771300.22
-MRT: No
+--- MRT: No
 ID: HB25, Name: 育達停車場
 --- Capacity: 89, 362
 --- Available: 0, 0
 --- TW97: 305914.954, 2771391.95
-MRT: No
+--- MRT: No
 ID: HB26, Name: 台灣聯通大千停車場
 --- Capacity: 31, 0
 --- Available: 0, 0
 --- TW97: 306720.455, 2771568.26
-MRT: No
+--- MRT: No
 ID: HB27, Name: 聯通新高停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 306157.755, 2771567.43
-MRT: No
+--- MRT: No
 ID: HB30, Name: TIMES民權敦化站(二)
 --- Capacity: 32, 0
 --- Available: 0, 0
 --- TW97: 305453.922, 2772622.16
-MRT: No
+--- MRT: No
 ID: HB31, Name: 便利停車場萬國站
 --- Capacity: 134, 0
 --- Available: 0, 0
 --- TW97: 305300.211, 2771200.19
-MRT: No
+--- MRT: No
 ID: HB32, Name: TIMES慶城街2停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 305067.711, 2772007.56
-MRT: No
+--- MRT: No
 ID: HB33, Name: 敦北翠苑社區停車場
 --- Capacity: 179, 0
 --- Available: 0, 0
 --- TW97: 305546.75, 2772091.78
-MRT: No
+--- MRT: No
 ID: HB34, Name: 嘟嘟房西松高中站停車場
 --- Capacity: 50, 0
 --- Available: 0, 0
 --- TW97: 307083.486, 2771956.25
-MRT: No
+--- MRT: No
 ID: HB35, Name: 基隆河濱公園迎風段(一)停車場
 --- Capacity: 181, 88
 --- Available: 0, 0
 --- TW97: 307219.986, 2773826.06
-MRT: No
+--- MRT: No
 ID: HB36, Name: 基隆河迎風段河濱公園停車場
 --- Capacity: 474, 251
 --- Available: 0, 0
 --- TW97: 305715.198, 2774100.64
-MRT: No
+--- MRT: No
 ID: HB37, Name: 臺北國際航空站大客車收費停車場
 --- Capacity: 0, 0
 --- Available: 0, 0
 --- TW97: 305536.205, 2772907.51
-MRT: No
+--- MRT: No
 ID: HB39, Name: 富偉東泰場
 --- Capacity: 45, 0
 --- Available: 0, 0
 --- TW97: 305635.829, 2771969
-MRT: No
+--- MRT: No
 ID: HB40, Name: 台灣聯通博仁醫院停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 306264.312, 2771437.27
-MRT: No
+--- MRT: No
 ID: HB41, Name: 龍城市場停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 305873.622, 2771951.89
-MRT: No
+--- MRT: No
 ID: HB42, Name: 撫遠平面停車場
 --- Capacity: 81, 77
 --- Available: 0, 0
 --- TW97: 307273.483, 2773416.1
-MRT: No
+--- MRT: No
 ID: HB45, Name: 宏達經營管理顧問有限公司南京停車場
 --- Capacity: 50, 0
 --- Available: 0, 0
 --- TW97: 306935.729, 2771567.47
-MRT: No
+--- MRT: No
 ID: HB46, Name: 塔悠路停車場
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 307443.906, 2772096.4
-MRT: No
+--- MRT: No
 ID: HB48, Name: 緯來停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 305605.997, 2772344.53
-MRT: No
+--- MRT: No
 ID: HB49, Name: TIMES光復延吉停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 305948.874, 2770948.57
-MRT: No
+--- MRT: No
 ID: HB52, Name: TIMES潤泰敦化停車場
 --- Capacity: 149, 0
 --- Available: 0, 0
 --- TW97: 305074.881, 2770910.98
-MRT: No
+--- MRT: No
 ID: HB53, Name: 長庚站停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 305470.033, 2771876.92
-MRT: No
+--- MRT: No
 ID: HB54, Name: 應安北寧停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 305871.171, 2771272.35
-MRT: No
+--- MRT: No
 ID: HB55, Name: 便利停車場全錄站
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 305323.171, 2771904.47
-MRT: No
+--- MRT: No
 ID: HB56, Name: 台灣世達志不動產顧問股份有限公司民生東路第一停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 305164.838, 2772216.63
-MRT: No
+--- MRT: No
 ID: HB58, Name: 博客停車場敦北站
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 305094.819, 2771386.35
-MRT: No
+--- MRT: No
 ID: HB59, Name: TIMES松山市民
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 308392.467, 2771404.91
-MRT: No
+--- MRT: No
 ID: HB60, Name: 新長越慶城街停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 305051.912, 2771997.97
-MRT: No
+--- MRT: No
 ID: HH01, Name: 嘟嘟房敦北頂好站停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 305625.033, 2772199.12
-MRT: No
+--- MRT: No
 ID: HH02, Name: TIMES敦南市民
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 305227.632, 2770902.58
-MRT: No
+--- MRT: No
 ID: HH03, Name: TIMES潤泰敦化停車場
 --- Capacity: 149, 0
 --- Available: 0, 0
 --- TW97: 305073.276, 2770956.1
-MRT: No
+--- MRT: No
 ID: HH04, Name: 健安新城E區管理委員會停車場
 --- Capacity: 85, 0
 --- Available: 0, 0
 --- TW97: 306849.1, 2772014.04
-MRT: No
+--- MRT: No
 ID: HH05, Name: 光富南路平面停車場
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 306158.338, 2771073.69
-MRT: No
+--- MRT: No
 ID: HH06, Name: 金安年小巨蛋第一停車場
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 305530.178, 2771788.71
-MRT: No
+--- MRT: No
 ID: HH07, Name: 金安年小巨蛋第二停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 305530.39, 2771755.69
-MRT: No
+--- MRT: No
 ID: HH08, Name: 嘟嘟房饒河夜市2站停車場
 --- Capacity: 7, 26
 --- Available: 0, 0
 --- TW97: 307627.386, 2771489.31
-MRT: No
+--- MRT: No
 ID: HH09, Name: 嘟嘟房饒河夜市1站停車場
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 307559.305, 2771498.01
-MRT: No
+--- MRT: No
 ID: HH10, Name: 北寧路地下停車場
 --- Capacity: 78, 0
 --- Available: 0, 0
 --- TW97: 305727.193, 2771295.09
-MRT: No
+--- MRT: No
 ID: HH11, Name: 嘟嘟房民生國小站停車場
 --- Capacity: 69, 0
 --- Available: 0, 0
 --- TW97: 305804.318, 2772105.35
-MRT: No
+--- MRT: No
 ID: HH12, Name: 德璞十九章停車場
 --- Capacity: 38, 0
 --- Available: 0, 0
 --- TW97: 305195.839, 2772399.09
-MRT: No
+--- MRT: No
 ID: HH13, Name: 光復北路平面停車場
 --- Capacity: 25, 0
 --- Available: 0, 0
 --- TW97: 306333.34, 2771302.1
-MRT: No
+--- MRT: No
 ID: HH14, Name: 吉拾停車場民生場
 --- Capacity: 86, 0
 --- Available: 0, 0
 --- TW97: 305527.786, 2772272.34
-MRT: No
+--- MRT: No
 ID: HH4, Name: 台北市區監理所平面停車場
 --- Capacity: 124, 0
 --- Available: 0, 0
 --- TW97: 306395.845, 2771324.03
-MRT: No
+--- MRT: No
 ID: II01, Name: 嘟嘟房文山光輝站停車場
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 306148.321, 2764183.24
-MRT: No
+--- MRT: No
 ID: II02, Name: 助安168萬芳停車場
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 306247.31, 2765706.43
-MRT: No
+--- MRT: No
 ID: II03, Name: 玫如台大四季停車場
 --- Capacity: 30, 15
 --- Available: 0, 0
 --- TW97: 304512.739, 2765727.75
-MRT: No
+--- MRT: No
 ID: II04, Name: 達觀淳境社區停車場
 --- Capacity: 11, 5
 --- Available: 0, 0
 --- TW97: 305238.41, 2765346.77
-MRT: No
+--- MRT: No
 ID: J14, Name: 國父紀念館第一停車場
 --- Capacity: 112, 0
 --- Available: 0, 0
 --- TW97: 306355.16, 2770342.34
-MRT: No
+--- MRT: No
 ID: J3, Name: 松隆平面停車場
 --- Capacity: 18, 6
 --- Available: 0, 0
 --- TW97: 308076.22, 2771253.78
-MRT: No
+--- MRT: No
 ID: J44, Name: 中油大樓停車場
 --- Capacity: 603, 437
 --- Available: 0, 0
 --- TW97: 307429.763, 2770291.07
-MRT: No
+--- MRT: No
 ID: J48, Name: 普羅旺斯實業股份有限公司停車場
 --- Capacity: 134, 0
 --- Available: 0, 0
 --- TW97: 307836.506, 2770466.16
-MRT: No
+--- MRT: No
 ID: J5, Name: 國立國父紀念館光復南路第一停車場
 --- Capacity: 114, 0
 --- Available: 0, 0
 --- TW97: 306333.309, 2770175.66
-MRT: No
+--- MRT: No
 ID: J53, Name: 信義區行政中心停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 307209.379, 2769575.55
-MRT: No
+--- MRT: No
 ID: J54, Name: 一號交易廣場計時停車場
 --- Capacity: 74, 0
 --- Available: 0, 0
 --- TW97: 307418.591, 2769998.88
-MRT: No
+--- MRT: No
 ID: J60, Name: 震旦國際大樓附設停車場
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 306500.47, 2769525.61
-MRT: No
+--- MRT: No
 ID: J64, Name: 便利停車場忠孝站
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 306860.608, 2770350.27
-MRT: No
+--- MRT: No
 ID: J66, Name: Neo19停車場
 --- Capacity: 83, 0
 --- Available: 0, 0
 --- TW97: 307315.23, 2769851.18
-MRT: No
+--- MRT: No
 ID: J67, Name: 金和興永吉站停車場
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 308564.273, 2770883.69
-MRT: No
+--- MRT: No
 ID: J68, Name: 群益金融大樓計時停車場
 --- Capacity: 120, 0
 --- Available: 0, 0
 --- TW97: 307398.238, 2769896.89
-MRT: No
+--- MRT: No
 ID: J76, Name: 永吉路120巷平面停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 307494.697, 2770832.71
-MRT: No
+--- MRT: No
 ID: J80, Name: 新光三越百貨公司信義店A8館停車場
 --- Capacity: 279, 473
 --- Available: 0, 0
 --- TW97: 307189.318, 2770143.92
-MRT: No
+--- MRT: No
 ID: J81, Name: 國泰金融大樓停車場
 --- Capacity: 176, 0
 --- Available: 0, 0
 --- TW97: 307397.39, 2770181.31
-MRT: No
+--- MRT: No
 ID: J86, Name: 新光三越百貨股份有限公司台北信義分公司停車場
 --- Capacity: 279, 459
 --- Available: 0, 0
 --- TW97: 307234.174, 2769901.62
-MRT: No
+--- MRT: No
 ID: J9, Name: 松德大樓地下停車場
 --- Capacity: 32, 2
 --- Available: 0, 0
 --- TW97: 307941.751, 2769448.44
-MRT: No
+--- MRT: No
 ID: J91, Name: 太平洋商務中心台北會館
 --- Capacity: 31, 0
 --- Available: 0, 0
 --- TW97: 306292.597, 2769492.29
-MRT: No
+--- MRT: No
 ID: J94, Name: 世紀金融廣場大樓信基大樓停車場
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 306368.318, 2769520.62
-MRT: No
+--- MRT: No
 ID: J95, Name: 永春停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 308042.6, 2770536.26
-MRT: No
+--- MRT: No
 ID: JA22, Name: 台灣聯通松山停車場
 --- Capacity: 89, 0
 --- Available: 0, 0
 --- TW97: 307173.036, 2771107.63
-MRT: No
+--- MRT: No
 ID: JA24, Name: 信義傑仕堡停車場
 --- Capacity: 45, 0
 --- Available: 0, 0
 --- TW97: 307453.7, 2769464.16
-MRT: No
+--- MRT: No
 ID: JA36, Name: 便利停車場信義二站
 --- Capacity: 19, 21
 --- Available: 0, 0
 --- TW97: 307033.747, 2769503.89
-MRT: No
+--- MRT: No
 ID: JA37, Name: 臺北市立信義國民中學停車場
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 307278.37, 2769092.11
-MRT: No
+--- MRT: No
 ID: JA40, Name: 助安168松智停車場
 --- Capacity: 149, 0
 --- Available: 0, 0
 --- TW97: 307064.448, 2769138.2
-MRT: No
+--- MRT: No
 ID: JA41, Name: 昇榮信義停車場
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 307386.215, 2769576.23
-MRT: No
+--- MRT: No
 ID: JA44, Name: 臺北醫學大學附設醫院停車場
 --- Capacity: 176, 0
 --- Available: 0, 0
 --- TW97: 306672.094, 2768756.66
-MRT: No
+--- MRT: No
 ID: JA46, Name: 應安168松勇停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 307678.148, 2769722.16
-MRT: No
+--- MRT: No
 ID: JA53, Name: 三興市場大樓地下停車場
 --- Capacity: 64, 0
 --- Available: 0, 0
 --- TW97: 306625.917, 2769114.16
-MRT: No
+--- MRT: No
 ID: JA54, Name: 台灣聯通誠品信義停車場
 --- Capacity: 185, 1315
 --- Available: 0, 0
 --- TW97: 307043.518, 2770285.23
-MRT: No
+--- MRT: No
 ID: JA55, Name: 應安六合市場停車場
 --- Capacity: 42, 56
 --- Available: 0, 0
 --- TW97: 307405.87, 2768604.78
-MRT: No
+--- MRT: No
 ID: JA57, Name: 全豐盛信義105停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 307395.39, 2769823.66
-MRT: No
+--- MRT: No
 ID: JA59, Name: 松山家商校內平面停車場
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 308545.506, 2769902.95
-MRT: No
+--- MRT: No
 ID: JA60, Name: 叭叭房曼哈頓大樓停車場
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 306588.818, 2769520.96
-MRT: No
+--- MRT: No
 ID: JA62, Name: 信義停車場
 --- Capacity: 82, 112
 --- Available: 0, 0
 --- TW97: 307016.494, 2769414.55
-MRT: No
+--- MRT: No
 ID: JA64, Name: 南松山停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 307756.153, 2770472.2
-MRT: No
+--- MRT: No
 ID: JA66, Name: 新光三越百貨公司信義店A9館停車場
 --- Capacity: 186, 406
 --- Available: 0, 0
 --- TW97: 307182.09, 2769943.03
-MRT: No
+--- MRT: No
 ID: JA67, Name: 新光三越百貨公司信義店A4館停車場
 --- Capacity: 212, 433
 --- Available: 0, 0
 --- TW97: 307176.757, 2770273.86
-MRT: No
+--- MRT: No
 ID: JA69, Name: 新光信義金融停車場
 --- Capacity: 121, 0
 --- Available: 0, 0
 --- TW97: 307312.287, 2770116.8
-MRT: No
+--- MRT: No
 ID: JA70, Name: 基隆路停車場
 --- Capacity: 31, 0
 --- Available: 0, 0
 --- TW97: 307107.484, 2770640.87
-MRT: No
+--- MRT: No
 ID: JA71, Name: 玄覺寺停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 306646.531, 2768383.69
-MRT: No
+--- MRT: No
 ID: JA72, Name: TIMES松勤街停車場
 --- Capacity: 76, 0
 --- Available: 0, 0
 --- TW97: 306777.322, 2769458.18
-MRT: No
+--- MRT: No
 ID: JA74, Name: 愛馬屋世貿場
 --- Capacity: 58, 0
 --- Available: 0, 0
 --- TW97: 306276.793, 2769300.86
-MRT: No
+--- MRT: No
 ID: JA76, Name: 嘟嘟房世貿站停車場
 --- Capacity: 379, 0
 --- Available: 0, 0
 --- TW97: 306582.088, 2769648.12
-MRT: No
+--- MRT: No
 ID: JA79, Name: TIMES松仁路
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 307378.739, 2769010.33
-MRT: No
+--- MRT: No
 ID: JA81, Name: 博客停車場信義站
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 306295.938, 2769582.36
-MRT: No
+--- MRT: No
 ID: JA84, Name: TIMES光復南路
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 306344.974, 2769612.21
-MRT: No
+--- MRT: No
 ID: JA85, Name: 國父紀念館第二停車場
 --- Capacity: 104, 0
 --- Available: 0, 0
 --- TW97: 306587.693, 2770416.83
-MRT: No
+--- MRT: No
 ID: JA87, Name: 臺北市立永春高級中學停車場
 --- Capacity: 76, 159
 --- Available: 0, 0
 --- TW97: 308424.834, 2769627.9
-MRT: No
+--- MRT: No
 ID: JA89, Name: 詮營信義101停車場
 --- Capacity: 87, 48
 --- Available: 0, 0
 --- TW97: 306996.64, 2769504.3
-MRT: No
+--- MRT: No
 ID: JA91, Name: 信義停車場
 --- Capacity: 43, 0
 --- Available: 0, 0
 --- TW97: 302740.765, 2769943.9
-MRT: No
+--- MRT: No
 ID: JA92, Name: 松興合署辦公大樓地下停車場
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 307268.858, 2770696.84
-MRT: No
+--- MRT: No
 ID: JA95, Name: 信義路5段150巷平面停車場
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 307705.428, 2768561.81
-MRT: No
+--- MRT: No
 ID: JA96, Name: 吳興街600巷平面停車場
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 307482.691, 2768189.45
-MRT: No
+--- MRT: No
 ID: JA99, Name: TIMES石園社區
 --- Capacity: 28, 0
 --- Available: 0, 0
 --- TW97: 302731.998, 2769936.62
-MRT: No
+--- MRT: No
 ID: JB01, Name: 台灣聯通松高停車場
 --- Capacity: 61, 0
 --- Available: 0, 0
 --- TW97: 306944.092, 2770273.28
-MRT: No
+--- MRT: No
 ID: JB02, Name: 微風松高地下停車場
 --- Capacity: 149, 0
 --- Available: 0, 0
 --- TW97: 307255.002, 2770151.23
-MRT: No
+--- MRT: No
 ID: JB03, Name: 信義D1停車場
 --- Capacity: 63, 0
 --- Available: 0, 0
 --- TW97: 306722.18, 2769466.93
-MRT: No
+--- MRT: No
 ID: JB04, Name: Times信安街
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 306053.085, 2768515.61
-MRT: No
+--- MRT: No
 ID: JB05, Name: 嘟嘟房市府站停車場
 --- Capacity: 86, 0
 --- Available: 0, 0
 --- TW97: 307110.63, 2770563.01
-MRT: No
+--- MRT: No
 ID: JB06, Name: 吳興街156巷25弄平面停車場
 --- Capacity: 30, 22
 --- Available: 0, 0
 --- TW97: 306619.677, 2769028.08
-MRT: No
+--- MRT: No
 ID: JB07, Name: 國泰信義停車場
 --- Capacity: 101, 0
 --- Available: 0, 0
 --- TW97: 307209.482, 2769497.15
-MRT: No
+--- MRT: No
 ID: JB77, Name: 松高路臨時平面停車場
 --- Capacity: 53, 0
 --- Available: 0, 0
 --- TW97: 307537.721, 2770292.59
-MRT: No
+--- MRT: No
 ID: JJ03, Name: 禾典永吉站
 --- Capacity: 55, 45
 --- Available: 0, 0
 --- TW97: 308542.796, 2770738.38
-MRT: No
+--- MRT: No
 ID: JJ05, Name: 微風信義地下停車場
 --- Capacity: 130, 0
 --- Available: 0, 0
 --- TW97: 307195.649, 2770382.27
-MRT: No
+--- MRT: No
 ID: JJ2, Name: 富邦松山停車場
 --- Capacity: 140, 0
 --- Available: 0, 0
 --- TW97: 307219.073, 2771010.8
-MRT: No
+--- MRT: No
 ID: JJ67, Name: 基隆路停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 307470.594, 2771480.81
-MRT: No
+--- MRT: No
 ID: K1, Name: 內湖江南街停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 308380.158, 2774395.41
-MRT: No
+--- MRT: No
 ID: K13, Name: 長揚停車場新湖站
 --- Capacity: 58, 0
 --- Available: 0, 0
 --- TW97: 308606.752, 2772725.56
-MRT: No
+--- MRT: No
 ID: K14, Name: 啟源收費停車場
 --- Capacity: 6, 0
 --- Available: 0, 0
 --- TW97: 308013.431, 2773596.95
-MRT: No
+--- MRT: No
 ID: K16, Name: 瑞光地下停車場
 --- Capacity: 89, 0
 --- Available: 0, 0
 --- TW97: 307997.392, 2774218.92
-MRT: No
+--- MRT: No
 ID: K17, Name: 宏達經營管理顧問有限公司麗湖停車場
 --- Capacity: 33, 0
 --- Available: 0, 0
 --- TW97: 311210.503, 2774014.27
-MRT: No
+--- MRT: No
 ID: K18, Name: 新湖站
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 308653.827, 2772926.63
-MRT: No
+--- MRT: No
 ID: K19, Name: 驛林交通股份有限公司基泰御峰站
 --- Capacity: 84, 0
 --- Available: 0, 0
 --- TW97: 309847.452, 2775046.68
-MRT: No
+--- MRT: No
 ID: K32, Name: 哈拉影城有限公司停車場
 --- Capacity: 132, 0
 --- Available: 0, 0
 --- TW97: 311676.735, 2773683.66
-MRT: No
+--- MRT: No
 ID: K35, Name: 便利停車場創世紀站
 --- Capacity: 65, 0
 --- Available: 0, 0
 --- TW97: 307396.741, 2774844.54
-MRT: No
+--- MRT: No
 ID: K42, Name: 大湖停車場
 --- Capacity: 62, 0
 --- Available: 0, 0
 --- TW97: 310555.437, 2775316.68
-MRT: No
+--- MRT: No
 ID: K45, Name: 便利停車場中時站
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 308697.162, 2773601.32
-MRT: No
+--- MRT: No
 ID: K51, Name: 麗山街口停車場
 --- Capacity: 35, 0
 --- Available: 0, 0
 --- TW97: 307692.499, 2774876.54
-MRT: No
+--- MRT: No
 ID: K52, Name: 叭叭房康樂四停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 312518.715, 2773619.15
-MRT: No
+--- MRT: No
 ID: K54, Name: 叭叭房康樂停車場
 --- Capacity: 37, 0
 --- Available: 0, 0
 --- TW97: 312440.352, 2773653.34
-MRT: No
+--- MRT: No
 ID: K56, Name: 內湖加油站停車場
 --- Capacity: 103, 0
 --- Available: 0, 0
 --- TW97: 308924.576, 2773485.74
-MRT: No
+--- MRT: No
 ID: K58, Name: 陽光街口停車場
 --- Capacity: 34, 0
 --- Available: 0, 0
 --- TW97: 308192.943, 2773928.52
-MRT: No
+--- MRT: No
 ID: K59, Name: 叭叭房康樂三停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 312521.602, 2773669.31
-MRT: No
+--- MRT: No
 ID: K65, Name: 內湖區行政中心停車場
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 309414.254, 2773580.66
-MRT: No
+--- MRT: No
 ID: K66, Name: 康寧停車場
 --- Capacity: 146, 0
 --- Available: 0, 0
 --- TW97: 311374.591, 2774228.76
-MRT: No
+--- MRT: No
 ID: K67, Name: 三軍總醫院內湖院區民眾收費停車場
 --- Capacity: 464, 482
 --- Available: 0, 0
 --- TW97: 309891.109, 2773722.5
-MRT: No
+--- MRT: No
 ID: K81, Name: 安康公車調度站臨時平面停車場
 --- Capacity: 116, 49
 --- Available: 0, 0
 --- TW97: 311864.965, 2773376.57
-MRT: No
+--- MRT: No
 ID: K82, Name: 民權停車場
 --- Capacity: 46, 15
 --- Available: 0, 0
 --- TW97: 308208.702, 2773493.79
-MRT: No
+--- MRT: No
 ID: K85, Name: 芳鄰停車場
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 309965.911, 2774497.91
-MRT: No
+--- MRT: No
 ID: K87, Name: 嘟嘟房西湖站停車場
 --- Capacity: 5, 0
 --- Available: 0, 0
 --- TW97: 307878.95, 2774854.34
-MRT: No
+--- MRT: No
 ID: K88, Name: 便利停車場工研站
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 307001.052, 2774768.64
-MRT: No
+--- MRT: No
 ID: K94, Name: 台新銀行內湖大樓停車場
 --- Capacity: 329, 0
 --- Available: 0, 0
 --- TW97: 307966.128, 2774006.83
-MRT: No
+--- MRT: No
 ID: KA4, Name: 台灣聯通瑞光停車場
 --- Capacity: 75, 0
 --- Available: 0, 0
 --- TW97: 307596.581, 2774607.96
-MRT: No
+--- MRT: No
 ID: KB10, Name: 自由廣場停車場
 --- Capacity: 413, 0
 --- Available: 0, 0
 --- TW97: 307805.008, 2774638.14
-MRT: No
+--- MRT: No
 ID: KB4, Name: 應安168新內一停車場
 --- Capacity: 42, 0
 --- Available: 0, 0
 --- TW97: 307848.499, 2774341.31
-MRT: No
+--- MRT: No
 ID: KB41, Name: 叭叭房康樂二停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 312487.489, 2773646.07
-MRT: No
+--- MRT: No
 ID: KB44, Name: 長揚停車場陽光站
 --- Capacity: 0, 192
 --- Available: 0, 0
 --- TW97: 308203.979, 2773873.53
-MRT: No
+--- MRT: No
 ID: KB9, Name: 便利停車場東京二站
 --- Capacity: 183, 0
 --- Available: 0, 0
 --- TW97: 307468.007, 2774484.07
-MRT: No
+--- MRT: No
 ID: KC10, Name: 內湖國民中學停車場
 --- Capacity: 50, 0
 --- Available: 0, 0
 --- TW97: 309389.943, 2774433.48
-MRT: No
+--- MRT: No
 ID: KC111, Name: 碧山停車場
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 309630.478, 2775548.77
-MRT: No
+--- MRT: No
 ID: KC12, Name: 長揚停車場加美站
 --- Capacity: 42, 0
 --- Available: 0, 0
 --- TW97: 308169.165, 2774106.39
-MRT: No
+--- MRT: No
 ID: KC2, Name: 台灣聯通成功停車場
 --- Capacity: 56, 0
 --- Available: 0, 0
 --- TW97: 309945.215, 2775126.87
-MRT: No
+--- MRT: No
 ID: KC21, Name: 台灣聯通里昂停車場
 --- Capacity: 93, 0
 --- Available: 0, 0
 --- TW97: 307551.846, 2774551.27
-MRT: No
+--- MRT: No
 ID: KC24, Name: 便利停車場內湖二站
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 307479.257, 2774931.2
-MRT: No
+--- MRT: No
 ID: KC27, Name: 吳建和停車場
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 307110.133, 2774721.48
-MRT: No
+--- MRT: No
 ID: KC30, Name: 星雲停車場
 --- Capacity: 103, 0
 --- Available: 0, 0
 --- TW97: 310106.758, 2774842.45
-MRT: No
+--- MRT: No
 ID: KC31, Name: 嘟嘟房內湖堤頂站停車場
 --- Capacity: 135, 0
 --- Available: 0, 0
 --- TW97: 307289.331, 2774547.61
-MRT: No
+--- MRT: No
 ID: KC32, Name: 嘟嘟房內湖堤頂3站停車場
 --- Capacity: 174, 330
 --- Available: 0, 0
 --- TW97: 307289.331, 2774547.61
-MRT: No
+--- MRT: No
 ID: KC33, Name: 翡翠社區停車場
 --- Capacity: 165, 0
 --- Available: 0, 0
 --- TW97: 308846.148, 2775867.34
-MRT: No
+--- MRT: No
 ID: KC38, Name: 長揚停車場內湖長揚站
 --- Capacity: 173, 0
 --- Available: 0, 0
 --- TW97: 307208.036, 2774727.77
-MRT: No
+--- MRT: No
 ID: KC39, Name: 便利停車場基湖五站
 --- Capacity: 182, 449
 --- Available: 0, 0
 --- TW97: 306855.526, 2774856.49
-MRT: No
+--- MRT: No
 ID: KC4, Name: 便利停車場中興站
 --- Capacity: 22, 0
 --- Available: 0, 0
 --- TW97: 306792.643, 2775118.51
-MRT: No
+--- MRT: No
 ID: KC7, Name: 瑞光市場臨時平面停車場
 --- Capacity: 94, 0
 --- Available: 0, 0
 --- TW97: 308420.968, 2774018.67
-MRT: No
+--- MRT: No
 ID: KC97, Name: 內湖運動中心停車場
 --- Capacity: 99, 0
 --- Available: 0, 0
 --- TW97: 308009.541, 2774568.96
-MRT: No
+--- MRT: No
 ID: KC98, Name: 便利停車場大眾站
 --- Capacity: 150, 0
 --- Available: 0, 0
 --- TW97: 307973.458, 2773969.85
-MRT: No
+--- MRT: No
 ID: KD01, Name: 洲一停車場
 --- Capacity: 94, 0
 --- Available: 0, 0
 --- TW97: 307708.847, 2774755.08
-MRT: No
+--- MRT: No
 ID: KD05, Name: 台灣聯通文德停車場
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 309409.726, 2774732.04
-MRT: No
+--- MRT: No
 ID: KD07, Name: 便利停車場元吉站
 --- Capacity: 79, 0
 --- Available: 0, 0
 --- TW97: 307219.236, 2774853.86
-MRT: No
+--- MRT: No
 ID: KD08, Name: 瑞湖停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 308274.096, 2773472.05
-MRT: No
+--- MRT: No
 ID: KD13, Name: 金湖臨時平面停車場
 --- Capacity: 57, 0
 --- Available: 0, 0
 --- TW97: 310319.447, 2774954.71
-MRT: No
+--- MRT: No
 ID: KD16, Name: TIMES瑞光路停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 307117.439, 2774825.82
-MRT: No
+--- MRT: No
 ID: KD24, Name: 天成汽車拖吊(股)公司瑞湖停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 308114.972, 2773847.11
-MRT: No
+--- MRT: No
 ID: KD25, Name: 便利停車場西湖三站
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 307304.502, 2774961.31
-MRT: No
+--- MRT: No
 ID: KD26, Name: 康寧停車場
 --- Capacity: 35, 0
 --- Available: 0, 0
 --- TW97: 311418.008, 2773377.01
-MRT: No
+--- MRT: No
 ID: KD30, Name: 應安168新湖二停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 308352.842, 2772921.35
-MRT: No
+--- MRT: No
 ID: KD32, Name: 天成車業服務股份有限公司瑞湖三停車場
 --- Capacity: 0, 74
 --- Available: 0, 0
 --- TW97: 308110.614, 2773748.73
-MRT: No
+--- MRT: No
 ID: KD34, Name: 堤頂停車場
 --- Capacity: 96, 0
 --- Available: 0, 0
 --- TW97: 306973.968, 2774629.77
-MRT: No
+--- MRT: No
 ID: KD35, Name: 基湖停車場
 --- Capacity: 71, 0
 --- Available: 0, 0
 --- TW97: 306803.296, 2774951.44
-MRT: No
+--- MRT: No
 ID: KD36, Name: 基湖二停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 306948.885, 2774979.79
-MRT: No
+--- MRT: No
 ID: KD37, Name: 內湖三停車場
 --- Capacity: 247, 0
 --- Available: 0, 0
 --- TW97: 308324.56, 2774058.6
-MRT: No
+--- MRT: No
 ID: KD38, Name: 便利停車場西湖站
 --- Capacity: 35, 0
 --- Available: 0, 0
 --- TW97: 307305.607, 2774925.89
-MRT: No
+--- MRT: No
 ID: KD39, Name: 便利停車場西湖一站
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 307270.373, 2774961.91
-MRT: No
+--- MRT: No
 ID: KD40, Name: 台灣聯通文成場停車場
 --- Capacity: 36, 0
 --- Available: 0, 0
 --- TW97: 309426.955, 2774742.54
-MRT: No
+--- MRT: No
 ID: KD43, Name: 象朝企業有限公司
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 309071.365, 2774851.03
-MRT: No
+--- MRT: No
 ID: KD44, Name: 內湖二停車場
 --- Capacity: 207, 0
 --- Available: 0, 0
 --- TW97: 307969.775, 2773864.73
-MRT: No
+--- MRT: No
 ID: KD45, Name: 內湖一停車場
 --- Capacity: 624, 0
 --- Available: 0, 0
 --- TW97: 308208.016, 2773824.23
-MRT: No
+--- MRT: No
 ID: KD46, Name: 內湖成功停車場
 --- Capacity: 0, 0
 --- Available: 0, 0
 --- TW97: 309447.066, 2772790.78
-MRT: No
+--- MRT: No
 ID: KD48, Name: 內湖成功停車場(小型車)
 --- Capacity: 432, 0
 --- Available: 0, 0
 --- TW97: 309560.194, 2772837.91
-MRT: No
+--- MRT: No
 ID: KD50, Name: 內湖站停車場
 --- Capacity: 11, 0
 --- Available: 0, 0
 --- TW97: 308197.545, 2774199.26
-MRT: No
+--- MRT: No
 ID: KD51, Name: 瑞光停車場
 --- Capacity: 108, 0
 --- Available: 0, 0
 --- TW97: 308640.096, 2773807.17
-MRT: No
+--- MRT: No
 ID: KD53, Name: 便利停車場西湖二站
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 307241.354, 2774964.54
-MRT: No
+--- MRT: No
 ID: KD55, Name: 洲子站停車場
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 307271.193, 2774926.68
-MRT: No
+--- MRT: No
 ID: KD56, Name: 大潤發流通事業股份有限公司內湖分公司停車場
 --- Capacity: 442, 193
 --- Available: 0, 0
 --- TW97: 308289.42, 2772620.49
-MRT: No
+--- MRT: No
 ID: KD57, Name: 立成西湖站停車場
 --- Capacity: 104, 0
 --- Available: 0, 0
 --- TW97: 307174.251, 2774900.36
-MRT: No
+--- MRT: No
 ID: KD58, Name: 合發堤頂停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 307822.222, 2772865.14
-MRT: No
+--- MRT: No
 ID: KD60, Name: 西湖市場暨捷運站地下停車場
 --- Capacity: 200, 0
 --- Available: 0, 0
 --- TW97: 307155.7, 2775049.93
-MRT: No
+--- MRT: No
 ID: KD63, Name: 嘟嘟房堤頂2站停車場
 --- Capacity: 60, 169
 --- Available: 0, 0
 --- TW97: 307033.631, 2774622.39
-MRT: No
+--- MRT: No
 ID: KD64, Name: 應安168民權二停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 309739.439, 2773336.98
-MRT: No
+--- MRT: No
 ID: KD66, Name: 應安168新湖一停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 308422.13, 2773039.23
-MRT: No
+--- MRT: No
 ID: KD67, Name: 耶魯大樓停車場
 --- Capacity: 97, 0
 --- Available: 0, 0
 --- TW97: 307626.984, 2774789.93
-MRT: No
+--- MRT: No
 ID: KD71, Name: 台灣聯通文湖停車場
 --- Capacity: 35, 0
 --- Available: 0, 0
 --- TW97: 308913.884, 2774581.61
-MRT: Yes
+--- MRT: No
 ID: KD72, Name: 內湖站
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 306822.878, 2775059.38
-MRT: Yes
+--- MRT: No
 ID: KD73, Name: 應安168瑞光停車場
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 307757.859, 2774265.84
-MRT: No
+--- MRT: No
 ID: KD75, Name: 民權停車場
 --- Capacity: 32, 0
 --- Available: 0, 0
 --- TW97: 309859.009, 2773502
-MRT: No
+--- MRT: No
 ID: KD76, Name: TIMES行愛新湖
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 308729.405, 2772919.79
-MRT: No
+--- MRT: No
 ID: KD78, Name: TIMES北安路2
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 305495.858, 2774885.88
-MRT: No
+--- MRT: No
 ID: KD79, Name: TIMES北安路3
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 305493.591, 2774854.46
-MRT: No
+--- MRT: No
 ID: KD80, Name: TIMES新湖三路
 --- Capacity: 39, 0
 --- Available: 0, 0
 --- TW97: 308589.682, 2773129.33
-MRT: No
+--- MRT: No
 ID: KD81, Name: 應安洲子停車場
 --- Capacity: 46, 0
 --- Available: 0, 0
 --- TW97: 307839.081, 2774696.21
-MRT: No
+--- MRT: No
 ID: KD82, Name: 聯永物業股份有限公司內湖七站
 --- Capacity: 15, 0
 --- Available: 0, 0
 --- TW97: 307827.015, 2774248.88
-MRT: No
+--- MRT: No
 ID: KD85, Name: 嘟嘟房內湖瑞光站停車場
 --- Capacity: 166, 0
 --- Available: 0, 0
 --- TW97: 307236.98, 2774785.58
-MRT: No
+--- MRT: No
 ID: KD87, Name: 陽光街停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 308186.497, 2773961.02
-MRT: No
+--- MRT: No
 ID: KD88, Name: 天成汽車拖吊(股)公司基湖停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 306821.058, 2774996.36
-MRT: No
+--- MRT: No
 ID: KD89, Name: 嘟嘟房內湖瑞湖停車場
 --- Capacity: 118, 0
 --- Available: 0, 0
 --- TW97: 308163.003, 2774184.57
-MRT: No
+--- MRT: No
 ID: KD94, Name: 金矽谷18-1停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 308561.976, 2772700.91
-MRT: No
+--- MRT: No
 ID: KD95, Name: 金矽谷18-2停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 308584.467, 2772711.75
-MRT: No
+--- MRT: No
 ID: KD96, Name: 天成車業服務股份有限公司瑞二停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 308129.298, 2773770.2
-MRT: No
+--- MRT: No
 ID: KD97, Name: 龍昌內湖一站停車場
 --- Capacity: 125, 0
 --- Available: 0, 0
 --- TW97: 307973.612, 2774081.31
-MRT: No
+--- MRT: No
 ID: KD99, Name: 嘟嘟房康東站停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 311779.633, 2773561.65
-MRT: No
+--- MRT: No
 ID: KE1, Name: 天成舊宗停車場
 --- Capacity: 32, 10
 --- Available: 0, 0
 --- TW97: 308507.02, 2772689.2
-MRT: No
+--- MRT: No
 ID: KE10, Name: 宏達經營管理顧問有限公司內湖停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 307535.381, 2774871.99
-MRT: No
+--- MRT: No
 ID: KE11, Name: 台灣聯通停車場
 --- Capacity: 58, 43
 --- Available: 0, 0
 --- TW97: 309454.607, 2772975.92
-MRT: No
+--- MRT: No
 ID: KE12, Name: 博客停車場行愛站
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 308708.097, 2773180.45
-MRT: No
+--- MRT: No
 ID: KE13, Name: 便利停車場momo站
 --- Capacity: 182, 0
 --- Available: 0, 0
 --- TW97: 307606.989, 2774734.6
-MRT: No
+--- MRT: No
 ID: KE14, Name: 北北角薪傳中心停車場
 --- Capacity: 181, 0
 --- Available: 0, 0
 --- TW97: 308237.267, 2772592.12
-MRT: No
+--- MRT: No
 ID: KE15, Name: in base
 --- Capacity: 89, 0
 --- Available: 0, 0
 --- TW97: 308227.176, 2772758.51
-MRT: No
+--- MRT: No
 ID: KE16, Name: 北臺灣開發實業有限公司內湖營業所停車場
 --- Capacity: 14, 0
 --- Available: 0, 0
 --- TW97: 308584.233, 2772956.74
-MRT: No
+--- MRT: No
 ID: KE19, Name: 大直之星停車場
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 307013.474, 2775439.66
-MRT: No
+--- MRT: No
 ID: KE2, Name: 德明室內停車場
 --- Capacity: 35, 55
 --- Available: 0, 0
 --- TW97: 306876.368, 2775515.51
-MRT: No
+--- MRT: No
 ID: KE20, Name: 宏達經營管理顧問有限公司西湖停車場
 --- Capacity: 40, 0
 --- Available: 0, 0
 --- TW97: 306819.409, 2775162.71
-MRT: No
+--- MRT: No
 ID: KE21, Name: 萬國科技大樓停車場
 --- Capacity: 105, 0
 --- Available: 0, 0
 --- TW97: 307457.499, 2774865.56
-MRT: No
+--- MRT: No
 ID: KE22, Name: 廣朋建設行愛路平面停車場
 --- Capacity: 31, 0
 --- Available: 0, 0
 --- TW97: 308708.097, 2773180.45
-MRT: No
+--- MRT: No
 ID: KE23, Name: 便利停車場中醫站
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 309580.516, 2775000.16
-MRT: No
+--- MRT: No
 ID: KE24, Name: 長揚停車場民善站
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 308138.348, 2772503.04
-MRT: No
+--- MRT: No
 ID: KE25, Name: 璞初停車股份有限公司-蒔璞案
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 312163.289, 2773848.52
-MRT: No
+--- MRT: No
 ID: KE26, Name: 宏達經營管理顧問公司洲子停車場
 --- Capacity: 45, 0
 --- Available: 0, 0
 --- TW97: 307759.225, 2774678.01
-MRT: No
+--- MRT: No
 ID: KE4, Name: 大湖活動中心暨溫水游泳池停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 310559.867, 2775673.17
-MRT: No
+--- MRT: No
 ID: KE6, Name: TIMES安興街
 --- Capacity: 28, 0
 --- Available: 0, 0
 --- TW97: 308573.394, 2772245.44
-MRT: No
+--- MRT: No
 ID: KE7, Name: 晟晁環山停車場
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 307675.251, 2775411.33
-MRT: No
+--- MRT: No
 ID: KE8, Name: 大潤發流通事業股份有限公司南湖分公司
 --- Capacity: 83, 364
 --- Available: 0, 0
 --- TW97: 308110.87, 2772839.61
-MRT: No
+--- MRT: No
 ID: KE9, Name: 財團法人台北市私立仁愛頤養園附設停車場
 --- Capacity: 9, 0
 --- Available: 0, 0
 --- TW97: 308766.804, 2774314.78
-MRT: No
+--- MRT: No
 ID: KK01, Name: 應安168新湖三停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 308339.952, 2772937.02
-MRT: No
+--- MRT: No
 ID: KK02, Name: 長揚停車場瑞光站
 --- Capacity: 240, 0
 --- Available: 0, 0
 --- TW97: 308577.438, 2773616.54
-MRT: No
+--- MRT: No
 ID: KK03, Name: 助安168西康停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 306816.783, 2775355.56
-MRT: No
+--- MRT: No
 ID: KK04, Name: 彩虹河濱公園堤外停車場
 --- Capacity: 453, 0
 --- Available: 0, 0
 --- TW97: 307756.353, 2772509.29
-MRT: No
+--- MRT: No
 ID: KK05, Name: 星雲街210巷口臨時平面停車場
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 310249.068, 2774889.09
-MRT: No
+--- MRT: No
 ID: KK06, Name: 瑞光路平面臨時停車場
 --- Capacity: 314, 62
 --- Available: 0, 0
 --- TW97: 307979.732, 2774443.44
-MRT: No
+--- MRT: No
 ID: KK07, Name: 宏達經營管理顧問有限公司倫敦停車場
 --- Capacity: 101, 0
 --- Available: 0, 0
 --- TW97: 306800.195, 2774839.4
-MRT: No
+--- MRT: No
 ID: KK08, Name: 金湖臨時平面停車場
 --- Capacity: 28, 0
 --- Available: 0, 0
 --- TW97: 310365.703, 2774955.27
-MRT: No
+--- MRT: No
 ID: KK09, Name: 嘟嘟房內湖民權站停車場
 --- Capacity: 50, 116
 --- Available: 0, 0
 --- TW97: 308676.525, 2773394.95
-MRT: No
+--- MRT: No
 ID: KK10, Name: 台灣聯通山仔頂停車場
 --- Capacity: 72, 0
 --- Available: 0, 0
 --- TW97: 309857.669, 2773148.14
-MRT: No
+--- MRT: No
 ID: KK11, Name: 統順福德停車場
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 309003.249, 2772813.95
-MRT: No
+--- MRT: No
 ID: KK12, Name: 叭叭房西湖四停車場
 --- Capacity: 45, 0
 --- Available: 0, 0
 --- TW97: 307252.445, 2774976.72
-MRT: No
+--- MRT: No
 ID: KK13, Name: 叭叭房西湖三停車場
 --- Capacity: 24, 0
 --- Available: 0, 0
 --- TW97: 307278.335, 2774973.85
-MRT: No
+--- MRT: No
 ID: KK15, Name: 行善路平面停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 309149.905, 2773130.33
-MRT: No
+--- MRT: No
 ID: KK16, Name: 福安停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 310344.701, 2773263.18
-MRT: No
+--- MRT: No
 ID: KK17, Name: 國泰潭美停車場
 --- Capacity: 98, 0
 --- Available: 0, 0
 --- TW97: 309048.875, 2772908.57
-MRT: No
+--- MRT: No
 ID: KK18, Name: 長揚停車場康樂站
 --- Capacity: 84, 0
 --- Available: 0, 0
 --- TW97: 312826.902, 2774301.85
-MRT: No
+--- MRT: No
 ID: KK19, Name: 停車棧東湖站
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 311779.633, 2773561.65
-MRT: No
+--- MRT: No
 ID: L2, Name: 研究院路平面停車場
 --- Capacity: 7, 0
 --- Available: 0, 0
 --- TW97: 312029.323, 2770897.66
-MRT: No
+--- MRT: No
 ID: L34, Name: 南港遠東智慧科學園區管理委員會停車場
 --- Capacity: 25, 0
 --- Available: 0, 0
 --- TW97: 309690.297, 2771986.26
-MRT: No
+--- MRT: No
 ID: L35, Name: 龍昌大樓機電管理顧問股份有限公司忠孝營業處
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 309200.546, 2771053.12
-MRT: No
+--- MRT: No
 ID: L36, Name: 南港區行政中心地下停車場
 --- Capacity: 8, 0
 --- Available: 0, 0
 --- TW97: 311216.862, 2771963.57
-MRT: No
+--- MRT: No
 ID: L38, Name: 捷運昆陽站轉乘停車場
 --- Capacity: 121, 0
 --- Available: 0, 0
 --- TW97: 309932.987, 2771542.24
-MRT: No
+--- MRT: No
 ID: L5, Name: 福山平面停車場
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 312150.999, 2770947.22
-MRT: No
+--- MRT: No
 ID: L51, Name: 玉成停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 308912.915, 2771010.08
-MRT: No
+--- MRT: No
 ID: L52, Name: 轅鑫成功停車場
 --- Capacity: 119, 1
 --- Available: 0, 0
 --- TW97: 309836.852, 2772115.3
-MRT: No
+--- MRT: No
 ID: L53, Name: 衛生福利部附設停車場
 --- Capacity: 30, 30
 --- Available: 0, 0
 --- TW97: 310075.434, 2771471.17
-MRT: No
+--- MRT: No
 ID: L54, Name: 嘟嘟房玉成2站停車場
 --- Capacity: 49, 46
 --- Available: 0, 0
 --- TW97: 308912.915, 2771010.08
-MRT: No
+--- MRT: No
 ID: L56, Name: 助安南港停車場
 --- Capacity: 43, 0
 --- Available: 0, 0
 --- TW97: 310288.025, 2772000.58
-MRT: No
+--- MRT: No
 ID: L57, Name: 威京尊龍停車場
 --- Capacity: 90, 0
 --- Available: 0, 0
 --- TW97: 310587.16, 2771868.05
-MRT: No
+--- MRT: No
 ID: L58, Name: 助安168南港(二)停車場
 --- Capacity: 1, 0
 --- Available: 0, 0
 --- TW97: 310192.874, 2772044.46
-MRT: No
+--- MRT: No
 ID: L72, Name: 南港園區二期停車場
 --- Capacity: 231, 0
 --- Available: 0, 0
 --- TW97: 311763.97, 2772419.27
-MRT: No
+--- MRT: No
 ID: L85, Name: 便利停車場南軟站
 --- Capacity: 100, 0
 --- Available: 0, 0
 --- TW97: 311917.967, 2772359.01
-MRT: No
+--- MRT: No
 ID: L86, Name: 便利停車場南港站
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 311797.268, 2772126.71
-MRT: No
+--- MRT: No
 ID: L93, Name: 南港高中停車場
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 309848.444, 2771758.15
-MRT: No
+--- MRT: No
 ID: L94, Name: 台北南港展覽館停車場
 --- Capacity: 607, 1734
 --- Available: 0, 0
 --- TW97: 312442.831, 2772103.92
-MRT: No
+--- MRT: No
 ID: L95, Name: 嘟嘟房經貿一站停車場
 --- Capacity: 494, 0
 --- Available: 0, 0
 --- TW97: 312484.743, 2772354.63
-MRT: No
+--- MRT: No
 ID: L96, Name: 嘟嘟房經貿二站停車場
 --- Capacity: 702, 559
 --- Available: 0, 0
 --- TW97: 312319.113, 2772590.11
-MRT: No
+--- MRT: No
 ID: L97, Name: 南港經貿三站停車場
 --- Capacity: 80, 0
 --- Available: 0, 0
 --- TW97: 312186.518, 2772590.18
-MRT: No
+--- MRT: No
 ID: L98, Name: 南港停車場
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 312160.779, 2771259.87
-MRT: No
+--- MRT: No
 ID: L99, Name: 應安168昆陽停車場
 --- Capacity: 94, 11
 --- Available: 0, 0
 --- TW97: 309120.63, 2771329.53
-MRT: No
+--- MRT: No
 ID: LA02, Name: 鼎晟停車場(八德場)
 --- Capacity: 19, 0
 --- Available: 0, 0
 --- TW97: 308625.061, 2771513.33
-MRT: No
+--- MRT: No
 ID: LA04, Name: 玉成二站停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 308919.558, 2771064.3
-MRT: No
+--- MRT: No
 ID: LA06, Name: 聯永物業股份有限公司南港新天地站
 --- Capacity: 68, 0
 --- Available: 0, 0
 --- TW97: 308761.085, 2771120.81
-MRT: No
+--- MRT: No
 ID: LA09, Name: 成德國中運動中心停車場
 --- Capacity: 25, 0
 --- Available: 0, 0
 --- TW97: 309302.564, 2770881.94
-MRT: No
+--- MRT: No
 ID: LA14, Name: 捷運南港展覽館站轉乘停車場
 --- Capacity: 0, 1050
 --- Available: 0, 0
 --- TW97: 312412.504, 2772042.64
-MRT: No
+--- MRT: No
 ID: LA16, Name: 嘟嘟房南港園區站停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 311911.144, 2772478.4
-MRT: No
+--- MRT: No
 ID: LA17, Name: 南港軟體工業園區第三期地下停車場
 --- Capacity: 42, 0
 --- Available: 0, 0
 --- TW97: 311993.888, 2772275.38
-MRT: No
+--- MRT: No
 ID: LA19, Name: 沃瑪企業有限公司玉成站
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 308725.486, 2771649.49
-MRT: No
+--- MRT: No
 ID: LA21, Name: TIMES南港路停車場
 --- Capacity: 29, 0
 --- Available: 0, 0
 --- TW97: 311407.075, 2771882.09
-MRT: No
+--- MRT: No
 ID: LA22, Name: 舊莊區民活動中心停車場
 --- Capacity: 23, 68
 --- Available: 0, 0
 --- TW97: 312509.214, 2770500.69
-MRT: No
+--- MRT: No
 ID: LA23, Name: 大榮貨運停車場
 --- Capacity: 128, 0
 --- Available: 0, 0
 --- TW97: 310917.888, 2772339.72
-MRT: No
+--- MRT: No
 ID: LA24, Name: 晟晁爵士停車場
 --- Capacity: 92, 0
 --- Available: 0, 0
 --- TW97: 310955.608, 2772080.4
-MRT: No
+--- MRT: No
 ID: LA25, Name: 晟晁青春停車場
 --- Capacity: 36, 0
 --- Available: 0, 0
 --- TW97: 310957.25, 2772123.89
-MRT: No
+--- MRT: No
 ID: LA26, Name: 莒錩昆陽停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 309827.624, 2771689.62
-MRT: No
+--- MRT: No
 ID: LA27, Name: 應安新昆陽停車場
 --- Capacity: 41, 0
 --- Available: 0, 0
 --- TW97: 309117.139, 2771418.98
-MRT: No
+--- MRT: No
 ID: LA28, Name: 成福路停車場
 --- Capacity: 21, 0
 --- Available: 0, 0
 --- TW97: 309189.939, 2770499.08
-MRT: No
+--- MRT: No
 ID: LA29, Name: 重陽停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 311776.685, 2772720.1
-MRT: No
+--- MRT: No
 ID: LA30, Name: 中信金融園區地下停車場
 --- Capacity: 146, 0
 --- Available: 0, 0
 --- TW97: 312155.209, 2772426.39
-MRT: No
+--- MRT: No
 ID: LL04, Name: 舊莊街臨時平面停車場
 --- Capacity: 28, 0
 --- Available: 0, 0
 --- TW97: 312464.764, 2770673.72
-MRT: No
+--- MRT: No
 ID: LL05, Name: 昆陽捷運站旁平面停車場
 --- Capacity: 124, 0
 --- Available: 0, 0
 --- TW97: 309430.968, 2771384.02
-MRT: No
+--- MRT: No
 ID: LL06, Name: Times經貿二路
 --- Capacity: 41, 0
 --- Available: 0, 0
 --- TW97: 312078.369, 2772625.57
-MRT: No
+--- MRT: No
 ID: LL09, Name: 便利停車場園區站
 --- Capacity: 100, 0
 --- Available: 0, 0
 --- TW97: 311917.115, 2772487.21
-MRT: No
+--- MRT: No
 ID: LL1, Name: 中信金融園區B、C棟地下停車場
 --- Capacity: 195, 1000
 --- Available: 0, 0
 --- TW97: 312064.775, 2772460.74
-MRT: No
+--- MRT: No
 ID: LL10, Name: 映東騰停車場
 --- Capacity: 51, 26
 --- Available: 0, 0
 --- TW97: 309918.448, 2771261.02
-MRT: No
+--- MRT: No
 ID: LL2, Name: 台北市南港區胡適國小地下停車場
 --- Capacity: 47, 1
 --- Available: 0, 0
 --- TW97: 312315.539, 2770622.92
-MRT: No
+--- MRT: No
 ID: LL3, Name: 舊莊停車場
 --- Capacity: 12, 0
 --- Available: 0, 0
 --- TW97: 312397.918, 2770477.18
-MRT: No
+--- MRT: No
 ID: LL4, Name: 中視停車場
 --- Capacity: 43, 0
 --- Available: 0, 0
 --- TW97: 310571.69, 2772036.92
-MRT: No
+--- MRT: No
 ID: LL5, Name: 嘟嘟房南港經貿3站停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 312227.39, 2772590.52
-MRT: No
+--- MRT: No
 ID: LL6, Name: 南港62號公園臨時平面停車場
 --- Capacity: 100, 18
 --- Available: 0, 0
 --- TW97: 309540.834, 2771499.89
-MRT: No
+--- MRT: No
 ID: M002, Name: 水源快速道路高架橋下停車場
 --- Capacity: 173, 117
 --- Available: 0, 0
 --- TW97: 304026.264, 2766319.26
-MRT: No
+--- MRT: No
 ID: M008, Name: 景文平面停車場
 --- Capacity: 54, 0
 --- Available: 0, 0
 --- TW97: 304558.959, 2764833.83
-MRT: No
+--- MRT: No
 ID: M009, Name: 萬慶街平面停車場
 --- Capacity: 23, 0
 --- Available: 0, 0
 --- TW97: 304325.582, 2765160.93
-MRT: No
+--- MRT: No
 ID: M010, Name: 保儀路平面停車場
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 307138.739, 2764166.12
-MRT: No
+--- MRT: No
 ID: M011, Name: 永建市場旁平面停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 305656.124, 2764580.79
-MRT: No
+--- MRT: No
 ID: M014, Name: 萬芳八號公園停車場
 --- Capacity: 106, 0
 --- Available: 0, 0
 --- TW97: 306598.138, 2766225.42
-MRT: No
+--- MRT: No
 ID: M015, Name: 和興路平面停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 305379.424, 2764211.02
-MRT: No
+--- MRT: No
 ID: M016, Name: 國家考場大樓地下停車場
 --- Capacity: 127, 90
 --- Available: 0, 0
 --- TW97: 305458.623, 2764465.68
-MRT: No
+--- MRT: No
 ID: M018, Name: 協和上城停車場
 --- Capacity: 30, 0
 --- Available: 0, 0
 --- TW97: 306600.202, 2764318.97
-MRT: No
+--- MRT: No
 ID: M019, Name: 驛林交通股份有限公司興隆站
 --- Capacity: 44, 0
 --- Available: 0, 0
 --- TW97: 305662.814, 2766059.29
-MRT: No
+--- MRT: No
 ID: M020, Name: 萬芳醫院附設停車場
 --- Capacity: 255, 0
 --- Available: 0, 0
 --- TW97: 306323.177, 2765876.9
-MRT: No
+--- MRT: No
 ID: M021, Name: 仙岩停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 305451.228, 2765814.22
-MRT: No
+--- MRT: No
 ID: M023, Name: 忠順停車場
 --- Capacity: 4, 0
 --- Available: 0, 0
 --- TW97: 306394.389, 2764214.89
-MRT: No
+--- MRT: No
 ID: M026, Name: 景新大樓地下停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 304717.824, 2764780.46
-MRT: No
+--- MRT: No
 ID: M027, Name: 木農停車場
 --- Capacity: 46, 0
 --- Available: 0, 0
 --- TW97: 307530.28, 2764647.19
-MRT: No
+--- MRT: No
 ID: M032, Name: 宏和停車場
 --- Capacity: 48, 0
 --- Available: 0, 0
 --- TW97: 306192.123, 2765727.33
-MRT: No
+--- MRT: No
 ID: M033, Name: 麗園停車場
 --- Capacity: 35, 0
 --- Available: 0, 0
 --- TW97: 304162.791, 2767074.23
-MRT: No
+--- MRT: No
 ID: M034, Name: 興安停車場
 --- Capacity: 47, 0
 --- Available: 0, 0
 --- TW97: 305428.763, 2765779.71
-MRT: No
+--- MRT: No
 ID: M038, Name: 義芳第二停車場
 --- Capacity: 148, 0
 --- Available: 0, 0
 --- TW97: 304802.596, 2766092.94
-MRT: No
+--- MRT: No
 ID: M041, Name: TIMES民權西路
 --- Capacity: 45, 14
 --- Available: 0, 0
 --- TW97: 302381.303, 2772789.72
-MRT: No
+--- MRT: No
 ID: M044, Name: 義芳第三停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 305148.373, 2765870.26
-MRT: No
+--- MRT: No
 ID: M045, Name: 景興國小停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 305351.652, 2765474.04
-MRT: No
+--- MRT: No
 ID: M047, Name: 永安藝文館停車場
 --- Capacity: 57, 0
 --- Available: 0, 0
 --- TW97: 307415.958, 2764168.76
-MRT: No
+--- MRT: No
 ID: M048, Name: 光輝停車場
 --- Capacity: 13, 0
 --- Available: 0, 0
 --- TW97: 306146.121, 2764190.44
-MRT: No
+--- MRT: No
 ID: M049, Name: 忠順超市停車塔
 --- Capacity: 41, 0
 --- Available: 0, 0
 --- TW97: 306834.973, 2764163.07
-MRT: No
+--- MRT: No
 ID: M052, Name: 便利停車場萬盛站
 --- Capacity: 20, 0
 --- Available: 0, 0
 --- TW97: 304745.503, 2766464.62
-MRT: No
+--- MRT: No
 ID: M053, Name: 義芳第五停車場
 --- Capacity: 18, 9
 --- Available: 0, 0
 --- TW97: 304871.145, 2765949.55
-MRT: No
+--- MRT: No
 ID: M054, Name: 興福國民中學停車場
 --- Capacity: 26, 0
 --- Available: 0, 0
 --- TW97: 305530.988, 2766440.22
-MRT: No
+--- MRT: No
 ID: M055, Name: 動物園站地下停車場
 --- Capacity: 146, 196
 --- Available: 0, 0
 --- TW97: 308423.211, 2765610.24
-MRT: No
+--- MRT: No
 ID: M057, Name: 木柵永建停車場
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 305621.272, 2764542.03
-MRT: No
+--- MRT: No
 ID: M058, Name: 賀達忠順停車場
 --- Capacity: 18, 0
 --- Available: 0, 0
 --- TW97: 306850.689, 2764178.81
-MRT: No
+--- MRT: No
 ID: M059, Name: 興隆停車場
 --- Capacity: 1, 0
 --- Available: 0, 0
 --- TW97: 306528.047, 2765394.71
-MRT: No
+--- MRT: No
 ID: M060, Name: 益彩國際股份有限公司-燦坤停車場
 --- Capacity: 17, 0
 --- Available: 0, 0
 --- TW97: 304850.177, 2765057.58
-MRT: No
+--- MRT: No
 ID: M906, Name: 靜心連雲社區停車場
 --- Capacity: 47, 24
 --- Available: 0, 0
 --- TW97: 305049.989, 2765726.6
-MRT: No
+--- MRT: No
 ID: MA61, Name: 群旺企業社景隆營業所
 --- Capacity: 72, 0
 --- Available: 0, 0
 --- TW97: 304919.13, 2765698.7
-MRT: No
+--- MRT: No
 ID: MA62, Name: 木柵停車場
 --- Capacity: 76, 0
 --- Available: 0, 0
 --- TW97: 306210.501, 2765654.76
-MRT: No
+--- MRT: No
 ID: MA65, Name: 義芳停車場
 --- Capacity: 16, 0
 --- Available: 0, 0
 --- TW97: 304783.136, 2766139.03
-MRT: No
+--- MRT: No
 ID: MA66, Name: 長揚停車場木柵站
 --- Capacity: 16, 8
 --- Available: 0, 0
 --- TW97: 305267.269, 2764423.25
-MRT: No
+--- MRT: No
 ID: MA67, Name: 便利停車場瀚星站
 --- Capacity: 41, 0
 --- Available: 0, 0
 --- TW97: 304897.63, 2765044.91
-MRT: No
+--- MRT: No
 ID: MA68, Name: 磐石景美站停車場
 --- Capacity: 3, 0
 --- Available: 0, 0
 --- TW97: 304722.255, 2765062.53
-MRT: No
+--- MRT: No
 ID: MA69, Name: 木柵停車場
 --- Capacity: 10, 0
 --- Available: 0, 0
 --- TW97: 307239.924, 2764700.04
-MRT: No
+--- MRT: No
 ID: MA70, Name: 博客停車場萬慶站
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 304373.303, 2765110.33
-MRT: No
+--- MRT: No
 ID: MA72, Name: 台北景福停車場
 --- Capacity: 49, 0
 --- Available: 0, 0
 --- TW97: 304236.251, 2765298.38
-MRT: No
+--- MRT: No

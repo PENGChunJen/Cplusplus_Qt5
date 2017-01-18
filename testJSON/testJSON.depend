@@ -1,13 +1,42 @@
 # depslib dependency file v1.0
-1481870744 source:c:\users\lyj\desktop\cplusplus_qt5\testjson\main.cpp
-	"json.hpp"
+1484726829 source:c:\users\lyj\desktop\cplusplus_qt5\testjson\main.cpp
+	"../lib/json.hpp"
 	<iostream>
 	<fstream>
 	<cassert>
 	<string>
 	<map>
+	<set>
 
 1481870519 c:\users\lyj\desktop\cplusplus_qt5\testjson\json.hpp
+	<algorithm>
+	<array>
+	<cassert>
+	<cctype>
+	<ciso646>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdlib>
+	<cstring>
+	<functional>
+	<initializer_list>
+	<iomanip>
+	<iostream>
+	<iterator>
+	<limits>
+	<locale>
+	<map>
+	<memory>
+	<numeric>
+	<sstream>
+	<stdexcept>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+
+1484724862 c:\users\lyj\desktop\cplusplus_qt5\lib\json.hpp
 	<algorithm>
 	<array>
 	<cassert>

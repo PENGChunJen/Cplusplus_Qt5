@@ -1,6 +1,7 @@
 *.swp
 *.o
+*.exe
 testCSVReader
 testMap
-testJSON/bin/*
-testJSON/obj/*
+bin/
+obj/
