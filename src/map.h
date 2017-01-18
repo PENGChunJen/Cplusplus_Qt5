@@ -7,8 +7,6 @@
 using namespace std;
 
 struct TWD97 {
-    TWD97( const double& _x, const double& _y ) 
-        :x(_x), y(_y){}
     double x;
     double y;
 };
@@ -29,11 +27,11 @@ public:
     void addPark( Park p ) { parks.push_back(p); }
     void addCar(); //TODO
     void removeCar(); //TODO
-    void printStatus();
+    void printStatus(ostream* out = &cout);
 
 private:
     vector<Park> parks;
 
-    void printParkStatus( const Park& park );
+    void printParkStatus( const Park& park , ostream* out);
 };
 #endif

@@ -15,21 +15,21 @@ void Map::removeCar() {
     //TODO
 }
 
-void Map::printStatus() {
+void Map::printStatus(ostream* out) {
     if( parks.size() == 0 ) {
-        cout << "No Parks in the map" << endl;
+        *out << "No Parks in the map" << endl;
         return;
     }
 
 
     for( Park& park : parks ) {
-        printParkStatus( park );
+        printParkStatus( park , out);
     }
 
 }
 
-void Map::printParkStatus( const Park& park ) {
-    cout << "{" << endl
+void Map::printParkStatus( const Park& park , ostream* out) {
+    *out << "{" << endl
          << "\tPark : " << park.name << endl
          << "\tid : " << park.id << endl
          << "\tpos : (" << park.pos.x << ", " << park.pos.y << ")" << endl

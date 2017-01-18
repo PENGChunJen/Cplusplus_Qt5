@@ -12,9 +12,8 @@ int main( int argc, char* argv[] ) {
 
     map.printStatus();
 
-
     cout << endl << "adding a parking lot data..." << endl;
-    Park p1 = {1, L"停車場", Position(100.0, 200.0), 200, 150 };
+    Park p1 = {"1", "停車場", {100.0, 200.0}, 200, 150 ,false};
     map.addPark(p1);
 
     map.printStatus();
