@@ -31,7 +31,8 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="json.hpp" />
+		<Unit filename="../lib/tinyxml2.cpp" />
+		<Unit filename="../src/map.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

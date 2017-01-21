@@ -17,26 +17,55 @@ public:
     bool readFile( char* filename ) {
         ifstream inFile(filename);
         if ( !inFile.is_open() ) {
-            cerr << "Cannot open file:" << filename << endl ;
+            cerr << "Cannot open file: " << filename << endl ;
+            cerr << strerror(errno) << endl;
             return false;
         }
 
         string line;
         while( getline(inFile,line, '\n') ){
 
-            vector<int> row;
-        
+            vector<string> row;
+
             istringstream ss(line);
             string item;
             while( getline(ss, item, ',') ) {
-                row.push_back( stoi( item ) );
+				if(item.c_str()[0] == '\"')
+					row.push_back( item.substr(1,item.length()-2) );
+                else
+					row.push_back( item );
             }
 
             data.push_back( row );
         }
         return true;
     }
+	
+	vector<string> row(int i){
+		return data.at(i);
+	}
 
+	vector<string> column(int j){
+		vector<string> r;
+		for(int i=0; i < data.size(); ++i){
+			try{
+				string s = data.at(i).at(j);
+				r.push_back(s);
+			}catch (const out_of_range& oor){
+				r.push_back("");
+			}
+		}
+		return r;
+	}
+	
+	string getData(int i, int j){
+		return data.at(i).at(j);
+	}
+	
+	int colNum(){
+		return data.size();
+	}
+	
     void print() {
         for( int i = 0; i < data.size(); ++i) {
             for( int j = 0; j < data[i].size(); ++j ) {
@@ -47,7 +76,7 @@ public:
     }
 
 private:
-    vector< vector<int> > data;
+    vector< vector<string> > data;
 };
 
 #endif

@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "CSVReader.h"
-#include "map.h"
+#include "../util/CSVReader.h"
+#include "../src/map.h"
 
 using namespace std;
 

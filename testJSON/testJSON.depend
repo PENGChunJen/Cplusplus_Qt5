@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1484735839 source:c:\users\lyj\desktop\cplusplus_qt5\testjson\main.cpp
+1484831690 source:c:\users\lyj\desktop\cplusplus_qt5\testjson\main.cpp
 	"../lib/json.hpp"
+	"../lib/tinyxml2.h"
 	"../util/CSVReader.h"
 	"../src/map.h"
 	<iostream>
@@ -66,7 +67,7 @@
 	<utility>
 	<vector>
 
-1484728965 c:\users\lyj\desktop\cplusplus_qt5\util\csvreader.h
+1484830236 c:\users\lyj\desktop\cplusplus_qt5\util\csvreader.h
 	<fstream>
 	<iostream>
 	<sstream>
@@ -79,4 +80,28 @@
 
 1484735807 source:c:\users\lyj\desktop\cplusplus_qt5\src\map.cpp
 	"map.h"
+
+1468821456 source:c:\users\lyj\desktop\cplusplus_qt5\lib\tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+
+1468821456 c:\users\lyj\desktop\cplusplus_qt5\lib\tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
 

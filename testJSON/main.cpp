@@ -1,4 +1,5 @@
 #include "../lib/json.hpp"
+#include "../lib/tinyxml2.h"
 #include "../util/CSVReader.h"
 #include "../src/map.h"
 
@@ -47,24 +48,25 @@ int main(){
         }
     }
 
+    CSVReader mrt_park;
+    mrt_park.readFile("../data/臺北捷運轉乘停車場座標.csv");
+    //mrt_park.print();
+
     for(auto it = id2parkptr.begin(); it != id2parkptr.end(); it++){
         mymap.addPark(it->second);
     }
 
-    ifstream mrt_park("../data/臺北捷運轉乘停車場座標.csv");
-    if (mrt_park.is_open()){
-        string line;
-        while ( getline (mrt_park,line) ){
-            //cout << line << '\n';
-        }
-        mrt_park.close();
-    }
+    tinyxml2::XMLDocument doc;
+    doc.LoadFile("../data/TCMSV_roadquery.xml");
+    //printf( "%s\n", name );
 
 
     ofstream output_file;
     output_file.open("output.txt");
     output_file.precision(9);
-    mymap.printStatus( &output_file );
+    //mymap.printStatus( &output_file );
+
+    output_file << doc.FirstChildElement("DATA")->FirstChildElement("ROAD")->FirstChildElement("roadSegName")->GetText();
 
 
     return 0;

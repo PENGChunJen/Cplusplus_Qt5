@@ -5,3 +5,5 @@ testCSVReader
 testMap
 bin/
 obj/
+output
+output.txt
