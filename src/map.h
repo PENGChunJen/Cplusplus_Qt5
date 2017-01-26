@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 struct gridPos {
@@ -32,6 +31,8 @@ enum Direction{
     UP
 };
 
+class Channel;
+
 class Map{
     enum Status{
         EMPTY,
@@ -53,8 +54,6 @@ public:
     int ay() const { return agentPos.y; }
     bool agentMove(Direction d);
 
-    vector<gridPos> getWalls() const { return walls; }
-
 private:
     static const unsigned int TESTSIZE = 5; // ugly but temp
 
@@ -66,5 +65,6 @@ private:
     gridPos agentPos{0, 0};
     vector<gridPos> walls;
 
+    friend class Channel;
 };
 #endif

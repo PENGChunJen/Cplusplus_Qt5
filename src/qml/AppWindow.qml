@@ -12,27 +12,17 @@ ApplicationWindow {
 
     Map {
         id: littleMap;
-        property int w: map.w;
-        property int h: map.h;
-        width: blockSize * w;
-        height: blockSize * h;
+        objectName: "littleMap";
+        w: map.w;
+        h: map.h;
+        blockSize: appWindow.blockSize;
         x: 0;
         y: 0;
-
-        Component.onCompleted: function(){
-            var component = Qt.createComponent("Wall.qml");
-            if (component.status == Component.Ready){
-                component.createObject(littleMap, {"x": blockSize, "y": blockSize, "size": blockSize});
-                component.createObject(littleMap, {"x": blockSize, "y": 3*blockSize, "size": blockSize});
-                component.createObject(littleMap, {"x": 3*blockSize, "y": blockSize, "size": blockSize});
-                component.createObject(littleMap, {"x": 3*blockSize, "y": 3*blockSize, "size": blockSize});
-            }
-        };
     }
 
     Agent {
         id: agent;
-        objectName: "agent"
+        objectName: "agent";
         ax: map.ax;
         ay: map.ay;
         size: blockSize;

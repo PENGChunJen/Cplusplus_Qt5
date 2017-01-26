@@ -18,14 +18,19 @@ public:
     int h() const { return map->h(); }
     int ax() const { return map->ax(); }
     int ay() const { return map->ay(); }
+
+    void loadMap(){
+        for(int i=0; i<map->walls.size(); i++){
+            emit buildWalls(map->walls[i].x, map->walls[i].y);
+        }
+    }
 signals:
-    void onAxChanged(int x);
-    void onAyChanged(int y);
+    void onAgentPosChanged(int x, int y);
+    void buildWalls(int x, int y);
 public slots:
     void agentMove(const int d) {
         map->agentMove((Direction)d);
-        emit onAxChanged(map->ax());
-        emit onAyChanged(map->ay());
+        emit onAgentPosChanged(map->ax(), map->ay());
     }
 private:
     Map *map;

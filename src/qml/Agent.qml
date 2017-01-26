@@ -11,13 +11,10 @@ Item {
     height: size;
 
     signal move(int d);
-    signal onAxChanged(int x);
-    signal onAyChanged(int y);
+    signal renewPos(int x, int y);
 
-    onOnAxChanged: {
+    onRenewPos: {
         ax = x;
-    }
-    onOnAyChanged: {
         ay = y;
     }
 
@@ -33,16 +30,12 @@ Item {
     focus: true;
     Keys.onPressed: {
         if (event.key === Qt.Key_Up) {
-            //if (ay != 0) ay--;
             move(3);
         } else if (event.key === Qt.Key_Down) {
-            //if (ay != 2) ay++;
             move(1);
         } else if (event.key === Qt.Key_Right) {
-            //if (ax != 2) ax++;
             move(0);
         } else if (event.key === Qt.Key_Left) {
-            //if (ax != 0) ax--;
             move(2);
         }
     }

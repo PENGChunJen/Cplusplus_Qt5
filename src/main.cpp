@@ -25,8 +25,11 @@ int main(int argc, char *argv[])
 
     QObject *agent = engine.rootObjects().first()->findChild<QObject*>("agent");
     QObject::connect(agent, SIGNAL(move(int)), &c, SLOT(agentMove(int)));
-    QObject::connect(&c, SIGNAL(onAxChanged(int)), agent, SIGNAL(onAxChanged(int)));
-    QObject::connect(&c, SIGNAL(onAyChanged(int)), agent, SIGNAL(onAyChanged(int)));
+    QObject::connect(&c, SIGNAL(onAgentPosChanged(int,int)), agent, SIGNAL(renewPos(int,int)));
+
+    QObject *littleMap = engine.rootObjects().first()->findChild<QObject*>("littleMap");
+    QObject::connect(&c, SIGNAL(buildWalls(int,int)), littleMap, SIGNAL(buildWalls(int,int)));
+    c.loadMap();
 
     return app.exec();
 }
