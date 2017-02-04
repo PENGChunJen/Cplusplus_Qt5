@@ -3,21 +3,23 @@
 
 #include <QObject>
 #include "map.h"
+#include "agent.h"
 
 class Channel : public QObject{
     Q_OBJECT
-    Q_PROPERTY(int w READ w)
-    Q_PROPERTY(int h READ h)
+    Q_PROPERTY(int mw READ mw)
+    Q_PROPERTY(int mh READ mh)
     Q_PROPERTY(int ax READ ax)
     Q_PROPERTY(int ay READ ay)
 public:
-    Channel(Map *m){
-        this->map = m;
+    Channel(Map *m, Agent *a){
+        map = m;
+        agent = a;
     }
-    int w() const { return map->w(); }
-    int h() const { return map->h(); }
-    int ax() const { return map->ax(); }
-    int ay() const { return map->ay(); }
+    int mw() const { return map->w(); }
+    int mh() const { return map->h(); }
+    int ax() const { return agent->x(); }
+    int ay() const { return agent->y(); }
 
     void loadMap(){
         for(int i=0; i<map->walls.size(); i++){
@@ -29,11 +31,12 @@ signals:
     void buildWalls(int x, int y);
 public slots:
     void agentMove(const int d) {
-        map->agentMove((Direction)d);
-        emit onAgentPosChanged(map->ax(), map->ay());
+        agent->move((Direction)d);
+        emit onAgentPosChanged(ax(), ay());
     }
 private:
     Map *map;
+    Agent *agent;
 };
 
 #endif // CHANNEL_H

@@ -42,7 +42,7 @@ class Map{
     };
 
 public:
-    Map();
+    Map(int w=TESTSIZE, int h=TESTSIZE);
     void addPark( Park p ) { parks.push_back(p); }
     void addCar(); //TODO
     void removeCar(); //TODO
@@ -50,21 +50,20 @@ public:
 
     int w() const { return mSize.x; }
     int h() const { return mSize.y; }
-    int ax() const { return agentPos.x; }
-    int ay() const { return agentPos.y; }
-    bool agentMove(Direction d);
+    bool isGridEmpty(gridPos pos) const{ return (grid[pos.x][pos.y] == EMPTY);}
+    bool checkNextStep(gridPos &pos, Direction d) const;
+    gridPos findAnEmptyPlace() const;
 
 private:
-    static const unsigned int TESTSIZE = 5; // ugly but temp
-
     vector<Park> parks;
-    void printParkStatus( const Park& park , ostream* out);
+    void printParkStatus(const Park& park , ostream* out);
 
-    enum Status grid[TESTSIZE][TESTSIZE];
-    gridPos mSize{TESTSIZE, TESTSIZE};
-    gridPos agentPos{0, 0};
+    int** grid;
+    gridPos mSize;
     vector<gridPos> walls;
 
     friend class Channel;
+    //friend class Agent;
+    static const unsigned int TESTSIZE = 5; // ugly but temp
 };
 #endif

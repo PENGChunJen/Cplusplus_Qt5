@@ -7,14 +7,14 @@ ApplicationWindow {
     visible: true;
     //width: 300; height: 300;
 
-    property int blockSize: 100;
+    property int blockSize: 720/channel.mw>720/channel.mh ? 720/channel.mh : 720/channel.mw;
     signal move(int d);
 
     Map {
         id: littleMap;
         objectName: "littleMap";
-        w: map.w;
-        h: map.h;
+        w: channel.mw;
+        h: channel.mh;
         blockSize: appWindow.blockSize;
         x: 0;
         y: 0;
@@ -23,8 +23,8 @@ ApplicationWindow {
     Agent {
         id: agent;
         objectName: "agent";
-        ax: map.ax;
-        ay: map.ay;
+        ax: channel.ax;
+        ay: channel.ay;
         size: blockSize;
     }
 
