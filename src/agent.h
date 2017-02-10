@@ -3,6 +3,15 @@
 
 #include "map.h"
 
+
+
+enum Direction{
+    RIGHT,
+    DOWN,
+    LEFT,
+    UP
+};
+
 class Agent{
 public:
     Agent(Map *m, int ax=0, int ay=0){

@@ -5,5 +5,7 @@ testCSVReader
 testMap
 bin/
 obj/
+build/*
 output
 output.txt
+src/qt.pro.user*

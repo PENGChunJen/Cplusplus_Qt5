@@ -3,67 +3,32 @@
 
 #include <iostream>
 #include <vector>
+
+#include "channel.h"
+#include "object.h"
+
 using namespace std;
 
-struct gridPos {
-    int x;
-    int y;
-};
-
-struct TWD97 {
-    double x;
-    double y;
-};
-
-struct Park {
-    string id;
-    string name;
-    TWD97 pos;
-    int capacity;
-    int free;
-    bool isMrt; 
-};
-
-enum Direction{
-    RIGHT,
-    DOWN,
-    LEFT,
-    UP
-};
-
-class Channel;
+#define TESTSIZE 5
 
 class Map{
-    enum Status{
-        EMPTY,
-        AGENT,
-        PARK,
-        WALL
-    };
-
 public:
-    Map(int w=TESTSIZE, int h=TESTSIZE);
-    void addPark( Park p ) { parks.push_back(p); }
-    void addCar(); //TODO
-    void removeCar(); //TODO
-    void printStatus(ostream* out = &cout);
+    Map(Channel* _channel, int w=TESTSIZE, int h=TESTSIZE, TWD97 origin, double scale ){
+        channel = _channel;
+        width = w;
+        height = h;
+    }
 
-    int w() const { return mSize.x; }
-    int h() const { return mSize.y; }
-    bool isGridEmpty(gridPos pos) const{ return (grid[pos.x][pos.y] == EMPTY);}
-    bool checkNextStep(gridPos &pos, Direction d) const;
-    gridPos findAnEmptyPlace() const;
+    Channel* getChannel (){ return channel; }
+    //void updateAgent(int agentId, Position newPosition);
+    //void updatePark(int parkId, int );
 
 private:
-    vector<Park> parks;
-    void printParkStatus(const Park& park , ostream* out);
+    Channel* channel;
+    void printParkStatus(const Park& park , ostream* out); 
 
-    int** grid;
-    gridPos mSize;
-    vector<gridPos> walls;
-
-    friend class Channel;
-    //friend class Agent;
-    static const unsigned int TESTSIZE = 5; // ugly but temp
+    Object** grid;
+    int width;
+    int height;
 };
 #endif

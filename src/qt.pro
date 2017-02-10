@@ -6,7 +6,9 @@ CONFIG += c++11
 HEADERS += \
     map.h \
     channel.h \
-    agent.h
+    agent.h \
+    park.h \
+    object.h
 
 SOURCES += \
     main.cpp \

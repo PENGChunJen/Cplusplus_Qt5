@@ -5,6 +5,7 @@ using namespace std;
 Map::Map(int w, int h) {
     mSize.x = w;
     mSize.y = h;
+    Channel channel();
 
     grid = new int*[w];
     for(int i=0; i<w; i++){
@@ -23,6 +24,8 @@ Map::Map(int w, int h) {
 
     for(int i=0; i<walls.size(); i++)
         grid[walls[i].x][walls[i].y] = WALL;
+
+    channel->loadMap(grid);
 }
 
 gridPos Map::findAnEmptyPlace() const{
@@ -58,6 +61,9 @@ bool Map::checkNextStep(gridPos &pos, Direction d) const{
     default:
         return false;
     }
+
+    if(newAgentPos != agentPos)
+        channel->updateAgent(agentId, newAgentPos);
     //cout << pos.x << ", " << pos.y << endl;
     return true;
 }
