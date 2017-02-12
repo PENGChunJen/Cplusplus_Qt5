@@ -1,33 +1,78 @@
+#include <iostream>
 #include "map.h"
 
 using namespace std;
 
 Map::Map(int w, int h) {
-    mSize.x = w;
-    mSize.y = h;
-    Channel channel();
 
-    grid = new int*[w];
-    for(int i=0; i<w; i++){
-        grid[i] = new int[h];
-    }
-
-    for(int i=0; i<w*h; i++)
-        grid[i%h][i/h] = EMPTY;
-
-    // for test
-    for(int i=1; i<w; i+=2){
-        for(int j=1; j<h; j+=2){
-            walls.push_back(gridPos{i,j});
+    width = w;
+    height = h;
+    
+    grid = new Object**[width];
+    for( int i = 0; i < width; ++i ) {
+        grid[i] = new Object*[height];
+        for( int j = 0; j < height; ++j ) {
+            grid[i][j] = new Object();
         }
     }
+    
+    for( int i = 0; i < width; ++i ) {
+        for( int j = 0; j < height; ++j ) {
+            if( i%2 == 1 && j%2 == 1 ) {
+                addWall( i, j );
+            }
+        } 
+    }
 
-    for(int i=0; i<walls.size(); i++)
-        grid[walls[i].x][walls[i].y] = WALL;
-
-    channel->loadMap(grid);
 }
 
+Map::~Map() {
+    for( int i = 0; i < width; ++i ) {
+        for( int j = 0; j < height; ++j ) {
+            delete grid[i][j];
+        }
+        delete [] grid[i];
+    }
+    delete [] grid;
+}
+
+bool Map::addWall( const int x, const int y ) {
+    if( grid[x][y]->getType() != EMPTY ) {
+        return false;
+    }
+
+    delete grid[x][y];
+
+    grid[x][y] = new Wall();
+    //Object* o = new Wall();
+    //grid[x][y] = o;
+
+    return true;
+}
+
+void Map::printMap() const {
+    for( int i = 0; i < width; ++i ) {
+        for( int j = 0; j < height; ++j ) {
+            switch( grid[i][j]->getType() ) {
+                case WALL:
+                    cout << "#";
+                    break;
+                case PARK:
+                    cout << "P";
+                    break;
+                case CAR:
+                    cout << "C";
+                    break;
+                default:
+                    cout << " ";
+            }
+        }
+        cout << endl;
+    }
+
+}
+
+/*
 gridPos Map::findAnEmptyPlace() const{
     for(int i=0; i<w()*h(); i++){
         if(grid[i%h()][i/h()] == EMPTY)
@@ -98,3 +143,4 @@ void Map::printParkStatus( const Park& park , ostream* out){
          << "\tfree : " << park.free << endl
          << "}" << endl;
 }
+*/

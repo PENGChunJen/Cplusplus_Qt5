@@ -1,29 +1,25 @@
 #ifndef OBJECT_H
 #define OBJECT_H
 
-struct Position {
-    int x;
-    int y;
-};
+#include <stdlib.h>
 
-struct TWD97 {
-    double x;
-    double y;
-};
-
-enum Attribute{
+enum Type{
+    EMPTY,
     WALL,
-    AGENT,
     PARK,
+    CAR
 };
 
 class Object{
 
 public:
-    Attribute getAttribute(){return attribute;}
+    Object() { type = EMPTY; }
+    Type getType(){ return type; }
+    size_t getId(){ return id; }
 
 protected:
-    Attribute attribute;
+    Type type;
+    size_t id;
 };
 
 #endif // OBJECT_H

@@ -1,11 +1,11 @@
 #ifndef MAP_H
 #define MAP_H
 
-#include <iostream>
-#include <vector>
-
-#include "channel.h"
+#include "../util/util.h"
 #include "object.h"
+#include "wall.h"
+#include "park.h"
+#include "car.h"
 
 using namespace std;
 
@@ -13,22 +13,22 @@ using namespace std;
 
 class Map{
 public:
-    Map(Channel* _channel, int w=TESTSIZE, int h=TESTSIZE, TWD97 origin, double scale ){
-        channel = _channel;
-        width = w;
-        height = h;
-    }
+    Map( int w, int h );
+    Map( string filename );
+    ~Map();
 
-    Channel* getChannel (){ return channel; }
-    //void updateAgent(int agentId, Position newPosition);
-    //void updatePark(int parkId, int );
+    void printMap() const;
+    void printStatus() const;
 
 private:
-    Channel* channel;
-    void printParkStatus(const Park& park , ostream* out); 
+    bool addWall( const int x, const int y );
+    //Map(int w=TESTSIZE, int h=TESTSIZE, TWD97 origin, double scale );
+    //void updateCar(size_t agentId, Position newPosition);
+    //void updatePark(size_t parkId,);
 
-    Object** grid;
+private:
+    Object*** grid;
     int width;
     int height;
 };
-#endif
+#endif 
