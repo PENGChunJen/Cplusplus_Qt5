@@ -16,6 +16,8 @@ public:
     Object() { type = EMPTY; }
     Type getType(){ return type; }
     size_t getId(){ return id; }
+    virtual bool join( Object* objPtr ){}
+    virtual void printStatus() const {}
 
 protected:
     Type type;

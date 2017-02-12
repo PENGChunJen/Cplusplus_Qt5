@@ -19,7 +19,9 @@ Map::Map(int w, int h) {
     for( int i = 0; i < width; ++i ) {
         for( int j = 0; j < height; ++j ) {
             if( i%2 == 1 && j%2 == 1 ) {
-                addWall( i, j );
+                Position pos = {i, j};
+                Object *ptr = new Wall();
+                addObject( pos, ptr );
             }
         } 
     }
@@ -36,17 +38,42 @@ Map::~Map() {
     delete [] grid;
 }
 
-bool Map::addWall( const int x, const int y ) {
-    if( grid[x][y]->getType() != EMPTY ) {
+bool Map::addObject( const Position& pos, Object *o ) {
+    if( grid[pos.x][pos.y]->getType() != EMPTY ) {
         return false;
     }
 
-    delete grid[x][y];
+    delete grid[pos.x][pos.y];
+    grid[pos.x][pos.y] = o;
 
-    grid[x][y] = new Wall();
-    //Object* o = new Wall();
-    //grid[x][y] = o;
+    return true;
+}
 
+bool Map::moveObject( const Position& currentPos, const Position& newPos ) {
+
+    Object *currentPtr = grid[currentPos.x][currentPos.y];
+    Object *newPtr = grid[newPos.x][newPos.y];
+
+    if( currentPtr->getType() != CAR ) {
+        return false;
+    }
+
+    if( newPtr->getType() != EMPTY ) {
+
+        if( newPtr->getType() == PARK ) {
+            bool Parked = newPtr->join( currentPtr );
+            if( !Parked )
+                return false;
+
+            delete currentPtr;
+            grid[currentPos.x][currentPos.y] = new Object();
+            return true;
+        }
+
+        return false;
+    }
+
+    swap( grid[currentPos.x][currentPos.y], grid[newPos.x][newPos.y] );
     return true;
 }
 
@@ -113,9 +140,6 @@ bool Map::checkNextStep(gridPos &pos, Direction d) const{
     return true;
 }
 
-void Map::addCar() {
-    //TODO
-}
 
 void Map::removeCar() {
     //TODO

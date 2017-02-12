@@ -20,7 +20,7 @@ CXXFLAGS = $(INCLUDE) $(OPT)
 
 
 SRC = $(SRC1) 
-SRC1 = testMap.cpp map.cpp object.cpp wall.cpp park.cpp car.cpp
+SRC1 = testMap.cpp map.cpp object.cpp wall.cpp park.cpp car.cpp 
 
 OBJ = $(addsuffix .o, $(basename $(SRC)))
 OBJ1 = $(addsuffix .o, $(basename $(SRC1)))
@@ -42,7 +42,6 @@ clean:
 	rm -f $(OBJ)
 
 # DO NOT DELETE
-util.o: util.h
 csvReader.o: csvReader.h
 map.o: map.h
 object.o: object.h

@@ -7,11 +7,14 @@
 
 class Car : public Object {
 public:
-    Car() {
-        type = CAR;
-    }
+    Car(const std::string& _owner, const std::string& _plate);
+    bool join( Object* objPtr );
+    void printStatus() const; 
+
 private:
-    std::string name;
+    bool Crashed;
+    std::string owner;
+    std::string plate;
 };
 
 #endif // CAR_H 
