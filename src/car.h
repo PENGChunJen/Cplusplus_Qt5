@@ -1,11 +1,10 @@
 #ifndef CAR_H 
 #define CAR_H 
 
-#include <string>
-
 #include "object.h"
 
 class Car : public Object {
+
 public:
     Car(const std::string& _owner, const std::string& _plate);
     bool join( Object* objPtr );
@@ -18,3 +17,4 @@ private:
 };
 
 #endif // CAR_H 
+

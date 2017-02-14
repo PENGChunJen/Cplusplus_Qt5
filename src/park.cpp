@@ -1,18 +1,19 @@
 #include <iostream>
+#include <string>
 
 #include "park.h"
 
-using namespace std;
+using std::cout; using std::endl; using std::string;
 
 Park::Park( const string& _parkID,  const string& _name, 
             const int& _capaciy, const int& _free, const bool& _isMRT ) {
+    type = PARK;
+
     parkID = _parkID;
     name = _name;
     capacity = _capaciy;
     free = _free;
     isMRT = _isMRT;
-
-    type = PARK;
 }
 
 bool Park::join( Object * objPtr ) {

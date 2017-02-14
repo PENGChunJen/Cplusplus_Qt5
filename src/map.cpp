@@ -1,13 +1,19 @@
+//#include <algorithm>
 #include <iostream>
+
+#include "object.h"
+#include "wall.h"
+#include "park.h"
 #include "map.h"
 
-using namespace std;
+using std::cout; using std::endl; using std::swap;
 
 Map::Map(int w, int h) {
 
     width = w;
     height = h;
     
+    /* Add all EMPTY Objects */
     grid = new Object**[width];
     for( int i = 0; i < width; ++i ) {
         grid[i] = new Object*[height];
@@ -15,13 +21,17 @@ Map::Map(int w, int h) {
             grid[i][j] = new Object();
         }
     }
+
+    /* Add Parks at center */
+    Object *park = new Park("parkID", "parkName", 100, 1, false);
+    addObject( Position(width/2, height/2), park );
     
+    /* Add Walls */
     for( int i = 0; i < width; ++i ) {
         for( int j = 0; j < height; ++j ) {
             if( i%2 == 1 && j%2 == 1 ) {
-                Position pos = {i, j};
                 Object *ptr = new Wall();
-                addObject( pos, ptr );
+                addObject( Position(i,j), ptr );
             }
         } 
     }
@@ -38,21 +48,59 @@ Map::~Map() {
     delete [] grid;
 }
 
-bool Map::addObject( const Position& pos, Object *o ) {
-    if( grid[pos.x][pos.y]->getType() != EMPTY ) {
-        return false;
+void Map::printMap() const {
+    for( int i = 0; i < width; ++i ) {
+        for( int j = 0; j < height; ++j ) {
+            switch( grid[i][j]->getType() ) {
+                case WALL:
+                    cout << "#";
+                    break;
+                case PARK:
+                    cout << "P";
+                    break;
+                case CAR:
+                    cout << "C";
+                    break;
+                default:
+                    cout << " ";
+            }
+        }
+        cout << endl;
     }
 
-    delete grid[pos.x][pos.y];
-    grid[pos.x][pos.y] = o;
+}
 
+bool Map::isLegal( const Position& newPos ) {
+    if( newPos.x > width || newPos.x < 0 || newPos.y > height || newPos.y < 0 ) {
+        return false;
+    }
+    else if( grid[newPos.x][newPos.y]->getType() == WALL ) {
+        return false;
+    }
     return true;
+}
+
+bool Map::addObject( const Position& newPos, Object *o ) {
+
+    if( isLegal( newPos ) && grid[newPos.x][newPos.y]->getType() == EMPTY ) {
+
+        delete grid[newPos.x][newPos.y];
+        grid[newPos.x][newPos.y] = o;
+        return true;
+    }
+    return false;
 }
 
 bool Map::moveObject( const Position& currentPos, const Position& newPos ) {
 
+    if( !isLegal(newPos) ) {
+        return false;
+    }
+
+
     Object *currentPtr = grid[currentPos.x][currentPos.y];
     Object *newPtr = grid[newPos.x][newPos.y];
+
 
     if( currentPtr->getType() != CAR ) {
         return false;
@@ -77,27 +125,6 @@ bool Map::moveObject( const Position& currentPos, const Position& newPos ) {
     return true;
 }
 
-void Map::printMap() const {
-    for( int i = 0; i < width; ++i ) {
-        for( int j = 0; j < height; ++j ) {
-            switch( grid[i][j]->getType() ) {
-                case WALL:
-                    cout << "#";
-                    break;
-                case PARK:
-                    cout << "P";
-                    break;
-                case CAR:
-                    cout << "C";
-                    break;
-                default:
-                    cout << " ";
-            }
-        }
-        cout << endl;
-    }
-
-}
 
 /*
 gridPos Map::findAnEmptyPlace() const{
@@ -151,11 +178,9 @@ void Map::printStatus(ostream* out){
         return;
     }
 
-
     for( Park& park : parks ) {
         printParkStatus( park , out);
     }
-
 }
 
 void Map::printParkStatus( const Park& park , ostream* out){

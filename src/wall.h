@@ -3,12 +3,10 @@
 
 #include "object.h"
 
-class Wall : public Object
-{
+class Wall : public Object {
+
 public:
-    Wall() {
-        type = WALL;
-    }
+    Wall() { type = WALL; }
     virtual bool join( Object* objPtr ){ return false; }
     virtual void printStatus() const {}
 };

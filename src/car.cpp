@@ -1,7 +1,9 @@
 #include <iostream>
+#include <string>
+
 #include "car.h"
 
-using namespace std;
+using std::cout; using std::endl; using std::string;
 
 Car::Car(const string& _owner, const string& _plate) {
     type = CAR;
