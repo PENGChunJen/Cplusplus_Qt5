@@ -9,3 +9,4 @@ build/*
 output
 output.txt
 src/qt.pro.user*
+src/testGame
