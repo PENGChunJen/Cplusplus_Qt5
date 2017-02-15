@@ -10,8 +10,9 @@
 using std::cout; using std::endl; using std::vector; 
 
 Agent::Agent(size_t _id, const Position& _pos, const std::string &_name, const std::string &_plate) {
-    id = _id; pos = _pos;
-    this->name = _name;
+    id = _id; 
+    agentPos = _pos;
+    name = _name;
     car = new Car(_name, _plate);
 }
 
@@ -19,27 +20,42 @@ Agent::~Agent() {
     delete car;
 }
 
-vector<Position> Agent::getLegalMoves( Map* map ) {
+vector<Position> Agent::getLegalMoves( const Map *map ) {
 
     // Difference between constructor, reserve(), resize() 
-    vector<Position> allMoves(5);
+    Position currentPos( agentPos.x, agentPos.y );
+    vector<Position> possibleMoves;
     vector<Position> legalMoves;
-    legalMoves.reserve(5);
 
-    // Difference between [] and .at() 
-    allMoves.at(0) = Position( pos.x-1, pos.y );
-    allMoves.at(1) = Position( pos.x+1, pos.y );
-    allMoves.at(2) = Position( pos.x, pos.y-1 );
-    allMoves.at(3) = Position( pos.x, pos.y+1 );
-    allMoves.at(4) = pos;
-    
-    for( auto it = allMoves.begin(); it != allMoves.end(); ++it ) {
+    possibleMoves.push_back( Position( currentPos.x, currentPos.y ) );
+    possibleMoves.push_back( Position( currentPos.x+1, currentPos.y ) );
+    cout << "b: " << endl;
+    map->printMap();
+
+
+    Position p( currentPos.x-1, currentPos.y );
+    cout << "a: " << endl;
+    map->printMap();
+
+
+    possibleMoves.push_back(p);
+    cout << "c: " << endl;
+    map->printMap();
+
+    /*
+    possibleMoves.push_back( Position( currentPos.x-1, currentPos.y ) );
+    possibleMoves.push_back( Position( currentPos.x, currentPos.y-1 ) );
+    possibleMoves.push_back( Position( currentPos.x, currentPos.y+1 ) );
+    */
+
+    for( auto it = possibleMoves.begin(); it != possibleMoves.end(); ++it ) {
 
         Position nextPos = *it;
-        //nextPos.print();
-        //map->printMap();
+
+        cout << "checkMove: " << nextPos.x << ", " << nextPos.y << endl;
+        map->printMap();
         if( map->isLegal(nextPos) ) {
-            //cout << "legalMoves: " << nextPos.x << ", " << nextPos.y << endl;
+            cout << "legalMove: " << nextPos.x << ", " << nextPos.y << endl;
             legalMoves.push_back( nextPos );
         }
     }
@@ -56,6 +72,6 @@ void Agent::printStatus() const {
     cout << "{" << endl
          << "\t name: " << name << endl
          << "\t id: " << id << endl
-         << "\t position: (" << pos.x << ", " << pos.y << ")" << endl
+         << "\t position: (" << agentPos.x << ", " << agentPos.y << ")" << endl
          << "}" << endl;
 }

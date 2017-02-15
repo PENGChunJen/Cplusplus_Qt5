@@ -70,11 +70,11 @@ void Map::printMap() const {
 
 }
 
-bool Map::isLegal( const Position& newPos ) {
-    if( newPos.x > width || newPos.x < 0 || newPos.y > height || newPos.y < 0 ) {
+bool Map::isLegal( const Position& newPos ) const {
+    if( newPos.x >= width || newPos.x < 0 || newPos.y >= height || newPos.y < 0 ) {
         return false;
     }
-    else if( grid[newPos.x][newPos.y]->getType() == WALL ) {
+    if( grid[newPos.x][newPos.y]->getType() == WALL ) {
         return false;
     }
     return true;
@@ -96,15 +96,18 @@ bool Map::moveObject( const Position& currentPos, const Position& newPos ) {
     if( !isLegal(newPos) ) {
         return false;
     }
+    if( currentPos.x == newPos.x && currentPos.y == newPos.y ) {
+        return false;
+    }
+    if( grid[currentPos.x][currentPos.y]->getType() != CAR ) {
+        return false;
+    }
 
 
     Object *currentPtr = grid[currentPos.x][currentPos.y];
     Object *newPtr = grid[newPos.x][newPos.y];
 
 
-    if( currentPtr->getType() != CAR ) {
-        return false;
-    }
 
     if( newPtr->getType() != EMPTY ) {
 

@@ -20,8 +20,8 @@ CXXFLAGS = $(INCLUDE) $(OPT)
 
 
 SRC = $(SRC1) $(SRC2) 
-SRC1 = object.cpp wall.cpp car.cpp park.cpp map.cpp testMap.cpp 
-SRC2 = object.cpp wall.cpp car.cpp park.cpp map.cpp agent.cpp randomAgent.cpp game.cpp testGame.cpp
+SRC1 = position.cpp object.cpp wall.cpp car.cpp park.cpp map.cpp testMap.cpp 
+SRC2 = position.cpp object.cpp wall.cpp car.cpp park.cpp map.cpp agent.cpp randomAgent.cpp game.cpp testGame.cpp
 
 OBJ = $(addsuffix .o, $(basename $(SRC)))
 OBJ1 = $(addsuffix .o, $(basename $(SRC1)))
@@ -49,6 +49,7 @@ clean:
 # DO NOT DELETE
 csvReader.o: csvReader.h
 
+position.o: position.h
 object.o: object.h
 wall.o: wall.h
 car.o: car.h

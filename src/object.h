@@ -12,7 +12,7 @@ class Object{
 
 public:
     Object() { type = EMPTY; }
-    Type getType(){ return type; }
+    Type getType() const { return type; }
     virtual bool join( Object* objPtr ){}
     virtual void printStatus() const {}
 

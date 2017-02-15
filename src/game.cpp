@@ -9,15 +9,12 @@ using std::vector; using std::cout; using std::endl;
 
 Game::Game(int w, int h) {
     map = new Map(w,h);
-    map->printMap();
+    hasEnd = false;
 
     Agent agent( 1, Position(0,0), "agent", "plate" ); 
     //RandomAgent agent( 1, Position(0,0), "agent", "plate" ); 
     map->addObject( agent.getPosition(), agent.getCar() );
     agents.push_back(agent);
-    map->printMap();
-
-    hasEnd = false;
 }
 
 Game::~Game() {
@@ -28,23 +25,18 @@ void Game::run() {
 
     for( auto it = agents.begin(); it != agents.end(); ++it ) {
 
-        this->map->printMap();
+        Position currentPos = it->getPosition();
         Position newPos = it->getNextPosition( map );
-        this->map->printMap();
 
         it->printStatus();
-        it->getPosition().print();
-        cout << "move to";
-        newPos.print();
+        //cout << currentPos << " move to " << newPos << endl;
 
-
-        bool moved = map->moveObject( it->getPosition(), newPos );
+        bool moved = map->moveObject( currentPos, newPos );
         if( moved ) {
             it->setPosition( newPos );
         }
         //map->printMap();
     }
-    //hasEnd = true;
 }
 
 bool Game::shouldTerminate() {
