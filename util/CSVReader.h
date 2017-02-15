@@ -18,7 +18,6 @@ public:
         ifstream inFile(filename);
         if ( !inFile.is_open() ) {
             cerr << "Cannot open file: " << filename << endl ;
-            cerr << strerror(errno) << endl;
             return false;
         }
 
@@ -48,12 +47,8 @@ public:
 	vector<string> column(int j){
 		vector<string> r;
 		for(int i=0; i < data.size(); ++i){
-			try{
 				string s = data.at(i).at(j);
 				r.push_back(s);
-			}catch (const out_of_range& oor){
-				r.push_back("");
-			}
 		}
 		return r;
 	}
