@@ -52,6 +52,9 @@ void Map::printMap() const {
     for( int i = 0; i < width; ++i ) {
         for( int j = 0; j < height; ++j ) {
             switch( grid[i][j]->getType() ) {
+                case EMPTY:
+                    cout << " ";
+                    break;
                 case WALL:
                     cout << "#";
                     break;
@@ -62,7 +65,7 @@ void Map::printMap() const {
                     cout << "C";
                     break;
                 default:
-                    cout << " ";
+                    cout << "X";
             }
         }
         cout << endl;
@@ -108,7 +111,6 @@ bool Map::moveObject( const Position& currentPos, const Position& newPos ) {
     Object *newPtr = grid[newPos.x][newPos.y];
 
 
-
     if( newPtr->getType() != EMPTY ) {
 
         if( newPtr->getType() == PARK ) {
@@ -116,7 +118,7 @@ bool Map::moveObject( const Position& currentPos, const Position& newPos ) {
             if( !Parked )
                 return false;
 
-            delete currentPtr;
+            delete grid[currentPos.x][currentPos.y];
             grid[currentPos.x][currentPos.y] = new Object();
             return true;
         }

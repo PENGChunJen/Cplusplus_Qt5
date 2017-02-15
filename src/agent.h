@@ -20,7 +20,7 @@ public:
     std::vector<Position> getLegalMoves( const Map *map ); 
     void printStatus() const;
 
-    Position getNextPosition( Map* map );
+    Position getNextPosition( const Map* map );
     //virtual Position getNextPosition( Map* map );
 
 protected:

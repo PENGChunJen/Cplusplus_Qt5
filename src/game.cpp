@@ -2,7 +2,7 @@
 #include <vector>
 
 #include "map.h"
-#include "randomAgent.h"
+#include "agent.h"
 #include "game.h"
 
 using std::vector; using std::cout; using std::endl;
@@ -12,13 +12,12 @@ Game::Game(int w, int h) {
     hasEnd = false;
 
     Agent agent( 1, Position(0,0), "agent", "plate" ); 
-    //RandomAgent agent( 1, Position(0,0), "agent", "plate" ); 
     map->addObject( agent.getPosition(), agent.getCar() );
     agents.push_back(agent);
 }
 
 Game::~Game() {
-    delete map;
+    delete this->map;
 }
 
 void Game::run() {
