@@ -42,6 +42,14 @@ vector<Position> Agent::getLegalMoves( const Map *map ) {
     return legalMoves;
 }
 
+void Agent::printStatus() const {
+    cout << "{" << endl
+         << "\t name: " << name << endl
+         << "\t id: " << id << endl
+         << "\t position: (" << agentPos.x << ", " << agentPos.y << ")" << endl
+         << "}" << endl;
+}
+
 Position Agent::getNextPosition( const Map *map ) {
 
     vector<Position> legalMoves = getLegalMoves( map );
@@ -60,10 +68,3 @@ Position Agent::getNextPosition( const Map *map ) {
     return legalMoves.at(r);
 }
 
-void Agent::printStatus() const {
-    cout << "{" << endl
-         << "\t name: " << name << endl
-         << "\t id: " << id << endl
-         << "\t position: (" << agentPos.x << ", " << agentPos.y << ")" << endl
-         << "}" << endl;
-}

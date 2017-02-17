@@ -1,19 +1,25 @@
+#include <cstdlib>
 #include <iostream>
 #include <vector>
 
 #include "map.h"
-#include "agent.h"
+#include "randomAgent.h"
 #include "game.h"
 
-using std::vector; using std::cout; using std::endl;
+using std::vector; using std::cout; using std::endl; using std::cin;
 
 Game::Game(int w, int h) {
     map = new Map(w,h);
     hasEnd = false;
 
-    Agent agent( 1, Position(0,0), "agent", "plate" ); 
+    //Agent agent( 1, Position(0,0), "agent", "plate" ); 
+    RandomAgent agent( 1, Position(0,0), "agent", "plate" ); 
     map->addObject( agent.getPosition(), agent.getCar() );
     agents.push_back(agent);
+
+    RandomAgent agent2( 2, Position(w-1,h-1), "agent", "plate" ); 
+    map->addObject( agent2.getPosition(), agent2.getCar() );
+    agents.push_back(agent2);
 }
 
 Game::~Game() {
@@ -24,6 +30,9 @@ void Game::run() {
     for( Agent& agent : agents ) {
         moveAgent(agent);
         map->printMap();
+        cin.get();
+        cin.sync();
+        system("clear");
     }
 }
 

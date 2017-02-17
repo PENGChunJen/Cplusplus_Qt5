@@ -23,8 +23,8 @@ public:
 
     void printStatus() const;
 
-    Position getNextPosition( const Map* map );
-    //virtual Position getNextPosition( Map* map );
+    virtual Position getNextPosition( const Map* map );
+    //virtual Position getNextPosition();
 
 protected:
     size_t id;

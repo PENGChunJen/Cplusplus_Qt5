@@ -18,12 +18,9 @@ int main( int argc, char* argv[] ) {
     Game game(9,9);
 
     while( !game.shouldTerminate() ) {
-
-        game.printMap();
-
         game.run();
-        cin.get();
-        cin.sync();
+        //cin.get();
+        //cin.sync();
     }
 
     return 0;

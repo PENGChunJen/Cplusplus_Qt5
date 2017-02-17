@@ -10,7 +10,7 @@ public:
     RandomAgent(size_t _id, const Position& _pos, const std::string &_name, const std::string &_plate);
     ~RandomAgent();
 
-    Position getNextPosition( Map* map );
+    Position getNextPosition( const Map* map );
 };
 
 #endif // RANDOMAGENT_H

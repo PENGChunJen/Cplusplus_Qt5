@@ -15,9 +15,20 @@ RandomAgent::~RandomAgent() {
     delete car;
 }
 
-Position RandomAgent::getNextPosition( Map *map ) {
+Position RandomAgent::getNextPosition( const Map *map ) {
     vector<Position> legalMoves = getLegalMoves( map );
     int r = rand() % legalMoves.size();
+
+    bool PRINT = true;
+    if( PRINT ) {
+        cout << "legalMove: ";
+        for( Position& p : legalMoves ) {
+            cout << "(" << p.x << ", " << p.y << "),";
+        }
+        cout << "\b " << endl
+             <<"choseMove: (" << legalMoves.at(r).x << ", " << legalMoves.at(r).y << ")" << endl;
+    }
+
     return legalMoves.at(r);
 }
 
