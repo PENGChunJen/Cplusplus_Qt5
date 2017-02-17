@@ -22,9 +22,14 @@ public:
     void printMap() const;
     void printStatus() const;
 
+    Object* at( const Position& pos ) { return grid[pos.x][pos.y]; }
+
+    bool isLegal( const Position& pos ) const;
+    bool canMove( const Position& pos ) const;
+
     bool addObject( const Position& pos, Object *o );
     bool moveObject( const Position& currentPos, const Position& newPos ); 
-    bool isLegal( const Position& pos ) const;
+
 
     //Map(int w=TESTSIZE, int h=TESTSIZE, TWD97 origin, double scale );
     //void updateCar(size_t agentId, Position newPosition);

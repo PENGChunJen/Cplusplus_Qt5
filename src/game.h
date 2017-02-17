@@ -13,8 +13,10 @@ public:
     Game( const std::string& filename );
     ~Game();
 
+    bool moveAgent( Agent& agent ); 
     void printMap() const { map->printMap(); }
     bool shouldTerminate();
+
     void run();
     void printStatus() const;
 

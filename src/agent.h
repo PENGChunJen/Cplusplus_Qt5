@@ -1,6 +1,8 @@
 #ifndef AGENT_H 
 #define AGENT_H
 
+#include <vector>
+
 #include "map.h"
 #include "car.h"
 
@@ -10,14 +12,15 @@ public:
     Agent(size_t _id, const Position& _pos, const std::string &_name, const std::string &_plate);
     ~Agent();
 
-    void setPosition( Position newPos ) { agentPos = newPos; }
 
     size_t getId(){ return id; }
-    std::string getName(){ return name; }
-    Position getPosition(){ return agentPos;}
+    std::string getName() const { return name; }
+    Position getPosition() const { return agentPos; }
     Car *getCar() { return car; }
 
+    void setPosition( Position newPos ) { agentPos = newPos; }
     std::vector<Position> getLegalMoves( const Map *map ); 
+
     void printStatus() const;
 
     Position getNextPosition( const Map* map );

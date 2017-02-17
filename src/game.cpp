@@ -17,26 +17,59 @@ Game::Game(int w, int h) {
 }
 
 Game::~Game() {
-    delete this->map;
+    delete map;
 }
 
 void Game::run() {
-
-    for( auto it = agents.begin(); it != agents.end(); ++it ) {
-
-        Position currentPos = it->getPosition();
-        Position newPos = it->getNextPosition( map );
-
-        it->printStatus();
-        //cout << currentPos << " move to " << newPos << endl;
-
-        bool moved = map->moveObject( currentPos, newPos );
-        if( moved ) {
-            it->setPosition( newPos );
-        }
-        //map->printMap();
+    for( Agent& agent : agents ) {
+        moveAgent(agent);
+        map->printMap();
     }
 }
+
+bool Game::moveAgent( Agent& agent ) {
+
+    bool moved = false;
+    Position nextPos = agent.getNextPosition( map );
+    Position currentPos = agent.getPosition();
+    if( currentPos.x == nextPos.x && currentPos.y == nextPos.y ) {
+        return false;
+    }
+
+    Type nextType = map->at(nextPos)->getType();
+    switch( nextType ) {
+        case EMPTY: {
+            moved = map->moveObject( currentPos, nextPos );
+            if( moved ) {
+                agent.setPosition( nextPos );
+            }
+            break;
+        }
+        case WALL: {
+            break;
+        }
+        case CAR: {
+            break;
+        }
+        case PARK: {
+            bool Parked = map->at(nextPos)->join( agent.getCar() );
+            if( Parked ) {
+                Position generationPoint = Position(0,0);
+                moved = map->moveObject( currentPos, generationPoint );
+                if( moved ) {
+                    agent.setPosition( generationPoint );
+                }
+            }
+            break;
+        }
+        default: {
+            moved = false;
+            break;
+        }
+    }
+    return moved;
+}
+
 
 bool Game::shouldTerminate() {
     return hasEnd;

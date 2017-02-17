@@ -1,7 +1,6 @@
 //#include <algorithm>
 #include <iostream>
 
-#include "object.h"
 #include "wall.h"
 #include "park.h"
 #include "map.h"
@@ -83,6 +82,14 @@ bool Map::isLegal( const Position& newPos ) const {
     return true;
 }
 
+bool Map::canMove( const Position& pos ) const {
+    Type t = grid[pos.x][pos.y]->getType();
+    if( t == EMPTY || t == CAR ) {
+        return true;
+    }
+    return false;
+}
+
 bool Map::addObject( const Position& newPos, Object *o ) {
 
     if( isLegal( newPos ) && grid[newPos.x][newPos.y]->getType() == EMPTY ) {
@@ -94,107 +101,11 @@ bool Map::addObject( const Position& newPos, Object *o ) {
     return false;
 }
 
-bool Map::moveObject( const Position& currentPos, const Position& newPos ) {
+bool Map::moveObject( const Position& currentPos, const Position& nextPos ) {
 
-    if( !isLegal(newPos) ) {
-        return false;
+    if( canMove(currentPos) && canMove(nextPos) ) {
+        swap( grid[currentPos.x][currentPos.y], grid[nextPos.x][nextPos.y] );
+        return true;
     }
-    if( currentPos.x == newPos.x && currentPos.y == newPos.y ) {
-        return false;
-    }
-    if( grid[currentPos.x][currentPos.y]->getType() != CAR ) {
-        return false;
-    }
-
-
-    Object *currentPtr = grid[currentPos.x][currentPos.y];
-    Object *newPtr = grid[newPos.x][newPos.y];
-
-
-    if( newPtr->getType() != EMPTY ) {
-
-        if( newPtr->getType() == PARK ) {
-            bool Parked = newPtr->join( currentPtr );
-            if( !Parked )
-                return false;
-
-            delete grid[currentPos.x][currentPos.y];
-            grid[currentPos.x][currentPos.y] = new Object();
-            return true;
-        }
-
-        return false;
-    }
-
-    swap( grid[currentPos.x][currentPos.y], grid[newPos.x][newPos.y] );
-    return true;
+    return false;
 }
-
-
-/*
-gridPos Map::findAnEmptyPlace() const{
-    for(int i=0; i<w()*h(); i++){
-        if(grid[i%h()][i/h()] == EMPTY)
-            return gridPos{i%h(),i/h()};
-    }
-    return gridPos{-1,-1};
-}
-
-bool Map::checkNextStep(gridPos &pos, Direction d) const{
-    switch (d) {
-    case RIGHT:
-        if(pos.x != w()-1 && grid[pos.x+1][pos.y] != WALL)
-            pos.x++;
-        else return false;
-        break;
-    case DOWN:
-        if(pos.y != h()-1 && grid[pos.x][pos.y+1] != WALL)
-            pos.y++;
-        else return false;
-        break;
-    case LEFT:
-        if(pos.x != 0 && grid[pos.x-1][pos.y] != WALL)
-            pos.x--;
-        else return false;
-        break;
-    case UP:
-        if(pos.y != 0 && grid[pos.x][pos.y-1] != WALL)
-            pos.y--;
-        else return false;
-        break;
-    default:
-        return false;
-    }
-
-    if(newAgentPos != agentPos)
-        channel->updateAgent(agentId, newAgentPos);
-    //cout << pos.x << ", " << pos.y << endl;
-    return true;
-}
-
-
-void Map::removeCar() {
-    //TODO
-}
-
-void Map::printStatus(ostream* out){
-    if( parks.size() == 0 ) {
-        *out << "No Parks in the map" << endl;
-        return;
-    }
-
-    for( Park& park : parks ) {
-        printParkStatus( park , out);
-    }
-}
-
-void Map::printParkStatus( const Park& park , ostream* out){
-    *out << "{" << endl
-         << "\tPark : " << park.name << endl
-         << "\tid : " << park.id << endl
-         << "\tpos : (" << park.pos.x << ", " << park.pos.y << ")" << endl
-         << "\tcapacity : " << park.capacity << endl
-         << "\tfree : " << park.free << endl
-         << "}" << endl;
-}
-*/
