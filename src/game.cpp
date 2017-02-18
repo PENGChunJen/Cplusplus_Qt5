@@ -1,3 +1,4 @@
+#include <chrono>
 #include <cstdlib>
 #include <iostream>
 #include <vector>
@@ -27,13 +28,22 @@ Game::~Game() {
 }
 
 void Game::run() {
+
+    std::chrono::milliseconds duration(500);
+    std::chrono::time_point<std::chrono::steady_clock> end;
+    end = std::chrono::steady_clock::now() + duration;
+
     for( Agent& agent : agents ) {
         moveAgent(agent);
-        map->printMap();
-        cin.get();
-        cin.sync();
+
         system("clear");
+        map->printMap();
+        //cin.get();
+        //cin.sync();
+        while ( std::chrono::steady_clock::now() < end ) {
+        }
     }
+
 }
 
 bool Game::moveAgent( Agent& agent ) {
