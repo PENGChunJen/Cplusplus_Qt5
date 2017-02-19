@@ -21,7 +21,7 @@ int main( int argc, char* argv[] ) {
     map.printMap();
 
     cout << endl << "adding a parking lot..." << endl;
-    Object *park = new Park("parkID", "parkName", 100, 1, false);
+    Object *park = new Park("parkName", 100, 1, false);
     map.addObject( Position(0,0), park );
     map.printMap();
 

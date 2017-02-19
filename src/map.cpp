@@ -1,5 +1,6 @@
 //#include <algorithm>
 #include <iostream>
+#include <iomanip>
 
 #include "wall.h"
 #include "park.h"
@@ -22,7 +23,7 @@ Map::Map(int w, int h) {
     }
 
     /* Add Parks at center */
-    Object *park = new Park("parkID", "parkName", 100, 1, false);
+    Object *park = new Park("parkName", 100, 1, false);
     addObject( Position(width/2, height/2), park );
     
     /* Add Walls */
@@ -35,6 +36,13 @@ Map::Map(int w, int h) {
         } 
     }
 
+    channel = new MapChannel(w,h);
+    /*for( int i = 0; i < width; ++i ) {
+        for( int j = 0; j < height; ++j ) {
+            if(grid[i][j]->getType())
+                channel->buildObject(grid[i][j]->getID(), grid[i][j]->getType(), i, j);
+        }
+    }*/
 }
 
 Map::~Map() {
@@ -66,6 +74,16 @@ void Map::printMap() const {
                 default:
                     cout << "X";
             }
+            //cout << std::setw(3) << grid[i][j]->getID();
+        }
+        cout << endl;
+    }
+}
+
+void Map::qtPrintMap() const {
+    for( int i = 0; i < width; ++i ) {
+        for( int j = 0; j < height; ++j ) {
+            channel->drawObject(grid[i][j]->getID(), grid[i][j]->getType(), i, j);
         }
         cout << endl;
     }

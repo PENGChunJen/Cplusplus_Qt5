@@ -14,11 +14,13 @@ public:
     ~Game();
 
     bool moveAgent( Agent& agent ); 
-    void printMap() const { map->printMap(); }
+    void printMap() const;
     bool shouldTerminate();
 
     void run();
     void printStatus() const;
+
+    MapChannel* getMapChannel() const { return map->getChannel(); }
 
 
 private:

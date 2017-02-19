@@ -6,15 +6,14 @@
 class Park : public Object {
 
 public:
-    Park( const std::string& _parkID, const std::string& _name,
-          const int& _capacity, const int& _free, const bool& _isMRT ); 
+    Park( const std::string& _name, const int& _capacity,
+          const int& _free, const bool& _isMRT );
 
     bool join( Object* objPtr );
     void printStatus() const;
 
 
 private:
-    std::string parkID;
     std::string name;
     int capacity;
     int free;

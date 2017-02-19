@@ -2,41 +2,30 @@
 #define CHANNEL_H
 
 #include <QObject>
-#include "map.h"
-#include "agent.h"
 
-class Channel : public QObject{
+class MapChannel : public QObject{
     Q_OBJECT
     Q_PROPERTY(int mw READ mw)
     Q_PROPERTY(int mh READ mh)
-    Q_PROPERTY(int ax READ ax)
-    Q_PROPERTY(int ay READ ay)
 public:
-    Channel(Map *m, Agent *a){
-        map = m;
-        agent = a;
+    MapChannel(int _w, int _h){
+        w = _w;
+        h = _h;
     }
-    int mw() const { return map->w(); }
-    int mh() const { return map->h(); }
-    int ax() const { return agent->x(); }
-    int ay() const { return agent->y(); }
+    int mw() const { return w; }
+    int mh() const { return h; }
+    void drawObject(int id, int type, int x, int y){
+        emit qtDrawObject(id, x, y);
+    }
+    /*void buildObject(int id, int type, int x, int y){
+        emit qtBuildObject(id, type, x, y);
+    }*/
 
-    void loadMap(){
-        for(int i=0; i<map->walls.size(); i++){
-            emit buildWalls(map->walls[i].x, map->walls[i].y);
-        }
-    }
 signals:
-    void onAgentPosChanged(int x, int y);
-    void buildWalls(int x, int y);
-public slots:
-    void agentMove(const int d) {
-        agent->move((Direction)d);
-        emit onAgentPosChanged(ax(), ay());
-    }
+    void qtDrawObject(int id, int x, int y);
+    //void qtBuildObject(int id, int type, int x, int y);
 private:
-    Map *map;
-    Agent *agent;
+    int w, h;
 };
 
 #endif // CHANNEL_H

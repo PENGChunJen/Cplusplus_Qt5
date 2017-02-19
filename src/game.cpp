@@ -36,13 +36,13 @@ void Game::run() {
     for( Agent& agent : agents ) {
         moveAgent(agent);
 
-        map->printMap();
+        printMap();
         while ( std::chrono::steady_clock::now() < end ) {
         }
 
         //cin.get();
         //cin.sync();
-        system("clear");
+        //system("clear");
     }
 
 }
@@ -93,6 +93,11 @@ bool Game::moveAgent( Agent& agent ) {
 
 bool Game::shouldTerminate() {
     return hasEnd;
+}
+
+void Game::printMap() const{
+    //map->printMap();
+    map->qtPrintMap();
 }
 
 void Game::printStatus() const {
