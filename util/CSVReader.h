@@ -29,9 +29,9 @@ public:
             istringstream ss(line);
             string item;
             while( getline(ss, item, ',') ) {
-				if(item.c_str()[0] == '\"')
-					row.push_back( item.substr(1,item.length()-2) );
-                else
+				//if(item.c_str()[0] == '\"')
+			 	//	row.push_back( item.substr(1,item.length()-2) );
+                //else
 					row.push_back( item );
             }
 
