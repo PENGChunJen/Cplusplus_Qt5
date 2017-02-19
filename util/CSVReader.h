@@ -7,7 +7,9 @@
 #include <string>
 #include <vector>
 
-using namespace std;
+using std::cout; using std::endl; using std::cerr; 
+using std::vector; using std::string; 
+using std::istringstream; using std::ifstream;
 
 class CSVReader {
 public:
@@ -15,31 +17,45 @@ public:
     CSVReader( char* filename ) { readFile(filename); }
 
     bool readFile( char* filename ) {
-        ifstream inFile(filename);
+        ifstream inFile;
+        inFile.open(filename, std::ios::binary);
+
         if ( !inFile.is_open() ) {
             cerr << "Cannot open file: " << filename << endl ;
             return false;
         }
 
         string line;
-        while( getline(inFile,line, '\n') ){
 
+        while( getline(inFile,line, '\n') ){
+        
             vector<string> row;
 
             istringstream ss(line);
             string item;
             while( getline(ss, item, ',') ) {
 				//if(item.c_str()[0] == '\"')
-			 	//	row.push_back( item.substr(1,item.length()-2) );
+			   	//	row.push_back( item.substr(1,item.length()-2) );
                 //else
 					row.push_back( item );
             }
-
             data.push_back( row );
+        
         }
         return true;
     }
 	
+    size_t size() const { return data.size(); }
+
+    void print() {
+        for( int i = 0; i < data.size(); ++i) {
+            for( int j = 0; j < data[i].size(); ++j ) {
+                cout << data.at(i).at(j) << ",";
+            }
+            cout << "\b \n";
+        }
+    }
+
 	vector<string> row(int i){
 		return data.at(i);
 	}
@@ -53,7 +69,7 @@ public:
 		return r;
 	}
 	
-	string getData(int i, int j){
+	string at(int i, int j){
 		return data.at(i).at(j);
 	}
 	
@@ -61,15 +77,6 @@ public:
 		return data.size();
 	}
 	
-    void print() {
-        for( int i = 0; i < data.size(); ++i) {
-            for( int j = 0; j < data[i].size(); ++j ) {
-                cout << data.at(i).at(j) << ",";
-            }
-            cout << "\b \n";
-        }
-    }
-
 private:
     vector< vector<string> > data;
 };
