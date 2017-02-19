@@ -36,12 +36,13 @@ void Game::run() {
     for( Agent& agent : agents ) {
         moveAgent(agent);
 
-        system("clear");
         map->printMap();
-        //cin.get();
-        //cin.sync();
         while ( std::chrono::steady_clock::now() < end ) {
         }
+
+        //cin.get();
+        //cin.sync();
+        system("clear");
     }
 
 }
