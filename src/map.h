@@ -24,6 +24,7 @@ public:
 
     Object* at( const Position& pos ) { return grid[pos.x][pos.y]; }
 
+    void defaultSetting();
     bool isLegal( const Position& pos ) const;
     bool canMove( const Position& pos ) const;
 

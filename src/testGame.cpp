@@ -15,12 +15,10 @@ using std::srand; using std::time; using std::cin;
 int main( int argc, char* argv[] ) {
 
     srand( time(NULL) );
-    Game game(9,9);
+    Game game(49,99);
 
     while( !game.shouldTerminate() ) {
         game.run();
-        //cin.get();
-        //cin.sync();
     }
 
     return 0;

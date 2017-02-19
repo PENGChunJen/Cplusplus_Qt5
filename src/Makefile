@@ -18,26 +18,32 @@ CXXFLAGS = $(INCLUDE) $(OPT)
 
 #-----File Dependencies----------------------
 
+all: testMap testGame testCSVReader
 
-SRC = $(SRC1) $(SRC2) 
+debug: CXXFLAGS += -DDEBUG -g
+debug: testCSVReader testMap
+
+
+SRC = $(SRC1) $(SRC2) $(SRC3)
 SRC1 = position.cpp object.cpp wall.cpp car.cpp park.cpp map.cpp testMap.cpp 
 SRC2 = position.cpp object.cpp wall.cpp car.cpp park.cpp map.cpp agent.cpp randomAgent.cpp game.cpp testGame.cpp
+SRC3 = position.cpp object.cpp wall.cpp car.cpp park.cpp map.cpp testCSVReader.cpp 
 
 OBJ = $(addsuffix .o, $(basename $(SRC)))
 OBJ1 = $(addsuffix .o, $(basename $(SRC1)))
 OBJ2 = $(addsuffix .o, $(basename $(SRC2)))
+OBJ3 = $(addsuffix .o, $(basename $(SRC3)))
 
-
-all: testMap testGame
-
-debug: CXXFLAGS += -DDEBUG -g
-debug: testCSVReader  testMap
 
 testMap: $(OBJ1)
 	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o $@ $(OBJ1)
 
 testGame: $(OBJ2)
 	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o $@ $(OBJ2)
+
+testCSVReader: $(OBJ3)
+	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o $@ $(OBJ3)
+
 
 #-----Other stuff----------------------------
 depend:

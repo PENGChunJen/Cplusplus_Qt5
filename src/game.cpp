@@ -10,21 +10,22 @@
 using std::vector; using std::cout; using std::endl; using std::cin;
 
 Game::Game(int w, int h) {
-    map = new Map(w,h);
+    mapPtr = new Map(w,h);
+    mapPtr->defaultSetting();
     hasEnd = false;
 
-    //Agent agent( 1, Position(0,0), "agent", "plate" ); 
-    RandomAgent agent( 1, Position(0,0), "agent", "plate" ); 
-    map->addObject( agent.getPosition(), agent.getCar() );
+    Agent agent( 1, Position(1,1), "agent", "plate" ); 
+    //RandomAgent agent( 1, Position(0,0), "agent", "plate" ); 
+    mapPtr->addObject( agent.getPosition(), agent.getCar() );
     agents.push_back(agent);
 
-    RandomAgent agent2( 2, Position(w-1,h-1), "agent", "plate" ); 
-    map->addObject( agent2.getPosition(), agent2.getCar() );
+    RandomAgent agent2( 2, Position(w-2,h-2), "agent", "plate" ); 
+    mapPtr->addObject( agent2.getPosition(), agent2.getCar() );
     agents.push_back(agent2);
 }
 
 Game::~Game() {
-    delete map;
+    delete mapPtr;
 }
 
 void Game::run() {
@@ -41,23 +42,23 @@ void Game::run() {
     }
 
     system("clear");
-    map->printMap();
+    mapPtr->printMap();
 
 }
 
 bool Game::moveAgent( Agent& agent ) {
 
     bool moved = false;
-    Position nextPos = agent.getNextPosition( map );
+    Position nextPos = agent.getNextPosition( mapPtr );
     Position currentPos = agent.getPosition();
     if( currentPos.x == nextPos.x && currentPos.y == nextPos.y ) {
         return false;
     }
 
-    Type nextType = map->at(nextPos)->getType();
+    Type nextType = mapPtr->at(nextPos)->getType();
     switch( nextType ) {
         case EMPTY: {
-            moved = map->moveObject( currentPos, nextPos );
+            moved = mapPtr->moveObject( currentPos, nextPos );
             if( moved ) {
                 agent.setPosition( nextPos );
             }
@@ -70,10 +71,10 @@ bool Game::moveAgent( Agent& agent ) {
             break;
         }
         case PARK: {
-            bool Parked = map->at(nextPos)->join( agent.getCar() );
+            bool Parked = mapPtr->at(nextPos)->join( agent.getCar() );
             if( Parked ) {
-                Position generationPoint = Position(0,0);
-                moved = map->moveObject( currentPos, generationPoint );
+                Position generationPoint = Position(1,1);
+                moved = mapPtr->moveObject( currentPos, generationPoint );
                 if( moved ) {
                     agent.setPosition( generationPoint );
                 }

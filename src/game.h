@@ -14,7 +14,7 @@ public:
     ~Game();
 
     bool moveAgent( Agent& agent ); 
-    void printMap() const { map->printMap(); }
+    void printMap() const { mapPtr->printMap(); }
     bool shouldTerminate();
 
     void run();
@@ -22,7 +22,7 @@ public:
 
 
 private:
-    Map* map;
+    Map* mapPtr;
     std::vector<Agent> agents;
     bool hasEnd;
 };

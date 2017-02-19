@@ -21,20 +21,21 @@ Map::Map(int w, int h) {
         }
     }
 
-    /* Add Parks at center */
-    Object *park = new Park("parkID", "parkName", 100, 1, false);
-    addObject( Position(width/2, height/2), park );
-    
     /* Add Walls */
     for( int i = 0; i < width; ++i ) {
-        for( int j = 0; j < height; ++j ) {
-            if( i%2 == 1 && j%2 == 1 ) {
-                Object *ptr = new Wall();
-                addObject( Position(i,j), ptr );
-            }
-        } 
-    }
+        Object *ptr = new Wall();
+        addObject( Position(i,0), ptr );
 
+        ptr = new Wall();
+        addObject( Position(i,height-1), ptr );
+    }
+    for( int j = 0; j < height; ++j ) {
+        Object *ptr = new Wall();
+        addObject( Position(0,j), ptr );
+
+        ptr = new Wall();
+        addObject( Position(width-1,j), ptr );
+    }
 }
 
 Map::~Map() {
@@ -45,6 +46,23 @@ Map::~Map() {
         delete [] grid[i];
     }
     delete [] grid;
+}
+
+void Map::defaultSetting() {
+
+    /* Add Parks at center */
+    Object *park = new Park("parkID", "parkName", 100, 1, false);
+    addObject( Position(width/2, height/2), park );
+    
+    /* Add Walls */
+    for( int i = 0; i < width; ++i ) {
+        for( int j = 0; j < height; ++j ) {
+            if( i%2 == 0 && j%2 == 0 ) {
+                Object *ptr = new Wall();
+                addObject( Position(i,j), ptr );
+            }
+        } 
+    }
 }
 
 void Map::printMap() const {
@@ -69,7 +87,6 @@ void Map::printMap() const {
         }
         cout << endl;
     }
-
 }
 
 bool Map::isLegal( const Position& newPos ) const {
@@ -93,7 +110,6 @@ bool Map::canMove( const Position& pos ) const {
 bool Map::addObject( const Position& newPos, Object *o ) {
 
     if( isLegal( newPos ) && grid[newPos.x][newPos.y]->getType() == EMPTY ) {
-
         delete grid[newPos.x][newPos.y];
         grid[newPos.x][newPos.y] = o;
         return true;
