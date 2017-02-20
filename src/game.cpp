@@ -29,16 +29,16 @@ Game::~Game() {
 
 void Game::run() {
 
-    std::chrono::milliseconds duration(500);
-    std::chrono::time_point<std::chrono::steady_clock> end;
-    end = std::chrono::steady_clock::now() + duration;
+    //std::chrono::milliseconds duration(500);
+    //std::chrono::time_point<std::chrono::steady_clock> end;
+    //end = std::chrono::steady_clock::now() + duration;
 
     for( Agent& agent : agents ) {
         moveAgent(agent);
 
         printMap();
-        while ( std::chrono::steady_clock::now() < end ) {
-        }
+        //while ( std::chrono::steady_clock::now() < end ) {
+        //}
 
         //cin.get();
         //cin.sync();
@@ -96,8 +96,8 @@ bool Game::shouldTerminate() {
 }
 
 void Game::printMap() const{
-    map->printMap();
-    //map->qtPrintMap();
+    //map->printMap();
+    map->qtPrintMap();
 }
 
 void Game::printStatus() const {

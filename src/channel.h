@@ -28,4 +28,22 @@ private:
     int w, h;
 };
 
+class Game;
+
+class GameChannel : public QObject{
+    Q_OBJECT
+public:
+    GameChannel (Game* g){
+        game = g;
+    }
+
+public slots:
+    void onGameRun(){
+        run();
+    }
+private:
+    void run();
+    Game* game;
+};
+
 #endif // CHANNEL_H

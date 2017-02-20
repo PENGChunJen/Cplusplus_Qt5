@@ -6,8 +6,8 @@ Item {
     property int h: 3;
     property int blockSize: 100;
     property var objects: [];
-    width: blockSize * w;
-    height: blockSize * h;
+    width: w * blockSize;
+    height: h * blockSize;
 
     Rectangle {
         anchors.fill: parent;

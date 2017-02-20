@@ -25,7 +25,8 @@ SOURCES += \
     park.cpp \
     position.cpp \
     randomAgent.cpp \
-    wall.cpp
+    wall.cpp \
+    channel.cpp
 
 RESOURCES += \
     qml.qrc

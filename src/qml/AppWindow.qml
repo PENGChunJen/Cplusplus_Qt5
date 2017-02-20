@@ -6,50 +6,51 @@ ApplicationWindow {
     objectName: "appWindow";
     visible: true;
 
-    property int blockSize: 720/channel.mw>720/channel.mh ? 720/channel.mh : 720/channel.mw;
-
-    Rectangle {
+    Map {
         id: map;
-        //w: channel.mw;
-        //h: channel.mh;
-        //blockSize: appWindow.blockSize;
+        w: channel.mw;
+        h: channel.mh;
+        blockSize: 720/channel.mw>720/channel.mh ? 720/channel.mh : 720/channel.mw;
         x: 0;
         y: 0;
-
-        property var objects: [];
-        width: appWindow.blockSize * channel.mw;
-        height: appWindow.blockSize * channel.mw;
-
-        anchors.fill: parent;
-        color: "black";
 
         Connections{
             target: channel;
 
             onQtDrawObject: {
                 if(typeof map.objects[id] == "undefined"){
-                    var component;
-                    if(type==1){
-                        component = Qt.createComponent("Wall.qml");
-                    }else if(type==2){
-                        component = Qt.createComponent("Park.qml");
-                    }else if(type==3){
-                        component = Qt.createComponent("Car.qml");
-                    }
-                    if (component.status == Component.Ready){
-                        var object = component.createObject(map, {
-                            "size": blockSize,
-                            "x": x * blockSize,
-                            "y": y * blockSize,
-                            "int_id": id
-                        });
-                        map.objects[id] = object;
+                    if(type < 4 && type > 0){
+                        var component;
+                        if(type==1){
+                            component = Qt.createComponent("Wall.qml");
+                        }else if(type==2){
+                            component = Qt.createComponent("Park.qml");
+                        }else if(type==3){
+                            component = Qt.createComponent("Car.qml");
+                        }
+                        if (component.status == Component.Ready){
+                            var object = component.createObject(map, {
+                                "size": map.blockSize,
+                                "x": x * map.blockSize,
+                                "y": y * map.blockSize,
+                                "int_id": id
+                            });
+                            map.objects[id] = object;
+                        }
                     }
                 }else{
-                    map.objects[id].x = x * blockSize;
-                    map.objects[id].y = y * blockSize;
+                    map.objects[id].x = x * map.blockSize;
+                    map.objects[id].y = y * map.blockSize;
                 }
             }
         }
+    }
+
+    Timer{
+        objectName: "timer";
+        signal run();
+
+        interval: 1000; running: true; repeat: true;
+        onTriggered: run();
     }
 }
