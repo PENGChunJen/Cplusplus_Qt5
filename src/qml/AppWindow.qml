@@ -27,7 +27,7 @@ ApplicationWindow {
             target: channel;
 
             onQtDrawObject: {
-                if(typeof objects[id] == "undefined"){
+                if(typeof map.objects[id] == "undefined"){
                     var component;
                     if(type==1){
                         component = Qt.createComponent("Wall.qml");
