@@ -1,0 +1,1611 @@
+{
+    "data": {
+        "UPDATETIME": "Sun Dec 11 21:30:31 CST 2016",
+        "park": [
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "058"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "057"
+            },
+            {
+                "ChargeStation": {
+                    "scoketStatusList": [
+                        {
+                            "spot_abrv": "01-R",
+                            "spot_status": "關閉中"
+                        }
+                    ]
+                },
+                "availablecar": "375",
+                "availablemotor": "-9",
+                "id": "056"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "338"
+            },
+            {
+                "availablecar": "138",
+                "availablemotor": "0",
+                "id": "055"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "339"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "059"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "332"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "333"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "330"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "159"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "158"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "331"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "500",
+                "id": "336"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "87",
+                "id": "337"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "156"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "334"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "335"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "153"
+            },
+            {
+                "availablecar": "-3",
+                "availablemotor": "-9",
+                "id": "150"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "050"
+            },
+            {
+                "availablecar": "128",
+                "availablemotor": "0",
+                "id": "053"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "054"
+            },
+            {
+                "ChargeStation": {
+                    "scoketStatusList": [
+                        {
+                            "spot_abrv": "01-R",
+                            "spot_status": "待機中"
+                        }
+                    ]
+                },
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "051"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "052"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "067"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "202"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "203"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "066"
+            },
+            {
+                "availablecar": "50",
+                "availablemotor": "35",
+                "id": "069"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "204"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "068"
+            },
+            {
+                "availablecar": "-3",
+                "availablemotor": "0",
+                "id": "205"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "200"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "201"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "341"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "342"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "343"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "344"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "206"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "345"
+            },
+            {
+                "availablecar": "-3",
+                "availablemotor": "0",
+                "id": "207"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "346"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "22",
+                "id": "165"
+            },
+            {
+                "availablecar": "-3",
+                "availablemotor": "-9",
+                "id": "208"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "209"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "161"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "162"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "164"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "340"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "160"
+            },
+            {
+                "availablecar": "27",
+                "availablemotor": "0",
+                "id": "060"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "061"
+            },
+            {
+                "availablecar": "49",
+                "availablemotor": "0",
+                "id": "062"
+            },
+            {
+                "availablecar": "49",
+                "availablemotor": "-9",
+                "id": "064"
+            },
+            {
+                "availablecar": "10",
+                "availablemotor": "-9",
+                "id": "065"
+            },
+            {
+                "availablecar": "15",
+                "availablemotor": "-9",
+                "id": "211"
+            },
+            {
+                "availablecar": "110",
+                "availablemotor": "-9",
+                "id": "039"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "212"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "038"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "210"
+            },
+            {
+                "availablecar": "168",
+                "availablemotor": "-9",
+                "id": "037"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "215"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "318"
+            },
+            {
+                "availablecar": "58",
+                "availablemotor": "0",
+                "id": "036"
+            },
+            {
+                "availablecar": "97",
+                "availablemotor": "0",
+                "id": "035"
+            },
+            {
+                "availablecar": "34",
+                "availablemotor": "-9",
+                "id": "216"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "319"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "034"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "316"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "317"
+            },
+            {
+                "ChargeStation": {
+                    "scoketStatusList": [
+                        {
+                            "spot_abrv": "01-R",
+                            "spot_status": "待機中"
+                        }
+                    ]
+                },
+                "availablecar": "55",
+                "availablemotor": "-9",
+                "id": "033"
+            },
+            {
+                "availablecar": "339",
+                "availablemotor": "790",
+                "id": "214"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "314"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "219"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "315"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "312"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "177"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "217"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "218"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "176"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "313"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "310"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "311"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "156",
+                "id": "174"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "173"
+            },
+            {
+                "availablecar": "26",
+                "availablemotor": "0",
+                "id": "031"
+            },
+            {
+                "availablecar": "42",
+                "availablemotor": "0",
+                "id": "032"
+            },
+            {
+                "availablecar": "39",
+                "availablemotor": "-9",
+                "id": "030"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "220"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "049"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "221"
+            },
+            {
+                "availablecar": "161",
+                "availablemotor": "-9",
+                "id": "048"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "222"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "223"
+            },
+            {
+                "ChargeStation": {
+                    "scoketStatusList": [
+                        {
+                            "spot_abrv": "02-R",
+                            "spot_status": "關閉中"
+                        }
+                    ]
+                },
+                "availablecar": "568",
+                "availablemotor": "-9",
+                "id": "045"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "327"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "224"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "328"
+            },
+            {
+                "availablecar": "60",
+                "availablemotor": "33",
+                "id": "044"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "225"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "329"
+            },
+            {
+                "availablecar": "14",
+                "availablemotor": "-9",
+                "id": "226"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "047"
+            },
+            {
+                "availablecar": "16",
+                "availablemotor": "-9",
+                "id": "227"
+            },
+            {
+                "availablecar": "19",
+                "availablemotor": "-9",
+                "id": "323"
+            },
+            {
+                "availablecar": "19",
+                "availablemotor": "-9",
+                "id": "228"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "188"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "324"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "187"
+            },
+            {
+                "availablecar": "30",
+                "availablemotor": "20",
+                "id": "229"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "325"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "189"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "326"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "320"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "321"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "322"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "181"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "182"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "183"
+            },
+            {
+                "availablecar": "-3",
+                "availablemotor": "-9",
+                "id": "184"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "186"
+            },
+            {
+                "availablecar": "37",
+                "availablemotor": "-9",
+                "id": "040"
+            },
+            {
+                "availablecar": "29",
+                "availablemotor": "84",
+                "id": "041"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "16",
+                "id": "042"
+            },
+            {
+                "availablecar": "94",
+                "availablemotor": "-9",
+                "id": "043"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "116"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "117"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "114"
+            },
+            {
+                "availablecar": "64",
+                "availablemotor": "0",
+                "id": "019"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "115"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "112"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "113"
+            },
+            {
+                "availablecar": "24",
+                "availablemotor": "-9",
+                "id": "110"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "111"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "013"
+            },
+            {
+                "availablecar": "152",
+                "availablemotor": "-9",
+                "id": "014"
+            },
+            {
+                "availablecar": "114",
+                "availablemotor": "-9",
+                "id": "011"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "012"
+            },
+            {
+                "ChargeStation": {
+                    "scoketStatusList": [
+                        {
+                            "spot_abrv": "01-R",
+                            "spot_status": "關閉中"
+                        }
+                    ]
+                },
+                "availablecar": "449",
+                "availablemotor": "-9",
+                "id": "018"
+            },
+            {
+                "availablecar": "-3",
+                "availablemotor": "-9",
+                "id": "118"
+            },
+            {
+                "availablecar": "108",
+                "availablemotor": "512",
+                "id": "015"
+            },
+            {
+                "availablecar": "61",
+                "availablemotor": "29",
+                "id": "119"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "016"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "010"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "126"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "127"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "300"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "129",
+                "id": "128"
+            },
+            {
+                "availablecar": "0",
+                "availablemotor": "-9",
+                "id": "302"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "121"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "301"
+            },
+            {
+                "availablecar": "0",
+                "availablemotor": "-9",
+                "id": "304"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "123"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "168",
+                "id": "124"
+            },
+            {
+                "availablecar": "9",
+                "availablemotor": "-9",
+                "id": "303"
+            },
+            {
+                "availablecar": "131",
+                "availablemotor": "-9",
+                "id": "022"
+            },
+            {
+                "availablecar": "0",
+                "availablemotor": "-9",
+                "id": "306"
+            },
+            {
+                "availablecar": "0",
+                "availablemotor": "-9",
+                "id": "305"
+            },
+            {
+                "availablecar": "143",
+                "availablemotor": "0",
+                "id": "023"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "308"
+            },
+            {
+                "availablecar": "24",
+                "availablemotor": "-9",
+                "id": "024"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "307"
+            },
+            {
+                "availablecar": "25",
+                "availablemotor": "0",
+                "id": "025"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "129"
+            },
+            {
+                "availablecar": "95",
+                "availablemotor": "-9",
+                "id": "027"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "309"
+            },
+            {
+                "availablecar": "67",
+                "availablemotor": "-9",
+                "id": "028"
+            },
+            {
+                "availablecar": "41",
+                "availablemotor": "-9",
+                "id": "029"
+            },
+            {
+                "availablecar": "102",
+                "availablemotor": "-9",
+                "id": "021"
+            },
+            {
+                "availablecar": "71",
+                "availablemotor": "-9",
+                "id": "020"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "179",
+                "id": "120"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "134"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "132"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "133"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "138"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "139"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "131"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "008"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "009"
+            },
+            {
+                "ChargeStation": {
+                    "scoketStatusList": [
+                        {
+                            "spot_abrv": "01-R",
+                            "spot_status": "關閉中"
+                        }
+                    ]
+                },
+                "availablecar": "-9",
+                "availablemotor": "27",
+                "id": "149"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "004"
+            },
+            {
+                "availablecar": "26",
+                "availablemotor": "52",
+                "id": "005"
+            },
+            {
+                "availablecar": "260",
+                "availablemotor": "-9",
+                "id": "006"
+            },
+            {
+                "availablecar": "75",
+                "availablemotor": "138",
+                "id": "007"
+            },
+            {
+                "ChargeStation": {
+                    "scoketStatusList": [
+                        {
+                            "spot_abrv": "02-R",
+                            "spot_status": "關閉中"
+                        }
+                    ]
+                },
+                "availablecar": "905",
+                "availablemotor": "977",
+                "id": "001"
+            },
+            {
+                "availablecar": "56",
+                "availablemotor": "-9",
+                "id": "002"
+            },
+            {
+                "availablecar": "24",
+                "availablemotor": "0",
+                "id": "003"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "140"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "141"
+            },
+            {
+                "availablecar": "7",
+                "availablemotor": "-9",
+                "id": "281"
+            },
+            {
+                "availablecar": "21",
+                "availablemotor": "-9",
+                "id": "280"
+            },
+            {
+                "availablecar": "39",
+                "availablemotor": "-9",
+                "id": "285"
+            },
+            {
+                "availablecar": "42",
+                "availablemotor": "-9",
+                "id": "284"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "283"
+            },
+            {
+                "availablecar": "30",
+                "availablemotor": "-9",
+                "id": "282"
+            },
+            {
+                "availablecar": "17",
+                "availablemotor": "-9",
+                "id": "288"
+            },
+            {
+                "availablecar": "32",
+                "availablemotor": "-9",
+                "id": "289"
+            },
+            {
+                "availablecar": "29",
+                "availablemotor": "-9",
+                "id": "286"
+            },
+            {
+                "availablecar": "4",
+                "availablemotor": "-9",
+                "id": "287"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "270"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "272"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "271"
+            },
+            {
+                "availablecar": "7",
+                "availablemotor": "-9",
+                "id": "274"
+            },
+            {
+                "availablecar": "20",
+                "availablemotor": "-9",
+                "id": "273"
+            },
+            {
+                "availablecar": "17",
+                "availablemotor": "-9",
+                "id": "275"
+            },
+            {
+                "availablecar": "4",
+                "availablemotor": "-9",
+                "id": "276"
+            },
+            {
+                "availablecar": "16",
+                "availablemotor": "-9",
+                "id": "277"
+            },
+            {
+                "availablecar": "29",
+                "availablemotor": "-9",
+                "id": "278"
+            },
+            {
+                "availablecar": "29",
+                "availablemotor": "-9",
+                "id": "279"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "109"
+            },
+            {
+                "availablecar": "75",
+                "availablemotor": "30",
+                "id": "107"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "91",
+                "id": "106"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "6",
+                "id": "105"
+            },
+            {
+                "availablecar": "9999",
+                "availablemotor": "-9",
+                "id": "104"
+            },
+            {
+                "availablecar": "280",
+                "availablemotor": "62",
+                "id": "103"
+            },
+            {
+                "availablecar": "1",
+                "availablemotor": "13",
+                "id": "102"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "101"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "23",
+                "id": "100"
+            },
+            {
+                "availablecar": "39",
+                "availablemotor": "-9",
+                "id": "294"
+            },
+            {
+                "availablecar": "31",
+                "availablemotor": "-9",
+                "id": "293"
+            },
+            {
+                "availablecar": "4",
+                "availablemotor": "-9",
+                "id": "296"
+            },
+            {
+                "availablecar": "45",
+                "availablemotor": "-9",
+                "id": "295"
+            },
+            {
+                "availablecar": "23",
+                "availablemotor": "-9",
+                "id": "290"
+            },
+            {
+                "availablecar": "80",
+                "availablemotor": "-9",
+                "id": "292"
+            },
+            {
+                "availablecar": "54",
+                "availablemotor": "-9",
+                "id": "291"
+            },
+            {
+                "availablecar": "12",
+                "availablemotor": "-9",
+                "id": "297"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "298"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "299"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "092"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "091"
+            },
+            {
+                "ChargeStation": {
+                    "scoketStatusList": [
+                        {
+                            "spot_abrv": "01-R",
+                            "spot_status": "關閉中"
+                        }
+                    ]
+                },
+                "availablecar": "-9",
+                "availablemotor": "62",
+                "id": "094"
+            },
+            {
+                "availablecar": "66",
+                "availablemotor": "67",
+                "id": "093"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "096"
+            },
+            {
+                "availablecar": "78",
+                "availablemotor": "-9",
+                "id": "240"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "095"
+            },
+            {
+                "availablecar": "18",
+                "availablemotor": "-9",
+                "id": "241"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "098"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "097"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "195"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "194"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "197"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "196"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "191"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "190"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "090"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "193"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "192"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "198"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "199"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "54",
+                "id": "099"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "245"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "244"
+            },
+            {
+                "availablecar": "19",
+                "availablemotor": "-9",
+                "id": "243"
+            },
+            {
+                "availablecar": "23",
+                "availablemotor": "-9",
+                "id": "242"
+            },
+            {
+                "availablecar": "23",
+                "availablemotor": "72",
+                "id": "249"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "248"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "247"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "246"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "230"
+            },
+            {
+                "availablecar": "54",
+                "availablemotor": "-9",
+                "id": "239"
+            },
+            {
+                "availablecar": "98",
+                "availablemotor": "-9",
+                "id": "232"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "231"
+            },
+            {
+                "availablecar": "331",
+                "availablemotor": "-9",
+                "id": "234"
+            },
+            {
+                "availablecar": "136",
+                "availablemotor": "-9",
+                "id": "233"
+            },
+            {
+                "availablecar": "52",
+                "availablemotor": "-9",
+                "id": "236"
+            },
+            {
+                "availablecar": "96",
+                "availablemotor": "-9",
+                "id": "235"
+            },
+            {
+                "availablecar": "85",
+                "availablemotor": "-9",
+                "id": "238"
+            },
+            {
+                "availablecar": "38",
+                "availablemotor": "-9",
+                "id": "237"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "262"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "074"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "073"
+            },
+            {
+                "availablecar": "10",
+                "availablemotor": "-9",
+                "id": "263"
+            },
+            {
+                "availablecar": "-3",
+                "availablemotor": "-9",
+                "id": "076"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "260"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "261"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "075"
+            },
+            {
+                "availablecar": "35",
+                "availablemotor": "-9",
+                "id": "070"
+            },
+            {
+                "availablecar": "60",
+                "availablemotor": "51",
+                "id": "072"
+            },
+            {
+                "availablecar": "49",
+                "availablemotor": "-9",
+                "id": "071"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "269"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "268"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "0",
+                "id": "267"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "077"
+            },
+            {
+                "availablecar": "19",
+                "availablemotor": "-9",
+                "id": "266"
+            },
+            {
+                "availablecar": "332",
+                "availablemotor": "-9",
+                "id": "078"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "19",
+                "id": "265"
+            },
+            {
+                "availablecar": "205",
+                "availablemotor": "-9",
+                "id": "079"
+            },
+            {
+                "availablecar": "0",
+                "availablemotor": "-9",
+                "id": "264"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "087"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "086"
+            },
+            {
+                "availablecar": "9",
+                "availablemotor": "-9",
+                "id": "250"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "085"
+            },
+            {
+                "availablecar": "6",
+                "availablemotor": "-9",
+                "id": "251"
+            },
+            {
+                "availablecar": "103",
+                "availablemotor": "-9",
+                "id": "084"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "252"
+            },
+            {
+                "availablecar": "59",
+                "availablemotor": "-9",
+                "id": "082"
+            },
+            {
+                "availablecar": "28",
+                "availablemotor": "-9",
+                "id": "081"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "151",
+                "id": "080"
+            },
+            {
+                "availablecar": "63",
+                "availablemotor": "-9",
+                "id": "258"
+            },
+            {
+                "availablecar": "1",
+                "availablemotor": "-9",
+                "id": "257"
+            },
+            {
+                "availablecar": "25",
+                "availablemotor": "-9",
+                "id": "259"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "254"
+            },
+            {
+                "availablecar": "30",
+                "availablemotor": "-9",
+                "id": "253"
+            },
+            {
+                "availablecar": "56",
+                "availablemotor": "167",
+                "id": "088"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "-9",
+                "id": "256"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "378",
+                "id": "255"
+            },
+            {
+                "availablecar": "-9",
+                "availablemotor": "11",
+                "id": "089"
+            }
+        ]
+    }
+}

@@ -3,6 +3,7 @@
 
 #include "position.h"
 #include "object.h"
+#include "channel.h"
 
 /*
 struct TWD97 {
@@ -20,6 +21,7 @@ public:
     ~Map();
 
     void printMap() const;
+    void qtPrintMap() const;
     void printStatus() const;
 
     Object* at( const Position& pos ) { return grid[pos.x][pos.y]; }
@@ -29,7 +31,9 @@ public:
     bool canMove( const Position& pos ) const;
 
     bool addObject( const Position& pos, Object *o );
-    bool moveObject( const Position& currentPos, const Position& newPos ); 
+    bool moveObject( const Position& currentPos, const Position& newPos );
+
+    MapChannel* getChannel() const { return channel; }
 
 
     //Map(int w=TESTSIZE, int h=TESTSIZE, TWD97 origin, double scale );
@@ -40,6 +44,7 @@ private:
     Object*** grid;
     int width;
     int height;
+    MapChannel* channel;
 };
 
 #endif // MAP_H
