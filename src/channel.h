@@ -2,6 +2,34 @@
 #define CHANNEL_H
 
 #include <QObject>
+#include "game.h"
+
+class GameChannel : public QObject{
+    Q_OBJECT
+    Q_PROPERTY(int mw READ mw)
+    Q_PROPERTY(int mh READ mh)
+public:
+    GameChannel (Game* g){
+        game = g;
+    }
+    int mw() const { return game->getMap()->getWidth(); }
+    int mh() const { return game->getMap()->getHeight(); }
+signals:
+    void qtDrawObject(int id, int type, int x, int y);
+public slots:
+    void onGameRun(){
+        run();
+        printGameMap();
+    }
+private:
+    void run();
+    void printGameMap();
+    void drawObject(int id, int type, int x, int y){
+        emit qtDrawObject(id, type, x, y);
+    }
+
+    Game* game;
+};
 
 class MapChannel : public QObject{
     Q_OBJECT
@@ -26,24 +54,6 @@ signals:
     //void qtBuildObject(int id, int type, int x, int y);
 private:
     int w, h;
-};
-
-class Game;
-
-class GameChannel : public QObject{
-    Q_OBJECT
-public:
-    GameChannel (Game* g){
-        game = g;
-    }
-
-public slots:
-    void onGameRun(){
-        run();
-    }
-private:
-    void run();
-    Game* game;
 };
 
 #endif // CHANNEL_H

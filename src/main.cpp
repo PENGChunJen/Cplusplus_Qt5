@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     GameChannel gc(&game);
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextProperty("channel", game.getMapChannel());
+    engine.rootContext()->setContextProperty("channel", &gc);
     engine.load(QUrl(QStringLiteral("qrc:///qml/AppWindow.qml")));
 
     QObject *qtimer = engine.rootObjects().first()->findChild<QObject*>("timer");

@@ -36,7 +36,7 @@ void Game::run() {
 
     for( Agent& agent : agents ) {
         moveAgent(agent);
-        printMap();
+        //mapPtr->printMap();
     }
 
     //while ( std::chrono::steady_clock::now() < end ) {
@@ -88,11 +88,6 @@ bool Game::moveAgent( Agent& agent ) {
 
 bool Game::shouldTerminate() {
     return hasEnd;
-}
-
-void Game::printMap() const{
-    //mapPtr->printMap();
-    mapPtr->qtPrintMap();
 }
 
 void Game::printStatus() const {

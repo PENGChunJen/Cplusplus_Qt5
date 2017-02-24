@@ -2,7 +2,6 @@
 #define GAME_H
 
 #include <vector>
-#include "channel.h"
 #include "agent.h"
 #include "map.h"
 
@@ -13,14 +12,15 @@ public:
     Game( const std::string& filename );
     ~Game();
 
-    bool moveAgent( Agent& agent ); 
-    void printMap() const;
+    Map* getMap() const { return mapPtr; }
+
+    bool moveAgent( Agent& agent );
     bool shouldTerminate();
 
     void run();
     void printStatus() const;
 
-    MapChannel* getMapChannel() const { return mapPtr->getChannel(); }
+    //MapChannel* getChannel() const { return mapPtr->getChannel(); }
 
 
 private:

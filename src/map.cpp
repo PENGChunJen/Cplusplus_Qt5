@@ -42,8 +42,8 @@ Map::Map(int w, int h) {
         ptr = new Wall();
         addObject( Position(width-1,j), ptr );
     }
-    channel = new MapChannel(w,h);
 
+    //channel = new MapChannel(w,h);
 }
 
 Map::~Map() {
@@ -92,16 +92,6 @@ void Map::printMap() const {
                 default:
                     cout << "X";
             }
-            //cout << std::setw(3) << grid[i][j]->getID();
-        }
-        cout << endl;
-    }
-}
-
-void Map::qtPrintMap() const {
-    for( int i = 0; i < width; ++i ) {
-        for( int j = 0; j < height; ++j ) {
-            channel->drawObject(grid[i][j]->getID(), grid[i][j]->getType(), i, j);
         }
         cout << endl;
     }
