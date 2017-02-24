@@ -30,7 +30,7 @@ Game::~Game() {
 
 void Game::run() {
 
-    //std::chrono::milliseconds duration(300);
+    //std::chrono::milliseconds duration(500);
     //std::chrono::time_point<std::chrono::steady_clock> end;
     //end = std::chrono::steady_clock::now() + duration;
 

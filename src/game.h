@@ -2,7 +2,7 @@
 #define GAME_H
 
 #include <vector>
-
+#include "channel.h"
 #include "agent.h"
 #include "map.h"
 
