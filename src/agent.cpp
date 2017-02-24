@@ -17,7 +17,7 @@ Agent::Agent(size_t _id, const Position& _pos, const std::string &_name, const s
 }
 
 Agent::~Agent() {
-    delete car;
+    //delete car;
 }
 
 vector<Position> Agent::getLegalMoves( const Map *map ) {

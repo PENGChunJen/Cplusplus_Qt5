@@ -20,7 +20,7 @@ public:
     void run();
     void printStatus() const;
 
-    MapChannel* getMapChannel() const { return map->getChannel(); }
+    MapChannel* getMapChannel() const { return mapPtr->getChannel(); }
 
 
 private:

@@ -12,7 +12,7 @@ RandomAgent::RandomAgent(size_t _id, const Position& _pos, const std::string &_n
 }
 
 RandomAgent::~RandomAgent() {
-    delete car;
+    //delete car;
 }
 
 Position RandomAgent::getNextPosition( const Map *map ) {

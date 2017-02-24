@@ -59,7 +59,7 @@ Map::~Map() {
 void Map::defaultSetting() {
 
     /* Add Parks at center */
-    Object *park = new Park("parkID", "parkName", 100, 1, false);
+    Object *park = new Park("parkName", 100, 1, false);
     addObject( Position(width/2, height/2), park );
     
     /* Add Walls */

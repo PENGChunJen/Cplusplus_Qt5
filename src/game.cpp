@@ -91,8 +91,8 @@ bool Game::shouldTerminate() {
 }
 
 void Game::printMap() const{
-    //map->printMap();
-    map->qtPrintMap();
+    //mapPtr->printMap();
+    mapPtr->qtPrintMap();
 }
 
 void Game::printStatus() const {
