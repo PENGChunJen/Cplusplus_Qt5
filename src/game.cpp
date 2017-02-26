@@ -14,14 +14,17 @@ Game::Game(int w, int h) {
     mapPtr->defaultSetting();
     hasEnd = false;
 
-    Agent agent( 1, Position(1,1), "agent", "plate" ); 
-    //RandomAgent agent( 1, Position(0,0), "agent", "plate" ); 
-    mapPtr->addObject( agent.getPosition(), agent.getCar() );
+    Agent* agent = new Agent( 1, Position(1,1), "agent", "plate" );
+    mapPtr->addObject( agent->getPosition(), agent->getCar() );
     agents.push_back(agent);
 
-    RandomAgent agent2( 2, Position(w-2,h-2), "agent", "plate" ); 
-    mapPtr->addObject( agent2.getPosition(), agent2.getCar() );
+    RandomAgent* agent2 = new RandomAgent( 2, Position(w-2,h-2), "agent", "plate" );
+    mapPtr->addObject( agent2->getPosition(), agent2->getCar() );
     agents.push_back(agent2);
+
+    kbAgent = new KeyboardAgent( 3, Position(1,h-2), "agent", "plate" );
+    mapPtr->addObject( kbAgent->getPosition(), kbAgent->getCar() );
+    //agents.push_back(kbAgent);
 }
 
 Game::~Game() {
@@ -34,20 +37,22 @@ void Game::run() {
     //std::chrono::time_point<std::chrono::steady_clock> end;
     //end = std::chrono::steady_clock::now() + duration;
 
-    for( Agent& agent : agents ) {
+    for( Agent* agent : agents ) {
         moveAgent(agent);
         //mapPtr->printMap();
     }
+
+    moveAgent(kbAgent);
 
     //while ( std::chrono::steady_clock::now() < end ) {
     //}
 }
 
-bool Game::moveAgent( Agent& agent ) {
+bool Game::moveAgent( Agent* agent ) {
 
     bool moved = false;
-    Position nextPos = agent.getNextPosition( mapPtr );
-    Position currentPos = agent.getPosition();
+    Position nextPos = agent->getNextPosition( mapPtr );
+    Position currentPos = agent->getPosition();
     if( currentPos.x == nextPos.x && currentPos.y == nextPos.y ) {
         return false;
     }
@@ -57,7 +62,7 @@ bool Game::moveAgent( Agent& agent ) {
         case EMPTY: {
             moved = mapPtr->moveObject( currentPos, nextPos );
             if( moved ) {
-                agent.setPosition( nextPos );
+                agent->setPosition( nextPos );
             }
             break;
         }
@@ -68,12 +73,12 @@ bool Game::moveAgent( Agent& agent ) {
             break;
         }
         case PARK: {
-            bool Parked = mapPtr->at(nextPos)->join( agent.getCar() );
+            bool Parked = mapPtr->at(nextPos)->join( agent->getCar() );
             if( Parked ) {
                 Position generationPoint = Position(1,1);
                 moved = mapPtr->moveObject( currentPos, generationPoint );
                 if( moved ) {
-                    agent.setPosition( generationPoint );
+                    agent->setPosition( generationPoint );
                 }
             }
             break;

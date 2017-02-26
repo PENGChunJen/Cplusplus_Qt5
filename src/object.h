@@ -14,7 +14,7 @@ public:
     Object() { type = EMPTY; }
     Type getType() const { return type; }
     unsigned int getID() const { return id;}
-    virtual bool join( Object* objPtr ){}
+    virtual bool join( Object* objPtr ){ return false; }
     virtual void printStatus() const {}
 
 protected:

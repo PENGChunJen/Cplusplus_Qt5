@@ -26,11 +26,11 @@ int main(int argc, char *argv[])
     QObject *qtimer = engine.rootObjects().first()->findChild<QObject*>("timer");
     QObject::connect(qtimer, SIGNAL(run()), &gc, SLOT(onGameRun()));
 
-    /*while( !game.shouldTerminate() ) {
-        game.run();
-        //cin.get();
-        //cin.sync();
-    }*/
+    QObject *qmap = engine.rootObjects().first()->findChild<QObject*>("map");
+    QObject::connect(qmap, SIGNAL(kbAgentMove(int)), &gc, SLOT(onKbAgentMove(int)));
+
+    gc.drawKbCar();
+    gc.printGameMap();
 
     return app.exec();
 }

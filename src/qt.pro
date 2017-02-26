@@ -13,7 +13,8 @@ HEADERS += \
     game.h \
     position.h \
     randomAgent.h \
-    wall.h
+    wall.h \
+    kbAgent.h
 
 SOURCES += \
     main.cpp \
@@ -26,7 +27,7 @@ SOURCES += \
     position.cpp \
     randomAgent.cpp \
     wall.cpp \
-    channel.cpp
+    kbAgent.cpp
 
 RESOURCES += \
     qml.qrc

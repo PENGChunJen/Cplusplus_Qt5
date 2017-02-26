@@ -9,6 +9,6 @@ Item {
 
     Rectangle {
         anchors.fill: parent;
-        color: "lime";
+        color: "peru";
     }
 }

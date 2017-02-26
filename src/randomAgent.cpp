@@ -19,7 +19,7 @@ Position RandomAgent::getNextPosition( const Map *map ) {
     vector<Position> legalMoves = getLegalMoves( map );
     int r = rand() % legalMoves.size();
 
-    bool PRINT = true;
+    bool PRINT = false;
     if( PRINT ) {
         cout << "legalMove: ";
         for( Position& p : legalMoves ) {

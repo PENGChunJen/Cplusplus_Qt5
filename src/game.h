@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "agent.h"
+#include "kbAgent.h"
 #include "map.h"
 
 class Game{
@@ -13,20 +14,19 @@ public:
     ~Game();
 
     Map* getMap() const { return mapPtr; }
+    KeyboardAgent* getKbAgent() const { return kbAgent; }
 
-    bool moveAgent( Agent& agent );
+    bool moveAgent( Agent* agent );
     bool shouldTerminate();
 
     void run();
     void printStatus() const;
 
-    //MapChannel* getChannel() const { return mapPtr->getChannel(); }
-
-
 private:
     Map* mapPtr;
-    std::vector<Agent> agents;
+    std::vector<Agent*> agents;
     bool hasEnd;
+    KeyboardAgent* kbAgent;
 };
 
 #endif // GAME_H

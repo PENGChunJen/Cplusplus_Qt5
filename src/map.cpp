@@ -42,8 +42,6 @@ Map::Map(int w, int h) {
         ptr = new Wall();
         addObject( Position(width-1,j), ptr );
     }
-
-    //channel = new MapChannel(w,h);
 }
 
 Map::~Map() {

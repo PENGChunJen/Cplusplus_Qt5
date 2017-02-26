@@ -9,6 +9,6 @@ Item {
 
     Rectangle {
         anchors.fill: parent;
-        color: "pink";
+        color: "aqua";
     }
 }
