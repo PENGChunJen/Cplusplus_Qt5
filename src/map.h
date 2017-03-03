@@ -4,18 +4,9 @@
 #include "position.h"
 #include "object.h"
 
-/*
-struct TWD97 {
-    TWD97(); 
-    TWD97(double _x, double _y) { x = _x; y = _y; }
-    double x;
-    double y;
-};
-*/
-
 class Map{
 public:
-    Map( int w, int h );
+    Map( int w, int h, const std::string config = "default" );
     Map( std::string filename );
     ~Map();
 
@@ -27,16 +18,17 @@ public:
     Object* at( const Position& pos ) { return grid[pos.x][pos.y]; }
     Object* at( const int x, const int y ) { return grid[x][y]; }
 
-    void defaultSetting();
+    void defaultInitialization();
+    void dfsInitialization();
+    void dfs( const Position& pos );
+    Position getAdjacent( const Position& pos, int r );
+
+    bool inBound( const Position& pos ) const;
     bool isLegal( const Position& pos ) const;
     bool canMove( const Position& pos ) const;
 
     bool addObject( const Position& pos, Object *o );
     bool moveObject( const Position& currentPos, const Position& newPos );
-
-    //Map(int w=TESTSIZE, int h=TESTSIZE, TWD97 origin, double scale );
-    //void updateCar(size_t agentId, Position newPosition);
-    //void updatePark(size_t parkId,);
 
 private:
     Object*** grid;

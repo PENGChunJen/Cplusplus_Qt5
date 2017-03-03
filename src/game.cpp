@@ -10,21 +10,23 @@
 using std::vector; using std::cout; using std::endl; using std::cin;
 
 Game::Game(int w, int h) {
-    mapPtr = new Map(w,h);
-    mapPtr->defaultSetting();
+    //mapPtr = new Map(w, h);
+    mapPtr = new Map(w, h, "dfs");
     hasEnd = false;
 
-    Agent* agent = new Agent( 1, Position(1,1), "agent", "plate" );
+     
+    Agent* agent = new Agent( 2, Position(1,h-2), "agent", "plate" );
     mapPtr->addObject( agent->getPosition(), agent->getCar() );
     agents.push_back(agent);
 
     RandomAgent* agent2 = new RandomAgent( 2, Position(w-2,h-2), "agent", "plate" );
     mapPtr->addObject( agent2->getPosition(), agent2->getCar() );
     agents.push_back(agent2);
-
-    kbAgent = new KeyboardAgent( 3, Position(1,h-2), "agent", "plate" );
+    
+    kbAgent = new KeyboardAgent( 3, Position(1,1), "agent", "plate" );
     mapPtr->addObject( kbAgent->getPosition(), kbAgent->getCar() );
     //agents.push_back(kbAgent);
+    
 }
 
 Game::~Game() {
@@ -33,19 +35,11 @@ Game::~Game() {
 
 void Game::run() {
 
-    //std::chrono::milliseconds duration(500);
-    //std::chrono::time_point<std::chrono::steady_clock> end;
-    //end = std::chrono::steady_clock::now() + duration;
-
     for( Agent* agent : agents ) {
         moveAgent(agent);
-        //mapPtr->printMap();
     }
 
     moveAgent(kbAgent);
-
-    //while ( std::chrono::steady_clock::now() < end ) {
-    //}
 }
 
 bool Game::moveAgent( Agent* agent ) {
