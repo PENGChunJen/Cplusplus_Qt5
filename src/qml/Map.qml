@@ -13,5 +13,44 @@ Item {
         anchors.fill: parent;
         color: "black";
     }
+
+    function drawObject(id, type, x, y){
+        if(typeof objects[id] == "undefined"){
+            if(type < 4 && type > 0){
+                var component;
+                if(type==1){
+                    component = Qt.createComponent("Wall.qml");
+                }else if(type==2){
+                    component = Qt.createComponent("Park.qml");
+                }else if(type==3){
+                    component = Qt.createComponent("Car.qml");
+                }
+                if (component.status == Component.Ready){
+                    var object = component.createObject(root, {
+                        "size": blockSize,
+                        "x": y * blockSize,
+                        "y": x * blockSize,
+                        "int_id": id
+                    });
+                    objects[id] = object;
+                }
+            }
+        }else{
+            objects[id].x = y * blockSize;
+            objects[id].y = x * blockSize;
+        }
+    }
+
+    function registerKbAgent(id, x, y){
+        var component = Qt.createComponent("Car.qml");
+        var object = component.createObject(map, {
+            "size": map.blockSize,
+            "x": y * map.blockSize,
+            "y": x * map.blockSize,
+            "int_id": id,
+            "c_color": "lime"
+        });
+        map.objects[id] = object;
+    }
 }
 

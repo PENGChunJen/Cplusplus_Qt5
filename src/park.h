@@ -11,7 +11,7 @@ public:
 
     bool join( Object* objPtr );
     void printStatus() const;
-
+    int getFree() const { return free; }
 
 private:
     std::string name;

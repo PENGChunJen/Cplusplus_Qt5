@@ -11,7 +11,7 @@ using std::vector; using std::cout; using std::endl; using std::cin;
 
 Game::Game(int w, int h) {
     //mapPtr = new Map(w, h);
-    mapPtr = new Map(w, h, "dfs");
+    mapPtr = new Map(w, h);
     hasEnd = false;
 
      
@@ -25,7 +25,7 @@ Game::Game(int w, int h) {
     
     kbAgent = new KeyboardAgent( 3, Position(1,1), "agent", "plate" );
     mapPtr->addObject( kbAgent->getPosition(), kbAgent->getCar() );
-    //agents.push_back(kbAgent);
+    agents.push_back(kbAgent);
     
 }
 
@@ -39,7 +39,6 @@ void Game::run() {
         moveAgent(agent);
     }
 
-    moveAgent(kbAgent);
 }
 
 bool Game::moveAgent( Agent* agent ) {

@@ -2,8 +2,6 @@
 #include <iostream>
 #include <iomanip>
 
-#include "wall.h"
-#include "park.h"
 #include "map.h"
 
 using std::cout; using std::endl; using std::string;

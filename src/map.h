@@ -3,6 +3,8 @@
 
 #include "position.h"
 #include "object.h"
+#include "wall.h"
+#include "park.h"
 
 class Map{
 public:

@@ -19,44 +19,9 @@ ApplicationWindow {
 
         Connections{
             target: channel;
-
-            onQtDrawObject: {
-                if(typeof map.objects[id] == "undefined"){
-                    if(type < 4 && type > 0){
-                        var component;
-                        if(type==1){
-                            component = Qt.createComponent("Wall.qml");
-                        }else if(type==2){
-                            component = Qt.createComponent("Park.qml");
-                        }else if(type==3){
-                            component = Qt.createComponent("Car.qml");
-                        }
-                        if (component.status == Component.Ready){
-                            var object = component.createObject(map, {
-                                "size": map.blockSize,
-                                "x": y * map.blockSize,
-                                "y": x * map.blockSize,
-                                "int_id": id
-                            });
-                            map.objects[id] = object;
-                        }
-                    }
-                }else{
-                    map.objects[id].x = y * map.blockSize;
-                    map.objects[id].y = x * map.blockSize;
-                }
-            }
-            onRegisterKbAgent: {
-                var component = Qt.createComponent("Car.qml");
-                var object = component.createObject(map, {
-                    "size": map.blockSize,
-                    "x": y * map.blockSize,
-                    "y": x * map.blockSize,
-                    "int_id": id,
-                    "c_color": "lime"
-                });
-                map.objects[id] = object;
-            }
+            onQtDrawObject: map.drawObject(id, type, x, y);
+            onRegisterKbAgent: map.registerKbAgent(id, x, y);
+            onSetParkEmpty: map.objects[id].p_color = "slategray";
         }
 
         focus: true;
