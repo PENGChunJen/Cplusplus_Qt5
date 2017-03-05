@@ -9,8 +9,7 @@
 class Game{
 
 public:
-    Game(int w, int h);
-    Game( const std::string& filename );
+    Game();
     ~Game();
 
     Map* getMap() const { return mapPtr; }
@@ -19,6 +18,8 @@ public:
     bool moveAgent( Agent* agent );
     bool shouldTerminate();
 
+    void addAgents();
+    void addParks();
     void run();
     void printStatus() const;
 

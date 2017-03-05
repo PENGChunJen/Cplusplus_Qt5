@@ -27,11 +27,11 @@ vector<Position> Agent::getLegalMoves( const Map *map ) {
     possibleMoves.reserve(8);
     legalMoves.reserve(8);
 
-    possibleMoves.push_back( Position(agentPos.x, agentPos.y) );
-    possibleMoves.push_back( Position(agentPos.x+1, agentPos.y) );
     possibleMoves.push_back( Position(agentPos.x-1, agentPos.y) );
-    possibleMoves.push_back( Position(agentPos.x, agentPos.y+1) );
     possibleMoves.push_back( Position(agentPos.x, agentPos.y-1) );
+    possibleMoves.push_back( Position(agentPos.x+1, agentPos.y) );
+    possibleMoves.push_back( Position(agentPos.x, agentPos.y+1) );
+    possibleMoves.push_back( Position(agentPos.x, agentPos.y) );
 
     for( Position& possiblePos : possibleMoves ) {
         if( map->isLegal(possiblePos) ) {
@@ -53,7 +53,6 @@ void Agent::printStatus() const {
 Position Agent::getNextPosition( const Map *map ) {
 
     vector<Position> legalMoves = getLegalMoves( map );
-    int r = rand() % legalMoves.size();
     
     bool PRINT = false;
     if( PRINT ) {
@@ -62,9 +61,9 @@ Position Agent::getNextPosition( const Map *map ) {
             cout << "(" << p.x << ", " << p.y << "),";
         }
         cout << "\b " << endl
-             <<"choseMove: (" << legalMoves.at(r).x << ", " << legalMoves.at(r).y << ")" << endl;
+             <<"choseMove: (" << legalMoves.front().x << ", " << legalMoves.front().y << ")" << endl;
     }
 
-    return legalMoves.at(r);
+    return legalMoves.front();
 }
 

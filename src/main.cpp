@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
 
     srand( time(NULL) );
-    Game game(29,29);
+    Game game;
     GameChannel gc(&game);
 
     QQmlApplicationEngine engine;

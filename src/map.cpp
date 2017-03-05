@@ -1,14 +1,15 @@
 #include <algorithm>
+#include <fstream>
 #include <iostream>
 #include <iomanip>
 
 #include "wall.h"
-#include "park.h"
 #include "map.h"
 
-using std::cout; using std::endl; using std::string;
+using std::cerr; using std::cout; using std::endl; 
+using std::string; using std::vector;
 
-Map::Map(int w, int h, const string config ) {
+Map::Map(int w, int h, const string& config ) {
 
     width = w;
     height = h;
@@ -19,6 +20,42 @@ Map::Map(int w, int h, const string config ) {
     else {
         defaultInitialization();
     }
+}
+
+Map::Map(const string& filename) {
+
+    std::ifstream inFile( filename );
+    string line;
+    vector<string> graph;
+
+    if( !inFile.is_open() ) {
+        cerr << "Cannot open file " << filename << endl;
+    }
+    else {
+
+        /* Count width and height from txt file */
+        width = 0;
+        while( std::getline( inFile, line ) ) {
+            graph.push_back(line);
+            ++width;
+        }
+        height = graph.front().length();
+    
+        /* Add all WALL Objects */
+        grid = new Object**[width];
+        for( int i = 0; i < width; ++i ) {
+            grid[i] = new Object*[height];
+            for( int j = 0; j < height; ++j ) {
+                if( graph.at(i).at(j) == '#' ) {
+                    grid[i][j] = new Wall();
+                }
+                else {
+                    grid[i][j] = new Object();
+                }
+            }
+        }
+    }
+
 }
 
 Map::~Map() {
@@ -43,10 +80,6 @@ void Map::dfsInitialization() {
     }
     
     dfs( Position(width/2-1,height/2-1) ); 
-
-    /* Add a Park at center */
-    Object *park = new Park("parkName", 100, 1, false);
-    addObject( Position(width/2, height/2), park );
     
 }
 
@@ -121,10 +154,6 @@ void Map::defaultInitialization() {
             }
         } 
     }
-
-    /* Add a Park at center */
-    Object *park = new Park("parkName", 100, 1, false);
-    addObject( Position(width/2, height/2), park );
 
 }
 

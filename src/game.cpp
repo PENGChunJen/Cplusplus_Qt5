@@ -4,18 +4,39 @@
 #include <vector>
 
 #include "map.h"
+#include "park.h"
 #include "randomAgent.h"
 #include "game.h"
 
 using std::vector; using std::cout; using std::endl; using std::cin;
 
-Game::Game(int w, int h) {
-    //mapPtr = new Map(w, h);
-    mapPtr = new Map(w, h, "dfs");
-    hasEnd = false;
+Game::Game() {
+    //mapPtr = new Map(29, 29);
+    //mapPtr = new Map(29, 29, "dfs");
+    mapPtr = new Map("../data/sampleMap.txt");
 
-     
-    Agent* agent = new Agent( 2, Position(1,h-2), "agent", "plate" );
+    addParks();
+    addAgents();
+
+    hasEnd = false;
+}
+
+Game::~Game() {
+    delete mapPtr;
+}
+
+void Game::addParks() {
+    Object *park = new Park("parkName", 100, 1, false);
+    Position pos( mapPtr->getWidth()/2, mapPtr->getHeight()/2 ); 
+    mapPtr->addObject( pos, park );
+}
+
+void Game::addAgents() {     
+
+    int w = mapPtr->getWidth();
+    int h = mapPtr->getHeight();
+
+    Agent* agent = new Agent( 1, Position(1,h-2), "agent", "plate" );
     mapPtr->addObject( agent->getPosition(), agent->getCar() );
     agents.push_back(agent);
 
@@ -25,21 +46,13 @@ Game::Game(int w, int h) {
     
     kbAgent = new KeyboardAgent( 3, Position(1,1), "agent", "plate" );
     mapPtr->addObject( kbAgent->getPosition(), kbAgent->getCar() );
-    //agents.push_back(kbAgent);
-    
-}
-
-Game::~Game() {
-    delete mapPtr;
+    agents.push_back(kbAgent);
 }
 
 void Game::run() {
-
     for( Agent* agent : agents ) {
         moveAgent(agent);
     }
-
-    moveAgent(kbAgent);
 }
 
 bool Game::moveAgent( Agent* agent ) {

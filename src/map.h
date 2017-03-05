@@ -6,8 +6,8 @@
 
 class Map{
 public:
-    Map( int w, int h, const std::string config = "default" );
-    Map( std::string filename );
+    Map( int w, int h, const std::string& config = "default" );
+    Map( const std::string& filename );
     ~Map();
 
     void printMap() const;
