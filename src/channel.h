@@ -27,12 +27,18 @@ public:
                 drawObject(game->getMap()->at(i,j)->getID(),
                            game->getMap()->at(i,j)->getType(),
                            i, j);
+                if(game->getMap()->at(i,j)->getType() == PARK){
+                    Park* p = (Park*)game->getMap()->at(i,j);
+                    if(p->getFree() < 1)
+                        setParkEmpty(p->getID());
+                }
             }
         }
     }
 signals:
     void qtDrawObject(int id, int type, int x, int y);
     void registerKbAgent(int id, int x, int y);
+    void setParkEmpty(int id);
 public slots:
     void onGameRun(){
         game->run();
