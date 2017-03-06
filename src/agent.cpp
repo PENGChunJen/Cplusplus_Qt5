@@ -53,17 +53,9 @@ void Agent::printStatus() const {
 Position Agent::getNextPosition( const Map *map ) {
 
     vector<Position> legalMoves = getLegalMoves( map, agentPos );
-    
-    bool PRINT = false;
-    if( PRINT ) {
-        cout << "legalMove: ";
-        for( Position& p : legalMoves ) {
-            cout << "(" << p.x << ", " << p.y << "),";
-        }
-        cout << "\b " << endl
-             <<"choseMove: (" << legalMoves.front().x << ", " << legalMoves.front().y << ")" << endl;
-    }
 
-    return legalMoves.front();
+    int r = rand() % legalMoves.size();
+    return legalMoves.at(r);
+
 }
 

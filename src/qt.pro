@@ -12,7 +12,7 @@ HEADERS += \
     car.h \
     game.h \
     position.h \
-    randomAgent.h \
+    patrolAgent.h \
     wall.h \
     kbAgent.h \
     data.h \
@@ -27,7 +27,7 @@ SOURCES += \
     object.cpp \
     park.cpp \
     position.cpp \
-    randomAgent.cpp \
+    patrolAgent.cpp \
     wall.cpp \
     kbAgent.cpp \
     data.cpp

@@ -23,7 +23,7 @@ public:
     void defaultInitialization();
     void dfsInitialization();
     void dfs( const Position& pos );
-    Position getAdjacent( const Position& pos, int r );
+    Position getAdjacent( const Position& pos, int r, int len = 2 ) const;
 
     bool inBound( const Position& pos ) const;
     bool isLegal( const Position& pos ) const;

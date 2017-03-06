@@ -88,10 +88,10 @@ void Map::dfs( const Position& pos ) {
     addObject( pos, empty );
     
     int sequence[4] = {0, 1, 2, 3};
-    std::random_shuffle( sequence, sequence+4 );
+    std::random_shuffle( sequence, sequence+5 );
 
     for( int& i : sequence ) {
-        Position nextPos = getAdjacent( pos, i );
+        Position nextPos = getAdjacent( pos, i, 2 );
         if( inBound(nextPos) && grid[nextPos.x][nextPos.y]->getType() == WALL ) {
             Position middle( (pos.x + nextPos.x)/2, (pos.y + nextPos.y)/2 );
             Object *empty = new Object();
@@ -102,18 +102,18 @@ void Map::dfs( const Position& pos ) {
 
 }
 
-Position Map::getAdjacent( const Position& pos, int r ) {
+Position Map::getAdjacent( const Position& pos, int r, int len ) const {
     if(r == 0) {
-        return Position( pos.x-2, pos.y );
+        return Position( pos.x-len, pos.y );
     }
     else if(r == 1) {
-        return Position( pos.x+2, pos.y );
+        return Position( pos.x, pos.y-len );
     }
     else if(r == 2) {
-        return Position( pos.x, pos.y-2 );
+        return Position( pos.x+len, pos.y );
     }
     else {
-        return Position( pos.x, pos.y+2 );
+        return Position( pos.x, pos.y+len );
     }
 }
 

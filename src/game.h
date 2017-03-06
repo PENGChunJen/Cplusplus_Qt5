@@ -16,15 +16,17 @@ public:
     Map* getMap() const { return mapPtr; }
     KeyboardAgent* getKbAgent() const { return kbAgent; }
 
-    bool moveAgent( Agent* agent );
+    void run();
     bool shouldTerminate();
 
     void addAgents();
-    void addParks();
+    bool moveAgent( Agent* agent );
+
+    void addParks(const std::string& config = "default");
     Position tw97ToPosition( const double originX, const double originY, 
                              const double tw97x, const double tw97y, const double scale );
     Position generationPosition();
-    void run();
+
     void printStatus() const;
 
 private:

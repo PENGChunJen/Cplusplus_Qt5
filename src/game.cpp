@@ -8,7 +8,7 @@
 #include "data.h"
 #include "park.h"
 
-#include "randomAgent.h"
+#include "patrolAgent.h"
 
 #include "game.h"
 
@@ -17,14 +17,11 @@ using std::vector; using std::string;
 
 Game::Game() {
     mapPtr = new Map(49, 49);
-    //mapPtr = new Map(29, 39, "dfs");
+    //mapPtr = new Map(49, 49, "dfs");
     //mapPtr = new Map("../data/sampleMap.txt");
 
-    addParks();
-    //Park *park = new Park("id", "name", 10, 3, false);
-    //Position pos( mapPtr->getWidth()/2, mapPtr->getHeight()/2 ); 
-    //mapPtr->addObject( pos, park );
-    //parks.push_back(park);
+    //addParks();
+    addParks("realData");
 
     addAgents();
 }
@@ -33,33 +30,40 @@ Game::~Game() {
     delete mapPtr;
 }
 
-void Game::addParks() {
-
-    Data d;
-    for( auto it = d.parks.begin(); it != d.parks.end(); ++it ) {
-
-        std::map<std::string, std::string> &data = it->second;
-
-        /* Convert data type for Park */
-        string id = data["id"];
-        string name = data["name"];
-        int capacity = std::max( 0, std::stoi( data["capacity"] ) );
-        int available = std::min( capacity, std::max( 0, std::stoi( data["available"] ) ) );
-        bool isMRT = ( data["isMRT"] == "true" ) ? true : false;
-
-        /* Transform tw97 to map coordinate */
-        double tw97x = std::stod( data["tw97x"] );
-        double tw97y = std::stod( data["tw97y"] );
-        Position pos = tw97ToPosition( 304225.666, 2769543.80, tw97x, tw97y, 20 );
-
-        /* Add park on map and in parks, if it locates in the map */
-        if( mapPtr->inBound( pos ) ) {
-            Park *park = new Park( id, name, capacity, available, isMRT );
-            mapPtr->addObject( pos, park );
-            parks.push_back(park);
+void Game::addParks( const string& config ) {
+    
+    if( config == "realData" ) {
+        Data d;
+        for( auto it = d.parks.begin(); it != d.parks.end(); ++it ) {
+    
+            std::map<std::string, std::string> &data = it->second;
+    
+            /* Convert data type for Park */
+            string id = data["id"];
+            string name = data["name"];
+            int capacity = std::max( 0, std::stoi( data["capacity"] ) );
+            int available = std::min( capacity, std::max( 0, std::stoi( data["available"] ) ) );
+            bool isMRT = ( data["isMRT"] == "true" ) ? true : false;
+    
+            /* Transform tw97 to map coordinate */
+            double tw97x = std::stod( data["tw97x"] );
+            double tw97y = std::stod( data["tw97y"] );
+            Position pos = tw97ToPosition( 304525.666, 2769543.80, tw97x, tw97y, 20 );
+    
+            /* Add park on map and in parks, if it locates in the map */
+            if( mapPtr->inBound( pos ) ) {
+                Park *park = new Park( id, name, capacity, available, isMRT );
+                mapPtr->addObject( pos, park );
+                parks.push_back(park);
+            }
         }
     }
-    
+    else {
+        Park *park = new Park("id", "name", 10, 3, false);
+        Position pos( mapPtr->getWidth()/2, mapPtr->getHeight()/2 ); 
+        mapPtr->addObject( pos, park );
+        parks.push_back(park);
+    }
 }
 
 Position Game::tw97ToPosition( const double originX, const double originY, 
@@ -88,7 +92,7 @@ void Game::addAgents() {
     mapPtr->addObject( agent->getPosition(), agent->getCar() );
     agents.push_back(agent);
 
-    RandomAgent* agent2 = new RandomAgent( 2, Position(w-2,h-2), "agent", "plate" );
+    PatrolAgent* agent2 = new PatrolAgent( 2, Position(w-2,h-2), "agent", "plate" );
     mapPtr->addObject( agent2->getPosition(), agent2->getCar() );
     agents.push_back(agent2);
     
