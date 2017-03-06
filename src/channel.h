@@ -29,7 +29,7 @@ public:
                            i, j);
                 if(game->getMap()->at(i,j)->getType() == PARK){
                     Park* p = (Park*)game->getMap()->at(i,j);
-                    if(p->getFree() < 1)
+                    if(p->isFull())
                         setParkEmpty(p->getID());
                 }
             }

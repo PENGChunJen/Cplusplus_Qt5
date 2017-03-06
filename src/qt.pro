@@ -14,7 +14,9 @@ HEADERS += \
     position.h \
     randomAgent.h \
     wall.h \
-    kbAgent.h
+    kbAgent.h \
+    data.h \
+    CSVReader.h
 
 SOURCES += \
     main.cpp \
@@ -27,7 +29,8 @@ SOURCES += \
     position.cpp \
     randomAgent.cpp \
     wall.cpp \
-    kbAgent.cpp
+    kbAgent.cpp \
+    data.cpp
 
 RESOURCES += \
     qml.qrc

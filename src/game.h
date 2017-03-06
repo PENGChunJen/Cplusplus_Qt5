@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "agent.h"
+#include "park.h"
 #include "kbAgent.h"
 #include "map.h"
 
@@ -20,13 +21,18 @@ public:
 
     void addAgents();
     void addParks();
+    Position tw97ToPosition( const double originX, const double originY, 
+                             const double tw97x, const double tw97y, const double scale );
+    Position generationPosition();
     void run();
     void printStatus() const;
 
 private:
     Map* mapPtr;
     std::vector<Agent*> agents;
-    bool hasEnd;
+    std::vector<Park*> parks;
+    
+    /* Why isolate here? */
     KeyboardAgent* kbAgent;
 };
 

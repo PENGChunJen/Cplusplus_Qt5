@@ -16,7 +16,7 @@ KeyboardAgent::~KeyboardAgent(){
 }
 
 Position KeyboardAgent::getNextPosition( const Map *map ){
-    vector<Position> legalMoves = getLegalMoves( map );
+    vector<Position> legalMoves = getLegalMoves( map, agentPos );
 
     Position nextPosition;
     if(direction == 1){

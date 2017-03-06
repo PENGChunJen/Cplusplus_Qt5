@@ -20,18 +20,18 @@ Agent::~Agent() {
     //delete car;
 }
 
-vector<Position> Agent::getLegalMoves( const Map *map ) {
+vector<Position> Agent::getLegalMoves( const Map *map, const Position& pos ) {
 
     // Difference between constructor, reserve(), resize() 
     vector<Position> possibleMoves, legalMoves;
     possibleMoves.reserve(8);
     legalMoves.reserve(8);
 
-    possibleMoves.push_back( Position(agentPos.x-1, agentPos.y) );
-    possibleMoves.push_back( Position(agentPos.x, agentPos.y-1) );
-    possibleMoves.push_back( Position(agentPos.x+1, agentPos.y) );
-    possibleMoves.push_back( Position(agentPos.x, agentPos.y+1) );
-    possibleMoves.push_back( Position(agentPos.x, agentPos.y) );
+    possibleMoves.push_back( Position(pos.x-1, pos.y) );
+    possibleMoves.push_back( Position(pos.x, pos.y-1) );
+    possibleMoves.push_back( Position(pos.x+1, pos.y) );
+    possibleMoves.push_back( Position(pos.x, pos.y+1) );
+    possibleMoves.push_back( Position(pos.x, pos.y) );
 
     for( Position& possiblePos : possibleMoves ) {
         if( map->isLegal(possiblePos) ) {
@@ -52,7 +52,7 @@ void Agent::printStatus() const {
 
 Position Agent::getNextPosition( const Map *map ) {
 
-    vector<Position> legalMoves = getLegalMoves( map );
+    vector<Position> legalMoves = getLegalMoves( map, agentPos );
     
     bool PRINT = false;
     if( PRINT ) {

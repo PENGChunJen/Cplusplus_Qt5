@@ -19,7 +19,7 @@ public:
     Car *getCar() { return car; }
 
     void setPosition( Position newPos ) { agentPos = newPos; }
-    std::vector<Position> getLegalMoves( const Map *map ); 
+    std::vector<Position> getLegalMoves( const Map *map, const Position& pos );
 
     void printStatus() const;
 

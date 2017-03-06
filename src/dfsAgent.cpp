@@ -1,22 +1,32 @@
 #include <cstdlib>
 #include <iostream>
+#include <stack>
 #include <vector>
 
 #include "map.h"
-#include "randomAgent.h"
+#include "dfsAgent.h"
 
-using std::vector; using std::string; using std::cout; using std::endl;
+using std::cout; using std::endl;
+using std::vector; using std::string; using std::stack;
 
-RandomAgent::RandomAgent(size_t _id, const Position& _pos, const std::string &_name, const std::string &_plate)
+DFSAgent::DFSAgent(size_t _id, const Position& _pos, const std::string &_name, const std::string &_plate)
         :Agent(_id, _pos, _name, _plate) {
 }
 
-RandomAgent::~RandomAgent() {
+DFSAgent::~DFSAgent() {
     //delete car;
 }
 
-Position RandomAgent::getNextPosition( const Map *map ) {
+Position DFSAgent::getNextPosition( const Map *map ) {
+
+    Position target = getNearestPark( map );
+    stack<Position> stack; 
+
+    s.push( agentPos );
+    
+    while( 
     vector<Position> legalMoves = getLegalMoves( map, agentPos );
+
     int r = rand() % legalMoves.size();
 
     bool PRINT = false;

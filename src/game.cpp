@@ -4,21 +4,29 @@
 #include <vector>
 
 #include "map.h"
+
+#include "data.h"
 #include "park.h"
+
 #include "randomAgent.h"
+
 #include "game.h"
 
-using std::vector; using std::cout; using std::endl; using std::cin;
+using std::cout; using std::endl; using std::cin;
+using std::vector; using std::string; 
 
 Game::Game() {
-    //mapPtr = new Map(29, 29);
-    //mapPtr = new Map(29, 29, "dfs");
-    mapPtr = new Map("../data/sampleMap.txt");
+    mapPtr = new Map(49, 49);
+    //mapPtr = new Map(29, 39, "dfs");
+    //mapPtr = new Map("../data/sampleMap.txt");
 
     addParks();
-    addAgents();
+    //Park *park = new Park("id", "name", 10, 3, false);
+    //Position pos( mapPtr->getWidth()/2, mapPtr->getHeight()/2 ); 
+    //mapPtr->addObject( pos, park );
+    //parks.push_back(park);
 
-    hasEnd = false;
+    addAgents();
 }
 
 Game::~Game() {
@@ -26,9 +34,49 @@ Game::~Game() {
 }
 
 void Game::addParks() {
-    Object *park = new Park("parkName", 100, 1, false);
-    Position pos( mapPtr->getWidth()/2, mapPtr->getHeight()/2 ); 
-    mapPtr->addObject( pos, park );
+
+    Data d;
+    for( auto it = d.parks.begin(); it != d.parks.end(); ++it ) {
+
+        std::map<std::string, std::string> &data = it->second;
+
+        /* Convert data type for Park */
+        string id = data["id"];
+        string name = data["name"];
+        int capacity = std::max( 0, std::stoi( data["capacity"] ) );
+        int available = std::min( capacity, std::max( 0, std::stoi( data["available"] ) ) );
+        bool isMRT = ( data["isMRT"] == "true" ) ? true : false;
+
+        /* Transform tw97 to map coordinate */
+        double tw97x = std::stod( data["tw97x"] );
+        double tw97y = std::stod( data["tw97y"] );
+        Position pos = tw97ToPosition( 304225.666, 2769543.80, tw97x, tw97y, 20 );
+
+        /* Add park on map and in parks, if it locates in the map */
+        if( mapPtr->inBound( pos ) ) {
+            Park *park = new Park( id, name, capacity, available, isMRT );
+            mapPtr->addObject( pos, park );
+            parks.push_back(park);
+        }
+    }
+    
+}
+
+Position Game::tw97ToPosition( const double originX, const double originY, 
+                               const double tw97x, const double tw97y, const double scale ) {
+    int x = (tw97x-originX)/scale;
+    int y = (tw97y-originY)/scale;
+    return Position(x,y);
+}
+
+Position Game::generationPosition() {
+    Position pos;
+    do {
+        int x = rand() % mapPtr->getWidth();
+        int y = rand() % mapPtr->getHeight();
+        pos = Position(x,y);
+    } while( mapPtr->at(pos)->getType() != EMPTY );
+    return pos;
 }
 
 void Game::addAgents() {     
@@ -82,10 +130,10 @@ bool Game::moveAgent( Agent* agent ) {
         case PARK: {
             bool Parked = mapPtr->at(nextPos)->join( agent->getCar() );
             if( Parked ) {
-                Position generationPoint = Position(1,1);
-                moved = mapPtr->moveObject( currentPos, generationPoint );
+                Position emptyPos = generationPosition();
+                moved = mapPtr->moveObject( currentPos, emptyPos );
                 if( moved ) {
-                    agent->setPosition( generationPoint );
+                    agent->setPosition( emptyPos );
                 }
             }
             break;
@@ -99,7 +147,12 @@ bool Game::moveAgent( Agent* agent ) {
 
 
 bool Game::shouldTerminate() {
-    return hasEnd;
+    for( Park* park : parks ) {
+        if( !park->isFull() ) {
+            return false;
+        }
+    }
+    return true;
 }
 
 void Game::printStatus() const {

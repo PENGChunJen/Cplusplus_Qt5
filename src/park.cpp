@@ -5,11 +5,11 @@
 
 using std::cout; using std::endl; using std::string;
 
-Park::Park( const string& _name, const int& _capacity,
-            const int& _free, const bool& _isMRT ) {
+Park::Park( const string& _id, const string& _name,
+            const int& _capacity, const int& _free, const bool& _isMRT ) {
     type = PARK;
 
-    //parkID = _parkID;
+    id = _id;
     name = _name;
     capacity = _capacity;
     free = _free;
@@ -30,7 +30,7 @@ bool Park::join( Object * objPtr ) {
 
 void Park::printStatus() const {
     cout << "{ " << endl
-        << "\tID: " << id << "," << endl
+        << "\tid: " << id << "," << endl
         << "\tname: " << name << "," << endl
         << "\tcapacity: " << capacity << "," << endl
         << "\tfree: " << free << "," << endl

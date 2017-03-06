@@ -9,8 +9,8 @@ ApplicationWindow {
     Map {
         id: map;
         objectName: "map";
-        w: channel.mw;
-        h: channel.mh;
+        h: channel.mw;
+        w: channel.mh;
         blockSize: 720/channel.mw>720/channel.mh ? 720/channel.mh : 720/channel.mw;
         x: 0;
         y: 0;
