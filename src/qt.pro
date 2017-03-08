@@ -4,33 +4,35 @@ QT += qml quick widgets
 CONFIG += c++11
 
 HEADERS += \
-    map.h \
     channel.h \
-    agent.h \
-    park.h \
-    object.h \
-    car.h \
     game.h \
-    position.h \
-    patrolAgent.h \
+    object.h \
     wall.h \
-    kbAgent.h \
+    car.h \
+    park.h \
+    position.h \
+    map.h \
     data.h \
-    CSVReader.h
+    CSVReader.h \
+    agent.h \
+    kbAgent.h \
+    rightAgent.h \
+    dfsAgent.h
 
 SOURCES += \
     main.cpp \
-    map.cpp \
-    agent.cpp \
-    car.cpp \
     game.cpp \
     object.cpp \
+    wall.cpp \
+    car.cpp \
     park.cpp \
     position.cpp \
-    patrolAgent.cpp \
-    wall.cpp \
+    map.cpp \
+    data.cpp \
+    agent.cpp \
     kbAgent.cpp \
-    data.cpp
+    rightAgent.cpp \
+    dfsAgent.cpp
 
 RESOURCES += \
     qml.qrc

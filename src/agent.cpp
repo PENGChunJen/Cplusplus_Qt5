@@ -42,6 +42,19 @@ vector<Position> Agent::getLegalMoves( const Map *map, const Position& pos ) {
     return legalMoves;
 }
 
+Position Agent::getNextPosition( const Map *map ) {
+
+    vector<Position> legalMoves = getLegalMoves( map, agentPos );
+    int r = rand() % legalMoves.size();
+    Position nextPos = legalMoves.at(r);
+    //printMoves( legalMoves, nextPos ); 
+    return nextPos;
+}
+
+Position Agent::getNearestPark( const Map *map ) {
+    return Position( map->getWidth()/2, map->getHeight()/2 );
+}
+
 void Agent::printStatus() const {
     cout << "{" << endl
          << "\t name: " << name << endl
@@ -50,12 +63,12 @@ void Agent::printStatus() const {
          << "}" << endl;
 }
 
-Position Agent::getNextPosition( const Map *map ) {
-
-    vector<Position> legalMoves = getLegalMoves( map, agentPos );
-
-    int r = rand() % legalMoves.size();
-    return legalMoves.at(r);
-
+void Agent::printMoves( const vector<Position>& legalMoves, const Position& nextPos ) const {
+    cout << "legalMove: ";
+    for( const Position& p : legalMoves ) {
+        cout << p << ",";
+    }
+    cout << "\b " << endl
+         <<"choseMove: " << nextPos << endl;
 }
 

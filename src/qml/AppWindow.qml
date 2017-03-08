@@ -44,7 +44,7 @@ ApplicationWindow {
         objectName: "timer";
         signal run();
 
-        interval: 200; running: true; repeat: true;
+        interval: 1000; running: true; repeat: true;
         onTriggered: run();
     }
 }

@@ -12,7 +12,6 @@ public:
     Agent(size_t _id, const Position& _pos, const std::string &_name, const std::string &_plate);
     ~Agent();
 
-
     size_t getId(){ return id; }
     std::string getName() const { return name; }
     Position getPosition() const { return agentPos; }
@@ -20,11 +19,12 @@ public:
 
     void setPosition( Position newPos ) { agentPos = newPos; }
     std::vector<Position> getLegalMoves( const Map *map, const Position& pos );
+    Position getNearestPark( const Map *map );
 
     void printStatus() const;
+    void printMoves( const std::vector<Position>& legalMoves, const Position& nextPos ) const;
 
     virtual Position getNextPosition( const Map* map );
-    //virtual Position getNextPosition();
 
 protected:
     size_t id;

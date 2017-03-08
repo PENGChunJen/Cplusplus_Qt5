@@ -8,7 +8,8 @@
 #include "data.h"
 #include "park.h"
 
-#include "patrolAgent.h"
+#include "rightAgent.h"
+#include "dfsAgent.h"
 
 #include "game.h"
 
@@ -16,12 +17,12 @@ using std::cout; using std::endl; using std::cin;
 using std::vector; using std::string; 
 
 Game::Game() {
-    mapPtr = new Map(49, 49);
-    //mapPtr = new Map(49, 49, "dfs");
+    //mapPtr = new Map(9, 9);
+    mapPtr = new Map(19, 19, "dfs");
     //mapPtr = new Map("../data/sampleMap.txt");
 
-    //addParks();
-    addParks("realData");
+    addParks();
+    //addParks("realData");
 
     addAgents();
 }
@@ -88,17 +89,22 @@ void Game::addAgents() {
     int w = mapPtr->getWidth();
     int h = mapPtr->getHeight();
 
-    Agent* agent = new Agent( 1, Position(1,h-2), "agent", "plate" );
+    kbAgent = new KeyboardAgent( 1, Position(1,1), "Me", "plate" );
+    mapPtr->addObject( kbAgent->getPosition(), kbAgent->getCar() );
+    agents.push_back(kbAgent);
+
+    Agent* agent = new Agent( 2, Position(1,h-2), "Alice", "plate" );
     mapPtr->addObject( agent->getPosition(), agent->getCar() );
     agents.push_back(agent);
 
-    PatrolAgent* agent2 = new PatrolAgent( 2, Position(w-2,h-2), "agent", "plate" );
-    mapPtr->addObject( agent2->getPosition(), agent2->getCar() );
-    agents.push_back(agent2);
+    RightAgent* rightAgent = new RightAgent( 3, Position(w-2,h-2), "Bob", "plate" );
+    mapPtr->addObject( rightAgent->getPosition(), rightAgent->getCar() );
+    agents.push_back(rightAgent);
     
-    kbAgent = new KeyboardAgent( 3, Position(1,1), "agent", "plate" );
-    mapPtr->addObject( kbAgent->getPosition(), kbAgent->getCar() );
-    agents.push_back(kbAgent);
+    DFSAgent* dfsAgent = new DFSAgent( 4, Position(w-2,1), "Chloe", "plate" );
+    mapPtr->addObject( dfsAgent->getPosition(), dfsAgent->getCar() );
+    agents.push_back(dfsAgent);
+
 }
 
 void Game::run() {
@@ -112,7 +118,7 @@ bool Game::moveAgent( Agent* agent ) {
     bool moved = false;
     Position nextPos = agent->getNextPosition( mapPtr );
     Position currentPos = agent->getPosition();
-    if( currentPos.x == nextPos.x && currentPos.y == nextPos.y ) {
+    if( currentPos == nextPos ) {
         return false;
     }
 

@@ -17,10 +17,10 @@ Park::Park( const string& _id, const string& _name,
 }
 
 bool Park::join( Object * objPtr ) {
+    cout << "parking:" << objPtr->getType() << endl;
     if( objPtr->getType() != CAR ) {
         return false;
     }
-
     if(free < 1) {
         return false;
     }

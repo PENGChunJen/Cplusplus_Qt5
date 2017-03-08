@@ -84,36 +84,21 @@ void Map::dfsInitialization() {
 }
 
 void Map::dfs( const Position& pos ) {
+
     Object *empty = new Object();
     addObject( pos, empty );
     
-    int sequence[4] = {0, 1, 2, 3};
-    std::random_shuffle( sequence, sequence+5 );
+    Direction directions[4] = {North, South, East, West};
+    std::random_shuffle( directions, directions+5 );
 
-    for( int& i : sequence ) {
-        Position nextPos = getAdjacent( pos, i, 2 );
+    for( Direction& direction : directions ) {
+        Position nextPos = pos.getAdjacent( direction, 2 );
         if( inBound(nextPos) && grid[nextPos.x][nextPos.y]->getType() == WALL ) {
             Position middle( (pos.x + nextPos.x)/2, (pos.y + nextPos.y)/2 );
             Object *empty = new Object();
             addObject( middle, empty );
             dfs(nextPos);
         }
-    }
-
-}
-
-Position Map::getAdjacent( const Position& pos, int r, int len ) const {
-    if(r == 0) {
-        return Position( pos.x-len, pos.y );
-    }
-    else if(r == 1) {
-        return Position( pos.x, pos.y-len );
-    }
-    else if(r == 2) {
-        return Position( pos.x+len, pos.y );
-    }
-    else {
-        return Position( pos.x, pos.y+len );
     }
 }
 
@@ -188,27 +173,32 @@ bool Map::inBound( const Position& newPos ) const {
     return true;
 }
 
-bool Map::isLegal( const Position& newPos ) const {
-    if( !inBound(newPos) ) {
+bool Map::isLegal( const Position& pos ) const {
+
+    if( !inBound(pos) ) {
         return false;
     }
-    if( grid[newPos.x][newPos.y]->getType() == WALL ) {
+
+    Type t = grid[pos.x][pos.y]->getType();
+    if( t == WALL || t == CAR ) {
         return false;
     }
+
     return true;
 }
 
 bool Map::canMove( const Position& pos ) const {
+
     Type t = grid[pos.x][pos.y]->getType();
     if( t == EMPTY || t == CAR ) {
         return true;
     }
+
     return false;
 }
 
 bool Map::addObject( const Position& newPos, Object *o ) {
 
-    //if( isLegal( newPos ) && grid[newPos.x][newPos.y]->getType() == EMPTY ) {
     if( inBound( newPos ) ) {
         delete grid[newPos.x][newPos.y];
         grid[newPos.x][newPos.y] = o;
