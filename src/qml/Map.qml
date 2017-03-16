@@ -41,16 +41,23 @@ Item {
         }
     }
 
-    function registerKbAgent(id, x, y){
-        var component = Qt.createComponent("Car.qml");
-        var object = component.createObject(map, {
-            "size": map.blockSize,
-            "x": y * map.blockSize,
-            "y": x * map.blockSize,
-            "int_id": id
-        });
-        object.setToKeyAgent();
-        map.objects[id] = object;
+    function drawCar(id, name, x, y, isKA){
+        if(typeof objects[id] == "undefined"){
+            var component = Qt.createComponent("Car.qml");
+            var object = component.createObject(map, {
+                "size": map.blockSize,
+                "x": y * map.blockSize,
+                "y": x * map.blockSize,
+                "int_id": id,
+                "owner": name
+            });
+            console.log("n",name);
+            if(isKA) object.setToKeyAgent();
+            map.objects[id] = object;
+        }else{
+            objects[id].x = y * blockSize;
+            objects[id].y = x * blockSize;
+        }
     }
 }
 

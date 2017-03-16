@@ -17,8 +17,8 @@ using std::cout; using std::endl; using std::cin;
 using std::vector; using std::string; 
 
 Game::Game() {
-    //mapPtr = new Map(9, 9);
-    mapPtr = new Map(19, 19, "dfs");
+    mapPtr = new Map(9, 9);
+    //mapPtr = new Map(19, 19, "dfs");
     //mapPtr = new Map("../data/sampleMap.txt");
 
     addParks();

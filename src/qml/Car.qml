@@ -4,6 +4,7 @@ Item {
     id: root;
     property int size: 100;
     property int int_id: 0;
+    property string owner: "";
     width: size;
     height: size;
 
@@ -18,7 +19,7 @@ Item {
     }
 
     Text{
-        text: int_id.toString();
+        text: owner;
         color: "white";
         font.family: "Times";
         anchors.horizontalCenter: parent.horizontalCenter;
