@@ -4,16 +4,28 @@ Item {
     id: root;
     property int size: 100;
     property int int_id: 0;
-    property string c_color: "red";
     width: size;
     height: size;
 
     Rectangle {
+        id: circle;
         anchors.horizontalCenter: parent.horizontalCenter;
         anchors.verticalCenter: parent.verticalCenter;
         width: parent.width * 0.8;
         height: parent.height * 0.8;
         radius: width*0.5;
-        color: c_color;
+        color: "red";
+    }
+
+    Text{
+        text: int_id.toString();
+        color: "white";
+        font.family: "Times";
+        anchors.horizontalCenter: parent.horizontalCenter;
+        anchors.verticalCenter: parent.verticalCenter;
+    }
+
+    function setToKeyAgent(){
+        circle.color = "lime";
     }
 }

@@ -18,14 +18,14 @@ Item {
         if(typeof objects[id] == "undefined"){
             if(type < 4 && type > 0){
                 var component;
-                if(type==1){
+                if(type===1){
                     component = Qt.createComponent("Wall.qml");
-                }else if(type==2){
+                }else if(type===2){
                     component = Qt.createComponent("Park.qml");
-                }else if(type==3){
+                }else if(type===3){
                     component = Qt.createComponent("Car.qml");
                 }
-                if (component.status == Component.Ready){
+                if (component.status === Component.Ready){
                     var object = component.createObject(root, {
                         "size": blockSize,
                         "x": y * blockSize,
@@ -47,9 +47,9 @@ Item {
             "size": map.blockSize,
             "x": y * map.blockSize,
             "y": x * map.blockSize,
-            "int_id": id,
-            "c_color": "lime"
+            "int_id": id
         });
+        object.setToKeyAgent();
         map.objects[id] = object;
     }
 }

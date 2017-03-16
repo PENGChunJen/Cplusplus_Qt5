@@ -29,8 +29,7 @@ public:
                            i, j);
                 if(game->getMap()->at(i,j)->getType() == PARK){
                     Park* p = (Park*)game->getMap()->at(i,j);
-                    if(p->isFull())
-                        setParkEmpty(p->getID());
+                    setParkFreeNumber(p->getID(), p->getFree());
                 }
             }
         }
@@ -38,7 +37,7 @@ public:
 signals:
     void qtDrawObject(int id, int type, int x, int y);
     void registerKbAgent(int id, int x, int y);
-    void setParkEmpty(int id);
+    void setParkFreeNumber(int id, int free);
 public slots:
     void onGameRun(){
         game->run();
