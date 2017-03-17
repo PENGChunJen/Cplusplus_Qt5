@@ -18,6 +18,7 @@ Item {
         text: free.toString();
         color: "black";
         font.family: "Times";
+        font.pointSize: size/3;
         anchors.horizontalCenter: parent.horizontalCenter;
         anchors.verticalCenter: parent.verticalCenter;
     }

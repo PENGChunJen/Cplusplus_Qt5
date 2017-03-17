@@ -22,6 +22,7 @@ Item {
         text: owner;
         color: "white";
         font.family: "Times";
+        font.pointSize: size*7/40;
         anchors.horizontalCenter: parent.horizontalCenter;
         anchors.verticalCenter: parent.verticalCenter;
     }
