@@ -26,7 +26,13 @@ Position BFSAgent::getNextPosition( const Map *map ) {
         findRoute( map );
     }
     Position nextPos = route.back();
-    route.pop_back();
+    if( map->isLegal(nextPos) ) {
+        route.pop_back();
+    }
+    else {
+        route.clear();
+        nextPos = agentPos;
+    }
     return nextPos;
 }
 

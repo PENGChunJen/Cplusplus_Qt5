@@ -10,6 +10,7 @@ public:
     bool join( Object* objPtr );
     void printStatus() const; 
 
+    std::string getOwner() { return owner; }
     std::string getPlate() { return plate; }
 
 private:

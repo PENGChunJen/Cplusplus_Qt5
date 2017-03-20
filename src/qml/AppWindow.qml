@@ -13,15 +13,15 @@ ApplicationWindow {
         w: channel.mh;
         blockSize: 720/channel.mw>720/channel.mh ? 720/channel.mh : 720/channel.mw;
         x: 0;
-        y: 0;
+        y: 100;
 
         signal kbAgentMove(int d);
 
         Connections{
             target: channel;
             onQtDrawObject: map.drawObject(id, type, x, y);
-            onRegisterKbAgent: map.registerKbAgent(id, x, y);
-            onSetParkEmpty: map.objects[id].p_color = "slategray";
+            onQtDrawCar: map.drawCar(id, owner, x, y, isKeyAgent);
+            onSetParkFreeNumber: map.objects[id].setFreeNumber(free);
         }
 
         focus: true;

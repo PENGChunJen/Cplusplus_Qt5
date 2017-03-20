@@ -25,7 +25,13 @@ Position DFSAgent::getNextPosition( const Map *map ) {
         findRoute( map );
     }
     Position nextPos = route.back();
-    route.pop_back();
+    if( map->isLegal(nextPos) ) {
+        route.pop_back();
+    }
+    else {
+        route.clear();
+        nextPos = agentPos;
+    }
     return nextPos;
 }
 
@@ -48,11 +54,7 @@ void DFSAgent::findRoute( const Map *map ) {
         stack.pop_back();
         
         vector<Position> legalMoves = getLegalMoves( map, pos );
-        std::sort( legalMoves.begin(), legalMoves.end(),
-                   [&target](Position &left, Position &right) {
-            return left.manhattanDistance(target) < right.manhattanDistance(target);
-        });
-        //std::random_shuffle( legalMoves.begin(), legalMoves.end() );
+        std::random_shuffle( legalMoves.begin(), legalMoves.end() );
 
         for( Position& legalMove : legalMoves ) {
             if( legalMove == pos ){
