@@ -3,24 +3,25 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <queue>
 
 #include "position.h"
 #include "map.h"
-#include "dfsAgent.h"
+#include "bfsAgent.h"
 
 using std::cout; using std::endl;
-using std::vector; using std::string; using std::map;
+using std::vector; using std::string; using std::map; using std::queue;
 
-DFSAgent::DFSAgent(size_t _id, const Position& _pos, const std::string &_name, const std::string &_plate)
+BFSAgent::BFSAgent(size_t _id, const Position& _pos, const std::string &_name, const std::string &_plate)
         :Agent(_id, _pos, _name, _plate) {
         route.clear();
 }
 
-DFSAgent::~DFSAgent() {
+BFSAgent::~BFSAgent() {
     //delete car;
 }
 
-Position DFSAgent::getNextPosition( const Map *map ) {
+Position BFSAgent::getNextPosition( const Map *map ) {
     if( route.empty() ) {
         findRoute( map );
     }
@@ -30,29 +31,25 @@ Position DFSAgent::getNextPosition( const Map *map ) {
 }
 
 
-void DFSAgent::findRoute( const Map *map ) {
+void BFSAgent::findRoute( const Map *map ) {
 
     route.clear();
 
-    vector<Position> stack; 
+    queue<Position> queue;
     std::map<Position, Position> trace;
     Position target = getNearestPark( map );
     Position nextPos = agentPos;
 
-    stack.push_back( agentPos );
+    queue.push( agentPos );
     trace[agentPos] = agentPos;
     
-    while( !stack.empty() ) {
+    while( !queue.empty() ) {
 
-        Position pos = stack.back();
-        stack.pop_back();
+        Position pos = queue.front();
+        queue.pop();
         
         vector<Position> legalMoves = getLegalMoves( map, pos );
-        std::sort( legalMoves.begin(), legalMoves.end(),
-                   [&target](Position &left, Position &right) {
-            return left.manhattanDistance(target) < right.manhattanDistance(target);
-        });
-        //std::random_shuffle( legalMoves.begin(), legalMoves.end() );
+        std::random_shuffle( legalMoves.begin(), legalMoves.end() );
 
         for( Position& legalMove : legalMoves ) {
             if( legalMove == pos ){
@@ -60,7 +57,7 @@ void DFSAgent::findRoute( const Map *map ) {
             }
             else if( trace.find(legalMove) == trace.end() ) {
                 trace[legalMove] = pos;
-                stack.push_back(legalMove);
+                queue.push(legalMove);
 
                 if( legalMove == target ) {
                     nextPos = legalMove;

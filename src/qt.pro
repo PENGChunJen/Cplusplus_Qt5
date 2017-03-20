@@ -17,7 +17,8 @@ HEADERS += \
     agent.h \
     kbAgent.h \
     rightAgent.h \
-    dfsAgent.h
+    dfsAgent.h \
+    bfsAgent.h
 
 SOURCES += \
     main.cpp \
@@ -32,7 +33,8 @@ SOURCES += \
     agent.cpp \
     kbAgent.cpp \
     rightAgent.cpp \
-    dfsAgent.cpp
+    dfsAgent.cpp \
+    bfsAgent.cpp
 
 RESOURCES += \
     qml.qrc

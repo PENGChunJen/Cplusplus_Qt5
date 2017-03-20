@@ -34,6 +34,7 @@ public:
     }
 
     Position getAdjacent( const Direction &direction, const int &len ) const;
+    double manhattanDistance( const Position& target );
 
     int x;
     int y;

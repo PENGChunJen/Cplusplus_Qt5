@@ -34,7 +34,8 @@ vector<Position> Agent::getLegalMoves( const Map *map, const Position& pos ) {
     possibleMoves.push_back( Position(pos.x, pos.y) );
 
     for( Position& possiblePos : possibleMoves ) {
-        if( map->isLegal(possiblePos) ) {
+        //if( map->isLegal(possiblePos) ) {
+        if( map->isPath(possiblePos) ) {
             legalMoves.push_back( possiblePos );
         }
     }
@@ -71,4 +72,3 @@ void Agent::printMoves( const vector<Position>& legalMoves, const Position& next
     cout << "\b " << endl
          <<"choseMove: " << nextPos << endl;
 }
-

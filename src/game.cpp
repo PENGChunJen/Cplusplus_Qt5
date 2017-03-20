@@ -10,6 +10,7 @@
 
 #include "rightAgent.h"
 #include "dfsAgent.h"
+#include "bfsAgent.h"
 
 #include "game.h"
 
@@ -17,8 +18,8 @@ using std::cout; using std::endl; using std::cin;
 using std::vector; using std::string; 
 
 Game::Game() {
-    //mapPtr = new Map(9, 9);
-    mapPtr = new Map(19, 19, "dfs");
+    mapPtr = new Map(29, 29);
+    //mapPtr = new Map(29, 29, "dfs");
     //mapPtr = new Map("../data/sampleMap.txt");
 
     addParks();
@@ -60,7 +61,7 @@ void Game::addParks( const string& config ) {
         }
     }
     else {
-        Park *park = new Park("id", "name", 10, 3, false);
+        Park *park = new Park("id", "name", 10, 10, false);
         Position pos( mapPtr->getWidth()/2, mapPtr->getHeight()/2 ); 
         mapPtr->addObject( pos, park );
         parks.push_back(park);
@@ -100,11 +101,14 @@ void Game::addAgents() {
     RightAgent* rightAgent = new RightAgent( 3, Position(w-2,h-2), "Bob", "plate" );
     mapPtr->addObject( rightAgent->getPosition(), rightAgent->getCar() );
     agents.push_back(rightAgent);
-    
-    DFSAgent* dfsAgent = new DFSAgent( 4, Position(w-2,1), "Chloe", "plate" );
+
+    DFSAgent* dfsAgent = new DFSAgent( 4, generationPosition(), "Chloe", "plate" );
     mapPtr->addObject( dfsAgent->getPosition(), dfsAgent->getCar() );
     agents.push_back(dfsAgent);
 
+    BFSAgent* bfsAgent = new BFSAgent( 5, generationPosition(), "David", "plate" );
+    mapPtr->addObject( bfsAgent->getPosition(), bfsAgent->getCar() );
+    agents.push_back(bfsAgent);
 }
 
 void Game::run() {

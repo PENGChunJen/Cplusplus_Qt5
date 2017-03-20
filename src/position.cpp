@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include "position.h"
 
 Position Position::getAdjacent( const Direction &direction, const int &len ) const {
@@ -16,6 +17,10 @@ Position Position::getAdjacent( const Direction &direction, const int &len ) con
     else {
         return Position( x, y );
     }
+}
+
+double Position::manhattanDistance( const Position &target ) {
+    return std::abs(x-target.x)+std::abs(y-target.y);
 }
 /*
 std::ostream& operator<< ( std::ostream &o, const Direction &direction ) {

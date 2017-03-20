@@ -27,6 +27,7 @@ public:
 
     bool inBound( const Position& pos ) const;
     bool isLegal( const Position& pos ) const;
+    bool isPath( const Position& pos ) const;
     bool canMove( const Position& pos ) const;
 
     bool addObject( const Position& pos, Object *o );

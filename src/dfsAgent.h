@@ -10,7 +10,11 @@ public:
     DFSAgent(size_t _id, const Position& _pos, const std::string &_name, const std::string &_plate);
     ~DFSAgent();
 
-    Position getNextPosition( const Map* map );
+    Position getNextPosition( const Map *map );
+    void findRoute( const Map *map );
+
+private:
+    std::vector<Position> route;
 };
 
 #endif // DFSAGENT_H

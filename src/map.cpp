@@ -183,7 +183,19 @@ bool Map::isLegal( const Position& pos ) const {
     if( t == WALL || t == CAR ) {
         return false;
     }
+    return true;
+}
 
+bool Map::isPath( const Position& pos ) const {
+
+    if( !inBound(pos) ) {
+        return false;
+    }
+
+    Type t = grid[pos.x][pos.y]->getType();
+    if( t == WALL ) {
+        return false;
+    }
     return true;
 }
 
