@@ -1,5 +1,6 @@
 //#include <cstdlib>
 #include <iostream>
+#include <queue>
 #include <string>
 #include <vector>
 
@@ -48,12 +49,38 @@ Position Agent::getNextPosition( const Map *map ) {
     vector<Position> legalMoves = getLegalMoves( map, agentPos );
     int r = rand() % legalMoves.size();
     Position nextPos = legalMoves.at(r);
-    //printMoves( legalMoves, nextPos ); 
     return nextPos;
 }
 
 Position Agent::getNearestPark( const Map *map ) {
-    return Position( map->getWidth()/2, map->getHeight()/2 );
+
+    Position target = agentPos;
+    bool visited[map->getWidth()][map->getHeight()] = {{false}};
+    std::queue<Position> queue; 
+
+    visited[agentPos.x][agentPos.y] = true;
+    queue.push( agentPos );
+
+    while( !queue.empty() ){
+        Position pos = queue.front();
+        queue.pop();
+        
+        if( map->at(pos)->getType() == PARK ) {
+            Park *park = (Park*)map->at(pos);
+            if( !park->isFull() ) {
+                target = pos;
+                break;
+            }
+        }
+        vector<Position> adjacents = getLegalMoves( map, pos );
+        for( Position &adjacent : adjacents ) {
+            if( !visited[adjacent.x][adjacent.y] ) {
+                visited[adjacent.x][adjacent.y] = true;
+                queue.push(adjacent);
+            }
+        }
+    }
+    return target;
 }
 
 void Agent::printStatus() const {

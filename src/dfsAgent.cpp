@@ -24,6 +24,7 @@ Position DFSAgent::getNextPosition( const Map *map ) {
     if( route.empty() ) {
         findRoute( map );
     }
+
     Position nextPos = route.back();
     if( map->isLegal(nextPos) ) {
         route.pop_back();
@@ -37,7 +38,6 @@ Position DFSAgent::getNextPosition( const Map *map ) {
 
 
 void DFSAgent::findRoute( const Map *map ) {
-
     route.clear();
 
     vector<Position> stack; 

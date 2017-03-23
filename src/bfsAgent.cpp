@@ -25,6 +25,12 @@ Position BFSAgent::getNextPosition( const Map *map ) {
     if( route.empty() ) {
         findRoute( map );
     }
+    //for( Position& pos : route ) {
+    //    cout << pos << "<-";
+    //}
+    //cout << agentPos << endl;
+
+
     Position nextPos = route.back();
     if( map->isLegal(nextPos) ) {
         route.pop_back();
@@ -38,7 +44,6 @@ Position BFSAgent::getNextPosition( const Map *map ) {
 
 
 void BFSAgent::findRoute( const Map *map ) {
-
     route.clear();
 
     queue<Position> queue;
@@ -79,3 +84,4 @@ void BFSAgent::findRoute( const Map *map ) {
     }
     route.push_back(nextPos);
 }
+

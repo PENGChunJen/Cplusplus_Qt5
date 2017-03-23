@@ -17,7 +17,7 @@ public:
 
     int getWidth() const { return width; }
     int getHeight() const { return height; }
-    Object* at( const Position& pos ) { return grid[pos.x][pos.y]; }
+    Object* at( const Position& pos ) const { return grid[pos.x][pos.y]; }
     Object* at( const int x, const int y ) { return grid[x][y]; }
 
     void defaultInitialization();

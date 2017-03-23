@@ -19,11 +19,11 @@ using std::vector; using std::string;
 
 Game::Game() {
     //mapPtr = new Map(29, 29);
-    //mapPtr = new Map(29, 29, "dfs");
-    mapPtr = new Map("../data/sampleMap.txt");
+    mapPtr = new Map(29, 29, "dfs");
+    //mapPtr = new Map("../data/sampleMap.txt");
 
-    addParks();
-    //addParks("realData");
+    //addParks();
+    addParks("realData");
 
     addAgents();
 }
@@ -93,7 +93,7 @@ void Game::addAgents() {
     kbAgent = new KeyboardAgent( 1, Position(1,1), "Me", "plate" );
     mapPtr->addObject( kbAgent->getPosition(), kbAgent->getCar() );
     agents.push_back(kbAgent);
-
+    /*
     Agent* agent = new Agent( 2, Position(1,h-2), "Alice", "plate" );
     mapPtr->addObject( agent->getPosition(), agent->getCar() );
     agents.push_back(agent);
@@ -101,12 +101,44 @@ void Game::addAgents() {
     RightAgent* rightAgent = new RightAgent( 3, Position(w-2,h-2), "Bob", "plate" );
     mapPtr->addObject( rightAgent->getPosition(), rightAgent->getCar() );
     agents.push_back(rightAgent);
-
+    */
     DFSAgent* dfsAgent = new DFSAgent( 4, generationPosition(), "Chloe", "plate" );
     mapPtr->addObject( dfsAgent->getPosition(), dfsAgent->getCar() );
     agents.push_back(dfsAgent);
 
     BFSAgent* bfsAgent = new BFSAgent( 5, generationPosition(), "David", "plate" );
+    mapPtr->addObject( bfsAgent->getPosition(), bfsAgent->getCar() );
+    agents.push_back(bfsAgent);
+
+    bfsAgent = new BFSAgent( 6, generationPosition(), "David", "plate" );
+    mapPtr->addObject( bfsAgent->getPosition(), bfsAgent->getCar() );
+    agents.push_back(bfsAgent);
+
+    bfsAgent = new BFSAgent( 7, generationPosition(), "David", "plate" );
+    mapPtr->addObject( bfsAgent->getPosition(), bfsAgent->getCar() );
+    agents.push_back(bfsAgent);
+
+    bfsAgent = new BFSAgent( 8, generationPosition(), "David", "plate" );
+    mapPtr->addObject( bfsAgent->getPosition(), bfsAgent->getCar() );
+    agents.push_back(bfsAgent);
+
+    bfsAgent = new BFSAgent( 9, generationPosition(), "David", "plate" );
+    mapPtr->addObject( bfsAgent->getPosition(), bfsAgent->getCar() );
+    agents.push_back(bfsAgent);
+
+    bfsAgent = new BFSAgent( 10, generationPosition(), "David", "plate" );
+    mapPtr->addObject( bfsAgent->getPosition(), bfsAgent->getCar() );
+    agents.push_back(bfsAgent);
+
+    bfsAgent = new BFSAgent( 11, generationPosition(), "David", "plate" );
+    mapPtr->addObject( bfsAgent->getPosition(), bfsAgent->getCar() );
+    agents.push_back(bfsAgent);
+
+    bfsAgent = new BFSAgent( 12, generationPosition(), "David", "plate" );
+    mapPtr->addObject( bfsAgent->getPosition(), bfsAgent->getCar() );
+    agents.push_back(bfsAgent);
+
+    bfsAgent = new BFSAgent( 13, generationPosition(), "David", "plate" );
     mapPtr->addObject( bfsAgent->getPosition(), bfsAgent->getCar() );
     agents.push_back(bfsAgent);
 }

@@ -13,7 +13,7 @@ Data::Data() {
     loadAllParks( "../data/TCMSV_alldesc" );
     loadAvailableParks( "../data/TCMSV_allavailable" );
     loadMRTParks( "../data/taipei_metro_park_position.csv" );
-    printStatus();
+    //printStatus();
 }
 
 Data::~Data() {
