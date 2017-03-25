@@ -196,6 +196,12 @@ bool Map::isPath( const Position& pos ) const {
     if( t == WALL ) {
         return false;
     }
+    else if ( t == PARK ) {
+        Park* park = (Park*)grid[pos.x][pos.y];
+        if( park->isFull() ){
+            return false;
+        }
+    }
     return true;
 }
 
