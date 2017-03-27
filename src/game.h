@@ -20,6 +20,7 @@ public:
     bool shouldTerminate();
 
     void addAgents();
+    void addNPC();
     bool moveAgent( Agent* agent );
 
     void addParks(const std::string& config = "default");
