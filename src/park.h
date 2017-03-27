@@ -12,10 +12,11 @@ public:
     bool join( Object* objPtr );
     void printStatus() const;
     bool isFull() const { return (free < 1); }
-    bool isSupplyStop() const { return isMRT; }
+    bool hasBonus() const { return isMRT; }
     
     std::string getId() { return id; }
     int getFree() { return free; }
+
 private:
     std::string id;
     std::string name;

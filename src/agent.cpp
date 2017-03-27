@@ -15,6 +15,7 @@ Agent::Agent(size_t _id, const Position& _pos, const std::string &_name, const s
     agentPos = _pos;
     name = _name;
     car = new Car(_name, _plate);
+    score = 0;
 }
 
 Agent::~Agent() {

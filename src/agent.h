@@ -16,6 +16,8 @@ public:
     std::string getName() const { return name; }
     Position getPosition() const { return agentPos; }
     Car *getCar() { return car; }
+    int getScore() const { return score; }
+    void addScore( int s ) { score += s; }
 
     void setPosition( Position newPos ) { agentPos = newPos; }
     std::vector<Position> getLegalMoves( const Map *map, const Position& pos );
@@ -26,11 +28,13 @@ public:
 
     virtual Position getNextPosition( const Map* map );
 
+
 protected:
     size_t id;
     Position agentPos;
     std::string name;
     Car *car; 
+    int score;
 };
 
 #endif // AGENT_H

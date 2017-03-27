@@ -28,6 +28,7 @@ public:
     Position generationPosition();
 
     void printStatus() const;
+    std::vector<Agent*> getAgents() const { return agents; }
 
 private:
     Map* mapPtr;
