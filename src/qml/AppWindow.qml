@@ -19,9 +19,9 @@ ApplicationWindow {
 
         Connections{
             target: channel;
-            onQtDrawObject: map.drawObject(id, type, x, y);
+            onQtDrawPark: map.drawPark(id, type, x, y, free);
+            onQtDrawWall: map.drawWall(id, show, x, y);
             onQtDrawCar: map.drawCar(id, owner, x, y, isKeyAgent);
-            onSetParkFreeNumber: map.objects[id].setFreeNumber(free);
         }
 
         focus: true;

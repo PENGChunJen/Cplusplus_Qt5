@@ -14,26 +14,38 @@ Item {
         color: "black";
     }
 
-    function drawObject(id, type, x, y){
+    function drawPark(id, type, x, y, free){
         if(typeof objects[id] == "undefined"){
-            if(type < 4 && type > 0){
-                var component;
-                if(type===1){
-                    component = Qt.createComponent("Wall.qml");
-                }else if(type===2){
-                    component = Qt.createComponent("Park.qml");
-                }else if(type===3){
-                    component = Qt.createComponent("Car.qml");
-                }
-                if (component.status === Component.Ready){
-                    var object = component.createObject(root, {
-                        "size": blockSize,
-                        "x": y * blockSize,
-                        "y": x * blockSize,
-                        "int_id": id
-                    });
-                    objects[id] = object;
-                }
+            var component = Qt.createComponent("Park.qml");
+            if (component.status === Component.Ready){
+                var object = component.createObject(root, {
+                    "size": blockSize,
+                    "x": y * blockSize,
+                    "y": x * blockSize,
+                    "int_id": id
+                });
+                objects[id] = object;
+            }
+        }else{
+            objects[id].x = y * blockSize;
+            objects[id].y = x * blockSize;
+        }
+        objects[id].setFreeNumber(free);
+    }
+
+    function drawWall(id, show, x, y){
+        if(typeof objects[id] == "undefined"){
+            var component = Qt.createComponent("Wall.qml");
+            if (component.status === Component.Ready){
+                var object = component.createObject(root, {
+                    "size": blockSize,
+                    "x": y * blockSize,
+                    "y": x * blockSize,
+                    "int_id": id,
+                    "show": show
+                });
+                objects[id] = object;
+                console.log("w", x, y, show);
             }
         }else{
             objects[id].x = y * blockSize;

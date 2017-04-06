@@ -23,6 +23,7 @@ public:
                        game->getKbAgent()->getPosition().y,
                        true);
     }
+
     void printGameMap(){
         for(int i=0; i<mw(); i++){
             for(int j=0; j<mh(); j++){
@@ -30,22 +31,24 @@ public:
                     Car* c = (Car*)game->getMap()->at(i,j);
                     emit qtDrawCar(c->getID(), QString::fromStdString(c->getOwner()), i, j, false);
                 }
-                else{
-                    drawObject(game->getMap()->at(i,j)->getID(),
-                               game->getMap()->at(i,j)->getType(),
-                               i, j);
-                    if(game->getMap()->at(i,j)->getType() == PARK){
-                        Park* p = (Park*)game->getMap()->at(i,j);
-                        setParkFreeNumber(p->getID(), p->getFree());
-                    }
+                else if(game->getMap()->at(i,j)->getType() == WALL){
+                    int show = getWallShow(game->getMap(), i, j);
+                    Wall* w = (Wall*)game->getMap()->at(i,j);
+                    emit qtDrawWall(w->getID(), show, i, j);
+                }
+                else if(game->getMap()->at(i,j)->getType() == PARK){
+                    Park* p = (Park*)game->getMap()->at(i,j);
+                    emit qtDrawPark(p->getID(), p->getType(), i, j, p->getFree());
                 }
             }
         }
     }
+
 signals:
-    void qtDrawObject(int id, int type, int x, int y);
+    void qtDrawPark(int id, int type, int x, int y, int free);
     void qtDrawCar(int id, QString owner, int x, int y, bool isKeyAgent);
-    void setParkFreeNumber(int id, int free);
+    void qtDrawWall(int id, int show, int x, int y);
+
 public slots:
     void onGameRun(){
         game->run();
@@ -54,11 +57,24 @@ public slots:
     void onKbAgentMove(int d){
         game->getKbAgent()->setDirection(d);
     }
-private:
-    void drawObject(int id, int type, int x, int y){
-        emit qtDrawObject(id, type, x, y);
-    }
 
+private:
+    int getWallShow(Map* m, int x, int y){
+        int s = 0;
+        if(y != 0 && m->at(x,y-1)->getType() == WALL){
+            s += 1;
+        }
+        if(x != 0 && m->at(x-1,y)->getType() == WALL){
+            s += 2;
+        }
+        if(y != m->getHeight()-1 && m->at(x,y+1)->getType() == WALL){
+            s += 4;
+        }
+        if(x != m->getWidth()-1 && m->at(x+1,y)->getType() == WALL){
+            s += 8;
+        }
+        return s;
+    }
 
     Game* game;
 };
