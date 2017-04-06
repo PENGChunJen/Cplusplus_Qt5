@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextProperty("channel", &gc);
-    engine.load(QUrl(QStringLiteral("qrc:///qml/AppWindow.qml")));
+    engine.load(QUrl(QStringLiteral("qrc:///src/qml/AppWindow.qml")));
 
     QObject *qtimer = engine.rootObjects().first()->findChild<QObject*>("timer");
     QObject::connect(qtimer, SIGNAL(run()), &gc, SLOT(onGameRun()));

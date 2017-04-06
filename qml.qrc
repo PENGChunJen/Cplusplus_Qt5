@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>src/qml/AppWindow.qml</file>
+        <file>src/qml/Car.qml</file>
+        <file>src/qml/Map.qml</file>
+        <file>src/qml/Park.qml</file>
+        <file>src/qml/Wall.qml</file>
+    </qresource>
+</RCC>

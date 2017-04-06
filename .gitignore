@@ -1,6 +1,7 @@
 *.swp
 *.o
 *.exe
+qt.pro.user*
 testCSVReader
 testMap
 bin/
