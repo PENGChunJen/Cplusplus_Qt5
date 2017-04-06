@@ -59,19 +59,31 @@ public slots:
     }
 
 private:
-    int getWallShow(Map* m, int x, int y){
+    int getWallShow(Map* map, int x, int y){
         int s = 0;
-        if(y != 0 && m->at(x,y-1)->getType() == WALL){
+        if(y != 0 && map->at(x,y-1)->getType() == WALL){
             s += 1;
         }
-        if(x != 0 && m->at(x-1,y)->getType() == WALL){
+        if(x != 0 && map->at(x-1,y)->getType() == WALL){
             s += 2;
         }
-        if(y != m->getHeight()-1 && m->at(x,y+1)->getType() == WALL){
+        if(y != map->getHeight()-1 && map->at(x,y+1)->getType() == WALL){
             s += 4;
         }
-        if(x != m->getWidth()-1 && m->at(x+1,y)->getType() == WALL){
+        if(x != map->getWidth()-1 && map->at(x+1,y)->getType() == WALL){
             s += 8;
+        }
+        if( (s&1) && (s&2) && map->at(x-1,y-1)->getType() == WALL ){
+            s += 16;
+        }
+        if( (s&2) && (s&4) && map->at(x-1,y+1)->getType() == WALL ){
+            s += 32;
+        }
+        if( (s&4) && (s&8) && map->at(x+1,y+1)->getType() == WALL ){
+            s += 64;
+        }
+        if( (s&8) && (s&1) && map->at(x+1,y-1)->getType() == WALL ){
+            s += 128;
         }
         return s;
     }

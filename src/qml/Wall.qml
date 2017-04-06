@@ -7,12 +7,13 @@ Item {
     property int show: 15;
     property real blockWidth: 0.6;
     property real edgeRadius: 0.2;
+    property string w_color: "peru";
     width: size;
     height: size;
 
     Rectangle {
         id: main;
-        color: "peru";
+        color: w_color;
         x: parent.width * (1-blockWidth) / 2
         y: parent.height* (1-blockWidth) / 2
         width: parent.width * blockWidth;
@@ -22,7 +23,7 @@ Item {
 
     Rectangle{
         id: up;
-        color: "peru";
+        color: w_color;
         x: parent.width * (1-blockWidth) / 2;
         y: 0;
         width: parent.width * blockWidth;
@@ -32,7 +33,7 @@ Item {
 
     Rectangle{
         id: left;
-        color: "peru";
+        color: w_color;
         x: 0;
         y: parent.height * (1-blockWidth) / 2;
         width: parent.width * ((1-blockWidth) / 2 + edgeRadius);
@@ -42,7 +43,7 @@ Item {
 
     Rectangle{
         id: down;
-        color: "peru";
+        color: w_color;
         x: parent.width * (1-blockWidth) / 2;
         y: parent.height * ( 1 - ( (1-blockWidth) / 2 + edgeRadius) );
         width: parent.width * blockWidth;
@@ -52,7 +53,7 @@ Item {
 
     Rectangle{
         id: right;
-        color: "peru";
+        color: w_color;
         x: parent.width * ( 1 - ( (1-blockWidth) / 2 + edgeRadius) );
         y: parent.height * (1-blockWidth) / 2;
         width: parent.width * ((1-blockWidth) / 2 + edgeRadius);
@@ -60,14 +61,62 @@ Item {
         visible: false;
     }
 
+    Rectangle{
+        id: up_left;
+        color: w_color;
+        x: 0;
+        y: 0;
+        width: parent.width * (1-blockWidth) / 2;
+        height: parent.height * (1-blockWidth) / 2;
+        visible: false;
+    }
+
+    Rectangle{
+        id: down_left;
+        color: w_color;
+        x: 0;
+        y: parent.height * (1+blockWidth) / 2;
+        width: parent.width * (1-blockWidth) / 2;
+        height: parent.height * (1-blockWidth) / 2;
+        visible: false;
+    }
+
+    Rectangle{
+        id: up_right;
+        color: w_color;
+        x: parent.width * (1+blockWidth) / 2;
+        y: 0;
+        width: parent.width * (1-blockWidth) / 2;
+        height: parent.height * (1-blockWidth) / 2;
+        visible: false;
+    }
+
+    Rectangle{
+        id: down_right;
+        color: w_color;
+        x: parent.width * (1+blockWidth) / 2;
+        y: parent.height * (1+blockWidth) / 2;
+        width: parent.width * (1-blockWidth) / 2;
+        height: parent.height * (1-blockWidth) / 2;
+        visible: false;
+    }
+
     Component.onCompleted: {
-        if( show % 2 )
+        if( show & 1 )
             left.visible = true;
-        if( Math.floor(show / 2) % 2 )
+        if( show & 2 )
             up.visible = true;
-        if( Math.floor(show / 4) % 2 )
+        if( show & 4 )
             right.visible = true;
-        if( Math.floor(show / 8) % 2 )
+        if( show & 8 )
             down.visible = true;
+        if( show & 16 )
+            up_left.visible = true;
+        /*if( show & 32 )
+            up_right.visible = true;
+        if( show & 64 )
+            down_right.visible = true;
+        if( show & 128 )
+            down_left.visible = true;*/
     }
 }
