@@ -6,6 +6,18 @@ ApplicationWindow {
     objectName: "appWindow";
     visible: true;
 
+    ScoreBoard{
+        id: scoreboard;
+        x: map.width;
+        y: 0;
+        height: map.height;
+
+        Connections{
+            target: channel;
+            onQtSBRenew: scoreboard.renew(id, rank, name, score, isKeyAgent);
+        }
+    }
+
     Map {
         id: map;
         objectName: "map";
@@ -36,18 +48,6 @@ ApplicationWindow {
                 kbAgentMove(4);
             }
             event.accepted = true;
-        }
-    }
-
-    ScoreBoard{
-        id: scoreboard;
-        x: map.width;
-        y: 0;
-        height: map.height;
-
-        Connections{
-            target: channel;
-            onQtSBRenew: scoreboard.renew(id, rank, name, score);
         }
     }
 

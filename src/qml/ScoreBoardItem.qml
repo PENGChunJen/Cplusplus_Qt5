@@ -7,10 +7,12 @@ Item {
     property string name: "";
     property int score: 0;
     property int rank: 0;
+    property bool isKA: false;
 
     Rectangle{
+        id: rect;
         color: "transparent";
-        border.color: "lime";
+        border.color: "aqua";
         border.width: 3;
         x: mg;
         y: mg;
@@ -38,6 +40,12 @@ Item {
             anchors.verticalCenter: parent.verticalCenter;
             horizontalAlignment: Text.AlignRight;
             width: parent.width - 2 * x;
+        }
+    }
+
+    Component.onCompleted: {
+        if(isKA == true){
+            rect.border.color = "lime";
         }
     }
 }

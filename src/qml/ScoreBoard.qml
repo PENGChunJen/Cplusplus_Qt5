@@ -25,7 +25,7 @@ Item {
         }
     }
 
-    function renew(id, rank, name, score){
+    function renew(id, rank, name, score, isKA){
         if(typeof objects[id] == "undefined"){
             var component = Qt.createComponent("ScoreBoardItem.qml");
             if (component.status === Component.Ready){
@@ -35,7 +35,8 @@ Item {
                     "width": root.width,
                     "name": name,
                     "rank": rank,
-                    "score": score
+                    "score": score,
+                    "isKA": isKA
                 });
                 root.objects[id] = object;
             }

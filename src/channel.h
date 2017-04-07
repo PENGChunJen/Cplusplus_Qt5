@@ -55,7 +55,7 @@ signals:
     void qtDrawPark(int id, int type, int x, int y, int free);
     void qtDrawCar(int id, QString owner, int x, int y, bool isKeyAgent);
     void qtDrawWall(int id, int show, int x, int y);
-    void qtSBRenew(int id, int rank, QString name, int score);
+    void qtSBRenew(int id, int rank, QString name, int score, bool isKeyAgent);
 public slots:
     void onGameRun(){
         game->run();
@@ -69,11 +69,15 @@ public slots:
 
 private:
     void scoreboardRenew(){
+        emit qtSBRenew(game->getKbAgent()->getId(), 0,
+                       QString::fromStdString(game->getKbAgent()->getName()),
+                       game->getKbAgent()->getScore(), true);
+
         int s = game->getAgents().size();
         for(int i=0; i < s; i++){
             emit qtSBRenew(game->getAgents()[i]->getId(), i+1,
                            QString::fromStdString(game->getAgents()[i]->getName()),
-                           game->getAgents()[i]->getScore());
+                           game->getAgents()[i]->getScore(), false);
         }
     }
 

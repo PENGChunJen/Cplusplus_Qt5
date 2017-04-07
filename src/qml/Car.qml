@@ -25,7 +25,8 @@ Item {
         width: parent.width * 0.8;
         height: parent.height * 0.8;
         radius: width * 0.5;
-        color: "blue";
+        color: ring1.color;
+        opacity: 0.5;
     }
 
     Rectangle {
@@ -51,6 +52,5 @@ Item {
 
     function setToKeyAgent(){
         ring1.color = "lime";
-        ring2.color = "green";
     }
 }
