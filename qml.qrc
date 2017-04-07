@@ -10,5 +10,6 @@
         <file>res/park_icon_red.png</file>
         <file>res/park_icon_yellow.png</file>
         <file>src/qml/ScoreBoard.qml</file>
+        <file>src/qml/ScoreBoardItem.qml</file>
     </qresource>
 </RCC>

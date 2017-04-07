@@ -2,12 +2,12 @@ import QtQuick 2.0
 
 Item {
     id: root;
-    property int w: 3;
-    property int h: 3;
+    property int x_max: 3;
+    property int y_max: 3;
     property int blockSize: 100;
     property var objects: [];
-    width: w * blockSize;
-    height: h * blockSize;
+    width: x_max * blockSize;
+    height: y_max * blockSize;
 
     Rectangle {
         anchors.fill: parent;
@@ -55,16 +55,17 @@ Item {
     function drawCar(id, name, x, y, isKA){
         if(typeof objects[id] == "undefined"){
             var component = Qt.createComponent("Car.qml");
-            var object = component.createObject(map, {
-                "size": map.blockSize,
-                "x": y * map.blockSize,
-                "y": x * map.blockSize,
-                "int_id": id,
-                "owner": name
-            });
-            console.log("n",name);
-            if(isKA) object.setToKeyAgent();
-            map.objects[id] = object;
+            if (component.status === Component.Ready){
+                var object = component.createObject(root, {
+                    "size": root.blockSize,
+                    "x": y * root.blockSize,
+                    "y": x * root.blockSize,
+                    "int_id": id,
+                    "owner": name
+                });
+                if(isKA) object.setToKeyAgent();
+                root.objects[id] = object;
+            }
         }else{
             objects[id].x = y * blockSize;
             objects[id].y = x * blockSize;

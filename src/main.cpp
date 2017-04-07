@@ -29,8 +29,9 @@ int main(int argc, char *argv[])
     QObject *qmap = engine.rootObjects().first()->findChild<QObject*>("map");
     QObject::connect(qmap, SIGNAL(kbAgentMove(int)), &gc, SLOT(onKbAgentMove(int)));
 
-    gc.drawKbCar();
     gc.printGameMap();
+    gc.drawKbCar();
+    gc.printGameCars();
 
     return app.exec();
 }

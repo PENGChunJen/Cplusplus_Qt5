@@ -8,26 +8,49 @@ Item {
     width: size;
     height: size;
 
+    Text{
+        text: owner;
+        color: "white";
+        font.family: "Arial";
+        font.pixelSize: 18;
+        anchors.horizontalCenter: parent.horizontalCenter;
+        //anchors.verticalCenter: parent.verticalCenter;
+        y: -20;
+    }
+
     Rectangle {
-        id: circle;
+        id: ring2;
         anchors.horizontalCenter: parent.horizontalCenter;
         anchors.verticalCenter: parent.verticalCenter;
         width: parent.width * 0.8;
         height: parent.height * 0.8;
-        radius: width*0.5;
-        color: "red";
+        radius: width * 0.5;
+        color: "blue";
     }
 
-    Text{
-        text: owner;
-        color: "white";
-        font.family: "Times";
-        font.pointSize: size*7/40;
+    Rectangle {
+        id: ring1;
         anchors.horizontalCenter: parent.horizontalCenter;
         anchors.verticalCenter: parent.verticalCenter;
+        width: parent.width * 0.6;
+        height: parent.height * 0.6;
+        radius: width*0.5;
+        color: "aqua";
     }
 
+    Rectangle {
+        id: circle;
+        anchors.horizontalCenter: parent.horizontalCenter;
+        anchors.verticalCenter: parent.verticalCenter;
+        width: parent.width * 0.4;
+        height: parent.height * 0.4;
+        radius: width * 0.5;
+        color: "black";
+    }
+
+
     function setToKeyAgent(){
-        circle.color = "lime";
+        ring1.color = "lime";
+        ring2.color = "green";
     }
 }

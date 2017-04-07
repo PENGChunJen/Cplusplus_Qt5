@@ -9,11 +9,11 @@ ApplicationWindow {
     Map {
         id: map;
         objectName: "map";
-        h: channel.mw;
-        w: channel.mh;
-        blockSize: 720/channel.mw>720/channel.mh ? 720/channel.mh : 720/channel.mw;
+        x_max: channel.mh;
+        y_max: channel.mw;
+        blockSize: Math.floor(205/y_max) * 5;
         x: 0;
-        y: 100;
+        y: 0;
 
         signal kbAgentMove(int d);
 
@@ -36,6 +36,18 @@ ApplicationWindow {
                 kbAgentMove(4);
             }
             event.accepted = true;
+        }
+    }
+
+    ScoreBoard{
+        id: scoreboard;
+        x: map.width;
+        y: 0;
+        height: map.height;
+
+        Connections{
+            target: channel;
+            onQtSBRenew: scoreboard.renew(id, rank, name, score);
         }
     }
 

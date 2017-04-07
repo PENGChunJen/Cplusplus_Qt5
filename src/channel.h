@@ -27,11 +27,7 @@ public:
     void printGameMap(){
         for(int i=0; i<mw(); i++){
             for(int j=0; j<mh(); j++){
-                if(game->getMap()->at(i,j)->getType() == CAR){
-                    Car* c = (Car*)game->getMap()->at(i,j);
-                    emit qtDrawCar(c->getID(), QString::fromStdString(c->getOwner()), i, j, false);
-                }
-                else if(game->getMap()->at(i,j)->getType() == WALL){
+                if(game->getMap()->at(i,j)->getType() == WALL){
                     int show = getWallShow(game->getMap(), i, j);
                     Wall* w = (Wall*)game->getMap()->at(i,j);
                     emit qtDrawWall(w->getID(), show, i, j);
@@ -44,21 +40,43 @@ public:
         }
     }
 
+    void printGameCars(){
+        for(int i=0; i<mw(); i++){
+            for(int j=0; j<mh(); j++){
+                if(game->getMap()->at(i,j)->getType() == CAR){
+                    Car* c = (Car*)game->getMap()->at(i,j);
+                    emit qtDrawCar(c->getID(), QString::fromStdString(c->getOwner()), i, j, false);
+                }
+            }
+        }
+    }
+
 signals:
     void qtDrawPark(int id, int type, int x, int y, int free);
     void qtDrawCar(int id, QString owner, int x, int y, bool isKeyAgent);
     void qtDrawWall(int id, int show, int x, int y);
-
+    void qtSBRenew(int id, int rank, QString name, int score);
 public slots:
     void onGameRun(){
         game->run();
         printGameMap();
+        printGameCars();
+        scoreboardRenew();
     }
     void onKbAgentMove(int d){
         game->getKbAgent()->setDirection(d);
     }
 
 private:
+    void scoreboardRenew(){
+        int s = game->getAgents().size();
+        for(int i=0; i < s; i++){
+            emit qtSBRenew(game->getAgents()[i]->getId(), i+1,
+                           QString::fromStdString(game->getAgents()[i]->getName()),
+                           game->getAgents()[i]->getScore());
+        }
+    }
+
     int getWallShow(Map* map, int x, int y){
         int s = 0;
         if(y != 0 && map->at(x,y-1)->getType() == WALL){
