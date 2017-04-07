@@ -20,7 +20,7 @@ using std::vector; using std::string;
 
 Game::Game() {
     //mapPtr = new Map(49, 49);
-    //mapPtr = new Map(9, 9, "dfs");
+    //mapPtr = new Map(21, 21, "dfs");
     mapPtr = new Map("../data/sampleMap.txt");
 
     //addParks();

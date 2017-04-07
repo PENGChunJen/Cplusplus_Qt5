@@ -5,5 +5,10 @@
         <file>src/qml/Map.qml</file>
         <file>src/qml/Park.qml</file>
         <file>src/qml/Wall.qml</file>
+        <file>res/park_icon.png</file>
+        <file>res/park_icon_gray.png</file>
+        <file>res/park_icon_red.png</file>
+        <file>res/park_icon_yellow.png</file>
+        <file>src/qml/ScoreBoard.qml</file>
     </qresource>
 </RCC>

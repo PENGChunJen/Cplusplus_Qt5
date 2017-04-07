@@ -45,7 +45,6 @@ Item {
                     "show": show
                 });
                 objects[id] = object;
-                console.log("w", x, y, show);
             }
         }else{
             objects[id].x = y * blockSize;

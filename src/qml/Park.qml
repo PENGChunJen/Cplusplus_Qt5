@@ -8,25 +8,18 @@ Item {
     width: size;
     height: size;
 
-    Rectangle {
-        id: square;
+    Image {
+        id: icon;
         anchors.fill: parent;
-        color: "aqua";
-    }
-
-    Text{
-        text: free.toString();
-        color: "black";
-        font.family: "Times";
-        font.pointSize: size/3;
-        anchors.horizontalCenter: parent.horizontalCenter;
-        anchors.verticalCenter: parent.verticalCenter;
+        source: "qrc:///res/park_icon.png";
     }
 
     function setFreeNumber(f){
         free = f;
         if(f === 0){
-            square.color = "slategray";
+            icon.source = "qrc:///res/park_icon_gray.png";
+        }else if(f <= 15){
+            icon.source = "qrc:///res/park_icon_red.png";
         }
     }
 }
