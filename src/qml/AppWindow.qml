@@ -1,21 +1,27 @@
 import QtQuick 2.0
-import QtQuick.Controls 1.1
+import QtQuick.Controls 2.1
 
 ApplicationWindow {
     id: appWindow;
     objectName: "appWindow";
     visible: true;
 
+    Connections{
+        target: channel;
+        onQtSBRenew: scoreboard.renew(id, rank, name, score, isKeyAgent);
+        onQtDrawPark: map.drawPark(id, type, x, y, free);
+        onQtDrawWall: map.drawWall(id, show, x, y);
+        onQtDrawCar: map.drawCar(id, owner, x, y, isKeyAgent);
+        onQtGameTerminate: {
+            gameTimer.running = false;
+        }
+    }
+
     ScoreBoard{
         id: scoreboard;
         x: map.width;
         y: 0;
         height: map.height;
-
-        Connections{
-            target: channel;
-            onQtSBRenew: scoreboard.renew(id, rank, name, score, isKeyAgent);
-        }
     }
 
     Map {
@@ -28,13 +34,6 @@ ApplicationWindow {
         y: 0;
 
         signal kbAgentMove(int d);
-
-        Connections{
-            target: channel;
-            onQtDrawPark: map.drawPark(id, type, x, y, free);
-            onQtDrawWall: map.drawWall(id, show, x, y);
-            onQtDrawCar: map.drawCar(id, owner, x, y, isKeyAgent);
-        }
 
         focus: true;
         Keys.onPressed: {
@@ -56,7 +55,20 @@ ApplicationWindow {
         objectName: "timer";
         signal run();
 
-        interval: 100; running: true; repeat: true;
+        interval: 100;
+        running: true;
+        repeat: true;
         onTriggered: run();
+    }
+
+    Popup{
+        id: gameoverPopup;
+        x: 100;
+        y: 100;
+        width: 200;
+        height: 300;
+        modal: true;
+        focus: true;
+        closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutsideParent;
     }
 }
