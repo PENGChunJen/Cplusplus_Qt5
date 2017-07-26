@@ -34,6 +34,18 @@ ApplicationWindow {
             onQtDrawPark: map.drawPark(id, type, x, y, free);
             onQtDrawWall: map.drawWall(id, show, x, y);
             onQtDrawCar: map.drawCar(id, owner, x, y, isKeyAgent);
+            onQtGameTerminate: {
+                //map.gameTerminate();
+                gameTimer.running = false;
+
+                var component = Qt.createComponent("GameOverPanel.qml");
+                if (component.status === Component.Ready){
+                    var object = component.createObject(map, {
+                        "anchors.horizontalCenter": map.horizontalCenter,
+                        "anchors.verticalCenter": map.verticalCenter,
+                    });
+                }
+            }
         }
 
         focus: true;

@@ -10,6 +10,7 @@ Item {
         anchors.fill: parent;
         color: "black";
     }
+
     Rectangle{
         width: parent.width;
         height: 80;

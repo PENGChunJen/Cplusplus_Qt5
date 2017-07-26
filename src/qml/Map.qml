@@ -71,5 +71,9 @@ Item {
             objects[id].y = x * blockSize;
         }
     }
+
+    function restart(){
+
+    }
 }
 

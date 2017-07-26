@@ -56,12 +56,16 @@ signals:
     void qtDrawCar(int id, QString owner, int x, int y, bool isKeyAgent);
     void qtDrawWall(int id, int show, int x, int y);
     void qtSBRenew(int id, int rank, QString name, int score, bool isKeyAgent);
+    void qtGameTerminate();
 public slots:
     void onGameRun(){
         game->run();
         printGameMap();
         printGameCars();
         scoreboardRenew();
+
+        if(game->shouldTerminate())
+            emit qtGameTerminate();
     }
     void onKbAgentMove(int d){
         game->getKbAgent()->setDirection(d);

@@ -11,5 +11,6 @@
         <file>res/park_icon_yellow.png</file>
         <file>src/qml/ScoreBoard.qml</file>
         <file>src/qml/ScoreBoardItem.qml</file>
+        <file>src/qml/GameOverPanel.qml</file>
     </qresource>
 </RCC>
