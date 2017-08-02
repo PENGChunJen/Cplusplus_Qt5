@@ -3,9 +3,11 @@ import QtQuick.Controls 1.4
 
 Item {
     id: root;
-    height: 240;
+    height: 300;
     width: 480;
-    property var map: null;
+    //property var map: null;
+    property int kbRank: 0;
+    property int kbScore: 0;
 
     Rectangle{
         anchors.fill: parent;
@@ -20,12 +22,22 @@ Item {
         radius: 30;
         border.color: "peru";
         border.width: 4;
+
+        Text{
+            text: "Congradulates!"
+                  + "<br> You got rank #" + kbRank
+                  + "<br> and had total " + kbScore + " points!";
+            color: "white";
+            font.family: "Arial";
+            font.pixelSize: 32;
+            anchors.horizontalCenter: parent.horizontalCenter;
+            y: 45;
+        }
     }
 
     Rectangle{
-        id: button;
         x: 264;
-        y: 132;
+        y: 194;
         height: 64;
         width: 144;
         border.color: "aqua";
@@ -33,22 +45,20 @@ Item {
         color: "transparent";
         radius: 10;
 
-        MouseArea {
-            anchors.fill: parent;
-            onClicked: {
-                console.log("Quit!");
-                Qt.quit();
-            }
-        }
-
         Text{
-            id: buttonText;
             text: "Quit";
             color: "white";
             font.family: "Arial";
             font.pixelSize: 28;
             anchors.horizontalCenter: parent.horizontalCenter;
             anchors.verticalCenter: parent.verticalCenter;
+        }
+
+        MouseArea {
+            anchors.fill: parent;
+            onClicked: {
+                Qt.quit();
+            }
         }
     }
 }

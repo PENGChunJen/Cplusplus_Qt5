@@ -27,13 +27,28 @@ public:
         emit qtGameStart();
     }
 
+    void gameOver(){
+        int kbId = game->getKbAgent()->getId();
+        int kbRank = 0, kbScore = 0;
+
+        int s = game->getAgents().size();
+        for(int i=0; i < s; i++){
+            if(game->getAgents()[i]->getId() == kbId){
+                kbRank = i + 1;
+                kbScore = game->getAgents()[i]->getScore();
+            }
+        }
+
+        emit qtGameTerminate(kbRank, kbScore);
+    }
+
 signals:
-    void qtGameStart();
+    void qtGameStart();    
+    void qtGameTerminate(int kbRank, int kbScore);
     void qtDrawPark(int id, int type, int x, int y, int free);
     void qtDrawCar(int id, QString owner, int x, int y, bool isKeyAgent);
     void qtDrawWall(int id, int show, int x, int y);
     void qtSBRenew(int id, int rank, QString name, int score, bool isKeyAgent);
-    void qtGameTerminate();
 public slots:
     void onGameRun(){
         game->run();
@@ -41,8 +56,9 @@ public slots:
         printGameCars();
         scoreboardRenew();
 
-        if(game->shouldTerminate())
-            emit qtGameTerminate();
+        if(game->shouldTerminate()){
+            gameOver();
+        }
     }
     void onKbAgentMove(int d){
         game->getKbAgent()->setDirection(d);
@@ -85,6 +101,9 @@ private:
     }
 
     void scoreboardRenew(){
+        // To mark KbAgent for first time.
+        // It will be modified by for loop below.
+        // So the weird rank 0 is fine.
         emit qtSBRenew(game->getKbAgent()->getId(), 0,
                        QString::fromStdString(game->getKbAgent()->getName()),
                        game->getKbAgent()->getScore(), true);

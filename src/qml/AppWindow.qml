@@ -53,6 +53,8 @@ ApplicationWindow {
                     var object = component.createObject(map, {
                         "anchors.horizontalCenter": map.horizontalCenter,
                         "anchors.verticalCenter": map.verticalCenter,
+                        "kbRank": kbRank,
+                        "kbScore": kbScore
                     });
                 }
             }

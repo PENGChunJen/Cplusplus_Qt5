@@ -27,11 +27,11 @@ Item {
     Text{
         id: titleText;
         text: "Parking ROCK!!!";
-        color: "white";
-        font.family: "Arial";
-        font.pixelSize: 48;
+        color: "cornsilk";
+        font.family: "Arial Black";
+        font.pixelSize: 44;
         anchors.horizontalCenter: parent.horizontalCenter;
-        y: 40;
+        y: 42;
     }
 
     Rectangle{
@@ -51,7 +51,6 @@ Item {
                 if(controlTimer != null){
                     controlTimer.running = true;
                 }
-                console.log("Hide!");
                 rect1.visible = false;
                 rect2.visible = false;
                 button.visible = false;
@@ -62,7 +61,7 @@ Item {
 
         Text{
             id: buttonText;
-            text: "Let's Start!";
+            text: "Let's start!";
             color: "white";
             font.family: "Arial";
             font.pixelSize: 28;
