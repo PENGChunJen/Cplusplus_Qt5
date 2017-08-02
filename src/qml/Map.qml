@@ -72,6 +72,29 @@ Item {
         }
     }
 
+    function genStartPanel(startTimer){
+        var component = Qt.createComponent("GameStartPanel.qml");
+        if (component.status === Component.Ready){
+            var object = component.createObject(root, {
+                "anchors.horizontalCenter": root.horizontalCenter,
+                "anchors.verticalCenter": root.verticalCenter,
+                "startTimer": startTimer
+            });
+        }
+    }
+
+    function genTerminatePanel(kbRank, kbScore){
+        var component = Qt.createComponent("GameOverPanel.qml");
+        if (component.status === Component.Ready){
+            var object = component.createObject(root, {
+                "anchors.horizontalCenter": root.horizontalCenter,
+                "anchors.verticalCenter": root.verticalCenter,
+                "kbRank": kbRank,
+                "kbScore": kbScore
+            });
+        }
+    }
+
     function reset(){
         console.log("Map reset!");
         objects = [];

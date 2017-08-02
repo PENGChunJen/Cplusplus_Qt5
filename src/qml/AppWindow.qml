@@ -35,28 +35,12 @@ ApplicationWindow {
             onQtDrawWall: map.drawWall(id, show, x, y);
             onQtDrawCar: map.drawCar(id, owner, x, y, isKeyAgent);
             onQtGameStart: {
-                var component = Qt.createComponent("GameStartPanel.qml");
-                if (component.status === Component.Ready){
-                    var object = component.createObject(map, {
-                        "anchors.horizontalCenter": map.horizontalCenter,
-                        "anchors.verticalCenter": map.verticalCenter,
-                        "controlTimer": gameTimer
-                    });
-                }
+                map.genStartPanel(gameTimer);
             }
             onQtGameTerminate: {
                 map.reset();
                 gameTimer.running = false;
-
-                var component = Qt.createComponent("GameOverPanel.qml");
-                if (component.status === Component.Ready){
-                    var object = component.createObject(map, {
-                        "anchors.horizontalCenter": map.horizontalCenter,
-                        "anchors.verticalCenter": map.verticalCenter,
-                        "kbRank": kbRank,
-                        "kbScore": kbScore
-                    });
-                }
+                map.genTerminatePanel(kbRank, kbScore);
             }
         }
 

@@ -5,7 +5,7 @@ Item {
     id: root;
     height: 240;
     width: 480;
-    property var controlTimer: null;
+    property var startTimer: null;
 
     Rectangle{
         id: rect1;
@@ -48,8 +48,8 @@ Item {
         MouseArea {
             anchors.fill: parent;
             onClicked: {
-                if(controlTimer != null){
-                    controlTimer.running = true;
+                if(startTimer != null){
+                    startTimer.running = true;
                 }
                 rect1.visible = false;
                 rect2.visible = false;
