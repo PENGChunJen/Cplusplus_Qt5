@@ -72,6 +72,11 @@ Item {
         }
     }
 
+    function reset(){
+        console.log("Map reset!");
+        objects = [];
+    }
+
     function restart(){
 
     }

@@ -5,29 +5,41 @@ Item {
     id: root;
     height: 240;
     width: 480;
-    property var map: null;
+    property var controlTimer: null;
 
     Rectangle{
+        id: rect1;
         anchors.fill: parent;
         color: "black";
         radius: 30;
     }
 
     Rectangle{
+        id: rect2;
         anchors.fill: parent;
         anchors.margins: 8;
-        color: "black";
+        color: "transparent";
         radius: 30;
         border.color: "peru";
         border.width: 4;
     }
 
+    Text{
+        id: titleText;
+        text: "Parking ROCK!!!";
+        color: "white";
+        font.family: "Arial";
+        font.pixelSize: 48;
+        anchors.horizontalCenter: parent.horizontalCenter;
+        y: 40;
+    }
+
     Rectangle{
         id: button;
-        x: 264;
+        anchors.horizontalCenter: root.horizontalCenter;
         y: 132;
         height: 64;
-        width: 144;
+        width: 180;
         border.color: "aqua";
         border.width: 3;
         color: "transparent";
@@ -36,14 +48,21 @@ Item {
         MouseArea {
             anchors.fill: parent;
             onClicked: {
-                console.log("Quit!");
-                Qt.quit();
+                if(controlTimer != null){
+                    controlTimer.running = true;
+                }
+                console.log("Hide!");
+                rect1.visible = false;
+                rect2.visible = false;
+                button.visible = false;
+                titleText.visible = false;
+                buttonText.visible = false;
             }
         }
 
         Text{
             id: buttonText;
-            text: "Quit";
+            text: "Let's Start!";
             color: "white";
             font.family: "Arial";
             font.pixelSize: 28;

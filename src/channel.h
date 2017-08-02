@@ -9,6 +9,10 @@ class GameChannel : public QObject{
     Q_PROPERTY(int mw READ mw)
     Q_PROPERTY(int mh READ mh)
 public:
+    GameChannel (){
+        game = new Game();
+    }
+
     GameChannel (Game* g){
         game = g;
     }
@@ -16,6 +20,35 @@ public:
     int mw() const { return game->getMap()->getWidth(); }
     int mh() const { return game->getMap()->getHeight(); }
 
+    void gameStart(){
+        printGameMap();
+        drawKbCar();
+        printGameCars();
+        emit qtGameStart();
+    }
+
+signals:
+    void qtGameStart();
+    void qtDrawPark(int id, int type, int x, int y, int free);
+    void qtDrawCar(int id, QString owner, int x, int y, bool isKeyAgent);
+    void qtDrawWall(int id, int show, int x, int y);
+    void qtSBRenew(int id, int rank, QString name, int score, bool isKeyAgent);
+    void qtGameTerminate();
+public slots:
+    void onGameRun(){
+        game->run();
+        printGameMap();
+        printGameCars();
+        scoreboardRenew();
+
+        if(game->shouldTerminate())
+            emit qtGameTerminate();
+    }
+    void onKbAgentMove(int d){
+        game->getKbAgent()->setDirection(d);
+    }
+
+private:
     void drawKbCar(){
         emit qtDrawCar(game->getKbAgent()->getCar()->getID(),
                        QString::fromStdString(game->getKbAgent()->getCar()->getOwner()),
@@ -51,27 +84,6 @@ public:
         }
     }
 
-signals:
-    void qtDrawPark(int id, int type, int x, int y, int free);
-    void qtDrawCar(int id, QString owner, int x, int y, bool isKeyAgent);
-    void qtDrawWall(int id, int show, int x, int y);
-    void qtSBRenew(int id, int rank, QString name, int score, bool isKeyAgent);
-    void qtGameTerminate();
-public slots:
-    void onGameRun(){
-        game->run();
-        printGameMap();
-        printGameCars();
-        scoreboardRenew();
-
-        if(game->shouldTerminate())
-            emit qtGameTerminate();
-    }
-    void onKbAgentMove(int d){
-        game->getKbAgent()->setDirection(d);
-    }
-
-private:
     void scoreboardRenew(){
         emit qtSBRenew(game->getKbAgent()->getId(), 0,
                        QString::fromStdString(game->getKbAgent()->getName()),

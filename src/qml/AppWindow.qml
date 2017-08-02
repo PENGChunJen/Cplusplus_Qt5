@@ -34,8 +34,18 @@ ApplicationWindow {
             onQtDrawPark: map.drawPark(id, type, x, y, free);
             onQtDrawWall: map.drawWall(id, show, x, y);
             onQtDrawCar: map.drawCar(id, owner, x, y, isKeyAgent);
+            onQtGameStart: {
+                var component = Qt.createComponent("GameStartPanel.qml");
+                if (component.status === Component.Ready){
+                    var object = component.createObject(map, {
+                        "anchors.horizontalCenter": map.horizontalCenter,
+                        "anchors.verticalCenter": map.verticalCenter,
+                        "controlTimer": gameTimer
+                    });
+                }
+            }
             onQtGameTerminate: {
-                //map.gameTerminate();
+                map.reset();
                 gameTimer.running = false;
 
                 var component = Qt.createComponent("GameOverPanel.qml");
@@ -68,7 +78,7 @@ ApplicationWindow {
         objectName: "timer";
         signal run();
 
-        interval: 100; running: true; repeat: true;
+        interval: 100; running: false; repeat: true;
         onTriggered: run();
     }
 }
