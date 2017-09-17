@@ -19,14 +19,16 @@ using std::cout; using std::endl; using std::cin;
 using std::vector; using std::string; 
 
 Game::Game() {
-    mapPtr = new Map(15, 15);
+
+    /* Choose one of the three maps */
+    //mapPtr = new Map(15, 15);
     //mapPtr = new Map(17, 17, "dfs");
-    //mapPtr = new Map("../data/sampleMap.txt");
+    mapPtr = new Map(this->dataPath + "sampleMap.txt");
 
-    //addParks();
-    addParks("realData");
+    addParks(); // A default park at center with 10 empty spaces
+    addParks("realData"); // Optional, additional parks in "data.h"
 
-    addAgents();
+    addAgents();    
 }
 
 Game::~Game() {
@@ -36,7 +38,7 @@ Game::~Game() {
 void Game::addParks( const string& config ) {
     
     if( config == "realData" ) {
-        Data d;
+        Data d(this->dataPath);
         for( auto it = d.parks.begin(); it != d.parks.end(); ++it ) {
     
             std::map<std::string, std::string> &data = it->second;

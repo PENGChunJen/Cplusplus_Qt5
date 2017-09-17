@@ -9,10 +9,10 @@ using std::cerr; using std::cout; using std::endl;
 using std::map; using std::string;
 
 
-Data::Data() {
-    loadAllParks( "../data/TCMSV_alldesc" );
-    loadAvailableParks( "../data/TCMSV_allavailable" );
-    loadMRTParks( "../data/taipei_metro_park_position.csv" );
+Data::Data(const std::string &dataPath) {
+    loadAllParks( dataPath + "TCMSV_alldesc" );
+    loadAvailableParks( dataPath + "TCMSV_allavailable" );
+    //loadMRTParks( "data/taipei_metro_park_position.csv" );
     //printStatus();
 }
 

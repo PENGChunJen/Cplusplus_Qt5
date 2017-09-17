@@ -5,7 +5,7 @@
 
 class Data{
 public:
-    Data();
+    Data(const std::string &dataPath);
     ~Data();
 
     void printStatus() const;
