@@ -14,6 +14,7 @@ public:
     Position getNextPosition( const Map* map );
 private:
     Direction direction;
+    Position lastPosition;
 };
 
 #endif // RIGHTAGENT_H

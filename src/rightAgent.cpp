@@ -11,6 +11,7 @@ using std::vector; using std::string; using std::cout; using std::endl;
 RightAgent::RightAgent(size_t _id, const Position& _pos, const std::string &_name, const std::string &_plate)
         :Agent(_id, _pos, _name, _plate) {
     direction = North;
+    lastPosition = _pos;
 }
 
 RightAgent::~RightAgent() {
@@ -18,6 +19,11 @@ RightAgent::~RightAgent() {
 }
 
 Position RightAgent::getNextPosition( const Map *map ) {
+
+    if(agentPos == lastPosition) {
+        direction = Direction( rand() % 4 );
+    }
+    lastPosition = agentPos;
 
     Position nextPos( agentPos );
     vector<Position> legalMoves = getLegalMoves( map, agentPos );
@@ -28,7 +34,8 @@ Position RightAgent::getNextPosition( const Map *map ) {
             break;
         }
         else {
-            direction = Direction( (direction + 1) % 4 );
+            //direction = Direction( (direction + 1) % 4 );
+            direction = Direction( rand() % 4 );
         }
     }
 
