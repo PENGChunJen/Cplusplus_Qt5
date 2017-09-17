@@ -24,7 +24,7 @@ Item {
         border.width: 4;
 
         Text{
-            text: "Congradulates!"
+            text: "Congratulations!"
                   + "<br> You got rank #" + kbRank
                   + "<br> and had total " + kbScore + " points!";
             color: "white";

@@ -26,7 +26,7 @@ Item {
 
     Text{
         id: titleText;
-        text: "Parking ROCK!!!";
+        text: "Parking ROCKS!!!";
         color: "cornsilk";
         font.family: "Arial Black";
         font.pixelSize: 44;
