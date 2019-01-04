@@ -1,7 +1,8 @@
 #include "../lib/json.hpp"
 #include "../lib/tinyxml2.h"
-#include "../util/CSVReader.h"
+#include "../src/CSVReader.h"
 #include "../src/map.h"
+#include "../src/game.h"
 
 #include <iostream>
 #include <fstream>
@@ -13,7 +14,7 @@ using namespace std;
 using json = nlohmann::json;
 
 int main(){
-    Map mymap;
+    Game mymap;
     map<string,Park> id2parkptr;
 
     json j;
