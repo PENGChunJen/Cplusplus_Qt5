@@ -32,8 +32,8 @@ public:
     std::vector<Agent*> getAgents() const { return agents; }
 
 private:
-    //std::string dataPath = "../data/";
-    std::string dataPath = "data/";
+    std::string dataPath = "../data/";
+    // std::string dataPath = "data/";
     Map* mapPtr;
     std::vector<Agent*> agents;
     std::vector<Park*> parks;
